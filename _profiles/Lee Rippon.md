@@ -2,7 +2,7 @@
 layout: biography
 name: Lee Rippon
 degree: PhD
-img: "/assets/profile/lee.png"
+img: "assets/profile/lee.png"
 year_end: 
 year_start: 2016
 email: lee.dale.rippon@gmail.com

@@ -26,7 +26,7 @@ permalink: /people/
 	<li>
 		<b>
 		{% if member.has_profile %}
-			<a href="/profile/{{ member.name }}">{{ member.name }}</a>
+			<a href="{{ site.baseurl }}/profile/{{ member.name }}">{{ member.name }}</a>
 		{% else %}
 			{{ member.name }}
 		{% endif %}
