@@ -11,6 +11,6 @@ biography: >
 project: >
   Machine learning and process control.
 linkedin: https://www.linkedin.com/in/leerippon
-homepage: http://leerippon.com
+homepage: https://ww.leerippon.com
 github: http://www.github.com/LeeRippon
 ---
