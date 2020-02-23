@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UBC DAIS Lab</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <b>DAIS LAB</b>
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" data-target="navBasic">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navBasic" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">
+          Home
+        </a>
+
+        <a class="navbar-item" href="/about/">
+          About
+        </a>
+
+        <a class="navbar-item" href="/people/">
+          People
+        </a>
+
+        <a class="navbar-item" href="/publications/">
+          Publications
+        </a>
+
+        <a class="navbar-item" href="/teaching/">
+          Teaching
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-variable is-5">
+        <div class="column is-one-quarter is-hidden-mobile">
+          <h1 class="title"><b>UBC</b> DAIS Lab
+          </h1>
+          <hr>
+          <h3 class="subtitle is-6">Data Analytics and Intelligent Systems Lab at <b>UBC</b></h3>
+
+          <div class="level">
+            <div class="content">
+              <article class="message is-small is-dark">
+                <div class="message-header">
+                  <p>Contact</p>
+                </div>
+                <div class="message-body">
+                  <b>Bhushan Gopaluni</b><br>
+                  <i>Professor <br> Department of Chemical & Biological Engineering <br> University of British Columbia <br> </i><br>
+                  <br>
+                  <b>Phone:</b>  604.827.5668 <br>
+                  <b>Email: </b> bhushan.gopaluni@ubc.ca <br>
+                  <b>Office:</b> KAISER 5018 <br>
+                  <b>Address: </b>5000-2332 Main Mall, Vancouver, BC  V6T 1Z4
+                </div>
+              </article>                            
+            </div>
+          </div>
+
+        </div>
+        <div class="column"> 
+          {{ content }}
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>UBC</strong> Data Analytics and Intelligent Systems Lab. Research Group of <strong>Bhushan Gopaluni</strong> at the University of British Columbia. Vector art by <a href="https://www.flaticon.com">Flaticon</a>.
+        </p>
+      </div>
+    </footer>
+
+  </body>
+  </html>

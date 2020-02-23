@@ -1,0 +1,220 @@
+- name: "Shams Elnawawi"
+  year: "2018"
+  degree: "NSERC USRA"
+  position: "UBC BASc Thesis"
+  url: "https://github.com/shams-n"
+
+- name: "Siang Lim"
+  year: "2017"
+  degree: "NSERC USRA"
+  position: "Burnaby Refinery"
+  url: "https://www.siang.ca/"
+
+- name: "Anshul Jain"       
+  degree: "Co-Op Student"                
+  year: "2006"
+
+- name: "Varun Agarwal"     
+  degree: "Co-Op Student"                
+  year: "2006"
+
+- name: "Prince Nimoh"      
+  degree: "Co-Op Student"                
+  year: "2008"  
+
+- name: "Ma Edo Tanujaya"   
+  degree: "Co-Op Student"                
+  year: "2008"
+
+- name: "Anand Kaushik"     
+  degree: "Internship"           
+  year: "2009"
+
+- name: "Naveen Karthik"    
+  degree: "Internship"           
+  year: "2010"
+
+- name: "Shreyas Rangan"    
+  degree: "Internship"           
+  year: "2010"
+
+- name: "Daniel Esau"       
+  degree: "Undergraduate Thesis" 
+  year: "2012"
+
+- name: "Norman Siu"        
+  degree: "Undergraduate Thesis" 
+  year: "2012"  
+
+- name: "Jalaj Jain"        
+  degree: "Internship"           
+  year: "2012"  
+
+- name: "Sravan Nandhakumar"
+  degree: "Internship"           
+  year: "2014"  
+
+- name: "Clarin Houle"      
+  degree: "Undergraduate Thesis" 
+  year: "2015"
+  position: "Corvus Energy" 
+
+- name: "Jiaqi Gao"         
+  degree: "Internship"           
+  year: "2015"
+
+- name: "Yang Liu"          
+  degree: "Internship"           
+  year: "2015"
+
+- name: "Alireza Nazari"    
+  degree: "Undergraduate Thesis" 
+  year: "2016"
+  position: "Accenture"
+
+- name: "William Xi" 
+  degree: "Undergraduate Thesis"
+  year: "2018"
+
+- name: "Logan Philips" 
+  degree: "Undergraduate Thesis"
+  year: "2018"
+
+- name: "Simeng" 
+  degree: "Co-Op Student"
+  year: "2018"
+
+- name: "Logan Philips" 
+  degree: "Undergraduate Thesis"
+  year: "2018"
+
+- name: "Ruyi Yang" 
+  degree: "Summer Student"
+  year: "2019"
+
+- name: "Adriana Cajiao"          
+  degree: "Ph.D."
+  year: "2012"
+
+- name: "Aditya Tulsyan"          
+  degree: "Ph.D."
+  year: "2013"
+  position: "Amgen"
+
+- name: "Omid Vahidi"             
+  degree: "Ph.D."
+  year: "2013"
+
+- name: "Feras Al-Rowaie"         
+  degree: "Ph.D."
+  year: "2015"
+
+- name: "Fateme Ekram"            
+  degree: "Ph.D."
+  year: "2015"
+
+- name: "Melissa Barazandegan"    
+  degree: "Ph.D."
+  year: "2016"
+
+- name: "David Zamar"             
+  degree: "Ph.D."
+  year: "2017"
+
+- name: "Qiugang Lu"              
+  degree: "Ph.D."
+  year: "2018"
+
+- name: "Mahsa Sadeghassadi"      
+  degree: "Ph.D."
+  year: "2016"
+
+- name: "Kai Wang"                
+  degree: "Ph.D."
+  year: "2018"
+
+- name: "Ali Chamkalani"          
+  degree: "Ph.D."
+  year: "2018"
+
+- name: "Yi Luo"                  
+  degree: "Ph.D. (Visiting)"
+  year: "2020"
+  position: "Beijing Institute of Chemical Technology"
+
+- name: "Shelly Jang"
+  degree: "M.A.Sc." 
+  year: "2009" 
+
+- name: "Devin Marshman"
+  degree: "M.A.Sc." 
+  year: "2010"
+
+- name: "Sayyed Soroush Nasseri"
+  degree: "M.A.Sc." 
+  year: "2012"
+
+- name: "Parisa Towfigi"
+  degree: "M.A.Sc." 
+  year: "2011"
+
+- name: "Cai Long"
+  degree: "M.A.Sc." 
+  year: "2012"
+
+- name: "Navid Ghaffari"
+  degree: "M.A.Sc." 
+  year: "2015"
+
+- name: "Kenneth McClure" 
+  degree: "M.A.S.c" 
+  year: "2013"
+  position: "Spartan Controls"
+
+- name: "Mahdi Yousefi"
+  degree: "M.A.Sc." 
+  year: "2014"
+
+- name: "Ramin Khoie"
+  degree: "M.A.Sc." 
+  year: "2015"
+
+- name: "Yiting Tsai"
+  degree: "M.A.Sc." 
+  year: "2015"
+  position: "PhD UBC"
+
+- name: "Lee Rippon"
+  degree: "M.A.Sc." 
+  year: "2016"
+  position: "PhD UBC"
+
+- name: "Aigerim Ongalbayeva"
+  degree: "M.A.Sc." 
+  year: "2016"
+
+- name: "Steven Spielberg"
+  degree: "M.A.Sc." 
+  year: "2017"
+  position: "Amazon"
+  url: "http://www.stevenspielberg.me/"
+
+- name: "David Kong"
+  degree: "M.Sc." 
+  year: "2018"
+
+- name: "Koji Kitano"
+  degree: "M.A.Sc." 
+  year: "2017"
+
+- name: "Mankaran Singh"
+  degree: "M.Eng." 
+  year: "2011"
+
+- name: "JiChuan Wu"
+  degree: "M.Eng." 
+  year: "2012"
+
+- name: "Yilin Fan"
+  degree: "M.Eng." 
+  year: "2017"
