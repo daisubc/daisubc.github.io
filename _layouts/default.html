@@ -6,11 +6,12 @@
   <title>UBC DAIS Lab</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav class="navbar is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{ site.baseurl }}">
+      <a class="navbar-item" href="{{ site.baseurl }}/">
         <b>DAIS LAB</b>
       </a>
 
@@ -39,6 +40,10 @@
           Publications
         </a>
 
+        <a class="navbar-item" href="{{ site.baseurl }}/news/">
+          News
+        </a>        
+
         <a class="navbar-item" href="{{ site.baseurl }}/teaching/">
           Teaching
         </a>
@@ -50,7 +55,7 @@
   <section class="section">
     <div class="container">
       <div class="columns is-variable is-5">
-        <div class="column is-one-quarter is-hidden-mobile">
+        <div class="column is-one-fifth is-hidden-mobile">
           <h1 class="title"><b>UBC</b> DAIS Lab
           </h1>
           <hr>
@@ -64,8 +69,10 @@
                 </div>
                 <div class="message-body">
                   <b>Bhushan Gopaluni</b><br>
-                  <i>Professor <br> Department of Chemical & Biological Engineering <br> University of British Columbia <br> </i><br>
-                  <br>
+                  <i>Professor</i><br> <a href="https://chbe.ubc.ca/">Department of Chemical & Biological Engineering</a></p>
+                  <p><i>Associate Dean, Education and Professional Development</i><br>
+                  <a href="https://apsc.ubc.ca/">Faculty of Applied Science</a></p>
+                  <p><b><a href="https://www.ubc.ca/">University of British Columbia</a></b></p>                  
                   <b>Phone:</b>  604.827.5668 <br>
                   <b>Email: </b> bhushan.gopaluni@ubc.ca <br>
                   <b>Office:</b> KAISER 5018 <br>
@@ -74,7 +81,6 @@
               </article>                            
             </div>
           </div>
-
         </div>
         <div class="column"> 
           {{ content }}
@@ -89,6 +95,18 @@
         </p>
       </div>
     </footer>
+  <script type="text/javascript">
+    $(document).ready(function() {
 
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          $(".navbar-burger").toggleClass("is-active");
+          $(".navbar-menu").toggleClass("is-active");
+
+      });
+    });
+  </script>
   </body>
   </html>

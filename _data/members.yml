@@ -6,7 +6,7 @@
   year_start: 2016
 
 - name: Lee Rippon
-  project:
+  project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
   img:
   degree: PhD
   year_end:
@@ -42,14 +42,14 @@
   year_start: 2016
 
 - name: Maricela Best McKay
-  project:
+  project: RNN Approximation of Mathematical Models of Li-Ion Batteries
   img:
   degree: PhD
   year_end:
   year_start: 2016
 
 - name: Liang Cao
-  project:
+  project: Predicting Quality-relevant Variables in Industrial Process via Causality Analysis
   img:
   degree: PhD
   year_end:
@@ -70,7 +70,7 @@
   year_start: 2016
 
 - name: Nathan Lawrence
-  project:
+  project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
   img:
   degree: PhD
   year_end:

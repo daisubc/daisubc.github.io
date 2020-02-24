@@ -1,12 +1,13 @@
-- title: "Prof. Nina Thornhill visits DAIS Lab and delivers CHBE Distinguished Speaker Seminar"
+- title: Prof. Nina Thornhill visits DAIS Lab
   date: 2020-02-14
-  url: "#"
-  thumbnail: "#"
-- title: "Yiting presents his work at CHBE department seminar"
+  url: https://www.chbe.ubc.ca/2020/02/03/distinguished-speaker-seminar-professor-nina-thornhill/
+  thumbnail: https://www.chbe.ubc.ca/files/2020/01/Thornhill.jpg
+  description: Prof. Thornhill from Imperial College London visits UBC and delivers a CHBE Distinguished Speaker Seminar on Process Data Analytics. Members of the DAIS lab met Prof. Thornhill to share and discuss their research interests.
+
+- title: Yiting presents at CHBE department seminar
   date: 2020-02-14
-  url: "#"
-  thumbnail: "#"
-- title: "Yi Luo finished his brief stint as a visiting student at UBC. Going back to Beijing Institute of Chemical Technology"
-  date: 2020-02-14
-  url: "#"
-  thumbnail: "#"
+  description: Yiting presented his thesis progress during a CHBE department seminar. Click on the link below to see Yiting's presentation.
+
+- title: Yi Luo finished his brief stint as a visiting student at UBC.
+  description: Yi will be going back to the Beijing Institute of Chemical Technology. Best wishes!
+  date: 2020-02-01

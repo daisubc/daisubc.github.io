@@ -3,8 +3,11 @@ layout: default
 ---
 
 <div class="columns">
-	<div class="column is-three-quarters">
-		<div class="content">
+  <div class="column is-three-quarters">
+    <div class="content">
+      <div class="level">
+        <h1 class="title">Profile</h1>
+      </div>
       <div class="level">
         <div class="media">
           <div class="media-left">
@@ -14,53 +17,61 @@ layout: default
           </div>
           <div class="media-content">
             <div class="level">
-              <p class="title is-4">{{ page.name }}</p>
+              <p class="title is-4">{{ page.name }} <span class="tag is-dark">{{ page.degree }} Student</span></p>
             </div>
+            <div class="level">
+              <p class="is-5">{{ page.project }}</p>
+            </div>
+            {% if page.email %}
             <div class="level">
               <p class="subtitle is-6"><span class="icon"><i class="fa fa-envelope"></i></span> {{ page.email }}</p>
             </div>
+            {% endif %}
             <div class="level">
-              {% if page.github %}
-              <a href="{{ page.github }}">
-                <button class="button">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span>GitHub</span>
-                </button>
-              </a>
-              {% endif %}
-              {% if page.linkedin %}
-              <a href="{{ page.linkedin }}">
-                <button class="button">
-                  <span class="icon">
-                    <i class="fab fa-linkedin"></i>
-                  </span>
-                  <span>LinkedIn</span>
-                </button>
-              </a>
-              {% endif %}
-              {% if page.homepage %}
-              <a href="{{ page.homepage }}">
-                <button class="button">
-                  <span class="icon">
-                    <i class="fa fa-home"></i>
-                  </span>
-                  <span>Home</span>
-                </button>
-              </a>
-              {% endif %}                             
+              <div class="buttons has-addons">
+                {% if page.github %}
+                <a href="{{ page.github }}">
+                  <button class="button is-fullwidth">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                  </button>
+                </a>
+                {% endif %}
+                {% if page.linkedin %}
+                <a href="{{ page.linkedin }}">
+                  <button class="button is-fullwidth">
+                    <span class="icon">
+                      <i class="fab fa-linkedin"></i>
+                    </span>
+                    <span>LinkedIn</span>
+                  </button>
+                </a>
+                {% endif %}
+                {% if page.homepage %}
+                <a href="{{ page.homepage }}">
+                  <button class="button is-fullwidth">
+                    <span class="icon">
+                      <i class="fa fa-home"></i>
+                    </span>
+                    <span>Home</span>
+                  </button>
+                </a>
+                {% endif %}
+              </div>                             
             </div>
           </div>
         </div>
-      </div>     
+      </div> 
       <hr> 
       <p class="title is-5">Biography</p>
       <article class="message is-dark">
         <div class="message-body">
-         {{ page.biography }}
-       </div>
-     </article>
-   </div>
- </div>
+          {{ page.biography }}
+        </div>
+      </article>
+      <p class="small is-7"><a href="{{ site.baseurl }}/people/"><span class="icon"><i class="fa fa-arrow-circle-left"></i></span>Back to Lab Members</a></p>
+    </div>
+  </div>
 </div>

@@ -5,7 +5,7 @@ permalink: /people/
 ---
 
 # Faculty & Staff
-- **[Dr. Bhushan Gopaluni](/about/)**, Principal Investigator
+- **[Dr. Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Aleli Capuno](https://engineering.ubc.ca/staff/aleli-capuno)**, Admin Assistant to Associate Deans
 
 # Postdocs
