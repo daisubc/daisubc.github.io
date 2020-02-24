@@ -218,3 +218,27 @@
 - name: "Yilin Fan"
   degree: "M.Eng." 
   year: "2017"
+
+- name: "Harigopal Raghavan"
+  degree: "Research Associate" 
+  year: "2008"
+
+- name: "Do Yun Kim"
+  degree: "Postdoc" 
+  year: "2009"  
+
+- name: "Lin Sun"
+  degree: "Postdoc" 
+  year: "2010"  
+
+- name: "Yanqin Li"
+  degree: "Research Associate"
+  year: "2010"  
+
+- name: "Phanindra Jampana"
+  degree: "Postdoc" 
+  year: "2010"
+
+- name: "Vinay Bhavdekar"
+  degree: "Postdoc" 
+  year: "2013"
