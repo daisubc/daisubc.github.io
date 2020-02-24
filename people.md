@@ -8,55 +8,36 @@ permalink: /people/
 - **[Dr. Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Aleli Capuno](https://engineering.ubc.ca/staff/aleli-capuno)**, Admin Assistant to Associate Deans
 
-# Postdocs
+{% assign degrees = "Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
+{% for degree in degrees %}
 
-<ul>
-	{% for member in site.data.members %}
-	{% if member.degree == 'PDF' %}
-	<li><b>{{ member.name }}</b><br>{{ member.project }}</li>
-	{% endif %}
-	{% endfor %} 
-</ul>
+<h1 class="title"> {{ degree }} </h1>
+{% assign members = site.data.members | where:"degree", degree %}
 
-# PhD
-
-<ul>
-	{% for member in site.data.members %}
-	{% if member.degree == 'PhD' %}
-	<li>
-		<b>
-		{% if member.has_profile %}
-			<a href="{{ site.baseurl }}/profile/{{ member.name }}">{{ member.name }}</a>
-		{% else %}
-			{{ member.name }}
-		{% endif %}
-		</b>
-		<br>{{ member.project }}
-	</li>
-	{% endif %}
-	{% endfor %} 
-</ul>
-
-# MASc
-
-<ul>
-	{% for member in site.data.members %}
-	{% if member.degree == 'MASc' %}
-	<li><b>{{ member.name }}</b><br>{{ member.project }}</li>
-	{% endif %}
-	{% endfor %} 
-</ul>
-
-# Undergraduate
-
-<ul>
-	{% for member in site.data.members %}
-	{% if member.degree == 'Undergraduate' %}
-	<li><b>{{ member.name }}</b><br>{{ member.project }}</li>
-	{% endif %}
-	{% endfor %} 
-</ul>
-
+<div>
+	{% for member in members %}
+	<div class="is-clearfix">
+        <figure class="image is-round is-128x128 is-pulled-left">
+        	{% if member.img %}
+        	<img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/{{ member.img }}">
+        	{% else %}
+        	<img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
+        	{% endif %}
+        </figure>
+        <div class="content">
+			<p class="title">
+			{% if member.has_profile %}
+				<a href="{{ site.baseurl }}/profile/{{ member.name }}">{{ member.name }}</a>
+			{% else %}
+				{{ member.name }}
+			{% endif %}
+			</p>
+			<p class="subtitle">{{ member.project }}</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endfor %}
 
 # Alumni 
 #### Former students and visitors

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+{% assign degrees = "PDF|PhD|MASc|Undergraduate" | split: "|" %}
+
+<div class="columns">
+  <div class="column is-three-quarters">
+
+    {% for degree in degrees %}
+    <h1 class="title"> {{ degree }} </h1>
+    {% assign members = site.data.members | where:"degree", degree %}
+
+    {% for member in members %}
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <div class="tile is-child is-2">
+          <figure class="image is-96x96">
+            {% if member.img %}
+            <img style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/{{ member.img }}" alt="{{ member.name }}">
+            {% else %}
+            <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+            {% endif %}
+          </figure>     
+        </div>
+        <div class="tile is-child">
+          <p class="title is-5">{{ member.name }} <span class="tag is-light">{{ member.degree }}</span></p>
+          <p class="is-5">{{ member.project }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}  
+    {% endfor %}  
+
+  </div>
+
+
+
+</div>

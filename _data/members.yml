@@ -1,13 +1,13 @@
 - name: Yiting Tsai
   project: Data-based Deep Optimal Feature Learning
-  img:
+  img: "assets/profile/yiting.png"
   degree: PhD
   year_end:
   year_start: 2016
 
 - name: Lee Rippon
   project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
-  img:
+  img: "assets/profile/leephoto2.png"
   degree: PhD
   year_end:
   year_start: 2016
@@ -15,7 +15,7 @@
 
 - name: Shams Elnawawi
   project: Data Visualization and Analysis for Large-Dimensional Model Predictive Controllers
-  img:
+  img: "assets/profile/shams.jpg"
   degree: Undergraduate
   year_end:
   year_start: 2019
@@ -23,20 +23,20 @@
 - name: Ying Xiong
   project: Abnormality Detection with the Rényi Divergence for Multivariate Gaussian Data
   img:
-  degree: PDF
+  degree: Postdoc
   year_end:
   year_start: 2019
 
 - name: Hui Tian
-  project:
-  img:
+  project: Economic and Distributed MPCs for the Pulp and Paper Industry.
+  img: "assets/profile/hui.png"
   degree: PhD
   year_end:
   year_start: 2016
 
 - name: Ryan Jacobson
   project:
-  img:
+  img: "assets/profile/ryan.jpg"
   degree: PhD
   year_end:
   year_start: 2016
@@ -71,7 +71,7 @@
 
 - name: Nathan Lawrence
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
-  img:
+  img: "assets/profile/nathan.jpg"
   degree: PhD
   year_end:
   year_start: 2016

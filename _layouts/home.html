@@ -6,79 +6,72 @@ layout: default
   <div class="column">
     <div class="content">
       <h1 class="is-size-1 has-text-weight-semibold">Data Analytics and Intelligent Systems <strong>Lab</strong></h1>
-      <article class="message is-dark">
-        <div class="message-body">
-          Paving the way for the next industrial revolution through <b>data</b>.
-        </div>
-      </article>  
-      <p>We are at a unique historical moment with conditions ripe for a new industrial revolution that is going to take us to a level of automation that had never been seen before. This revolution is driven by a serendipitous confluence of ubiquitous cyber-physical systems or internet of things, gargantuan computing power, inexpensive memory and major algorithmic developments in machine learning and artificial intelligence. It is happening all around us in the form of self-driving cars to human-like robots.</p>
-      <h3>Research</h3>
-      <div class="level">
-        <div class="level-item has-text-centered">
-          <div>
-            <figure class="image is-128x128">
-              <img src="{{ site.baseurl }}/assets/img/neural.png">
-            </figure>
-            <p class="">Machine Learning</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <figure class="image is-128x128">
-              <img src="{{ site.baseurl }}/assets/img/analysis.png">
-            </figure>
-            <p class="">Process Data Analytics</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <figure class="image is-128x128">
-              <img src="{{ site.baseurl }}/assets/img/pipe.png">
-            </figure>
-            <p class="">Process Control</p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <figure class="image is-128x128">
-              <img src="{{ site.baseurl }}/assets/img/tools.png">
-            </figure>
-            <p class="">Computational Tools</p>
-          </div>
-        </div>
-      </div>      
-      <p>The competitive global environment, and the ever increasing demands on energy, environment and quality are subjecting process industries to a high level of economic pressure. However, the process industries are in possession of treasure troves of heterogenous data that are gravely under utilized. These incredible volumes of data that industries already possess are poised to provide a level of insight and information never realized before and thus alleviate the economic and competitive pressures.</p>
-      <p>We are interested in developing novel algorithms and computational tools to bring this vision of automation to the process industry.</p>
-    </div>    
-  </div>
-  <div class="column is-one-quarter">
+    </div>
     <div class="content">
-      <hr>
-      <p class="is-5">
-      <b>News</b>
-      </p>      
-      <nav class="panel is-dark">
+      <i><h3 class="subtitle">The next industrial industrial revolution... through <b>data</b></h3></i>
+    </div>
+
+    <div class="tile is-ancestor has-text-centered">
+      <div class="tile is-parent is-3">
+        <div class="tile is-child">
+          <figure class="image is-256x256">
+            <img src="{{ site.baseurl }}/assets/img/timeslice.png">
+          </figure>
+          <p class="subtitle">Data Analytics<sup>1</sup></p>
+        </div>
+      </div>
+      <div class="tile is-parent is-3">
+        <div class="tile is-child">
+          <figure class="image is-256x256">
+            <img src="{{ site.baseurl }}/assets/img/control.png">
+          </figure>
+          <p class="subtitle">Process Control<sup>2</sup></p>
+        </div>
+      </div>
+      <div class="tile is-parent is-3">
+        <div class="tile is-child">
+          <figure class="image is-256x256">
+            <img src="{{ site.baseurl }}/assets/img/rl2.png">
+          </figure>
+          <p class="subtitle">Machine Learning<sup>3</sup></p>
+        </div>
+      </div>
+      <div class="tile is-parent is-3">
+        <div class="tile is-child">
+          <figure class="image is-256x256">
+            <img src="{{ site.baseurl }}/assets/img/alarm.png">
+          </figure>
+          <p class="subtitle">Alarm Analytics<sup>4</sup></p>
+        </div>
+      </div>                
+    </div>
+
+    <div class="content">
+      <p class="is-size-7">[1] Wang et al. (2019). Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations.
+        <br>[2] Rippon et al. (2019). Machine Direction Adaptive Control on a Paper Machine.
+        <br>[3] Spielberg et al. (2019). Toward self‐driving processes: A deep reinforcement learning approach to control.
+        <br>[4] Tulsyan et al. (2019). Univariate model-based deadband alarm design for nonlinear processes.</p>      
+
+        <h3>Research Themes</h3>
+        <p>We are at a unique historical moment with conditions ripe for a new industrial revolution that is going to take us to a level of automation that had never been seen before. This revolution is driven by a serendipitous confluence of ubiquitous cyber-physical systems or internet of things, gargantuan computing power, inexpensive memory and major algorithmic developments in machine learning and artificial intelligence. It is happening all around us in the form of self-driving cars to human-like robots.</p>
+        <p>The competitive global environment, and the ever increasing demands on energy, environment and quality are subjecting process industries to a high level of economic pressure. However, the process industries are in possession of treasure troves of heterogenous data that are gravely under utilized. These incredible volumes of data that industries already possess are poised to provide a level of insight and information never realized before and thus alleviate the economic and competitive pressures.</p>
+        <p>We are interested in developing novel algorithms and computational tools to bring this vision of automation to the process industry.</p>     
+      </div>
+
+      <div class="content">
+        <h3>News</h3>
         {% for news in site.data.news %}
-        <a class="panel-block" href="{{ news.url }}">
-          <article class="media">
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <small>{{ news.date | date_to_long_string}}</small>
-                  <br>
-                  {{ news.title }}
-                </p>
-              </div>
-            </div>
-          </article>
-        </a>
+        <div class="list-item">
+          <small>{{ news.date | date_to_long_string}}</small><br>
+          {% if news.url %}
+          <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
+          {% else %}
+          <b>{{ news.title }}</b><br>
+          {% endif %}
+          {{ news.description}}
+        </div>
         {% endfor %}
-        <div class="panel-block">
-          <a href="{{ site.baseurl }}/news" class="button is-dark is-outlined is-fullwidth">
-            More News
-          </a>
-        </div>        
-      </nav>
-    </div>          
+      </div>
+
+    </div>
   </div>
-</div>
