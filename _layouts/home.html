@@ -60,7 +60,7 @@ layout: default
 
       <div class="content">
         <h3>News</h3>
-        {% for news in site.data.news %}
+        {% for news in site.data.news | limit: 3 %}
         <div class="list-item">
           <small>{{ news.date | date_to_long_string}}</small><br>
           {% if news.url %}
@@ -71,6 +71,9 @@ layout: default
           {{ news.description}}
         </div>
         {% endfor %}
+        <br>
+        <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
+
       </div>
 
     </div>

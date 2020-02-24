@@ -10,7 +10,7 @@ permalink: /news/
     <label class="panel-block" href="{{ news.url }}">
       <article class="media">
         <figure class="media-left">
-          <p class="image is-64x64">
+          <p class="image is-128x128">
             {% if news.thumbnail %}
               <img src="{{ news.thumbnail }}">
             {% else %}

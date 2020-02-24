@@ -7,7 +7,30 @@
 - title: Yiting presents at CHBE department seminar
   date: 2020-02-14
   description: Yiting presented his thesis progress during a CHBE department seminar. Click on the link below to see Yiting's presentation.
+  filename: yt021420.pdf
 
 - title: Yi Luo finished his brief stint as a visiting student at UBC.
   description: Yi will be going back to the Beijing Institute of Chemical Technology. Best wishes!
   date: 2020-02-01
+
+- title: Open Educational Resources Champion
+  description: Dr. Gopaluni and Dr. Verrett have been nominated as Applied Science OER champions for the development of open chemical engineering resources. Big thanks to DAIS members and students involved in the TLEF project - Yiting Tsai, Siang Lim, Vasiliy Triandafilidi, Athanasios Kritharis, Eugene Shen, Ngai To Lo, Said Zaid-Alkailani, Victor Chiew and all other contributors.
+  url: https://open.ubc.ca/oer-champions/applied-science/
+  thumbnail: https://open.ubc.ca/files/2019/10/Verrett-300x300.jpg
+  date: 2019-11-02
+
+- title: <i>Processes</i> Paper
+  description: Yiting's paper on bioreactor performance prediction has been published in <i>Processes</i>. Congrats!
+  url: https://www.mdpi.com/2227-9717/7/9/614
+  thumbnail: https://www.mdpi.com/processes/processes-07-00614/article_deploy/html/images/processes-07-00614-g001.png
+  date: 2019-09-01
+
+- title: CHRP Project Funding
+  description: A project in collaboration with Dr. Piret and Dr. Levings on <i>Bioprocess engineering for therapeutic T-cell manufacturing</i> has received federal Collaborative Health Research Projects (CHRP) funding worth over $600k.
+  url: https://www.msl.ubc.ca/dr-james-pirets-research-on-t-cell-therapies-gets-boost-from-a-collaborative-health-research-project-operating-grant-co-funded-by-cihr-and-nserc/
+  date: 2019-08-09
+
+- title: ADCHEM 2018
+  description: DAIS Lab members set to present at ADCHEM 2018. For more information, visit the DAIS ADCHEM page.
+  url: https://dais.chbe.ubc.ca/adchem/
+  date: 2018-07-19
