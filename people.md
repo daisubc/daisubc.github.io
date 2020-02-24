@@ -32,7 +32,10 @@ permalink: /people/
 				{{ member.name }}
 			{% endif %}
 			</p>
-			<p class="subtitle">{{ member.project }}</p>
+			<p class="subtitle">{{ member.project }}
+			{% if member.project_url %}
+			<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
+			{% endif %}</p>
 		</div>
 	</div>
 	{% endfor %}

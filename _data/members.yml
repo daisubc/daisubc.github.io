@@ -1,5 +1,6 @@
 - name: Yiting Tsai
   project: Data-based Deep Optimal Feature Learning
+  project_url: "assets/pdf/yt021420.pdf"
   img: "assets/profile/yiting.png"
   degree: PhD
   year_end:
@@ -50,6 +51,7 @@
 
 - name: Liang Cao
   project: Predicting Quality-relevant Variables in Industrial Process via Causality Analysis
+  project_url: "assets/pdf/lc021420.pdf"
   img: "assets/profile/liangcao.jpg"
   degree: PhD
   year_end:
@@ -71,6 +73,7 @@
 
 - name: Nathan Lawrence
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
+  project_url: "assets/pdf/nl021420.pdf"
   img: "assets/profile/nathan.jpg"
   degree: PhD
   year_end:
