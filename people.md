@@ -19,20 +19,20 @@ permalink: /people/
 	<div class="is-clearfix">
         <figure class="image is-round is-128x128 is-pulled-left">
         	{% if member.img %}
-        	<img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/{{ member.img }}">
+        	<img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}">
         	{% else %}
         	<img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder image">
         	{% endif %}
         </figure>
         <div class="content">
-			<p class="title">
+			<p class="title is-size-5-mobile">
 			{% if member.has_profile %}
 				<a href="{{ site.baseurl }}/profile/{{ member.name }}">{{ member.name }}</a>
 			{% else %}
 				{{ member.name }}
 			{% endif %}
 			</p>
-			<p class="subtitle">{{ member.project }}
+			<p class="subtitle is-size-7-mobile">{{ member.project }}
 			{% if member.project_url %}
 			<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
 			{% endif %}</p>
@@ -52,7 +52,7 @@ permalink: /people/
 			<th>Name</th>
 			<th>Year</th>
 			<th>Degree</th>
-			<th>Now At</th>
+			<th>Position After Leaving/Now At</th>
 		</tr>
 	</thead>
 	<tbody>

@@ -41,10 +41,12 @@
 - name: "Daniel Esau"       
   degree: "Undergraduate Thesis" 
   year: "2012"
+  position: "UBC Medicine"
 
 - name: "Norman Siu"        
   degree: "Undergraduate Thesis" 
-  year: "2012"  
+  year: "2012"
+  position: "Enbridge"
 
 - name: "Jalaj Jain"        
   degree: "Internship"           
@@ -75,10 +77,12 @@
 - name: "William Xi" 
   degree: "Undergraduate Thesis"
   year: "2018"
+  position: "UC Berkeley MSc"
 
-- name: "Logan Philips" 
+- name: "Logan Phillips" 
   degree: "Undergraduate Thesis"
   year: "2018"
+  position: "DuBois Chemicals"
 
 - name: "Simeng" 
   degree: "Co-Op Student"
@@ -91,6 +95,7 @@
 - name: "Adriana Cajiao"          
   degree: "Ph.D."
   year: "2012"
+  position: "Response Biomedical Corp"
 
 - name: "Aditya Tulsyan"          
   degree: "Ph.D."
@@ -100,18 +105,21 @@
 - name: "Omid Vahidi"             
   degree: "Ph.D."
   year: "2013"
+  position: "Assistant Prof, IUST Iran"
 
 - name: "Feras Al-Rowaie"         
   degree: "Ph.D."
   year: "2015"
+  position: "Assistant Prof, Jubail Industrial College"
 
-- name: "Fateme Ekram"            
+- name: "Fatemeh Ekram"            
   degree: "Ph.D."
   year: "2015"
 
 - name: "Melissa Barazandegan"    
   degree: "Ph.D."
   year: "2016"
+  position: "Vancouver Coastal Health"
 
 - name: "David Zamar"             
   degree: "Ph.D."
@@ -120,10 +128,12 @@
 - name: "Qiugang Lu"              
   degree: "Ph.D."
   year: "2018"
+  position: "General Motors"
 
 - name: "Mahsa Sadeghassadi"      
   degree: "Ph.D."
   year: "2016"
+  position: "inCTRL Solutions"
 
 - name: "Kai Wang"                
   degree: "Ph.D."
@@ -136,31 +146,37 @@
 - name: "Yi Luo"                  
   degree: "Ph.D. (Visiting)"
   year: "2020"
-  position: "Beijing Institute of Chemical Technology"
+  position: "BUCT, Beijing"
 
 - name: "Shelly Jang"
   degree: "M.A.Sc." 
   year: "2009" 
+  position: "University of Washington PhD"
 
 - name: "Devin Marshman"
   degree: "M.A.Sc." 
   year: "2010"
+  position: "NORPAC Controls"
 
 - name: "Sayyed Soroush Nasseri"
   degree: "M.A.Sc." 
   year: "2012"
+  position: "UBC PhD"
 
 - name: "Parisa Towfigi"
   degree: "M.A.Sc." 
   year: "2011"
+  position: "Siemens"
 
 - name: "Cai Long"
   degree: "M.A.Sc." 
   year: "2012"
+  position: "World Health Organization"
 
 - name: "Navid Ghaffari"
   degree: "M.A.Sc." 
   year: "2015"
+  position: "Sanofi"
 
 - name: "Kenneth McClure" 
   degree: "M.A.S.c" 
@@ -170,24 +186,28 @@
 - name: "Mahdi Yousefi"
   degree: "M.A.Sc." 
   year: "2014"
+  position: "Avestec Technologies"
 
 - name: "Ramin Khoie"
   degree: "M.A.Sc." 
   year: "2015"
+  url: "http://www.rkhoie.com/"
+  position: "AutomationX Industrial Solutions"
 
 - name: "Yiting Tsai"
   degree: "M.A.Sc." 
   year: "2015"
-  position: "PhD UBC"
+  position: "UBC PhD"
 
 - name: "Lee Rippon"
   degree: "M.A.Sc." 
   year: "2016"
-  position: "PhD UBC"
+  position: "UBC PhD"
 
 - name: "Aigerim Ongalbayeva"
   degree: "M.A.Sc." 
   year: "2016"
+  position: "Nazarbayev Intellectual Schools"
 
 - name: "Steven Spielberg"
   degree: "M.A.Sc." 
@@ -198,14 +218,17 @@
 - name: "David Kong"
   degree: "M.Sc." 
   year: "2018"
+  position: "ML Engineer, Realtor.com"
 
 - name: "Koji Kitano"
-  degree: "M.A.Sc." 
+  degree: "M.A.Sc. (Visiting)" 
   year: "2017"
+  position: "Kyoto University"
 
-- name: "Mankaran Singh"
+- name: "Mankaran Mehrok"
   degree: "M.Eng." 
   year: "2011"
+  position: "Seven Generations Energy"
 
 - name: "JiChuan Wu"
   degree: "M.Eng." 
@@ -218,23 +241,26 @@
 - name: "Harigopal Raghavan"
   degree: "Research Associate" 
   year: "2008"
+  position: "Shell"
 
 - name: "Do Yun Kim"
   degree: "Postdoc" 
   year: "2009"  
 
 - name: "Lin Sun"
-  degree: "Postdoc" 
+  degree: "Postdoc (Visiting)" 
   year: "2010"  
 
 - name: "Yanqin Li"
-  degree: "Research Associate"
+  degree: "Research Associate (Visiting)"
   year: "2010"  
 
 - name: "Phanindra Jampana"
   degree: "Postdoc" 
   year: "2010"
+  position: "Assistant Prof at IIT, Hyderabad"
 
 - name: "Vinay Bhavdekar"
   degree: "Postdoc" 
   year: "2013"
+  position: "Postdoc UofA"
