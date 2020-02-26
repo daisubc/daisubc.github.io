@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+### Recruitment
+
+For posdoc positions or students interested in pursuing graduate studies, please email a copy of your (1) CV and (2) Research Statement to **bhushan [dot] gopaluni [at] ubc [dot] ca**. 
+
+Admission is highly competitive. However, all admitted students will receive a stipend. 

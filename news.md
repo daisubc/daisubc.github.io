@@ -12,7 +12,7 @@ permalink: /news/
         <figure class="media-left">
           <p class="image is-128x128">
             {% if news.thumbnail %}
-              <img src="{{ news.thumbnail }}">
+              <img style="height: 100%; object-fit: cover;" src="{{ news.thumbnail }}">
             {% else %}
               <img src="https://bulma.io/images/placeholders/128x128.png">
             {% endif %}
