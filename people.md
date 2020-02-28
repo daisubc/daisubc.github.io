@@ -12,7 +12,7 @@ permalink: /people/
 {% for degree in degrees %}
 
 <h1 class="title"> {{ degree }} </h1>
-{% assign members = site.data.members | where:"degree", degree %}
+{% assign members = site.data.members | where:"degree", degree | sort: 'year_start' | reverse %}
 
 <div>
 	{% for member in members %}
@@ -31,6 +31,13 @@ permalink: /people/
 			{% else %}
 				{{ member.name }}
 			{% endif %}
+			<br>
+			<p class="subtitle is-size-7-mobile is-size-6">
+				Started {{ member.year_start }}
+			{% if member.cosupervisor %}
+				| Co-supervisor: {{ member.cosupervisor }}
+			{% endif %}							
+			</p>
 			</p>
 			<p class="subtitle is-size-7-mobile">{{ member.project }}
 			{% if member.project_url %}

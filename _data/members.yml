@@ -1,6 +1,7 @@
 - name: Yiting Tsai
   project: Data-based Deep Optimal Feature Learning
   img: yiting.png
+  cosupervisor: 
   degree: PhD
   year_end:
   year_start: 2016
@@ -10,8 +11,9 @@
   img: leephoto2.png
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2017
   has_profile: true
+  cosupervisor: Philip Loewen
 
 - name: Shams Elnawawi
   project: Data Visualization and Analysis for Large-Dimensional Model Predictive Controllers
@@ -32,7 +34,7 @@
   img: hui.png
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2013
 
 - name: Ryan Jacobson
   project:
@@ -40,13 +42,15 @@
   degree: PhD
   year_end:
   year_start: 2016
+  cosupervisor: Shahab Sokhansanj
 
 - name: Maricela Best McKay
   project: RNN Approximation of Mathematical Models of Li-Ion Batteries
-  img:
+  img: mari.jpg
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2019
+  cosupervisor: Brian Wetton
 
 - name: Liang Cao
   project: Predicting Quality-relevant Variables in Industrial Process via Causality Analysis
@@ -54,21 +58,30 @@
   img: liangcao.jpg
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2019
 
 - name: Yixiu Wang
   project: Modeling and Control of Battery Systems
   img: yixiu.jpg
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2019
+  cosupervisor: Yankai Cao
 
 - name: Seoun Kim
   project:
   img:
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2017
+
+- name: Ali Chamkalani
+  project:
+  img:
+  degree: PhD
+  year_end:
+  year_start: 2018
+  cosupervisor: James Piret
 
 - name: Nathan Lawrence
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
@@ -76,7 +89,8 @@
   img: nathan.jpg
   degree: PhD
   year_end:
-  year_start: 2016
+  year_start: 2018
+  cosupervisor: Philip Loewen
 
 - name: Hashim Migaybil
   degree: MASc 
@@ -87,3 +101,4 @@
   img: ibrahim.jpg
   project: Developing Predictive Analytics Techniques Towards Fault Detection in an Electric Arc Furnace
   year_start: 2019
+  cosupervisor: Sirish Shah
