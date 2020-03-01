@@ -1,13 +1,13 @@
 - name: "Shams Elnawawi"
   year: "2018"
   degree: "NSERC USRA"
-  position: "UBC BASc Thesis"
+  position: "Mitsubishi Ireland (Internship), now UBC BASc Thesis"
   url: "https://github.com/shams-n"
 
 - name: "Siang Lim"
   year: "2017"
   degree: "NSERC USRA"
-  position: "Burnaby Refinery"
+  position: "FortisBC, now Burnaby Refinery"
   url: "https://www.siang.ca/"
 
 - name: "Anshul Jain"       
@@ -46,11 +46,13 @@
 - name: "Norman Siu"        
   degree: "Undergraduate Thesis" 
   year: "2012"
-  position: "Enbridge"
+  position: "Solaris then Coanda, now Enbridge"
 
 - name: "Jalaj Jain"        
   degree: "Internship"           
   year: "2012"  
+  position: "Shell then Schlumberger, now McKinsey"
+  url: "https://www.linkedin.com/in/jalaj-jain/?originalSubdomain=in"
 
 - name: "Sravan Nandhakumar"
   degree: "Internship"           
@@ -64,6 +66,8 @@
 - name: "Jiaqi Gao"         
   degree: "Internship"           
   year: "2015"
+  position: "Tsinghua then Yale, now Harvard"
+  url: "http://jqgao.me/index.html#awards"
 
 - name: "Yang Liu"          
   degree: "Internship"           
@@ -102,7 +106,7 @@
 - name: "Aditya Tulsyan"          
   degree: "Ph.D."
   year: "2013"
-  position: "Amgen"
+  position: "MIT Postdoc, now Amgen"
 
 - name: "Omid Vahidi"             
   degree: "Ph.D."
@@ -117,6 +121,7 @@
 - name: "Fatemeh Ekram"            
   degree: "Ph.D."
   year: "2015"
+  position: "STEM Education Instructor, Insight Chemistry Tutors"
 
 - name: "Melissa Barazandegan"    
   degree: "Ph.D."
@@ -131,7 +136,7 @@
 - name: "Qiugang Lu"              
   degree: "Ph.D."
   year: "2018"
-  position: "General Motors"
+  position: "General Motors, now UW-Madison Zavala Lab Postdoc"
 
 - name: "Mahsa Sadeghassadi"      
   degree: "Ph.D."
@@ -234,6 +239,7 @@
 - name: "JiChuan Wu"
   degree: "M.Eng." 
   year: "2012"
+  position: "Petrochemicals, China"
 
 - name: "Yilin Fan"
   degree: "M.Eng." 
@@ -252,6 +258,7 @@
 - name: "Lin Sun"
   degree: "Postdoc (Visiting)" 
   year: "2010"  
+  position: "China University of Petroleum, Beijing"
 
 - name: "Yanqin Li"
   degree: "Research Associate (Visiting)"
@@ -265,4 +272,5 @@
 - name: "Vinay Bhavdekar"
   degree: "Postdoc" 
   year: "2013"
-  position: "Postdoc UofA"
+  position: "Postdocs UofA and UC Berkeley, then GE, now Wabtec Corp"
+  url: "https://www.linkedin.com/in/vabavdekar/"

@@ -161,13 +161,13 @@
  
 - title: "Fault identification with modified reconstruction-based contribution based on kernel principal component analysis"
   year: "2017"
-  type: "paper"
+  type: "conference"
   authors: "K Kitano, M Kano, B Gopaluni"
   journal: "2017 11th Asian Control Conference (ASCC)"
  
 - title: "Noncausal modeling and closed-loop optimal input design for cross-directional processes of paper machines"
   year: "2017"
-  type: "paper"
+  type: "conference"
   authors: "Q Lu, LD Rippon, RB Gopaluni, MG Forbes, PD Loewen, J Backström, ..."
   journal: "2017 American Control Conference (ACC)"
  
@@ -497,7 +497,7 @@
 
 - title: "Intelligent Processes: Leveraging the Data Revolution for Decision and Control"
   year: "2019"
-  type: "paper"
+  type: "conference"
   authors: "B Gopaluni"
   journal: "2019 Spring Meeting and 15th Global Congress on Process Safety"
 

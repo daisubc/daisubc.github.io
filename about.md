@@ -4,7 +4,12 @@ title: About
 permalink: /about/
 ---
 
+<figure class="image is-pulled-left is-128x128">
+	<img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
+</figure>
+
 ### [Dr. Bhushan Gopaluni](https://engineering.ubc.ca/staff/bhushan-gopaluni)
+
 is a professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/) and an Associate Dean for Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/) at the University of British Columbia. 
 
 He is also an associate faculty in the [Institute of Applied Mathematics](https://www.iam.ubc.ca/), the [Institute for Computing, Information and Cognitive Systems](https://icics.ubc.ca/), [Pulp and Paper Center](https://www.ppc.ubc.ca/) and the [Clean Energy Research Center](https://cerc.ubc.ca/). 
