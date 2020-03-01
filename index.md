@@ -7,6 +7,6 @@ layout: home
 
 ### Recruitment
 
-For posdoc positions or students interested in pursuing graduate studies, please email a copy of your (1) CV and (2) Research Statement to **bhushan [dot] gopaluni [at] ubc [dot] ca**. 
+Our group is recruiting year-round for postdocs, MASc and PhD students, visiting students and undergraduate students.
 
-Admission is highly competitive and all admitted students will receive a stipend. 
+If you're interested in pursuing research or graduate studies, please email a copy of your (1) CV and (2) Research Statement to **bhushan.gopaluni@ubc.ca**.
