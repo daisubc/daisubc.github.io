@@ -18,3 +18,15 @@ From 2003 to 2005 he worked as an engineering consultant at Matrikon Inc. (now H
 He is one of the leading experts on data analytics for process industry and has authored over 110 refereed articles in reputed international Journals and conferences. His publications have been recognized through best paper awards and keynote presentations. 
 
 He is also the recipient of the prestigious [Killam Teaching Prize](https://academic.ubc.ca/awards-funding/award-winners/killam-teaching-service-winners) and the Dean’s service medal from the University of British Columbia. 
+
+### Contact
+**Bhushan Gopaluni**
+
+Professor, [Department of Chemical & Biological Engineering](https://chbe.ubc.ca/), University of British Columbia      
+
+Associate Dean, Education and Professional Development, [Faculty of Applied Science](https://apsc.ubc.ca/), University of British Columbia
+
+- Phone: 604.827.5668
+- Email: bhushan.gopaluni@ubc.ca
+- Office: KAISER 5018
+- Address: 5000-2332 Main Mall, Vancouver, BC V6T 1Z4

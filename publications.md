@@ -6,7 +6,10 @@ permalink: /publications/
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao) for a full list of publications.
 
-{% assign papertypes = "paper|conference" | split: "|" %}
+Jump to
+[Papers](#paper) | [Conferences](#conference) | [Patents](#patent)
+
+{% assign papertypes = "paper|conference|patent" | split: "|" %}
 {% for papertype in papertypes %}
 {% assign papers = site.data.publications | where:"type", papertype %}
 
