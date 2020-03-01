@@ -37,7 +37,7 @@
   year_start: 2013
 
 - name: Ryan Jacobson
-  project:
+  project: Optimization of Biomass Supply Chains
   img: ryan.jpg
   degree: PhD
   year_end:
@@ -69,7 +69,7 @@
   cosupervisor: Yankai Cao
 
 - name: Seoun Kim
-  project:
+  project: Deep Reinforcement Learning for Wheat Crop Modelling
   img:
   degree: PhD
   year_end:
@@ -95,6 +95,7 @@
 - name: Hashim Migaybil
   degree: MASc 
   year_start: 2019
+  project: Performance Prediction of a Photovoltaic Assisted Single-Slope Solar Still via ML Models
 
 - name: Ibrahim Yousef
   degree: MASc 

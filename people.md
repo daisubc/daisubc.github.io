@@ -32,14 +32,14 @@ permalink: /people/
 				{{ member.name }}
 			{% endif %}
 			<br>
-			<p class="subtitle is-size-7-mobile is-size-6">
+			<p class="subtitle is-size-7 is-size-7-mobile is-size-6">
 				Started {{ member.year_start }}
 			{% if member.cosupervisor %}
 				| Co-supervisor: {{ member.cosupervisor }}
 			{% endif %}							
 			</p>
 			</p>
-			<p class="subtitle is-size-7-mobile">{{ member.project }}
+			<p class="subtitle is-size-6 is-size-7-mobile">{{ member.project }}
 			{% if member.project_url %}
 			<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
 			{% endif %}</p>
