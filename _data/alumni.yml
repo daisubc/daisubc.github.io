@@ -68,11 +68,12 @@
 - name: "Yang Liu"          
   degree: "Internship"           
   year: "2015"
+  position: "Yale PhD"
 
 - name: "Alireza Nazari"    
   degree: "Undergraduate Thesis" 
   year: "2016"
-  position: "Accenture"
+  position: "Accenture then Harvard Law"
 
 - name: "William Xi" 
   degree: "Undergraduate Thesis"
@@ -84,9 +85,10 @@
   year: "2018"
   position: "DuBois Chemicals"
 
-- name: "Simeng" 
+- name: "Simeng Li" 
   degree: "Co-Op Student"
   year: "2018"
+  position: "UBC BASc"
 
 - name: "Ruyi Yang" 
   degree: "Summer Student"
@@ -124,6 +126,7 @@
 - name: "David Zamar"             
   degree: "Ph.D."
   year: "2017"
+  position: "Data Scientist, UBC SPPH"
 
 - name: "Qiugang Lu"              
   degree: "Ph.D."
@@ -138,6 +141,8 @@
 - name: "Kai Wang"                
   degree: "Ph.D."
   year: "2018"
+  position: "Associate Prof, CSU, Changsha"
+  url: "http://faculty.csu.edu.cn/wangkai/en/index.htm"
 
 - name: "Yi Luo"                  
   degree: "Ph.D. (Visiting)"
@@ -233,6 +238,7 @@
 - name: "Yilin Fan"
   degree: "M.Eng." 
   year: "2017"
+  position: "Intercontinental Exchange (ICE) London"
 
 - name: "Harigopal Raghavan"
   degree: "Research Associate" 
