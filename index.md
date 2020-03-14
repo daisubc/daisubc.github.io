@@ -5,9 +5,9 @@
 layout: home
 ---
 
-### Industries
+<!-- ### Industries
 
-We develop and apply machine learning techniques and data analytics tools for problem solving in different fields. We often collaborate with industry partners and other academic researchers. 
+We develop and apply machine learning techniques and data analytics tools for problem solving in different fields. We often collaborate with industry partners and other academic researchers.  -->
 
 <!-- - Medical Biology
 	- Pharmaceuticals (Amgen, Sanofi)
