@@ -7,9 +7,9 @@ layout: home
 
 ### Industries
 
-We develop and apply machine learning techniques and data analytics tools for problem solving in different fields. We often collaborate with industry partners and other academic researchers.
+We develop and apply machine learning techniques and data analytics tools for problem solving in different fields. We often collaborate with industry partners and other academic researchers. 
 
-- Medical Biology
+<!-- - Medical Biology
 	- Pharmaceuticals (Amgen, Sanofi)
 	- Healthcare
 	- Bioengineering ([Piret Group](https://www.msl.ubc.ca/people/dr-james-piret/))
@@ -26,7 +26,7 @@ We develop and apply machine learning techniques and data analytics tools for pr
 	- Oil and Gas
 	- Power (BCHydro)
 	- Electrochemical Systems ([Wetton Group](https://www.math.ubc.ca/~wetton/), [Cao Group](https://optimal.chbe.ubc.ca/))
-	- Renewables
+	- Renewables -->
 
 ### Research Themes
 We are at a unique historical moment with conditions ripe for a new industrial revolution that is going to take us to a level of automation that had never been seen before. This revolution is driven by a serendipitous confluence of ubiquitous cyber-physical systems or internet of things, gargantuan computing power, inexpensive memory and major algorithmic developments in machine learning and artificial intelligence. It is happening all around us in the form of self-driving cars to human-like robots.
