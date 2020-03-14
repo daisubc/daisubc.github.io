@@ -23,8 +23,8 @@ We develop and apply machine learning techniques and data analytics tools for pr
 	- Forestry 
 	- Biomass ([Sokhansanj Group](https://biomass.ubc.ca/))
 - Energy
-	- Oil and Gas 
-	- Power
+	- Oil and Gas
+	- Power (BCHydro)
 	- Electrochemical Systems ([Wetton Group](https://www.math.ubc.ca/~wetton/), [Cao Group](https://optimal.chbe.ubc.ca/))
 	- Renewables
 

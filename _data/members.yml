@@ -29,12 +29,12 @@
   year_end:
   year_start: 2019
 
-- name: Hui Tian
-  project: Economic and Distributed MPCs for the Pulp and Paper Industry.
-  img: hui.png
-  degree: PhD
-  year_end:
-  year_start: 2013
+# - name: Hui Tian
+#   project: Economic and Distributed MPCs for the Pulp and Paper Industry.
+#   img: hui.png
+#   degree: PhD
+#   year_end:
+#   year_start: 2013
 
 - name: Ryan Jacobson
   project: Optimization of Biomass Supply Chains
