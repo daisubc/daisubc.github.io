@@ -23,7 +23,7 @@ permalink: /news/
             <p>
               <small>{{ news.date | date_to_long_string}}</small>
               <br>
-              <strong>{{ news.title }}</strong>
+              <strong>➜ {{ news.title }}</strong>
               <br>
               {{ news.description }}
             </p>
