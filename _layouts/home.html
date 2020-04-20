@@ -60,7 +60,8 @@ layout: default
 
       <div class="content">
         <h3>News</h3>
-        {% for news in site.data.news limit: 3 %}
+        {% assign articles = site.news | sort: 'date' | reverse %}
+        {% for news in articles limit: 7 %}
         <div class="list-item">
           <small>{{ news.date | date_to_long_string}}</small><br>
           ➜ {% if news.url %}
