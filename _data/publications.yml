@@ -96,13 +96,6 @@
   journal: "Industrial & Engineering Chemistry Research"
   pdf: "2019J6_Rippon_IECR.pdf"
 
-- title: "Assessment of Simplifications to a Pseudo–2D Electrochemical Model of Li-ion Batteries"
-  year: "2019"
-  type: "conference"
-  authors: "XR Kong, B Wetton, B Gopaluni"
-  journal: "IFAC-PapersOnLine"
-  pdf: "2019C1_Kong_DYCOPS.pdf"
-
 - title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
   type: "conference"
   year: "2018"
@@ -111,12 +104,6 @@
   url: "https://www.sciencedirect.com/science/article/pii/S240589631831913X"
   description: "Tutorial paper at ADCHEM2018 reviewing ML techniques for process data analytics."
   code: "https://dais.chbe.ubc.ca/adchem/"
-
-- title: "State of Health Estimation for Lithium-Ion Batteries"
-  year: "2018"
-  type: "conference"
-  authors: "XR Kong, A Bonakdarpour, BT Wetton, DP Wilkinson, B Gopaluni"
-  journal: "IFAC-PapersOnLine"
  
 - title: "Locality preserving discriminative canonical variate analysis for fault diagnosis"
   year: "2018"
@@ -202,7 +189,7 @@
   pdf: "2017J5_Tulsyan_AIChE.pdf"
 
 - authors: "Lu, Q., D. Rippon, R.B. Gopaluni, M.G. Forbes, P.D. Loewen, J.U. Backstrom, G.A. Dumont."
-  type: "paper"
+  type: "conference"
   year: "2017"
   title: "Noncausal modeling and closed-loop optimal input design for cross-directional processes of paper machines"
   journal: "American Control Conference"
@@ -521,7 +508,8 @@
   title: "Assessment of Simplifications to a Pseudo–2D Electrochemical Model of Li-ion Batteries"
   authors: "Kong, X.R., Wetton, B., and Gopaluni, R.B."
   year: "2019" 
-  journal: "In Proceedings of DYCOPS Conference, , 946-951."
+  journal: "In Proceedings of DYCOPS Conference"
+  pdf: "2019C1_Kong_DYCOPS.pdf"
 
 - type: "conference"
   title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
@@ -536,12 +524,6 @@
   year: "2018"
   journal: "In Proceedings of ADCHEM Conference, Shenyang, China, 51 , 512-517."
   pdf: "2018C2_Steven_ADCHEM.pdf"
-
-- type: "conference"
-  title: "An Efficient Model Based Control Algorithm for the Determination of an Optimal Control Policy for a Constrained Stochastic Linear System"
-  authors: "Prakash, J., Zamar, D., Gopaluni, R.B., and Kwok, E."
-  year: "2018"
-  journal: "In Proceedings of ADCHEM Conference, 51 , 584-589."
 
 - type: "conference"
   title: "State of Health Estimation for Lithium-Ion Batteries"
@@ -561,12 +543,6 @@
   authors: "Lu, Q., Gopaluni, R.B., Forbes, M.G., Loewen, P.D., Backstrom, J.U., and Dumont, G.A."
   year: "2017"
   journal: "In Proceedings of IFAC World Congress, , 7993-7998."
-
-- type: "conference"
-  title: "Noncausal Modeling and Closed-Loop Optimal Input Design for Cross-Directional Processes of Paper Machines"
-  authors: "Lu, Q., Gopaluni, R.B., Forbes, M.G., Loewen, P.D., Backstrom, J.U., and Dumont, G.A."
-  year: "2017"
-  journal: "In Proceedings of American Control Conference, , 2837-2842."
 
 - type: "conference"
   title: "Deep Reinforcement Learning Approaches for Process Control"

@@ -15,7 +15,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAA
 
 {% assign papertypes = "paper|conference|patent" | split: "|" %}
 {% for papertype in papertypes %}
-{% assign papers = site.data.publications | where:"type", papertype %}
+{% assign papers = site.data.publications | where:"type", papertype | sort: 'year' | reverse %}
 
 ## {{ papertype | capitalize}} 
 <a href="#"><span class="tag is-small is-light">Back to Top</span></a>
