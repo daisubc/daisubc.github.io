@@ -4,7 +4,6 @@
   authors: "Y Luo, B Gopaluni, Y Xu, L Cao, QX Zhu"
   journal: "Industrial & Engineering Chemistry Research"
   url: "https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b06262"
-  thumbnail:
 
 - title: "Support vector machine approach for model-plant mismatch detection"
   type: "paper"
@@ -13,7 +12,7 @@
   journal: "Computers & Chemical Engineering"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0098135419302121"
   description: "We develop a model-plant mismatch (MPM) detection strategy based on a novel closed-loop identification approach and one-class support vector machine (SVM) learning technique. With this scheme we can monitor MPM and noise model change separately, thus separating the MPM from noise model changes. Another advantage of this approach is that it is applicable to routine operating data that may lack any external excitation signals. Theoretical analysis of the proposed closed-loop identification is provided in this paper, showing that it can give a consistent parameter estimate for the process model even in the case where a priori knowledge about the true noise model structure is not available. A set of normal operation data with satisfactory performance is collected as the training data."
-  thumbnail:
+  pdf: "2020J1_Lu_CCE.pdf"
 
 - title: "A Comparison of Clustering and Prediction Methods for Identifying Key Chemical–Biological Features Affecting Bioreactor Performance"
   type: "paper"
@@ -23,6 +22,7 @@
   url: "https://www.mdpi.com/2227-9717/7/9/614"
   description: "Paper compares several machine learning methods for feature selection and performance prediction in bioreactors using both process and biological data."
   code: "https://github.com/yitingtsai90/Bioreactor-data-analysis"
+  pdf: "2019J11_Yiting_Processes.pdf"
 
 - authors: "Lu, Q., D. Rippon, R.B. Gopaluni, M.G. Forbes, P.D. Loewen, J.U. Backstrom, G.A. Dumont."
   type: "paper"
@@ -30,12 +30,14 @@
   title: "Identification of symmetric noncausal processes: Cross-directional modeling of paper machines."
   journal: "Automatica"
   url: "https://www.sciencedirect.com/science/article/pii/S0005109819300421"
+  pdf: "2019J3_Lu_Automatica.pdf"
 
 - title: "Systematic development of a new variational autoencoder model based on uncertain data for monitoring nonlinear processes"
   year: "2019"
   type: "paper"
   authors: "K Wang, MG Forbes, B Gopaluni, J Chen, Z Song"
   journal: "IEEE Access"
+  pdf: "2019J4_Wang_IEEEAccess.pdf"
 
 - type: "paper"
   authors: "S Spielberg, A Tulsyan, NP Lawrence, PD Loewen, R Bhushan Gopaluni"
@@ -43,12 +45,14 @@
   title: "Towards Self-Driving Processes: A Deep Reinforcement Learning Approach to Control"
   journal: "AIChE Journal. 65. 10.1002/aic.16689." 
   url: "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.16689"
+  pdf: "2019J9_Spielberg_AIChE.pdf"
 
 - title: "An economic model predictive control framework for mechanical pulping processes"
   year: "2019"
   type: "paper"
   authors: "H Tian, Q Lu, RB Gopaluni, VM Zavala, JA Olson"
   journal: "Control Engineering Practice"
+  pdf: "2019J1_Tian_CEP.pdf"
 
 - type: "paper"
   title: "Design and application of a database-driven PID controller with data-driven updating algorithm"
@@ -56,6 +60,7 @@
   journal: "Industrial & Engineering Chemistry Research"
   year: "2019"
   url: "https://pubs.acs.org/doi/10.1021/acs.iecr.9b00704"
+  pdf: "2019J10_Wakitani_IECR.pdf"
 
 - title: "Effects of cysteine, asparagine or glutamine limitations in CHO cell batch and fed‐batch cultures"
   year: "2019"
@@ -63,41 +68,40 @@
   authors: "Navid Ghaffari,  Mario A. Jardon,  Natalie Krahn,  Michael Butler, Malcolm Kennard,  Robin F. B. Turner, Bhushan Gopaluni, James M. Piret"
   journal: "Biotechnology Progress"
 
-- title: "Sensing Concept for Practical Performance-Monitoring of Centrifugal Pumps"
-  year: "2019"
-  type: "paper"
-  authors: "B Bohn, J Olson, B Gopaluni, B Stoeber"
-  journal: "2019 IEEE SENSORS"
-
 - title: "Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations"
   year: "2019"
   type: "paper"
   authors: "K Wang, L Rippon, J Chen, Z Song, RB Gopaluni"
   journal: "Industrial & Engineering Chemistry Research"
+  pdf: "2019J5_Wang_IECR.pdf"
 
 - title: "Development and Characterization of a Non-Intrusive Sensor to Measure Wear in Centrifugal Pumps"
   year: "2019"
   type: "paper"
   authors: "B Bohn, R Khoie, RB Gopaluni, JA Olson, B Stoeber"
   journal: "IEEE Sensors Journal"
+  pdf: "2019J8_Bohn_IEEESensors.pdf"
 
 - title: "Univariate model-based deadband alarm design for nonlinear processes"
   year: "2019"
   type: "paper"
   authors: "A Tulsyan, RB Gopaluni"
   journal: "Industrial & Engineering Chemistry Research"
+  pdf: "2019J7_Tulsyan_IECR.pdf"
 
 - title: "Machine Direction Adaptive Control on a Paper Machine"
   year: "2019"
   type: "paper"
   authors: "LD Rippon, Q Lu, MG Forbes, RB Gopaluni, PD Loewen, JU Backström"
   journal: "Industrial & Engineering Chemistry Research"
+  pdf: "2019J6_Rippon_IECR.pdf"
 
 - title: "Assessment of Simplifications to a Pseudo–2D Electrochemical Model of Li-ion Batteries"
   year: "2019"
   type: "conference"
   authors: "XR Kong, B Wetton, B Gopaluni"
   journal: "IFAC-PapersOnLine"
+  pdf: "2019C1_Kong_DYCOPS.pdf"
 
 - title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
   type: "conference"
@@ -119,60 +123,63 @@
   type: "paper"
   authors: "Q Lu, B Jiang, RB Gopaluni, PD Loewen, RD Braatz"
   journal: "Computers & Chemical Engineering"
+  pdf: "2018J4_Lu_CCE.pdf"
  
 - title: "Application of neural networks for optimal-setpoint design and MPC control in biological wastewater treatment"
   year: "2018"
   type: "paper"
   authors: "M Sadeghassadi, CJB Macnab, B Gopaluni, D Westwick"
   journal: "Computers & Chemical Engineering"
+  pdf: "2018J3_Sadeghassadi_CCE.pdf"
  
 - title: "Deep learning of complex batch process data and its application on quality prediction"
   year: "2018"
   type: "paper"
   authors: "K Wang, B Gopaluni, J Chen, Z Song"
   journal: "IEEE Transactions on Industrial Informatics"
+  pdf: "2019J2_Wang_IEEEII.pdf"
  
 - title: "Sparse canonical variate analysis approach for process monitoring"
   year: "2018"
   type: "paper"
   authors: "Q Lu, B Jiang, RB Gopaluni, PD Loewen, RD Braatz"
   journal: "Journal of Process Control"
- 
-- title: "Design and assessment of delay timer alarm systems for nonlinear chemical processes"
-  year: "2018"
-  type: "paper"
-  authors: "A Tulsyan, F Alrowaie, B Gopaluni"
-  journal: "AIChE Journal"
- 
+  pdf: "2018J5_Lu_JPC.pdf"
+  
 - title: "A switching strategy for adaptive state estimation"
   year: "2018"
   type: "paper"
   authors: "A Tulsyan, S Khare, B Huang, B Gopaluni, F Forbes"
   journal: "Signal Processing"
+  pdf: "2017J1_Tulsyan_SignalProcessing.pdf"
  
 - title: "A deep learning architecture for predictive control"
   year: "2018"
   type: "conference"
   authors: "SSP Kumar, A Tulsyan, B Gopaluni, P Loewen"
   journal: "IFAC-PapersOnLine"
+  pdf: "2018C2_Steven_ADCHEM.pdf"
  
 - title: "An Efficient Model Based Control Algorithm for the Determination of an Optimal Control Policy for a Constrained Stochastic Linear System"
   year: "2018"
   type: "conference"
   authors: "J Prakash, D Zamar, B Gopaluni, E Kwok"
   journal: "IFAC-PapersOnLine"
+  pdf: "2018C3_Prakash_ADCHEM.pdf"
  
 - title: "Optimization of sawmill residues collection for bioenergy production"
   year: "2017"
   type: "paper"
   authors: "DS Zamar, B Gopaluni, S Sokhansanj"
   journal: "Applied Energy"
+  pdf: "2017J2_Zamar_AppliedEnergy.pdf"
 
 - title: "A quantile-based scenario analysis approach to biomass supply chain optimization under uncertainty"
   year: "2017"
   type: "paper"
   authors: "DS Zamar, B Gopaluni, S Sokhansanj, NK Newlands"
   journal: "Computers & Chemical Engineering"
+  pdf: "2017J3_Zamar_CCE.pdf"
  
 - title: "Fault identification with modified reconstruction-based contribution based on kernel principal component analysis"
   year: "2017"
@@ -254,6 +261,7 @@
   year: "2016"
   title: "LIONSIMBA — A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control."
   journal: "Journal of The Electrochemical Society, 163(7)"
+  pdf: "2016J3_Torchio_JES.pdf"
 
 - authors: "Lu, Q.,B. Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont."
   type: "paper"
@@ -527,6 +535,7 @@
   authors: "Spielberg, S., Tulsyan, A., Gopaluni, R.B., and Loewen, P.D."
   year: "2018"
   journal: "In Proceedings of ADCHEM Conference, Shenyang, China, 51 , 512-517."
+  pdf: "2018C2_Steven_ADCHEM.pdf"
 
 - type: "conference"
   title: "An Efficient Model Based Control Algorithm for the Determination of an Optimal Control Policy for a Constrained Stochastic Linear System"
@@ -539,6 +548,7 @@
   authors: "Kong, X., Bonakdarpour, A., Wetton, B.T., Wilkinson, D.P., and Gopaluni, R.B."
   year: "2018"
   journal: "In Proceedings of ADCHEM Conference, 51 , 661-665."
+  pdf: "2018C4_Kong_ADCHEM.pdf"
 
 - type: "conference"
   title: "A Constrained k-means and Nearest Neighbor Approach for Route Optimization: With an application to the Bale Collection"
@@ -562,7 +572,8 @@
   title: "Deep Reinforcement Learning Approaches for Process Control"
   authors: "Spielberg, S.P., Gopaluni, R.B., and Loewen, P.D."
   year: "2017"
-  journal: "In Proceedings of ADCONIP, , 201-206"
+  journal: "In Proceedings of ADCONIP, 201-206"
+  pdf: "2017C4_Spielberg_ADCONIP.pdf"
 
 - type: "conference"
   authors: "Tian, H., Lu, R.B. Gopaluni, V. Zavala."
