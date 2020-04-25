@@ -68,11 +68,13 @@
   type: "paper"
   authors: "Navid Ghaffari,  Mario A. Jardon,  Natalie Krahn,  Michael Butler, Malcolm Kennard,  Robin F. B. Turner, Bhushan Gopaluni, James M. Piret"
   journal: "Biotechnology Progress"
+  url: "https://aiche.onlinelibrary.wiley.com/doi/10.1002/btpr.2946"
 
 - title: "Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations"
   year: "2019"
   type: "paper"
   authors: "K Wang, L Rippon, J Chen, Z Song, RB Gopaluni"
+  url: "https://pubs.acs.org/doi/10.1021/acs.iecr.9b00290"
   journal: "Industrial & Engineering Chemistry Research"
   pdf: "2019J5_Wang_IECR.pdf"
 
@@ -81,6 +83,7 @@
   type: "paper"
   authors: "B Bohn, R Khoie, RB Gopaluni, JA Olson, B Stoeber"
   journal: "IEEE Sensors Journal"
+  url: "https://ieeexplore.ieee.org/document/8723378/"
   pdf: "2019J8_Bohn_IEEESensors.pdf"
 
 - title: "Univariate model-based deadband alarm design for nonlinear processes"
@@ -88,6 +91,7 @@
   type: "paper"
   authors: "A Tulsyan, RB Gopaluni"
   journal: "Industrial & Engineering Chemistry Research"
+  url: "https://pubs.acs.org/doi/10.1021/acs.iecr.9b00014"
   pdf: "2019J7_Tulsyan_IECR.pdf"
 
 - title: "Machine Direction Adaptive Control on a Paper Machine"
@@ -95,6 +99,7 @@
   type: "paper"
   authors: "LD Rippon, Q Lu, MG Forbes, RB Gopaluni, PD Loewen, JU Backström"
   journal: "Industrial & Engineering Chemistry Research"
+  url: "https://pubs.acs.org/doi/10.1021/acs.iecr.8b06067"
   pdf: "2019J6_Rippon_IECR.pdf"
 
 - title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
