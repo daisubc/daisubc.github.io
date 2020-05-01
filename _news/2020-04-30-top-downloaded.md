@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Top 10% of downloaded papers in AIChE Journal"
-date:   "2020-04-26"
+date:   "2020-04-30"
 ---
 
 Our recent paper on RL, [Toward self‐driving processes: A deep reinforcement learning approach to control
