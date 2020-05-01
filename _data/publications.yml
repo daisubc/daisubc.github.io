@@ -53,6 +53,7 @@
   authors: "K Wang, MG Forbes, B Gopaluni, J Chen, Z Song"
   journal: "IEEE Access"
   pdf: "2019J4_Wang_IEEEAccess.pdf"
+  url: "https://ieeexplore.ieee.org/document/8643825"
 
 - type: "paper"
   authors: "S Spielberg, A Tulsyan, NP Lawrence, PD Loewen, R Bhushan Gopaluni"
@@ -68,6 +69,7 @@
   authors: "H Tian, Q Lu, RB Gopaluni, VM Zavala, JA Olson"
   journal: "Control Engineering Practice"
   pdf: "2019J1_Tian_CEP.pdf"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066118303538"
 
 - type: "paper"
   title: "Design and application of a database-driven PID controller with data-driven updating algorithm"
@@ -131,6 +133,7 @@
   authors: "Q Lu, B Jiang, RB Gopaluni, PD Loewen, RD Braatz"
   journal: "Computers & Chemical Engineering"
   pdf: "2018J4_Lu_CCE.pdf"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0098135418306422"
  
 - title: "Application of neural networks for optimal-setpoint design and MPC control in biological wastewater treatment"
   year: "2018"
@@ -138,6 +141,7 @@
   authors: "M Sadeghassadi, CJB Macnab, B Gopaluni, D Westwick"
   journal: "Computers & Chemical Engineering"
   pdf: "2018J3_Sadeghassadi_CCE.pdf"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0098135418302631"
  
 - title: "Deep learning of complex batch process data and its application on quality prediction"
   year: "2018"
@@ -145,6 +149,7 @@
   authors: "K Wang, B Gopaluni, J Chen, Z Song"
   journal: "IEEE Transactions on Industrial Informatics"
   pdf: "2019J2_Wang_IEEEII.pdf"
+  url: "https://ieeexplore.ieee.org/document/8544024"
  
 - title: "Sparse canonical variate analysis approach for process monitoring"
   year: "2018"
@@ -152,6 +157,7 @@
   authors: "Q Lu, B Jiang, RB Gopaluni, PD Loewen, RD Braatz"
   journal: "Journal of Process Control"
   pdf: "2018J5_Lu_JPC.pdf"
+  url: "https://www.sciencedirect.com/science/article/pii/S0959152418303457"
   
 - title: "A switching strategy for adaptive state estimation"
   year: "2018"
@@ -159,6 +165,7 @@
   authors: "A Tulsyan, S Khare, B Huang, B Gopaluni, F Forbes"
   journal: "Signal Processing"
   pdf: "2017J1_Tulsyan_SignalProcessing.pdf"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0165168417300105"
  
 - title: "A deep learning architecture for predictive control"
   year: "2018"
