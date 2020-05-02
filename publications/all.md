@@ -41,7 +41,7 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAA
 		{{ pub.authors }}<br>
 		<i>
 		{% if pub.url %}
-		<a href="{{ pub.url }}" target="_blank">
+		<a target="_blank" href="{{ pub.url }}" target="_blank">
 			{{ pub.journal }}.
 		</a>
 		{% else %}
@@ -51,15 +51,15 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAA
 		{{ pub.year }}
 
 		{% if pub.pdf %}
-		<a href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><span class="tag is-info">[PDF]</span></a>
+		<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><span class="tag is-info">[PDF]</span></a>
 		{% endif %}	
 
 		{% if pub.slides %}
-		<a href="{{ site.baseurl }}/assets/preprints/{{ pub.slides }}"><span class="tag is-warning">[Slides]</span></a>
+		<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.slides }}"><span class="tag is-warning">[Slides]</span></a>
 		{% endif %}		
 
 		{% if pub.code %}
-		<a href="{{ pub.code }}"><span class="tag is-success">[Code]</span></a>
+		<a target="_blank" href="{{ pub.code }}"><span class="tag is-success">[Code]</span></a>
 		{% endif %}					
 
 		{% if pub.notes %}
