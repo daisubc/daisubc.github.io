@@ -11,25 +11,32 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAA
 
 ---
 
-#### Jump to
-[Papers](#paper) | [Conferences](#conference) | [Patents](#patent)
-
-{% assign papertypes = "paper|conference|patent" | split: "|" %}
-{% for papertype in papertypes %}
-{% assign papers = site.data.publications | where:"type", papertype | sort: 'year' | reverse %}
-
-## {{ papertype | capitalize}} 
-<a href="#"><span class="tag is-small is-light">Back to Top</span></a>
+<div class="tabs">
+  <ul>
+    <li class="is-active"><a href="{{ site.baseurl }}/publications/">All</a></li>
+    <li><a href="{{ site.baseurl }}/publications/papers">Papers</a></li>
+    <li><a href="{{ site.baseurl }}/publications/conference">Conference</a></li>
+    <li><a href="{{ site.baseurl }}/publications/patents">Patents</a></li>
+  </ul>
+</div>
 
 <ol reversed class="list is-hoverable">
-	{% for y in page.years %}	
-	{% assign papers = site.data.publications | where:"type", papertype | sort: 'year' | reverse %}	
-	{% assign pubs = papers | where:"year", y %}
+	{% for y in page.years %}
+	{% assign pubs = site.data.publications | where:"year", y %}	
 	{% if pubs.size > 0 %}
 		<h5 class="list-item" style="background-color: #eee;"><strong>{{y}}</strong></h5>
 	{% endif %}
 	{% for pub in pubs %}
 	<li class="list-item" style="display: list-item">
+		{% if pub.type == "paper" %}
+			<i>Journal Paper</i>
+		{% elsif pub.type == "conference" %}
+			<i>Conference Proceedings</i>
+		{% elsif pub.type == "patent" %}
+			<i>Patent</i>						
+		{% endif %}
+		<br>
+
 		<b class="large">{{ pub.title }}</b><br>
 		{{ pub.authors }}<br>
 		<i>
@@ -63,5 +70,3 @@ Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAA
 	{% endfor %}
 	{% endfor %}
 </ol>
-
-{% endfor %}

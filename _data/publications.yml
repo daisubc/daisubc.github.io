@@ -235,7 +235,7 @@
   type: "paper"
   year: "2017"
   title: "A switching strategy for adaptive state estimation."
-  journal: "Signal Processing."
+  journal: "Signal Processing"
   pdf: "2017J1_Tulsyan_SignalProcessing.pdf"
   url: "https://dl.acm.org/doi/abs/10.1016/j.sigpro.2017.01.010"
 
@@ -243,7 +243,7 @@
   type: "paper"
   year: "2017"
   title: "A quantile-based scenario analysis approach to biomass supply chain optimization under uncertainty."
-  journal: "Computers & Chemical Engineering."
+  journal: "Computers & Chemical Engineering"
   pdf: "2017J3_Zamar_CCE.pdf"
 
 - title: "Performance assessment of cross-directional control for paper machines"
