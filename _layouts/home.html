@@ -4,77 +4,33 @@ layout: default
 
 <div class="columns">
   <div class="column">
-    <div class="content">
-      <h1 class="is-size-1 has-text-weight-semibold has-text-darkblue"><i class="fas fa-cubes"></i> Data Analytics and Intelligent Systems <strong class="has-text-darkblue">Lab</strong></h1>
-    </div>
-    <div class="content">
-      <i><h3 class="subtitle">Paving the way for the next industrial revolution through <b>data</b></h3></i>
-    </div>
 
-    <div class="tile is-ancestor has-text-centered">
-      <div class="tile is-parent is-3">
-        <div class="tile is-child">
-          <figure class="image is-256x256">
-            <img src="{{ site.baseurl }}/assets/img/timeslice.png">
-          </figure>
-          <p class="subtitle">Data Analytics<sup>1</sup></p>
-        </div>
-      </div>
-      <div class="tile is-parent is-3">
-        <div class="tile is-child">
-          <figure class="image is-256x256">
-            <img src="{{ site.baseurl }}/assets/img/control.png">
-          </figure>
-          <p class="subtitle">Process Control<sup>2</sup></p>
-        </div>
-      </div>
-      <div class="tile is-parent is-3">
-        <div class="tile is-child">
-          <figure class="image is-256x256">
-            <img src="{{ site.baseurl }}/assets/img/rl2.png">
-          </figure>
-          <p class="subtitle">Machine Learning<sup>3</sup></p>
-        </div>
-      </div>
-      <div class="tile is-parent is-3">
-        <div class="tile is-child">
-          <figure class="image is-256x256">
-            <img src="{{ site.baseurl }}/assets/img/alarm.png">
-          </figure>
-          <p class="subtitle">Alarm Analytics<sup>4</sup></p>
-        </div>
-      </div>                
+    {% include research.html %}
+    <hr>
+    {% include industries.html %}
+    <hr>
+
+    <div class="content">
+      {{ content }}
     </div>
 
     <div class="content">
-      <p class="is-size-7">[1] Wang et al. (2019). Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations.
-        <br>[2] Rippon et al. (2019). Machine Direction Adaptive Control on a Paper Machine.
-        <br>[3] Spielberg et al. (2019). Toward self‐driving processes: A deep reinforcement learning approach to control.
-        <br>[4] Tulsyan et al. (2019). Univariate model-based deadband alarm design for nonlinear processes.
-      </p>      
-    </div>
-
-      <div class="content">
-        {{ content }}
+      <h3>News</h3>
+      {% assign articles = site.news | sort: 'date' | reverse %}
+      {% for news in articles limit: 7 %}
+      <div class="list-item">
+        <small>{{ news.date | date_to_long_string}}</small><br>
+        ➜ {% if news.url %}
+        <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
+        {% else %}
+        <b>{{ news.title }}</b><br>
+        {% endif %}
+        {{ news.description}}
       </div>
-
-      <div class="content">
-        <h3>News</h3>
-        {% assign articles = site.news | sort: 'date' | reverse %}
-        {% for news in articles limit: 7 %}
-        <div class="list-item">
-          <small>{{ news.date | date_to_long_string}}</small><br>
-          ➜ {% if news.url %}
-          <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
-          {% else %}
-          <b>{{ news.title }}</b><br>
-          {% endif %}
-          {{ news.description}}
-        </div>
-        {% endfor %}
-        <br>
-        <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
-      </div>
-
+      {% endfor %}
+      <br>
+      <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
     </div>
+      
   </div>
+</div>

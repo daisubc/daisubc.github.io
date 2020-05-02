@@ -11,7 +11,6 @@
   <style type="text/css" media="screen">
     .container {
       margin: 10px auto;
-      max-width: 750px;
     }
   </style>
   <style type="text/css">
@@ -30,88 +29,33 @@
   </style>
 </head>
 <body>
-  <nav class="navbar is-light" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand is-hidden-desktop">
-      <a class="navbar-item" href="{{ site.baseurl }}/">
-        <b class="has-text-darkblue">DAIS LAB</b>
-      </a>
+  {% include navbar.html %}
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" data-target="navBasic">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navBasic" class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <a class="navbar-item" href="{{ site.baseurl }}/">
-          <b>Home</b>
-        </a>
-
-        <a class="navbar-item" href="{{ site.baseurl }}/about/">
-          About
-        </a>
-
-        <a class="navbar-item" href="{{ site.baseurl }}/people/">
-          People
-        </a>
-
-        <a class="navbar-item" href="{{ site.baseurl }}/publications/">
-          Publications
-        </a>
-
-        <a class="navbar-item" href="{{ site.baseurl }}/news/">
-          News
-        </a>        
-
-        <a class="navbar-item" href="{{ site.baseurl }}/teaching/">
-          Teaching
-        </a>
-
-        <a class="navbar-item" href="{{ site.baseurl }}/resources/">
-          Resources
-        </a>        
-
+  <section class="hero is-light is-bold">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-size-1 has-text-darkblue is-size-4-mobile">
+          <i class="fas fa-cubes"></i> Data Analytics and Intelligent Systems <b>Lab</b></i>
+        </h1>
+        <h2 class="subtitle is-size-4 is-size-6-mobile">
+          <i>Paving the way for the next industrial revolution through <b>data</b></i>
+        </h2>
       </div>
     </div>
-  </nav>
+  </section>
 
   <section class="section">
     <div class="container">
-      <!-- <div class="columns is-variable is-5"> -->
-<!--         <div class="column is-one-fifth is-hidden-mobile">
-          <h1 class="title"><b>UBC</b> DAIS Lab
-          </h1>
-          <h3 class="subtitle is-6">Data Analytics and Intelligent Systems Lab at <b>UBC</b></h3>
-
-          <div class="level">
-            <div class="content">
-              <article class="message is-small is-dark">
-                <div class="message-header">
-                  <p>Contact</p>
-                </div>
-                <div class="message-body">
-                  <b>Bhushan Gopaluni</b><br>
-                  <i>Professor</i><br> <a href="https://chbe.ubc.ca/">Department of Chemical & Biological Engineering</a></p>
-                  <p><i>Associate Dean, Education and Professional Development</i><br>
-                    <a href="https://apsc.ubc.ca/">Faculty of Applied Science</a></p>
-                    <p><b><a href="https://www.ubc.ca/">University of British Columbia</a></b></p>                  
-                    <b>Phone:</b>  604.827.5668 <br>
-                    <b>Email: </b> bhushan.gopaluni@ubc.ca <br>
-                    <b>Office:</b> KAISER 5018 <br>
-                    <b>Address: </b>5000-2332 Main Mall, Vancouver, BC  V6T 1Z4
-                  </div>
-                </article>                            
-              </div>
-            </div>
-          </div> -->
-          <div class="column"> 
-            {{ content }}
-          </div>
+      <div class="columns is-variable">
+        <div class="column"> 
+          {{ content }}
+        </div>
+        <div class="column is-one-fifth is-hidden-mobile">
+          {% include sidebar.html %}
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
     <footer class="footer">
       <div class="content has-text-centered">
