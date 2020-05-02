@@ -6,7 +6,7 @@ permalink: /people/
 
 # Faculty & Staff
 - **[Dr. Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
-- **[Aleli Capuno](https://engineering.ubc.ca/staff/aleli-capuno)**, Admin Assistant to Associate Deans
+- **[Aleli Capuno](https://engineering.ubc.ca/about/staff-directory)**, Admin Assistant to Associate Deans
 
 {% assign degrees = "Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
 {% for degree in degrees %}

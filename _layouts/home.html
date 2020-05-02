@@ -20,7 +20,7 @@ layout: default
       {% for news in articles limit: 7 %}
       <div class="list-item">
         <small>{{ news.date | date_to_long_string}}</small><br>
-        ➜ {% if news.url %}
+        <i class="fas fa-arrow-right"></i> {% if news.url %}
         <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
         {% else %}
         <b>{{ news.title }}</b><br>
