@@ -1,7 +1,7 @@
 # DAIS Website Guide
 
 ## News Update
-To update the news page, go to `/_data/news.yml`.
+To update the news page, go to `/_news`.
 
 ## Publications Update
 To update the publications page, go to `/_data/publications.yml`.
