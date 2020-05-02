@@ -18,10 +18,22 @@ permalink: /resources/
 		{% assign resources = site.data.resources %}
 		{% for resource in resources %}
 		<tr>
-			<td>{{ resource.title }}</td>
+			<td>
+				{% if resource.url %}
+					<a target="_blank" href="{{ resource.url }}">{{ resource.title }}</a>
+				{% else %}
+					{{ resource.title }}
+				{% endif %}
+			</td>
 			<td>{{ resource.authors | array_to_sentence_string }}</td>
 			<td>{{ resource.date | date_to_long_string }}</td>
-			<td><a target="_blank" href="{{ site.baseurl }}/assets/pdf/{{ resource.filename }}">{{ resource.filename }}</a></td>
+			<td>
+				{% if resource.filename %}
+					<a target="_blank" href="{{ site.baseurl }}/assets/pdf/{{ resource.filename }}">{{ resource.filename }}</a>
+				{% else %}
+					-
+				{% endif %}
+			</td>
 		</tr>
 		{% endfor %} 
 	</tbody>
