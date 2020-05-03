@@ -1,6 +1,6 @@
 ---
 layout: biography
-name: Lee Rippon
+title: Lee Rippon
 degree: PhD
 img: "assets/profile/leephoto2.png"
 year_end: 

@@ -6,6 +6,7 @@
   <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
   <title>{{ page.title }} - Process Control and Machine Learning Research - UBC Data Analytics and Intelligent Systems Lab </title>
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}/assets/img/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
@@ -46,19 +47,21 @@
 <body>
   
   {% include navbar.html %}
-
-  <header class="hero is-bold">
+  
+  {% if page.title == "Home" %}
+  <header class="hero is-bold is-light">
     <div class="hero-body">
       <div class="container">
         <h1 class="title is-size-1 has-text-darkblue is-size-4-mobile">
           <i class="fas fa-cubes"></i> Data Analytics and Intelligent Systems <b>Lab</b></i>
         </h1>
-        <h2 class="subtitle is-size-4 is-size-6-mobile">
+        <h2 class="subtitle has-text-darkerblue is-size-4 is-size-6-mobile">
           <i>Paving the way for the next industrial revolution through <b>data</b></i>
         </h2>
       </div>
     </div>
   </header>
+  {% endif %}
 
   <section class="section">
     <div class="container">
