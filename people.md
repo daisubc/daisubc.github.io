@@ -1,6 +1,7 @@
 ---
 layout: basic
 title: People
+description: Meet the UBC DAIS Lab team. Our research group is working on machine learning, data analytics and process control research.
 permalink: /people/
 ---
 

@@ -1,11 +1,12 @@
 ---
 layout: basic
+description: Dr. Bhushan Gopaluni leads research at the UBC DAIS Lab. He is a professor in the Department of Chemical and Biological Engineering and an Associate Dean for Education and Professional Development in the Faculty of Applied Science at the University of British Columbia.
 title: About
 permalink: /about/
 ---
 
 <figure class="image is-pulled-left is-128x128">
-	<img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
+	<img  alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
 </figure>
 
 ### [Dr. Bhushan Gopaluni](https://engineering.ubc.ca/staff/bhushan-gopaluni)
