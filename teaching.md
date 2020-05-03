@@ -2,6 +2,7 @@
 layout: basic
 title: Teaching
 permalink: /teaching/
+description: Dr. Bhushan Gopaluni has taught process dynamics and control, optimization and mathematical operations in the Department of Chemical Engineering
 ---
 
 ### **CHBE 356:** Process Dynamics and Control

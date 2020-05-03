@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "<i>Processes</i> Paper"
+description: Yiting's paper on bioreactor performance prediction has been published in Processes.
 date:   "2019-09-01"
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Recognition for most downloaded paper - Spielberg et al. (2019)"
+description: Our recent paper on RL, Toward self‐driving processes A deep reinforcement learning approach to control has received recognition in AIChE Journal
 date:   "2020-04-30"
 ---
 

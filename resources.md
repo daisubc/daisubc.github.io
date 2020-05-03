@@ -2,6 +2,7 @@
 layout: basic
 title: Resources
 permalink: /resources/
+description: Resources available from the DAIS Lab research group at UBC. We post slides, presentations and workshop materials on advanced process control, data analytics and machine learning.
 ---
 
 <div class="table-container">
