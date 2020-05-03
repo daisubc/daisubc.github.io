@@ -2,52 +2,46 @@
 layout: default
 ---
 
-<div class="columns">
-  <div class="column">
+<main class="columns">
+  <article class="column">
 
-    {% include research.html %}
+    <section>
+      {% include research.html %}
+    </section>
+
     <hr>
-    {% include industries.html %}
+    <section>
+      {% include industries.html %}
+    </section>
     <hr>
-    
-    <div class="content">
-      <h3>About Us</h3>
-    </div>
-    <div class="columns is-multiline">
-      <div class="column is-one-fifth is-full-tablet">
-        <figure class="image is-pulled-right is-128x128">
-          <img alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
-        </figure>
-      </div> 
-      <div class="column">   
-        <div class="content">
-          <blockquote><p><b>Dr. Bhushan Gopaluni</b> leads research at the DAIS Lab. He is a professor in the Department of Chemical and Biological Engineering and an Associate Dean for Education and Professional Development in the Faculty of Applied Science at the University of British Columbia.</p>
-          <p>For a full biography, please see the <a href="{{ site.baseurl }}/about/">About</a> page.</p></blockquote>
+
+    <section>
+      <div class="content">
+        {{ content }}
+      </div>
+    </section>
+
+    <hr>
+  
+    <section>
+      <div class="content">
+        <h3>News</h3>
+        {% assign articles = site.news | sort: 'date' | reverse %}
+        {% for news in articles limit: 7 %}
+        <div class="list-item">
+          <small>{{ news.date | date_to_long_string}}</small><br>
+          <i class="fas fa-arrow-right"></i> {% if news.url %}
+          <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
+          {% else %}
+          <b>{{ news.title }}</b><br>
+          {% endif %}
+          {{ news.description}}
         </div>
+        {% endfor %}
+        <br>
+        <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
       </div>
-    </div>
-
-    <div class="content">
-      {{ content }}
-    </div>
-
-    <div class="content">
-      <h3>News</h3>
-      {% assign articles = site.news | sort: 'date' | reverse %}
-      {% for news in articles limit: 7 %}
-      <div class="list-item">
-        <small>{{ news.date | date_to_long_string}}</small><br>
-        <i class="fas fa-arrow-right"></i> {% if news.url %}
-        <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
-        {% else %}
-        <b>{{ news.title }}</b><br>
-        {% endif %}
-        {{ news.description}}
-      </div>
-      {% endfor %}
-      <br>
-      <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
-    </div>
+    </section>
       
-  </div>
-</div>
+  </article>
+</main>
