@@ -14,11 +14,11 @@
   position: "FortisBC, now Burnaby Refinery"
   url: "https://www.siang.ca/"
 
-- name: "Anshul Jain"       
+- name: "Anshul Jain*"       
   degree: "Co-Op Student"                
   year: "2006"
 
-- name: "Varun Agarwal"     
+- name: "Varun Agarwal*"     
   degree: "Co-Op Student"                
   year: "2006"
 
@@ -107,7 +107,7 @@
   year: "2012"
   position: "Response Biomedical Corp"
 
-- name: "Aditya Tulsyan"          
+- name: "Aditya Tulsyan*"          
   degree: "Ph.D."
   year: "2013"
   position: "MIT Postdoc, now Amgen"
@@ -173,7 +173,7 @@
   year: "2012"
   position: "UBC PhD"
 
-- name: "Parisa Towfigi"
+- name: "Parisa Towfigi*"
   degree: "M.A.Sc." 
   year: "2011"
   position: "Siemens"
@@ -250,7 +250,7 @@
   year: "2017"
   position: "Intercontinental Exchange (ICE) London"
 
-- name: "Harigopal Raghavan"
+- name: "Harigopal Raghavan*"
   degree: "Research Associate" 
   year: "2008"
   position: "Shell"

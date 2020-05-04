@@ -3,6 +3,7 @@ layout: basic
 title: People
 description: Meet the UBC DAIS Lab team. Our research group is working on machine learning, data analytics and process control research.
 permalink: /people/
+years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002"]
 ---
 
 # Faculty & Staff
@@ -58,26 +59,33 @@ permalink: /people/
 	<thead>
 		<tr>
 			<th>Name</th>
-			<th>Year</th>
 			<th>Degree</th>
 			<th>Position After Leaving/Now At</th>
 		</tr>
 	</thead>
-	<tbody>
-		{% assign sorted_alum = site.data.alumni | sort: 'year' | reverse %}
-		{% for alum in sorted_alum %}
-		<tr>
-			<td>{% if alum.url %}
-				<a href="{{ alum.url }}">{{ alum.name }}</a>
-				{% else %}
-				{{ alum.name }}
-				{% endif %}
-			</td>
-			<td>{{ alum.year }}</td>
-			<td>{{ alum.degree }}</td>
-			<td>{{ alum.position }}</td>
-		</tr>
-		{% endfor %} 
+	<tbody>	
+	{% for y in page.years %}
+		{% assign sorted_alum = site.data.alumni | where:"year", y %}	
+		{% if sorted_alum.size > 0 %}
+			<td colspan="3" style="background-color: #eee;"><b>{{y}}</b></td>
+			{% for alum in sorted_alum %}
+				<tr>
+					<td>{% if alum.url %}
+						<a href="{{ alum.url }}">{{ alum.name }}</a>
+						{% else %}
+						{{ alum.name }}
+						{% endif %}
+					</td>
+					<td>{{ alum.degree }}</td>
+					<td>{{ alum.position }}</td>
+				</tr>
+			{% endfor %} 
+		{% endif %}
+	{% endfor %}
 	</tbody>
-</table>
+</table>	
 </div>
+
+<small><sup>*</sup><i>My collaborators formally supervised these students but I played a significant role in guiding the research of the respective students.</i></small>
+
+{% include awards.html %}
