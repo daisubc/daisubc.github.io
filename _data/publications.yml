@@ -1,3 +1,10 @@
+- title: "Deep Neural Network Approximation of Nonlinear Model Predictive Control"
+  type: "conference"
+  year: "2020"
+  authors: "Yankai Cao, R. Bhushan Gopaluni"
+  journal: "IFAC-PapersOnLine"
+  pdf: "IFAC20_3818_FI.pdf"
+
 - title: "Optimal PID and Antiwindup Control Design as a Reinforcement Learning Problem"
   type: "conference"
   year: "2020"
