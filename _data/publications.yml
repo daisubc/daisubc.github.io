@@ -172,6 +172,7 @@
   authors: "J Prakash, D Zamar, R. Bhushan Gopaluni, E Kwok"
   journal: "In Proceedings of ADCHEM Conference, Shengyang, China"
   pdf: "2018C3_Prakash_ADCHEM.pdf"
+  pagenum: "590-595"
  
 - title: "Optimization of sawmill residues collection for bioenergy production"
   year: "2017"
@@ -209,13 +210,7 @@
   pdf: "2017C3_Lu_ACC.pdf"
   slides: "2017C3_Lu_ACC_Slides.pdf"
   url: "https://ieeexplore.ieee.org/document/7963381"
-
-- authors: "Tsai, Y.,R. Bhushan Gopaluni, Q. Lu, D.J. Marshman, T. Chmelyk"
-  type: "conference"
-  year: "2017"
-  title: "A Novel Algorithm for Model Plant Mismatch Detection in Model Predictive Controllers"
-  journal: "IFAC-PapersOnLine"
-  url: "https://www.sciencedirect.com/science/article/pii/S2405896315011398"
+  pagenum: "2837-2842"
 
 - authors: "Aditya Tulsyan, Huang, R. Bhushan Gopaluni, F.J. Forbes"
   type: "paper"
@@ -529,6 +524,7 @@
   year: "2019" 
   journal: "In Proceedings of DYCOPS Conference"
   pdf: "2019C1_Kong_DYCOPS.pdf"
+  pagenum: "946-951"
 
 - type: "conference"
   title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
@@ -538,6 +534,7 @@
   pagenum: "13-18"
   code: "https://dais.chbe.ubc.ca/adchem/"
   url: "https://www.sciencedirect.com/science/article/pii/S240589631831913X"
+  notes: "Invited Paper"
 
 - type: "conference"
   title: "A Deep Learning Architecture for Predictive Control"
@@ -546,6 +543,7 @@
   journal: "In Proceedings of ADCHEM Conference, Shenyang, China"
   pagenum: "512-517"
   pdf: "2018C2_Steven_ADCHEM.pdf"
+  notes: "Invited Paper"
 
 - type: "conference"
   title: "State of Health Estimation for Lithium-Ion Batteries"
@@ -582,6 +580,7 @@
   year: "2016" 
   title: "Multi-objective Economic Model Predictive Control of Mechanical Pulping Processes"
   journal: "In proceedings of IEEE CDC, Las Vegas, USA"
+  pagenum: "4040-4045"
 
 - type: "conference"
   authors: "Ekram, F., Barazandegan, K.E. Kwok, R. Bhushan Gopaluni"
@@ -662,6 +661,7 @@
   title: "A novel algorithm for model-plant mismatch detection for model predictive controllers"
   journal: "In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada"
   pagenum: "747 – 753"
+  url: "https://www.sciencedirect.com/science/article/pii/S2405896315011398"
 
 - type: "conference"
   authors: "Ekram, F., Barazandegan, K.E. Kwok, R. Bhushan Gopaluni"

@@ -14,6 +14,9 @@
 		{% elsif pub.type == "patent" %}
 			<i>Patent</i>						
 		{% endif %}
+		{% if pub.notes %}
+		<span class="tag is-info is-light">{{ pub.notes }}</span>
+		{% endif %}		
 		<br>
 
 		<b class="large">{{ pub.title }}</b><br>
@@ -43,12 +46,7 @@
 
 		{% if pub.code %}
 		<a target="_blank" href="{{ pub.code }}"><span class="tag is-success">[Code]</span></a>
-		{% endif %}					
-
-		{% if pub.notes %}
-		<br>
-		<span class="tag is-info is-light">{{ pub.notes }}</span>
-		{% endif %}			
+		{% endif %}
 	</li>
 	{% endfor %}
 	{% endfor %}
