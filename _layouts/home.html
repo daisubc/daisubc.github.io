@@ -28,15 +28,18 @@ layout: default
         <h3>News</h3>
         {% assign articles = site.news | sort: 'date' | reverse %}
         {% for news in articles limit: 7 %}
-        <div class="list-item">
+        <article class="list-item">
           <small>{{ news.date | date_to_long_string}}</small><br>
-          <i class="fas fa-arrow-right"></i> {% if news.url %}
-          <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
-          {% else %}
-          <b>{{ news.title }}</b><br>
-          {% endif %}
-          {{ news.description}}
-        </div>
+          <header>
+            <i class="fas fa-arrow-right"></i> 
+            {% if news.url %}
+              <a href="{{ news.url}}"><b>{{ news.title }}</b></a>
+            {% else %}
+              <b>{{ news.title }}</b>
+            {% endif %}
+          </header>
+          <p>{{ news.description}}</p>
+        </article>
         {% endfor %}
         <br>
         <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>

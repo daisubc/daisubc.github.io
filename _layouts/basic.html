@@ -5,7 +5,13 @@ layout: default
 <div class="columns">
   <div class="column">
     <div class="content">
-      <h1><a href="{{ site.baseurl }}/"><span class="has-text-darkblue">DAIS Lab > </span></a><span class="has-text-darkerblue"><b>{{ page.title }}</b></span></h1>
+      <h1><a href="{{ site.baseurl }}/"><span class="has-text-darkblue">DAIS Lab > </span></a>
+      	{% if layout.title %}
+      		<span class="has-text-darkerblue"><b>{{ layout.title }}</b></span>
+      	{% else %}
+      		<span class="has-text-darkerblue"><b>{{ page.title }}</b></span>
+  		{% endif %}
+  	  </h1>
       <hr>
       {{ content }}
     </div>

@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-  <title>UBC DAIS Lab - {{ page.title }} | Process Control and Machine Learning Research</title>
+  {% if layout.title %}
+    <title>UBC DAIS Lab - {{ layout.title }} - {{ page.title }} | Process Control and Machine Learning Research</title>
+  {% else %}
+    <title>UBC DAIS Lab - {{ page.title }} | Process Control and Machine Learning Research</title>
+  {% endif %}
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}/assets/img/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">

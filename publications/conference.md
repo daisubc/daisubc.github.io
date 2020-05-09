@@ -5,12 +5,6 @@ permalink: /publications/conference
 years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002"]
 ---
 
-**Publication list under construction.** 
-
-Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao) for a full list of publications.
-
----
-
 *Note that six-page full papers were reviewed by two or more international reviewers. The acceptance rate for oral presentations in most conferences is between 40% to 60%. Most papers are available either on IEEEexplorer or on International Federation of Automatic Control (IFAC) website. In my research area, conference proceedings are considered important and go through a rigorous review process.*
 
 <div class="tabs">
