@@ -18,29 +18,13 @@
         <b>Home</b>
       </a>
 
-      <a class="navbar-item" href="{{ site.baseurl }}/about/">
-        About
-      </a>
-
-      <a class="navbar-item" href="{{ site.baseurl }}/people/">
-        People
-      </a>
-
-      <a class="navbar-item" href="{{ site.baseurl }}/publications/">
-        Publications
-      </a>
-
-      <a class="navbar-item" href="{{ site.baseurl }}/news/">
-        News
-      </a>        
-
-      <a class="navbar-item" href="{{ site.baseurl }}/teaching/">
-        Teaching
-      </a>
-
-      <a class="navbar-item" href="{{ site.baseurl }}/resources/">
-        Resources
-      </a>        
+      {% for link in site.data.pages %}
+        {% if page.title == link.name %}
+          <a class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
+        {% else %}
+          <a class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
+        {% endif %}
+      {% endfor %}
 
     </div>
   </div>

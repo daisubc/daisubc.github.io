@@ -1,0 +1,17 @@
+- name: About
+  order: 1
+
+- name: People
+  order: 2
+
+- name: Publications
+  order: 3
+
+- name: News
+  order: 4
+
+- name: Teaching
+  order: 5
+
+- name: Resources
+  order: 6
