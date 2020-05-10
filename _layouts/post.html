@@ -3,6 +3,18 @@ layout: basic
 title: News
 ---
 
+{% if page.image %}
+  {% if page.image contains 'http' %}
+    {% assign image = page.image %}
+  {% else %}
+    {% capture image %}
+      {{ site.baseurl }}/assets/img/{{ page.image }}
+    {% endcapture %}
+  {% endif %}
+{% else %}
+  {% assign image = "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg" %}
+{% endif %}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -35,7 +47,8 @@ title: News
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
-  }
+  },
+  "image":["{{ image | strip_newlines | strip }}"]
 }
 </script>
 
