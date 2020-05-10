@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DAIS Website
-email: siang@alumni.ubc.ca
+email: bhushan.gopaluni@ubc.ca
 description: >- # this means to ignore newlines until "baseurl:"
   The UBC DAIS Lab conducts research at the intersection of process control, data analytics 
   and machine learning. We develop novel algorithms and computational tools 
