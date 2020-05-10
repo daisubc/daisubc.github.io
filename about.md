@@ -5,6 +5,38 @@ title: About
 permalink: /about/
 ---
 
+<script type="application/ld+json">
+{
+"@context": "http://schema.org/",
+"@type": "schema:Person",
+"name": "Prof. Bhushan Gopaluni",
+"honorificPrefix": "Prof.",
+"givenName": "Bhushan",
+"familyName": "Gopaluni",
+"telephone": "604-827-5668",
+"worksFor": {
+   "@type": "CollegeOrUniversity",
+   "name": "University of British Columbia",
+   "url": "https://www.ubc.ca/"
+},
+"address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Vancouver",
+   "addressRegion": "BC",
+   "postalCode": "V6T1Z4",
+   "streetAddress": "5000-2332 Main Mall"
+},
+"image": "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg",
+"jobTitle": "Professor",
+"url": "https://dais.chbe.ubc.ca",
+"workLocation": {
+   "@type": "Place",
+   "name": "KAISER 5018",
+   "url": "https://dais.chbe.ubc.ca"
+}
+}
+</script>
+
 <figure class="image is-pulled-left is-128x128">
 	<img  alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
 </figure>
