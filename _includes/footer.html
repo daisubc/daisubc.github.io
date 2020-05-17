@@ -15,14 +15,16 @@
     <div class="column">
       <div class="content">
         <h4>Navigation</h4>
-          <a class="navbar-item" href="{{ site.baseurl }}/">
+          <ul itemprop="WebPageElement" itemscope itemtype="http://schema.org/SiteNavigationElement" style="list-style-type: none;">
+          <li itemprop="name"><a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
             <b>Home</b>
-          </a>
+          </a></li>
           {% for link in site.data.pages %}
-            <a class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
+            <li itemprop="name"><a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
               {{ link.name }}
-            </a>
+            </a></li>
           {% endfor %}
+          <ul>
       </div>
     </div>
     <div class="column">

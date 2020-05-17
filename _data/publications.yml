@@ -1,3 +1,12 @@
+
+- title: "Modern Machine Learning Tools for Monitoring and Control of Industrial Processes: A Survey"
+  type: "conference"
+  year: "2020"
+  authors: "R. Bhushan Gopaluni, Aditya Tulsyan, Benoit Chachuat, Biao Huang, Jong Min Lee, Faraz Amjad, Seshu Kumar Damarla, Jong Woo Kim, Nathan P. Lawrence"
+  journal: "In proceedings of IFAC World Congress (To Appear)"
+  pdf: "2020C4_Gopaluni_IFAC.pdf"
+  supplementary: "2020C4_Gopaluni_IFAC_Supp.docx"
+
 - title: "Deep Neural Network Approximation of Nonlinear Model Predictive Control"
   type: "conference"
   year: "2020"

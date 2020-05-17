@@ -13,16 +13,16 @@
   </div>
 
   <div id="navBasic" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" href="{{ site.baseurl }}/">
+    <div class="navbar-start" itemscope itemtype="http://schema.org/SiteNavigationElement">
+      <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
         <b>Home</b>
       </a>
 
       {% for link in site.data.pages %}
         {% if page.title == link.name %}
-          <a class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
+          <a itemprop="url" class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
         {% else %}
-          <a class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
+          <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
         {% endif %}
       {% endfor %}
 
