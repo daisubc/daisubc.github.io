@@ -1,72 +1,68 @@
-  <article class="message is-small is-link">
-    <div class="message-header">
-      <b><i class="fas fa-bullhorn"></i> Highlights (June 7th 2020)</b>
-    </div>    
-    <div class="message-body">
-      We are organizing an IFAC 2020 workshop on Process Data Analytics. See the workshop <a href="https://dais.chbe.ubc.ca/ifac2020/">website</a> for more information.
-    </div>
-  </article>
+{% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
 
-  <article class="message is-small is-link">
-    <div class="message-header">
-      <b><i class="fas fa-bullhorn"></i> Highlights (April 26th 2020)</b>
-    </div>    
-    <div class="message-body">
-      We are working on a COVID-19 project. Check it out <a href="https://dais.chbe.ubc.ca/covid-19/">here</a>.
-    </div>
-  </article>  
+{% for highlight in highlights %}
+<article class="message is-small is-link">
+  <div class="message-header">
+    <b><i class="fas fa-bullhorn"></i> Highlights - {{ highlight.date | date_to_long_string}}</b>
+  </div>    
+  <div class="message-body">
+    {{ highlight.message }} <br>
+    <strong><a href="{{ highlight.url }}">LINK</a></strong>
+  </div>
+</article>
+{% endfor %}
 
-  <article class="message is-small">
-    <div class="message-header">
-      <p><i class="fas fa-newspaper"></i> News</p>
-    </div>    
-    <div class="message-body">
-      {% assign articles = site.news | sort: 'date' | reverse %}
-      {% for news in articles limit: 5 %}
-      <p>
-        <small>{{ news.date | date_to_long_string}}</small><br>
-        <i class="fas fa-arrow-right"></i> {% if news.url %}
-        <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
-        {% else %}
-        <b>{{ news.title }}</b><br>
-        {% endif %}
-        {{ news.description}}
-      </p>
-      {% endfor %}
-      <br>
-      <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
-    </div>
-  </article>  
+<article class="message is-small">
+  <div class="message-header">
+    <p><i class="fas fa-newspaper"></i> News</p>
+  </div>    
+  <div class="message-body">
+    {% assign articles = site.news | sort: 'date' | reverse %}
+    {% for news in articles limit: 5 %}
+    <p>
+      <small>{{ news.date | date_to_long_string}}</small><br>
+      <i class="fas fa-arrow-right"></i> {% if news.url %}
+      <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
+      {% else %}
+      <b>{{ news.title }}</b><br>
+      {% endif %}
+      {{ news.description}}
+    </p>
+    {% endfor %}
+    <br>
+    <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
+  </div>
+</article>  
 
-  <article class="message is-small">
-    <div class="message-header">
-      <p><i class="fas fa-users"></i> Recruitment</p>
-    </div>
-    <div class="message-body">
-      <p>Our group is recruiting year-round for postdocs, MASc and PhD students, visiting students and undergraduate students.</p>
+<article class="message is-small">
+  <div class="message-header">
+    <p><i class="fas fa-users"></i> Recruitment</p>
+  </div>
+  <div class="message-body">
+    <p>Our group is recruiting year-round for postdocs, MASc and PhD students, visiting students and undergraduate students.</p>
 
-      <p>All admitted students will receive a stipend.</p>
+    <p>All admitted students will receive a stipend.</p>
 
-      <p>If you're interested in pursuing research or graduate studies, please email a copy of your</p>
-      <p>(1) CV, and <br>(2) Research Statement</p>
-    </div>
-  </article>                            
+    <p>If you're interested in pursuing research or graduate studies, please email a copy of your</p>
+    <p>(1) CV, and <br>(2) Research Statement</p>
+  </div>
+</article>                            
 
 
-  <article class="message is-small">
-    <div class="message-header">
-      <p><i class="fas fa-envelope"></i> Contact</p>
-    </div>
-    <div class="message-body">
-      <b>Bhushan Gopaluni</b><br>
-      <i>Professor</i><br> <a href="https://chbe.ubc.ca/">Department of Chemical & Biological Engineering</a></p>
-      <p><i>Associate Dean, Education and Professional Development</i><br>
-        <a href="https://apsc.ubc.ca/">Faculty of Applied Science</a>
-      </p>
-        <p><b><a href="https://www.ubc.ca/">University of British Columbia</a></b></p>
-        <b>Phone:</b><br>  604.827.5668 <br>
-        <b>Email: </b><br> bhushan.gopaluni@ubc.ca <br>
-        <b>Office:</b><br> KAISER 5018 <br>
-        <b>Address: </b><br>5000-2332 Main Mall, Vancouver, BC  V6T 1Z4
-    </div>
-  </article>                            
+<article class="message is-small">
+  <div class="message-header">
+    <p><i class="fas fa-envelope"></i> Contact</p>
+  </div>
+  <div class="message-body">
+    <b>Bhushan Gopaluni</b><br>
+    <i>Professor</i><br> <a href="https://chbe.ubc.ca/">Department of Chemical & Biological Engineering</a></p>
+    <p><i>Associate Dean, Education and Professional Development</i><br>
+      <a href="https://apsc.ubc.ca/">Faculty of Applied Science</a>
+    </p>
+      <p><b><a href="https://www.ubc.ca/">University of British Columbia</a></b></p>
+      <b>Phone:</b><br>  604.827.5668 <br>
+      <b>Email: </b><br> bhushan.gopaluni@ubc.ca <br>
+      <b>Office:</b><br> KAISER 5018 <br>
+      <b>Address: </b><br>5000-2332 Main Mall, Vancouver, BC  V6T 1Z4
+  </div>
+</article>                            

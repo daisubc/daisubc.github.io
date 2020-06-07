@@ -66,7 +66,6 @@ layout: default
 }
 </script>
 
-
 <main class="columns">
   <article class="column">
 
@@ -88,6 +87,19 @@ layout: default
 
     <hr>
   
+    <section>
+      <div class="content">
+        <h3>Highlights</h3>
+      </div>
+      {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
+      {% for highlight in highlights %}
+      <div class="notification is-link">
+        <i class="fas fa-bullhorn"></i> <b>{{ highlight.date | date_to_long_string}}</b> <br> {{ highlight.message }} <strong><a href="{{ highlight.url }}">Link</a></strong>
+      </div>
+      {% endfor %}
+      <br>
+    </section> 
+
     <section>
       <div class="content">
         <h3>News</h3>

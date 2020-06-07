@@ -1,0 +1,9 @@
+- message: "We are organizing an IFAC 2020 workshop on Process Data Analytics. See the workshop website for more information."
+  date: "2020-06-07"
+  url: "https://dais.chbe.ubc.ca/ifac2020/"
+  display: "True"
+
+- message: "We are working on a COVID-19 project. Check it out here."
+  date: "2020-04-26"
+  url: "https://dais.chbe.ubc.ca/covid-19/"  
+  display: "True"
