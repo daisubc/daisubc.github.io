@@ -42,7 +42,7 @@
 
 		{% if pub.slides %}
 		<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.slides }}"><span class="tag is-warning">[Slides]</span></a>
-		{% endif %}	
+		{% endif %}
 
 		{% if pub.supplementary %}
 		<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.supplementary }}"><span class="tag is-warning">[Supplementary Info]</span></a>
@@ -51,6 +51,11 @@
 		{% if pub.code %}
 		<a target="_blank" href="{{ pub.code }}"><span class="tag is-success">[Code]</span></a>
 		{% endif %}
+
+		{% if pub.thesis %}
+		<a target="_blank" href="{{ pub.thesis }}"><span class="tag is-warning">[Thesis]</span></a>
+		{% endif %}
+				
 	</li>
 	{% endfor %}
 	{% endfor %}
