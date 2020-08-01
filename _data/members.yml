@@ -1,3 +1,11 @@
+- name: Daniel McClement
+  project: Deep Reinforcement Learning Algorithms for Maintenance-free Control
+  img: daniel.jpg
+  cosupervisor: 
+  degree: MASc
+  year_end:
+  year_start: 2020
+
 - name: Yiting Tsai
   project: Data-based Deep Optimal Feature Learning
   img: yiting.png
@@ -59,6 +67,7 @@
   degree: PhD
   year_end:
   year_start: 2019
+  cosupervisor: Yankai Cao
 
 - name: Yixiu Wang
   project: Modeling and Control of Battery Systems
