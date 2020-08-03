@@ -1028,16 +1028,22 @@
   journal: "In Proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Pisa, Italy"
   pagenum: "305-310"
 
+- title: "Optimal closed-loop input design for identification of flat sheet process models"
+  year: "2017"
+  type: "patent"
+  authors: "Qiugang Lu, R. Bhushan Gopaluni, Michael Forbes, PD Loewen, JU Backstrom, Guy A. Dumont"
+  journal: "US Patent App. 15"
+ 
 - title: "Model-plant mismatch detection using model parameter data clustering for paper machines or other systems"
   year: "2018"
   type: "patent"
-  authors: "Q Lu, R. Bhushan Gopaluni, MG Forbes, PD Loewen, JU Backstrom, Guy A. Dumont"
+  authors: "Qiugang Lu, Bhushan Gopaluni, Michael Forbes, Johan Backstrom, Guy A. Dumont, Philip Loewen"
   journal: "US Patent App. 15"
  
 - title: "Model-plant mismatch detection with support vector machine for cross-directional process behavior monitoring"
   year: "2018"
   type: "patent"
-  authors: "Q Lu, R. Bhushan Gopaluni, MG Forbes, PD Loewen, JU Backstrom, Guy A. Dumont"
+  authors: "Qiugang Lu, R. Bhushan Gopaluni, Michael Forbes, Philip Loewen, Johan Backstrom, Guy A. Dumont"
   journal: "US Patent App. 15"
  
 - title: "Closed-loop model parameter identification techniques for industrial model-based process controllers"
