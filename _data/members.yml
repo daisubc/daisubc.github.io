@@ -1,3 +1,11 @@
+- name: Riley Ballachay
+  project: Recurrent Neural Networks with Variational Autoencoders for Predicting Linear MIMO Parameters with Uncertainty
+  img: riley.jpg
+  cosupervisor: 
+  degree: MASc
+  year_end:
+  year_start: 2020
+
 - name: Daniel McClement
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control
   img: daniel.jpg
