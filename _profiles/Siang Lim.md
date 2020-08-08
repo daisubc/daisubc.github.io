@@ -1,7 +1,7 @@
 ---
 layout: biography
 title: Siang Lim
-degree: NSERC USRA Research Student
+degree: NSERC USRA
 img: /assets/img/members/siang.png
 year_end: 2017
 year_start: 2017

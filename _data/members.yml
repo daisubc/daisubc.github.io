@@ -1,22 +1,40 @@
+- name: Yulan Zhang
+  email: yulan.zhang@alumni.ubc.ca
+  project: Deep Reinforcement Learning for Real-time Optimization
+  img: yulan.jpg
+  cosupervisor: 
+  degree: MEng
+  year_end:
+  year_start: 2020  
+
 - name: Iman Jalilvand
   project: Industry 4.0 and Advanced Manufacturing
+  email: iman.jalilvand@aut.ac.ir
   img: iman.jpg
   cosupervisor: 
   degree: MASc
+  biography: >
+    Originally from Tehran, Iran, as his B.Sc., Iman have studied mechanical engineering. Graduated ranking in the top 3 among more than 80 mechanical engineering students. So, he was honored with the title of exceptionally talented student by the Amirkabir University of Technology (AUT) admission office, which allowed him to get admitted directly to AUT (which ranks among the 3 best Iranian universities) to start studying Mechatronics as his M.Sc.
+    During his M.Sc. studies, he selected “Structural Health Monitoring of oil Pipelines” as the theme of his research, which introduced him to the world of IoT and Machine Learning. Most recently, Iman started utilizing various sensors and IoT devices in small projects through different online courses in the field of Machine Learning and also was introduced to Digital Twin concept. That’s why, he chose to start a PhD in the field of Industry 4.0 and Advanced Manufacturing at University of British Columbia, which he hopes he can gain more experience specially in Data Science, since he will be collaborating with both research groups at Composites Research Network (CRN) and Data Analytics and Intelligent Systems (DAIS) Labs. During his free time, Iman enjoys mountain climbing and fishing and also snow sports, which he loves to experience them all in BC.
   year_end:
   year_start: 2020
 
 - name: Riley Ballachay
+  email: riley.ballachay@gmail.com
   project: Recurrent Neural Networks with Variational Autoencoders for Predicting Linear MIMO Parameters with Uncertainty
   img: riley.jpg
+  biography: 
   cosupervisor: 
   degree: MASc
   year_end:
   year_start: 2020
 
 - name: Daniel McClement
+  email: daniel.mcclement@gmail.com
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control
   img: daniel.jpg
+  biography: >
+    Originally from Calgary, Daniel moved to Vancouver to pursue a bachelor's degree in engineering at the University of British Columbia. After being allured by the scenic hikes and beaches around the city as well as the interesting research being done by the DAIS Lab, he chose to stay for his master's degree. He is now studying reinforcement learning for use in control systems. Outside of his studies, Daniel enjoys skiing at Cypress Mountain in the winter and hiking around Vancouver in the summer.
   cosupervisor: 
   degree: MASc
   year_end:
@@ -24,6 +42,7 @@
 
 - name: Yiting Tsai
   project: Data-based Deep Optimal Feature Learning
+  email: yttsai@chbe.ubc.ca
   img: yiting.png
   cosupervisor: 
   degree: PhD
@@ -31,15 +50,19 @@
   year_start: 2016
 
 - name: Lee Rippon
+  email: leeripp@chbe.ubc.ca
   project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
   img: leephoto2.png
   degree: PhD
   year_end:
   year_start: 2017
   has_profile: true
+  biography: >
+    Lee Rippon is a PhD student studying Chemical and Biologial Engineering (CHBE) at UBC. He also holds BASc and MASc degrees from UBC in CHBE where his research experience includes applications of compressive sensing, adaptive control, system identification and process monitoring on sheet and film processes. His current research interests include applying process analytics and machine learning techniques to historical process data to perform fault detection, isolation, and diagnosis in a kraft pulping process.
   cosupervisor: Philip Loewen
 
 - name: Shams Elnawawi
+  email: shams.elnawawi@gmail.com
   project: Data Visualization and Analysis for Large-Dimensional Model Predictive Controllers
   img: shams.jpg
   degree: Undergraduate
@@ -47,6 +70,7 @@
   year_start: 2019
 
 - name: Ying Xiong
+  email: yxiong3@ualberta.ca
   project: MPC Design for the Mechanical Pulping Process
   img: ying.png
   degree: Postdoc
@@ -61,6 +85,7 @@
 #   year_start: 2013
 
 - name: Ryan Jacobson
+  email: rjacobso1988@gmail.com
   project: Optimization of Biomass Supply Chains
   img: ryan.jpg
   degree: PhD
@@ -69,6 +94,7 @@
   cosupervisor: Shahab Sokhansanj
 
 - name: Maricela Best McKay
+  email: maricela@math.ubc.ca
   project: RNN Approximation of Mathematical Models of Li-Ion Batteries
   img: mari.jpg
   degree: PhD
@@ -77,6 +103,7 @@
   cosupervisor: Brian Wetton
 
 - name: Liang Cao
+  email: clubc19@mail.ubc.ca
   project: Predicting Quality-relevant Variables in Industrial Process via Causality Analysis
   project_url: "assets/pdf/lc021420.pdf"
   img: liangcao.jpg
@@ -86,6 +113,7 @@
   cosupervisor: Yankai Cao
 
 - name: Yixiu Wang
+  email: yixiu.wang@ubc.ca
   project: Modeling and Control of Battery Systems
   img: yixiu.jpg
   degree: PhD
@@ -94,6 +122,7 @@
   cosupervisor: Yankai Cao
 
 - name: Seoeun Kim
+  email: seoeun.kim@ubc.ca
   project: Deep Reinforcement Learning for Wheat Crop Modelling
   img: seoeun.jpg
   degree: PhD
@@ -101,6 +130,7 @@
   year_start: 2017
 
 - name: Ali Chamkalani
+  email: ali.chamkalani@msl.ubc.ca
   project: Data Analytic Techniques for Cell Therapy
   img: ali.jpg
   degree: PhD
@@ -109,6 +139,7 @@
   cosupervisor: James Piret
 
 - name: Nathan Lawrence
+  email: Lawrence@math.ubc.ca
   project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
   project_url: "assets/pdf/nl021420.pdf"
   img: nathan.jpg
@@ -118,11 +149,13 @@
   cosupervisor: Philip Loewen
 
 - name: Hashim Migaybil
+  email: hashimhmigaybil@gmail.com
   degree: MASc 
   year_start: 2019
   project: Performance Prediction of a Photovoltaic Assisted Single-Slope Solar Still via ML Models
 
 - name: Ibrahim Yousef
+  email: ibrahim.yousef641@hotmail.com
   degree: MASc 
   img: ibrahim.jpg
   project: Developing Predictive Analytics Techniques Towards Fault Detection in an Electric Arc Furnace
