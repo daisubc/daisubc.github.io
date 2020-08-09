@@ -44,7 +44,9 @@
   project: Data-based Deep Optimal Feature Learning
   email: yttsai@chbe.ubc.ca
   img: yiting.png
-  cosupervisor: 
+  cosupervisor:
+  biography: >
+    Yiting has finished both his BASc and MASc degrees at CHBE. His interests are process control and statistical modelling of time-series data. His current PhD research focuses on the application of Machine Learning techniques to design smart controllers, which identify and predict process faults ahead of time and apply appropriate control actions to prevent such faults.
   degree: PhD
   year_end:
   year_start: 2016
