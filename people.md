@@ -31,7 +31,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 				</p>
 			</header>
 			<div id="collapsible-card" class="is-collapsible is-active">
-				<div class="card-content" style="height: 100%;">
+				<div class="card-content">
 					<div class="columns is-multiline is-mobile">
 						<div class="column is-one-third-desktop">
 					    <figure class="image is-round is-128x128">
@@ -60,15 +60,17 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 							</i>
 							</p>
 						</div>
-					</div>
-					<hr>
-					<p class="subtitle is-size-6 is-size-7-mobile">{{ member.project }}
-						{% if member.project_url %}
-							<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
-						{% endif %}
-					</p>			
+					</div>		
 				</div>
 			</div>
+		  <footer class="card-footer" style="margin-top: auto;">
+		  	<p class="card-footer-item">
+					{{ member.project }}
+					{% if member.project_url %}
+						<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
+					{% endif %}
+				</p>
+		  </footer>			
 		</div>		
 	</div>
 	{% endfor %}
