@@ -1,3 +1,10 @@
+- title: "Data-driven Dynamic Inferential Sensors Based on Causality Analysis"
+  type: "paper"
+  year: "2020"
+  authors: "Liang Cao, Feng Yu, Fan Yang, Yankai Cao, R. Bhushan Gopaluni"
+  journal: "Control Engineering Practice"
+  pdf: "2020J3_Cao_CEP.pdf"
+
 - title: "A Tractable Approximation for Stochastic MPC and Application to Mechanical Pulping Processes"
   type: "paper"
   year: "2020"
