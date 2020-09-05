@@ -7,11 +7,15 @@
 - name: Publications
   order: 3
 
-- name: News
+- name: Videos
   order: 4
+  url: https://vimeo.com/showcase/7521351
 
-- name: Teaching
+- name: News
   order: 5
 
-- name: Resources
+- name: Teaching
   order: 6
+
+- name: Resources
+  order: 7

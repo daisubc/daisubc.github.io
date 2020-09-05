@@ -19,10 +19,14 @@
       </a>
 
       {% for link in site.data.pages %}
-        {% if page.title == link.name %}
-          <a itemprop="url" class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
+        {% if link.url %}
+          <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}</a>
         {% else %}
-          <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
+          {% if page.title == link.name %}
+            <a itemprop="url" class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
+          {% else %}
+            <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
+          {% endif %}
         {% endif %}
       {% endfor %}
 

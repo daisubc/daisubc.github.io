@@ -42,6 +42,7 @@
   year: "2020"
   authors: "Nathan P. Lawrence, Gregory E. Stewart, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom, R. Bhushan Gopaluni"
   journal: "In proceedings of IFAC World Congress (To Appear)"
+  video: "https://vimeo.com/455075386"
   pdf: "IFAC_PID_RL_2020-7.pdf"
 
 - title: "Reinforcement Learning based Design of Linear Fixed Structure Controllers"
@@ -49,6 +50,7 @@
   year: "2020"
   authors: "Nathan P. Lawrence, Gregory E. Stewart, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom, R. Bhushan Gopaluni"
   journal: "In proceedings of IFAC World Congress (To Appear)"
+  video: "https://vimeo.com/455075443"
   pdf: "IFAC_PID_RL_2020-8.pdf"
 
 - title: "A Novel Approach to Alarm Causality Analysis Using Active Dynamic Transfer Entropy"

@@ -9,6 +9,8 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 
 Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao) for a full list of publications.
 
+Videos and presentations are available in our [Vimeo](https://vimeo.com/showcase/7521351){:target="_blank"} page.
+
 ---
 
 <div class="tabs">
