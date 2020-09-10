@@ -36,6 +36,8 @@
   authors: "Yankai Cao, R. Bhushan Gopaluni"
   journal: "In proceedings of IFAC World Congress (To Appear)"
   pdf: "IFAC20_3818_FI.pdf"
+  video: "https://vimeo.com/456390157"
+  slides: "2020IFAC_Yankai_Slides.pdf"
 
 - title: "Optimal PID and Antiwindup Control Design as a Reinforcement Learning Problem"
   type: "conference"
