@@ -295,8 +295,7 @@
   title: "LIONSIMBA — A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control"
   journal: "Journal of The Electrochemical Society, 163(7)"
   pdf: "2016J3_Torchio_JES.pdf"
-  code: "https://github.com/lionsimbatoolbox/LIONSIMBA"
-  supplementary: "http://sisdin.unipv.it/labsisdin/lionsimba.php"
+  code: "http://sisdin.unipv.it/labsisdin/lionsimba.php"
   url: "https://iopscience.iop.org/article/10.1149/2.0291607jes/meta"
 
 - authors: "Lu, Q.,R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont"
