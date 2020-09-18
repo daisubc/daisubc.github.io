@@ -4,6 +4,7 @@
   authors: "Liang Cao, Feng Yu, Fan Yang, Yankai Cao, R. Bhushan Gopaluni"
   journal: "Control Engineering Practice"
   pdf: "2020J3_Cao_CEP.pdf"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066120301969"
 
 - title: "A Tractable Approximation for Stochastic MPC and Application to Mechanical Pulping Processes"
   type: "paper"
