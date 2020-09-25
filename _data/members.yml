@@ -1,3 +1,24 @@
+- name: Jiachen Wei
+  email: jwei06@mail.ubc.ca
+  project: UBC Urban Data Lab
+  img: jiachen.jpg
+  biography: >
+    Jiachen has been actively bringing data science skills into sustainability with three years of experience in the academic and nonprofit sectors. He has a Master of Data Science from the University of British Columbia and B.Env. in Geomatics from the University of Waterloo.
+  degree: Research Associate
+  year_end:
+  year_start: 2020
+
+- name: Shahab Bahrami
+  email: bahramis@ece.ubc.ca
+  project: 5G-enabled Energy and Space Management
+  img: shahab.jpg
+  cosupervisor: Vincent Wong, Christine Chen
+  biography: >
+    Shahab Bahrami received his PhD degree in Electrical and Computer Engineering (ECE) from The University of British Columbia (UBC) in August 2017.  Shahab received various prestigious scholarships at UBC, including the distinguished and highly competitive UBC’s Four Year Fellowship (2013-2017) as well as the Graduate Support Initiative Award from the Faculty of Applied Science at UBC (2014-2017). Currently, Shahab is working as a postdoctoral fellow under the co-supervision of Professors Vincent Wong and Christine Chen. As a part of 5G-enabled Energy and Space Management project for Rogers Communications Inc., Shahab is designing data-driven algorithms for energy management in UBC campus buildings. Shahab’s research interests include energy management, 5G communication networks, power markets, demand side management, with applications to smart grid.
+  degree: Postdoc
+  year_end:
+  year_start: 2020  
+
 - name: Jingyi Wang
   email: j.wang.7@alumni.ubc.ca
   project: Sensor Fusion and Soft Sensor Design with Utilization of Machine Learning Techniques for the Process Industry

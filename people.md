@@ -10,7 +10,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 - **[Dr. Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Aleli Capuno](https://engineering.ubc.ca/about/staff-directory)**, Admin Assistant to Associate Deans
 
-{% assign degrees = "Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
+{% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
 {% for degree in degrees %}
 
 <h1 class="title"> {{ degree }} </h1>
