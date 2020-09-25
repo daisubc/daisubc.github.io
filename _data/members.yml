@@ -2,6 +2,7 @@
   email: jwei06@mail.ubc.ca
   project: UBC Urban Data Lab
   img: jiachen.jpg
+  cosupervisor: Mike Kennedy (UBC Urban Data Lab)
   biography: >
     Jiachen has been actively bringing data science skills into sustainability with three years of experience in the academic and nonprofit sectors. He has a Master of Data Science from the University of British Columbia and B.Env. in Geomatics from the University of Waterloo.
   degree: Research Associate
@@ -12,7 +13,7 @@
   email: bahramis@ece.ubc.ca
   project: 5G-enabled Energy and Space Management
   img: shahab.jpg
-  cosupervisor: Vincent Wong, Christine Chen
+  cosupervisor: Vincent Wong (ECE), Christine Chen (ECE)
   biography: >
     Shahab Bahrami received his PhD degree in Electrical and Computer Engineering (ECE) from The University of British Columbia (UBC) in August 2017.  Shahab received various prestigious scholarships at UBC, including the distinguished and highly competitive UBC’s Four Year Fellowship (2013-2017) as well as the Graduate Support Initiative Award from the Faculty of Applied Science at UBC (2014-2017). Currently, Shahab is working as a postdoctoral fellow under the co-supervision of Professors Vincent Wong and Christine Chen. As a part of 5G-enabled Energy and Space Management project for Rogers Communications Inc., Shahab is designing data-driven algorithms for energy management in UBC campus buildings. Shahab’s research interests include energy management, 5G communication networks, power markets, demand side management, with applications to smart grid.
   degree: Postdoc
@@ -92,7 +93,7 @@
   has_profile: true
   biography: >
     Lee Rippon is a PhD student studying Chemical and Biologial Engineering (CHBE) at UBC. He also holds BASc and MASc degrees from UBC in CHBE where his research experience includes applications of compressive sensing, adaptive control, system identification and process monitoring on sheet and film processes. His current research interests include applying process analytics and machine learning techniques to historical process data to perform fault detection, isolation, and diagnosis in a kraft pulping process.
-  cosupervisor: Philip Loewen
+  cosupervisor: Philip Loewen (Math)
 
 - name: Shams Elnawawi
   email: shams.elnawawi@gmail.com
@@ -124,7 +125,7 @@
   degree: PhD
   year_end:
   year_start: 2016
-  cosupervisor: Shahab Sokhansanj
+  cosupervisor: Shahab Sokhansanj (CHBE)
 
 - name: Maricela Best McKay
   email: maricela@math.ubc.ca
@@ -133,7 +134,7 @@
   degree: PhD
   year_end:
   year_start: 2019
-  cosupervisor: Brian Wetton
+  cosupervisor: Brian Wetton (Math)
 
 - name: Liang Cao
   email: clubc19@mail.ubc.ca
@@ -145,7 +146,7 @@
   degree: PhD
   year_end:
   year_start: 2019
-  cosupervisor: Yankai Cao
+  cosupervisor: Yankai Cao (CHBE)
 
 - name: Yixiu Wang
   email: yixiu.wang@ubc.ca
@@ -156,7 +157,7 @@
   degree: PhD
   year_end:
   year_start: 2019
-  cosupervisor: Yankai Cao
+  cosupervisor: Yankai Cao (CHBE)
 
 - name: Seoeun Kim
   email: seoeun.kim@ubc.ca
@@ -175,7 +176,7 @@
     Originally from Iran, Ali received his bachelor's degree in petroleum engineering from the Petroleum University of Technology (PUT). He then moved to the Memorial University of Newfoundland (MUN), St. Johns, to start his MASc. His current research is in applying data analytics techniques in T cell manufacturing, design of experiment, and machine learning. During his free time, he loves spending time with his family and reading/learning philosophy and mysticism.
   year_end:
   year_start: 2018
-  cosupervisor: James Piret
+  cosupervisor: James Piret (CHBE, Michael Smith Labs)
 
 - name: Nathan Lawrence
   email: Lawrence@math.ubc.ca
@@ -187,7 +188,7 @@
   year_start: 2018
   biography: >
     Nathan is a PhD student in applied mathematics at UBC. Prior to moving to Vancouver, he earned his Bachelor's and Master's degrees in mathematics at Portland State University. He is interested in the interplay between reinforcement learning and control. More specifically, his work aims to develop actionable methods based on deep reinforcement learning for maintenance-free PID control and MPC of industrial processes. Outside of research, he enjoys boardgames and ice skating.
-  cosupervisor: Philip Loewen
+  cosupervisor: Philip Loewen (Math)
 
 - name: Hashim Migaybil
   email: hashimhmigaybil@gmail.com
@@ -201,4 +202,4 @@
   img: ibrahim.jpg
   project: Developing Predictive Analytics Techniques Towards Fault Detection in an Electric Arc Furnace
   year_start: 2019
-  cosupervisor: Sirish Shah
+  cosupervisor: Sirish Shah (U. Alberta)
