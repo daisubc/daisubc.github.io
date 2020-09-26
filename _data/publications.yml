@@ -296,7 +296,7 @@
   pagenum: "111 – 120"
   url: "https://www.sciencedirect.com/science/article/pii/S1474667016431241"
 
-- authors: "Torchio, M., Magni, R. Bhushan Gopaluni, R.D. Braatz, D.M. Raimondo"
+- authors: "Marcello Torchio, Lalo Magni, R. Bhushan Gopaluni, Richard D. Braatz, Davide M. Raimondo"
   type: "paper"
   year: "2016"
   title: "LIONSIMBA — A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control"

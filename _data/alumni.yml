@@ -91,7 +91,7 @@
 - name: "William Xi" 
   degree: "Undergraduate Thesis"
   year: "2018"
-  position: "UC Berkeley MSc"
+  position: "MSc (UC Berkeley)"
 
 - name: "Logan Phillips" 
   degree: "Undergraduate Thesis"
@@ -101,7 +101,7 @@
 - name: "Simeng Li" 
   degree: "Co-Op Student"
   year: "2018"
-  position: "UBC BASc"
+  position: "BASc (UBC)"
 
 - name: "Ruyi Yang" 
   degree: "Summer Student"
@@ -120,12 +120,12 @@
 - name: "Omid Vahidi"             
   degree: "Ph.D."
   year: "2013"
-  position: "Assistant Prof, IUST Iran"
+  position: "Faculty (IUST, Iran)"
 
 - name: "Feras Al-Rowaie"         
   degree: "Ph.D."
   year: "2015"
-  position: "Assistant Prof, Jubail Industrial College"
+  position: "Faculty (Jubail Industrial College)"
 
 - name: "Fatemeh Ekram"            
   degree: "Ph.D."
@@ -145,9 +145,9 @@
 - name: "Qiugang Lu"              
   degree: "Ph.D."
   year: "2018"
-  position: "General Motors, then UW-Madison Zavala Lab postdoc, then tenure-track faculty at Texas Tech"
+  position: "GM Canada, then Zavala Lab postdoc (UW-Madison), then faculty (Texas Tech)"
 
-- name: "Mahsa Sadeghassadi"      
+- name: "Mahsa Sadeghassadi"
   degree: "Ph.D."
   year: "2016"
   position: "inCTRL Solutions"
@@ -155,7 +155,7 @@
 - name: "Kai Wang"                
   degree: "Ph.D."
   year: "2018"
-  position: "Associate Prof, CSU, Changsha"
+  position: "Faculty (CSU, Changsha)"
   url: "http://faculty.csu.edu.cn/wangkai/en/index.htm"
 
 - name: "Yi Luo"                  
@@ -166,7 +166,7 @@
 - name: "Shelly Jang"
   degree: "M.A.Sc." 
   year: "2009" 
-  position: "University of Washington PhD"
+  position: "PhD (U. Washington)"
 
 - name: "Devin Marshman"
   degree: "M.A.Sc." 
@@ -176,7 +176,7 @@
 - name: "Sayyed Soroush Nasseri"
   degree: "M.A.Sc." 
   year: "2012"
-  position: "UBC PhD"
+  position: "PhD (UBC)"
 
 - name: "Parisa Towfigi*"
   degree: "M.A.Sc." 
@@ -212,12 +212,12 @@
 - name: "Yiting Tsai"
   degree: "M.A.Sc." 
   year: "2015"
-  position: "UBC PhD"
+  position: "PhD (UBC)"
 
 - name: "Lee Rippon"
   degree: "M.A.Sc." 
   year: "2016"
-  position: "UBC PhD"
+  position: "PhD (UBC)"
 
 - name: "Aigerim Ongalbayeva"
   degree: "M.A.Sc." 
@@ -276,10 +276,10 @@
 - name: "Phanindra Jampana"
   degree: "Postdoc" 
   year: "2010"
-  position: "Assistant Prof at IIT, Hyderabad"
+  position: "Faculty (IIT, Hyderabad)"
 
 - name: "Vinay Bhavdekar"
   degree: "Postdoc" 
   year: "2013"
-  position: "Postdocs UofA and UC Berkeley, then GE, now Wabtec Corp"
+  position: "Postdoc (UofA and UC Berkeley), then GE, then Wabtec Corp"
   url: "https://www.linkedin.com/in/vabavdekar/"
