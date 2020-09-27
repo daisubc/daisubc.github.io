@@ -1,6 +1,6 @@
 ---
 layout: basic
-description: Dr. Bhushan Gopaluni leads research activities at the UBC DAIS Lab. He is a professor in the Department of Chemical and Biological Engineering and an Associate Dean for Education and Professional Development in the Faculty of Applied Science at the University of British Columbia.
+description: Dr. Bhushan Gopaluni leads research activities at the UBC DAIS Lab. He is a professor in the Department of Chemical and Biological Engineering and an Associate Dean for Education and Professional Development in the Faculty of Applied Science at the University of British Columbia (UBC).
 title: About
 permalink: /about/
 ---
@@ -43,7 +43,7 @@ permalink: /about/
 
 ### [Dr. Bhushan Gopaluni](https://engineering.ubc.ca/staff/bhushan-gopaluni){:target="_blank"}
 
-is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia. 
+is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia (UBC). 
 
 He is also an associate faculty in the [Institute of Applied Mathematics](https://www.iam.ubc.ca/){:target="_blank"}, the [Institute for Computing, Information and Cognitive Systems](https://icics.ubc.ca/){:target="_blank"}, [Pulp and Paper Center](https://www.ppc.ubc.ca/) and the [Clean Energy Research Center](https://cerc.ubc.ca/){:target="_blank"}. 
 
