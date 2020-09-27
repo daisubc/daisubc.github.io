@@ -20,13 +20,13 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 	<div class="columns is-multiline is-mobile is-fullheight">
 	{% for member in members %}
 	<div class="column is-half-desktop is-full-mobile">
-		<div class="card" style="display:flex; flex-direction: column; height: 100%;">
+		<div class="card" itemscope itemtype="http://schema.org/Person" style="display:flex; flex-direction: column; height: 100%;">
 			<header class="card-header">
 				<p class="card-header-title">
 				{% if member.has_profile %}
-					<a href="{{ site.baseurl }}/profile/{{ member.name }}">{{ member.name }}</a>
+					<a href="{{ site.baseurl }}/profile/{{ member.name }}"><span itemprop="name">{{ member.name }}</span></a>
 				{% else %}
-					{{ member.name }}
+					<span itemprop="name">{{ member.name }}</span>
 				{% endif %}
 				</p>
 			</header>
@@ -44,7 +44,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 					   </div>
 					   <div class="column">
 					    <p>
-					    	<span class="has-text-weight-light is-size-7"><i class="fas fa-envelope"></i> {{ member.email }}</span><br>
+					    	<span itemprop="email" class="has-text-weight-light is-size-7"><i class="fas fa-envelope"></i> {{ member.email }}</span><br>
 					    	<small>
 									Started {{ member.year_start }}
 									{% if member.cosupervisor %}
@@ -55,7 +55,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 						</div>
 						<div class="column is-full">
 							<p class="is-size-7">
-							<i>
+							<i itemprop="description">
 								{{member.biography}}
 							</i>
 							</p>
@@ -64,7 +64,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 				</div>
 			</div>
 		  <footer class="card-footer" style="margin-top: auto;">
-		  	<p class="card-footer-item">
+		  	<p class="card-footer-item" itemprop="knowsAbout">
 					{{ member.project }}
 					{% if member.project_url %}
 						<a href="{{ site.baseurl }}/{{ member.project_url }}"><span class="tag is-light is-info">PDF</span></a>
