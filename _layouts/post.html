@@ -16,7 +16,7 @@ title: News
 {% endif %}
 
 <div class="content">
-	<article itemscope itemtype="http://schema.org/NewsArticle">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
 		<header>
 			<small>Posted: <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_long_string}}</time></small>
 			<h1 itemprop="name headline">{{page.title}}</h1>
