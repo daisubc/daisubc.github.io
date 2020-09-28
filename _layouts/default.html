@@ -3,11 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if layout.title %}
-    <title>UBC DAIS Lab (Bhushan Gopaluni) - {{ layout.title }} - {{ page.title }}</title>
-  {% else %}
-    <title>UBC DAIS Lab (Bhushan Gopaluni) - {{ page.title }}</title>
-  {% endif %}
+  <title>{{ page.title }} | UBC DAIS Lab - Bhushan Gopaluni</title>
   <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}/assets/img/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
