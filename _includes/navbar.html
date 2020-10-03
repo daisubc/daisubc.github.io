@@ -20,7 +20,7 @@
 
       {% for link in site.data.pages %}
         {% if link.url %}
-          <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}</a>
+          <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}&nbsp;<i class="fas fa-external-link-alt"></i></a>
         {% else %}
           {% if page.title == link.name %}
             <a itemprop="url" class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
