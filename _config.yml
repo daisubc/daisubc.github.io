@@ -41,7 +41,10 @@ collections:
     permalink: /news/:path/ 
   publications:
     output: true
-    permalink: /publications/:path/      
+    permalink: /publications/:path/
+  research:
+    output: true
+    permalink: /research/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
