@@ -1,7 +1,7 @@
 ---
 layout: basic
 title: Research
-permalink: /research
+permalink: /research/
 ---
 
 The DAIS Lab at the University of British Columbia conducts research at the intersection of *process control*, *data analytics* and *machine learning*.
