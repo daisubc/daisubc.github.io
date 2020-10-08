@@ -13,7 +13,7 @@ On the applied research side, we develop novel algorithms and computational tool
 We are interested in the development of smart plants and intelligent processes, which can be distinguished from traditional industrial plants by:
 
 - Large-scale dynamic models
-- [Maintenance-free controllers](./research/maintenancefreecontrollers)
+- [Maintenance-free controllers](/research/maintenancefreecontrollers)
 - Automatic detection and diagnosis of faults
 - Predictive analytics
 
