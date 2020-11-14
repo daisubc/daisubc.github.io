@@ -23,15 +23,15 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 		  <figure class="media-left">
 		    <p class="image is-64x64 is-round">
 		    	{% if member.img %}
-		    		<a href="{{ site.baseurl }}/profile/{{ member.title }}"><img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
+		    		<a href="{{ member.url }}"><img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
 		    	{% else %}
-		    		<a href="{{ site.baseurl }}/profile/{{ member.title }}"><img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
+		    		<a href="{{ member.url }}"><img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
 		    	{% endif %}	    	
 		    </p>
 		  </figure>
 	  	<div class="media-content">
 	    	<div class="content">	  
-		  		<b><a href="{{ site.baseurl }}/profile/{{ member.title }}"><span itemprop="name">{{ member.title }}</span></a></b>
+		  		<b><a href="{{ member.url }}"><span itemprop="name">{{ member.title }}</span></a></b>
 		  		<p><small>{{ member.project }}</small></p>
 		  	</div>
 		  </div>

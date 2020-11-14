@@ -35,7 +35,7 @@ plugins:
 collections: 
   profiles:
     output: true
-    permalink: /profile/:path/
+    permalink: /profile/:name/
   news:
     output: true
     permalink: /news/:path/ 

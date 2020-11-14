@@ -1,6 +1,11 @@
 <ol reversed class="list is-hoverable">
 	{% for y in page.years %}
-	{% assign filteredpapers = site.data.publications | where:"type", include.papertype %}
+	{% if include.papertype %}
+		{% assign filteredpapers = site.data.publications | where:"type", include.papertype %}
+	{% else %}
+		{% assign filteredpapers = site.data.publications %}
+	{% endif %}
+
 	{% assign pubs = filteredpapers | where:"year", y %}
 	{% if pubs.size > 0 %}
 		<h5 class="list-item" style="background-color: #eee;"><strong>{{y}}</strong></h5>
