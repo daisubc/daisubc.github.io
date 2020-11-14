@@ -4,6 +4,7 @@
   authors: "Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni"
   journal: "In Proceedings of Advances in Neural Information Processing Systems 33 (NeurIPS 2020, To Appear)"
   pdf: "2020C6_Lawrence_NeurIPS.pdf"
+  poster: "https://figshare.com/articles/poster/Almost_Surely_Stable_Deep_Dynamics/13238408"
 
 - title: "Data-driven Dynamic Inferential Sensors Based on Causality Analysis"
   type: "paper"
