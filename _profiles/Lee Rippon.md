@@ -1,16 +1,14 @@
 ---
 layout: biography
-title: Lee Rippon
+email: leeripp@chbe.ubc.ca
+project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
+img: leephoto2.png
 degree: PhD
-img: "assets/profile/leephoto2.png"
-year_end: 
+year_end: None
 year_start: 2017
-email: 
-biography: >
-  Lee Rippon is a PhD student studying Chemical and Biologial Engineering (CHBE) at UBC. He also holds BASc and MASc degrees from UBC in CHBE where his research experience includes applications of compressive sensing, adaptive control, system identification and process monitoring on sheet and film processes. His current research interests include applying process analytics and machine learning techniques to historical process data to perform fault detection, isolation, and diagnosis in a kraft pulping process. For more information, click the home button above.
-project: >
-  Interested in process control and artificial intelligence. Particularly, in ML algorithms for APC and FDD in process systems applications.
-linkedin: https://www.linkedin.com/in/leerippon
-homepage: https://www.leerippon.com
-github: http://www.github.com/LeeRippon
+has_profile: True
+biography: Lee Rippon is a PhD student studying Chemical and Biologial Engineering (CHBE) at UBC. He also holds BASc and MASc degrees from UBC in CHBE where his research experience includes applications of compressive sensing, adaptive control, system identification and process monitoring on sheet and film processes. His current research interests include applying process analytics and machine learning techniques to historical process data to perform fault detection, isolation, and diagnosis in a kraft pulping process.
+
+cosupervisor: Philip Loewen (Math)
+title: Lee Rippon
 ---

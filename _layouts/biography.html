@@ -2,76 +2,57 @@
 layout: basic
 ---
 
-<div class="columns">
+<div class="columns is-multiline">
+  <div class="column is-full">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">
+    <figure class="image is-128x128 is-inline-block">
+      <img src="{{ site.baseurl }}/assets/profile/{{ page.img }}" alt="{{ page.name }}">
+      <figcaption>{{ page.title }}</figcaption>
+    </figure>
+  </div>
   <div class="column">
-    <div class="content">
-      <div class="level">
-        <h1 class="title">Profile</h1>
+    {% if page.biography.size > 1 %}
+      <p>{{ page.biography }}</p>
+      <br>
+      <br>
+    {% endif %}
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>Program/Degree</b>
       </div>
-      <div class="level">
-        <div class="media">
-          <div class="media-left">
-            <figure class="image is-128x128">
-              <img src="{{ site.baseurl }}/{{ page.img }}" alt="{{ page.name }}">
-            </figure>
-          </div>
-          <div class="media-content">
-            <div class="level">
-              <p class="title is-4">{{ page.title }} <span class="tag is-dark">{{ page.degree }} Student</span></p>
-            </div>
-            <div class="level">
-              <p class="is-5">{{ page.project }}</p>
-            </div>
-            {% if page.email %}
-            <div class="level">
-              <p class="subtitle is-6"><span class="icon"><i class="fa fa-envelope"></i></span> {{ page.email }}</p>
-            </div>
-            {% endif %}
-            <div class="level">
-              <div class="buttons has-addons">
-                {% if page.github %}
-                <a href="{{ page.github }}">
-                  <button class="button is-fullwidth">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>GitHub</span>
-                  </button>
-                </a>
-                {% endif %}
-                {% if page.linkedin %}
-                <a href="{{ page.linkedin }}">
-                  <button class="button is-fullwidth">
-                    <span class="icon">
-                      <i class="fab fa-linkedin"></i>
-                    </span>
-                    <span>LinkedIn</span>
-                  </button>
-                </a>
-                {% endif %}
-                {% if page.homepage %}
-                <a href="{{ page.homepage }}">
-                  <button class="button is-fullwidth">
-                    <span class="icon">
-                      <i class="fa fa-home"></i>
-                    </span>
-                    <span>Home</span>
-                  </button>
-                </a>
-                {% endif %}
-              </div>                             
-            </div>
-          </div>
-        </div>
-      </div> 
-      <hr> 
-      <p class="title is-5">Biography</p>
-      <article class="message is-dark">
-        <div class="message-body">
-          {{ page.biography }}
-        </div>
-      </article>
-      <p class="small is-7"><a href="{{ site.baseurl }}/people/"><span class="icon"><i class="fa fa-arrow-circle-left"></i></span>Back to Lab Members</a></p>
+      <div class="column">
+        {{ page.degree }}, since {{ page.year_start }}
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>Research</b>
+      </div>
+      <div class="column">
+        {{ page.project }}
+      </div>
+    </div>
+    {% if page.cosupervisor %}
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>Co-supervisor(s)</b>
+      </div>
+      <div class="column">
+        {{ page.cosupervisor }}
+      </div>
+    </div>
+    {% endif %}
+    <div class="columns">      
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>Contact</b>
+      </div>
+      <div class="column">
+        {{ page.email }}
+      </div>      
     </div>
   </div>
 </div>
+<hr>
+<p class="small is-7"><a href="{{ site.baseurl }}/people/"><span class="icon"><i class="fa fa-arrow-circle-left"></i></span>Back to Lab Members</a></p>
