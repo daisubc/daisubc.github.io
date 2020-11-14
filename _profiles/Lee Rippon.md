@@ -11,4 +11,5 @@ biography: Lee Rippon is a PhD student studying Chemical and Biologial Engineeri
 
 cosupervisor: Philip Loewen (Math)
 title: Lee Rippon
+pub_name: Lee D. Rippon
 ---

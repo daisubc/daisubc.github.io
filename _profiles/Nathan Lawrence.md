@@ -11,4 +11,5 @@ biography: Nathan is a PhD student in applied mathematics at UBC. Prior to movin
 
 cosupervisor: Philip Loewen (Math)
 title: Nathan Lawrence
+pub_name: Nathan P. Lawrence
 ---

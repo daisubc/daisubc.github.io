@@ -141,7 +141,7 @@
 - title: "Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations"
   year: "2019"
   type: "paper"
-  authors: "K Wang, L Rippon, J Chen, Z Song, R. Bhushan Gopaluni"
+  authors: "K Wang, Lee D. Rippon, J Chen, Z Song, R. Bhushan Gopaluni"
   url: "https://pubs.acs.org/doi/10.1021/acs.iecr.9b00290"
   journal: "Industrial & Engineering Chemistry Research"
   pdf: "2019J5_Wang_IECR.pdf"
@@ -165,7 +165,7 @@
 - title: "Machine Direction Adaptive Control on a Paper Machine"
   year: "2019"
   type: "paper"
-  authors: "LD Rippon, Q Lu, MG Forbes, R. Bhushan Gopaluni, PD Loewen, JU Backström"
+  authors: "Lee D. Rippon, Q Lu, MG Forbes, R. Bhushan Gopaluni, PD Loewen, JU Backström"
   journal: "Industrial & Engineering Chemistry Research"
   url: "https://pubs.acs.org/doi/10.1021/acs.iecr.8b06067"
   pdf: "2019J6_Rippon_IECR.pdf"
@@ -248,7 +248,7 @@
   url: "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.15860"
   pdf: "2017J5_Tulsyan_AIChE.pdf"
 
-- authors: "Lu, Q., D. Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J.U. Backstrom, G.A. Dumont"
+- authors: "Lu, Q., Lee D. Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J.U. Backstrom, G.A. Dumont"
   type: "conference"
   year: "2017"
   title: "Noncausal modeling and closed-loop optimal input design for cross-directional processes of paper machines"
@@ -590,7 +590,7 @@
 
 - type: "conference"
   title: "Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial"
-  authors: "Yiting Tsai, Qiugang Lu, Lee Rippon, Siang Lim, Aditya Tulsyan, R. Bhushan Gopaluni"
+  authors: "Yiting Tsai, Qiugang Lu, Lee D. Rippon, Siang Lim, Aditya Tulsyan, R. Bhushan Gopaluni"
   year: "2018" 
   journal: "In Proceedings of ADCHEM Conference, Shengyang, China"
   pagenum: "13-18"
@@ -740,7 +740,7 @@
   pagenum: "4536 – 4541"
 
 - type: "conference"
-  authors: "Lu, Q., Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont"
+  authors: "Lu, Q., Lee D. Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont"
   year: "2015" 
   title: "Cross-directional controller performance monitoring for paper machines"
   journal: "In proceedings of American Control Conference, Chicago, USA"
@@ -1088,6 +1088,6 @@
 - title: "Closed-loop model parameter identification techniques for industrial model-based process controllers"
   year: "2018"
   type: "patent"
-  authors: "Q Lu, LD Rippon, R. Bhushan Gopaluni, MG Forbes, PD Loewen, JU Backstrom, Guy A. Dumont"
+  authors: "Q Lu, Lee D. Rippon, R. Bhushan Gopaluni, MG Forbes, PD Loewen, JU Backstrom, Guy A. Dumont"
   journal: "US Patent App. 15"
 
