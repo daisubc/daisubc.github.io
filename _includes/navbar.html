@@ -17,12 +17,13 @@
       <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
         <b>Home</b>
       </a>
-
+      {% assign paths = page.url | split:"/" | downcase %}
       {% for link in site.data.pages %}
+      {% assign linkname = link.name | downcase %}
         {% if link.url %}
           <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}&nbsp;<i class="fas fa-external-link-alt"></i></a>
         {% else %}
-          {% if page.title == link.name %}
+          {% if paths contains linkname %}
             <a itemprop="url" class="navbar-item is-active has-text-darkblue" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>
           {% else %}
             <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> {{ link.name }}</a>
@@ -32,5 +33,4 @@
 
     </div>
   </div>
-  <!-- </div> -->
 </nav>

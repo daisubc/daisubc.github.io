@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: Research
+title: Research Overview
 permalink: /research/
 ---
 

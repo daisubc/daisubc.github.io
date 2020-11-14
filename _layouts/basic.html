@@ -5,13 +5,7 @@ layout: default
 <div class="columns">
   <div class="column">
     <div class="content">
-      <h2><a href="{{ site.baseurl }}/"><span class="has-text-darkblue">DAIS Lab > </span></a>
-      	{% if layout.title %}
-      		<span class="has-text-darkerblue"><b>{{ layout.title }}</b></span>
-      	{% else %}
-      		<span class="has-text-darkerblue"><b>{{ page.title }}</b></span>
-  		{% endif %}
-  	  </h2>
+      {% include breadcrumbs.html url=page.url path=page.path title=page.title %}
       <hr>
       {{ content }}
     </div>

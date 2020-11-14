@@ -1,0 +1,33 @@
+<!-- https://simpleit.rocks/ruby/jekyll/tutorials/how-to-create-breadcrumbs-with-hierarchical-categories-in-jekyll/ -->
+
+{% assign categories = include.path | split:"/" %}
+{% assign route="" %}
+
+<ol itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs-ol">
+  <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+    <a href="{{ '/' | absolute_url }}"><b>UBC DAIS Lab</b></a>
+    <meta itemprop="position" content="1" />
+  </li>
+
+  {% for cat in categories %}
+    {% assign position = forloop.index | plus: 1 %}
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+      {% if cat contains 'profiles' %}
+        {% assign category = 'people' %}
+      {% elsif cat contains 'news' %}
+        {% assign category = 'news' %}  
+      {% else %}
+        {% assign category = cat %}
+      {% endif %}
+      {% assign route = route | append: '/' | append: category %}
+      {% if forloop.last %}
+        <span itemprop="name">{{ include.title }}</span>
+      {% else %}
+        <a itemprop="item" href="{{ route | absolute_url }}">
+          <span itemprop="name">{{ category | capitalize }}</span>
+        </a>
+      {% endif %}
+      <meta itemprop="position" content="{{ position }}" />
+    </li>
+  {% endfor %}
+</ol>

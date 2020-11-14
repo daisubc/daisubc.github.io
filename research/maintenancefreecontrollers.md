@@ -1,6 +1,6 @@
 ---
 layout: basic
-title: Research > Maintenance-free Controllers
+title: Maintenance-free Controllers
 permalink: /research/maintenancefreecontrollers
 papers: ["Almost Surely Stable Deep Dynamics", "Deep Neural Network Approximation of Nonlinear Model Predictive Control", "Optimal PID and Antiwindup Control Design as a Reinforcement Learning Problem", "Reinforcement Learning based Design of Linear Fixed Structure Controllers", "Towards Self-Driving Processes: A Deep Reinforcement Learning Approach to Control"]
 ---
