@@ -21,7 +21,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 	<div class="column is-one-third-desktop is-full-mobile">
 		<article class="media">
 		  <figure class="media-left">
-		    <p class="image is-64x64 is-round">
+		    <p class="image is-96x96 is-round">
 		    	{% if member.img %}
 		    		<a href="{{ member.url }}"><img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
 		    	{% else %}
