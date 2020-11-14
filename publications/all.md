@@ -7,9 +7,11 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 
 **Publication list under construction.** 
 
-Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao) for a full list of publications.
+- Please see [Google Scholar](https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao) for a full list of publications.
 
-Videos and presentations are available in our [Vimeo](https://vimeo.com/showcase/7521351){:target="_blank"} page.
+- Videos and presentations are available in our [Vimeo](https://vimeo.com/showcase/7521351){:target="_blank"} page.
+
+- Posters, data and other documents are also available in our [Figshare](https://figshare.com/authors/Bhushan_Gopaluni/9643466) page.
 
 ---
 
