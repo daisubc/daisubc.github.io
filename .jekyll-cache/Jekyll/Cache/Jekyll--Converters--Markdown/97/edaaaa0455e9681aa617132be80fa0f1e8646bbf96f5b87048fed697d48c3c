@@ -1,0 +1,2446 @@
+I"��<div class="tabs">
+  <ul>
+    <li><a href="/publications/">All</a></li>
+    <li class="is-active"><a href="/publications/papers">Papers</a></li>
+    <li><a href="/publications/conference">Conference</a></li>
+    <li><a href="/publications/patents">Patents</a></li>
+  </ul>
+</div>
+
+<ol reversed="" class="list is-hoverable">
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2020</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Data-driven Dynamic Inferential Sensors Based on Causality Analysis</b><br />
+		Liang Cao, Feng Yu, Fan Yang, Yankai Cao, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0967066120301969">
+			Control Engineering Practice.
+		</a>
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020J3_Cao_CEP.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Tractable Approximation for Stochastic MPC and Application to Mechanical Pulping Processes</b><br />
+		Hui Tian, Jagadeesan Prakash, Victor M. Zavala, James A. Olson, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135420300272">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020J2_Tian_CCE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+		<a target="_blank" href="https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0389625"><span class="tag is-warning">[Thesis]</span></a>
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Novel Approach to Alarm Causality Analysis Using Active Dynamic Transfer Entropy</b><br />
+		Yi Luo, R. Bhushan Gopaluni, Yuan Xu, Liang Cao, Qun-Xiong Zhu<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b06262">
+			Industrial &amp; Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020J2_Luo_IECR.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Support vector machine approach for model-plant mismatch detection</b><br />
+		Qiugang Lu, Michael G. Forbes, Philip D. Loewen, Johan U. Backström, Guy A. Dumont, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135419302121">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020J1_Lu_CCE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Effects of cysteine, asparagine or glutamine limitations in CHO cell batch and fed‐batch cultures</b><br />
+		Navid Ghaffari,  Mario A. Jardon,  Natalie Krahn,  Michael Butler, Malcolm Kennard,  Robin F. B. Turner, R. Bhushan Gopaluni, James M. Piret<br />
+		<i>
+		
+		<a target="_blank" href="https://aiche.onlinelibrary.wiley.com/doi/10.1002/btpr.2946">
+			Biotechnology Progress.
+		</a>
+		
+		</i>
+		
+		2020
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2019</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Comparison of Clustering and Prediction Methods for Identifying Key Chemical–Biological Features Affecting Bioreactor Performance</b><br />
+		Yiting Tsai, Susan A. Baldwin, Lim C. Siang, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.mdpi.com/2227-9717/7/9/614">
+			Processes.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J11_Yiting_Processes.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+		<a target="_blank" href="https://github.com/yitingtsai90/Bioreactor-data-analysis"><span class="tag is-success">[Code]</span></a>
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Identification of symmetric noncausal processes: Cross-directional modeling of paper machines</b><br />
+		Qiugang Lu, Philip D. Loewen, R. Bhushan Gopaluni, Michael G. Forbes, Johan U. Backström, Guy A. Dumont, Michael S. Davies<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0005109819300421">
+			Automatica.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J3_Lu_Automatica.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Systematic development of a new variational autoencoder model based on uncertain data for monitoring nonlinear processes</b><br />
+		Kai Wang, Michael G. Forbes, R. Bhushan Gopaluni, Junghui Chen, Zhihuan Song<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/8643825">
+			IEEE Access.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J4_Wang_IEEEAccess.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Top 10% Most Downloaded</span>
+				
+		<br />
+
+		<b class="large">Towards Self-Driving Processes: A Deep Reinforcement Learning Approach to Control</b><br />
+		Steven P. Spielberg, Aditya Tulsyan, Nathan P. Lawrence, Philip D. Loewen, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.16689">
+			AIChE Journal.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J9_Spielberg_AIChE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">An economic model predictive control framework for mechanical pulping processes</b><br />
+		H Tian, Q Lu, R. Bhushan Gopaluni, VM Zavala, JA Olson<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0967066118303538">
+			Control Engineering Practice.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J1_Tian_CEP.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Design and application of a database-driven PID controller with data-driven updating algorithm</b><br />
+		S Wakitani, T Yamamoto, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/10.1021/acs.iecr.9b00704">
+			Industrial &amp; Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J10_Wakitani_IECR.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Data-Driven Dynamic Modeling and Online Monitoring for Multiphase and Multimode Batch Processes with Uneven Batch Durations</b><br />
+		K Wang, L Rippon, J Chen, Z Song, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/10.1021/acs.iecr.9b00290">
+			Industrial &amp; Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J5_Wang_IECR.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Development and Characterization of a Non-Intrusive Sensor to Measure Wear in Centrifugal Pumps</b><br />
+		B Bohn, R Khoie, R. Bhushan Gopaluni, JA Olson, B Stoeber<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/8723378/">
+			IEEE Sensors Journal.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J8_Bohn_IEEESensors.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Univariate model-based deadband alarm design for nonlinear processes</b><br />
+		Aditya Tulsyan, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/10.1021/acs.iecr.9b00014">
+			Industrial &amp; Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J7_Tulsyan_IECR.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Machine Direction Adaptive Control on a Paper Machine</b><br />
+		LD Rippon, Q Lu, MG Forbes, R. Bhushan Gopaluni, PD Loewen, JU Backström<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/10.1021/acs.iecr.8b06067">
+			Industrial &amp; Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019J6_Rippon_IECR.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2018</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Locality preserving discriminative canonical variate analysis for fault diagnosis</b><br />
+		Q Lu, B Jiang, R. Bhushan Gopaluni, PD Loewen, RD Braatz<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135418306422">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018J4_Lu_CCE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Application of neural networks for optimal-setpoint design and MPC control in biological wastewater treatment</b><br />
+		M Sadeghassadi, CJB Macnab, R. Bhushan Gopaluni, D Westwick<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135418302631">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018J3_Sadeghassadi_CCE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Deep learning of complex batch process data and its application on quality prediction</b><br />
+		K Wang, R. Bhushan Gopaluni, J Chen, Z Song<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/8544024">
+			IEEE Transactions on Industrial Informatics.
+		</a>
+		
+		</i>
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2019J2_Wang_IEEEII.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Sparse canonical variate analysis approach for process monitoring</b><br />
+		Q Lu, B Jiang, R. Bhushan Gopaluni, PD Loewen, RD Braatz<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0959152418303457">
+			Journal of Process Control.
+		</a>
+		
+		</i>
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018J5_Lu_JPC.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A switching strategy for adaptive state estimation</b><br />
+		Aditya Tulsyan, S Khare, B Huang, R. Bhushan Gopaluni, F Forbes<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0165168417300105">
+			Signal Processing.
+		</a>
+		
+		</i>
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2017J1_Tulsyan_SignalProcessing.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2017</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Optimization of sawmill residues collection for bioenergy production</b><br />
+		DS Zamar, R. Bhushan Gopaluni, S Sokhansanj<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0306261917306906">
+			Applied Energy.
+		</a>
+		
+		</i>
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017J2_Zamar_AppliedEnergy.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A quantile-based scenario analysis approach to biomass supply chain optimization under uncertainty</b><br />
+		DS Zamar, R. Bhushan Gopaluni, S Sokhansanj, NK Newlands<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135416303490">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017J3_Zamar_CCE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Design and assessment of delay timer alarm systems for nonlinear chemical processes</b><br />
+		Aditya Tulsyan, Feras Alrowaie, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/aic.15860">
+			AIChE Journal.
+		</a>
+		
+		</i>
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017J5_Tulsyan_AIChE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A switching strategy for adaptive state estimation</b><br />
+		Aditya Tulsyan, Huang, R. Bhushan Gopaluni, F.J. Forbes<br />
+		<i>
+		
+		<a target="_blank" href="https://dl.acm.org/doi/abs/10.1016/j.sigpro.2017.01.010">
+			Signal Processing.
+		</a>
+		
+		</i>
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017J1_Tulsyan_SignalProcessing.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2016</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Performance assessment of cross-directional control for paper machines</b><br />
+		Q Lu, MG Forbes, R. Bhushan Gopaluni, PD Loewen, Johan U. Backström, Guy A. Dumont<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/7458201/">
+			IEEE Transactions on Control Systems Technology.
+		</a>
+		
+		</i>
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">State of charge estimation in Li-ion batteries: A particle filter approach</b><br />
+		Aditya Tulsyan, Yiting Tsai, R. Bhushan Gopaluni, Richard D. Braatz<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0378775316311338">
+			Journal of Power Sources, 331.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 208 – 223.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Particle filtering without tears: A primer for beginners</b><br />
+		Aditya Tulsyan, R. Bhushan Gopaluni, Swanand R. Khare<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0098135416302769">
+			Computers &amp; Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Regularized maximum likelihood estimation of sparse stochastic monomolecular biochemical reaction networks</b><br />
+		Jang, H., K.K. Kim, R.D. Braatz, R. Bhushan Gopaluni, J.H. Lee<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1474667016431241">
+			Computers &amp; Chemical Engineering, 90(7).
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 111 – 120.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">LIONSIMBA — A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control</b><br />
+		Marcello Torchio, Lalo Magni, R. Bhushan Gopaluni, Richard D. Braatz, Davide M. Raimondo<br />
+		<i>
+		
+		<a target="_blank" href="https://iopscience.iop.org/article/10.1149/2.0291607jes/meta">
+			Journal of The Electrochemical Society, 163(7).
+		</a>
+		
+		</i>
+		
+		2016
+
+		
+		<a target="_blank" href="/assets/preprints/2016J3_Torchio_JES.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+		<a target="_blank" href="http://sisdin.unipv.it/labsisdin/lionsimba.php"><span class="tag is-success">[Code]</span></a>
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Performance assessment of cross-direction control for paper machines</b><br />
+		Lu, Q.,R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/7458201">
+			IEEE Transactions on Control Systems in Technology.
+		</a>
+		
+		</i>
+		
+		2016
+
+		
+		<a target="_blank" href="/assets/preprints/2017J4_Lu_CST.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Novel Self-Administered Method for Assessing Insulin Sensitivity in Diabetic Patients</b><br />
+		Barazandegan, M.,K. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2769622/">
+			Journal of Medical and Biological Engineering.
+		</a>
+		
+		</i>
+		
+		2016
+
+		
+		<a target="_blank" href="/assets/preprints/2016J2_Barazandegan_JMBE.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2015</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A comprehensive compartmental model of blood glucose regulation for healthy and type II diabetic subjects</b><br />
+		Vahidi, O., R. Bhushan Gopaluni, E.K. Kwok<br />
+		<i>
+		
+		<a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26493377/">
+			Medical and Biological Engineering and Computing.
+		</a>
+		
+		</i>
+		
+		2015
+
+		
+		<a target="_blank" href="/assets/preprints/2016J1_Vahidi_MBEC.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Impact of model plant mismatch on performance of control systems: An application to paper machine control</b><br />
+		Yousefi, M.,R. Bhushan Gopaluni, P.D. Loewen, M.G. Forbes, G.A. Dumont, J. Backstrom<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S096706611500132X">
+			Control Engineering Practice.
+		</a>
+		
+		</i>
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Detection of abnormalities in type II diabetic patients using particle filters</b><br />
+		Vahidi, O., R. Bhushan Gopaluni, E.K. Kwok<br />
+		<i>
+		
+		<a target="_blank" href="https://link.springer.com/article/10.1007/s40846-015-0018-7">
+			Journal of Medical and Biological Engineering.
+		</a>
+		
+		</i>
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2014</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Assessment of type II diabetes mellitus using irregularly sampled measurements with missing data</b><br />
+		Barazandegan, M., Ekram, E.K. Kwok, R. Bhushan Gopaluni, A. Tulsyan<br />
+		<i>
+		
+		<a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/25348655/">
+			Bioprocess and Biosystems Engineering.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Increased CHO cell fed-batch monoclonal antibody production using the autophagy inhibitor 3-MA or gradually increasing osmolality</b><br />
+		Nasseri, S.S., Ghaffari, K. Braasch, M. A. Jardon, M. Butler, M. Kennard, R. Bhushan Gopaluni, J. M. Piret<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1369703X1400206X">
+			Biochemical Engineering Journal.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Moving Horizon Approach to Input Design for Closed Loop Identification</b><br />
+		Patwardhan, R.S., R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0959152413002254">
+			Journal of Process Control.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Performance assessment, diagnosis, and optimal selection of non-linear state filters</b><br />
+		Aditya Tulsyan, Biao Huang, R. Bhushan Gopaluni, F.J. Forbes<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0959152413002229">
+			Journal of Process Control.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Nonlinear Process Monitoring Using Supervised Locally Linear Embedding Projection</b><br />
+		McClure, K.S., R. Bhushan Gopaluni, D. Marshman, T. Chmelyk, S.L.Shah<br />
+		<i>
+		
+		<a target="_blank" href="https://pubs.acs.org/doi/abs/10.1021/ie401556r">
+			Industrial and Engineering Chemistry Research.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Robust Level Control of a Dry-Surge Ore Pile</b><br />
+		McClure, K.S., R. Nagamune, R. Bhushan Gopaluni, D. Marshman, T. Chmelyk<br />
+		<i>
+		
+		<a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cjce.21855">
+			Canadian Journal of Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2013</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Use of Molecular Dynamics for the Refinement of an Electrostatic Model for the In Silico Design of a Polymer-Based Antidote for the Anticoagulant Fondaparinux</b><br />
+		Cajiao, A., E.K. Kwok , R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/27006916/">
+			Journal of Medical and Biological Engineering, Vol. 2013, Article ID 487387, 11 pages.
+		</a>
+		
+		</i>
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Particle Filter Approach to Approximate Posterior Cramer-Rao Lower Bound: The Case of Hidden States</b><br />
+		Aditya Tulsyan, Biao Huang, R. Bhushan Gopaluni, F.J. Forbes<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/6621830">
+			IEEE Transactions on Aerospace and Electronic Sytems.
+		</a>
+		
+		</i>
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Top 15 most downloaded papers, Apr-Aug 2013</span>
+				
+		<br />
+
+		<b class="large">On simultaneous on-line state and parameter estimation in non-linear state-space models</b><br />
+		Aditya Tulsyan, Biao Huang, R. Bhushan Gopaluni, F.J. Forbes<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0959152413000206">
+			Journal of Process Control.
+		</a>
+		
+		</i>
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2012</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Fault Detection and Isolation in Stochastic Non-linear State-Space Models Using Particle Filters</b><br />
+		Al-Rowaie, F., K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0967066112001189">
+			Control Engineering Practice.
+		</a>
+		
+		</i>
+		
+		2012
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Nonlinear Bayesian State Estimation: Review and Recent Trends</b><br />
+		Patwardhan, S.C., J. Prakash, S. Narasimhan, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0967066112000871">
+			Control Engineering Practice.
+		</a>
+		
+		</i>
+		
+		2012
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Feedback Glucose Control Strategy for Type II Diabetes Mellitus Based on Fuzzy Logic</b><br />
+		Ekram, F., L. Sun, O. Vahidi, K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cjce.21667">
+			Canadian Journal of Chemical Engineering.
+		</a>
+		
+		</i>
+		
+		2012
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Parameter Estimation under Hidden Variables: An Application to a Biotech Process</b><br />
+		Jang, S.S., H. De la Hoz, A. Ben-zvi, W.C. McCaffrey, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cjce.20557">
+			Canadian Journal of Chemical Engineering.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 690 – 702.
+		
+		2012
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2011</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Characterization of gas–solid fluidization: A comparative study of acoustic and pressure signals</b><br />
+		Li, Y. , J.R. Grace, R. Bhushan Gopaluni, C.J. Lim, X. Bi, N. Ellis<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0032591011004037">
+			Powder Technology.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 200 – 210.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Developing a Physiological Model for Type II Diabetes Mellitus</b><br />
+		O. Vahidi, K.E. Kwok, R. Bhushan Gopaluni, L. Sun<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1369703X11000428">
+			Biochemical Engineering Journal.
+		</a>
+		
+		</i>
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Parameter estimation in nonlinear chemical and biological processes with unmeasured variables from small data sets</b><br />
+		Jang, S.S., R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0009250911001953">
+			Chemical Engineering Science.
+		</a>
+		
+		</i>
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Pharmacokinetic-Pharmacodynamic Modeling of Metformin for the Treatment of Type II Diabetes Mellitus</b><br />
+		Sun, L., K.E. Kwok , R. Bhushan Gopaluni, O. Vahidi<br />
+		<i>
+		
+		<a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/21625374/">
+			Open Biomedical Engineering Journal.
+		</a>
+		
+		</i>
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">In Silico Design of Polymeric Antidote for Anticoagulant Fondaparinux</b><br />
+		Cajiao, A., R. Bhushan Gopaluni, J. Kizhakkedathu, E.K. Kwok <br />
+		<i>
+		
+		<a target="_blank" href="http://www.jmbe.org.tw/index.php?action=archives2&amp;no=631">
+			Journal of Medical and Biological Engineering.
+		</a>
+		
+		</i>
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2010</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Comparison of Simultaneous State and Parameter Estimation Schemes for a Continuous Fermenter Reactor</b><br />
+		Chitralekha, S.B., J. Prakash, H. Raghavan, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		Journal of Process Control.
+		
+		</i>
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Energy Management Optimization in a Pulp and Paper Mill Cogeneration Facility</b><br />
+		Marshman, D.J., T. Chmelyk, M.S. Sidhu, R. Bhushan Gopaluni, G.A. Dumont<br />
+		<i>
+		
+		Applied Energy.
+		
+		</i>
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Nonlinear System Identification under Missing Observations: The Case of Unknown Model Structure</b><br />
+		R. Bhushan Gopaluni<br />
+		<i>
+		
+		Journal of Process Control 20(3).
+		
+		</i>
+		
+			<br />
+			pp. 314 – 324.
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2009</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Note on Separation of Machine and Cross Directional Data on a Paper Machine</b><br />
+		R. Bhushan Gopaluni, M.S. Davies, P.D. Loewen, G.E. Stewart, G.A. Dumont<br />
+		<i>
+		
+		NORDIC Journal of Pulp and Paper 14(3).
+		
+		</i>
+		
+			<br />
+			pp. 273 – 277.
+		
+		2009
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2008</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Particle Filter Approach to Identification of Nonlinear Processes under Missing Observations</b><br />
+		R. Bhushan Gopaluni<br />
+		<i>
+		
+		Canadian Journal of Chemical Engineering 86(6), 1081.
+		
+		</i>
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">An Online Non-intrusive Method for Alignment between Actuators and their Response Centers on a Paper Machine</b><br />
+		R. Bhushan Gopaluni, M.S. Davies, P.D. Loewen, G.A. Dumont<br />
+		<i>
+		
+		ISA Transactions.
+		
+		</i>
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Adaptive Signal Processing of Asset Price Dynamics with Predictability Analysis</b><br />
+		Mamon, R.S., C. Erlwein, R. Bhushan Gopaluni<br />
+		<i>
+		
+		Journal of Information Sciences.
+		
+		</i>
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2006</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Identification of Delay Dominant Recycle Systems</b><br />
+		R. Bhushan Gopaluni, H. Raghavan, R.S. Patwardhan, Sirish L. Shah, G.A. Dumont<br />
+		<i>
+		
+		Journal of Process Control.
+		
+		</i>
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+		
+		<span class="tag is-info is-light">Top 25 articles in the journal from Jan – March 2006</span>
+				
+		<br />
+
+		<b class="large">Identification of Chemical Processes with Irregular Output Sampling</b><br />
+		Raghavan, H., A.K. Tangirala, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		Control Engineering Practice.
+		
+		</i>
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2005</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Robust Adaptive Control for Strict-Feedback Non-linear Systems</b><br />
+		Mizumoto, I. , R. Bhushan Gopaluni, Sirish L. Shah, Z. Iwai<br />
+		<i>
+		
+		Asian Journal of Control 7(3).
+		
+		</i>
+		
+		2005
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2004</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Grey-Box Identification of Dynamical Models in a Thermo-Mechanical Pulp Mill</b><br />
+		Raghavan, H., R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		Journal of Process Control.
+		
+		</i>
+		
+		2004
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">MPC Relevant Identification – Tuning the Noise Model</b><br />
+		R. Bhushan Gopaluni, R.S. Patwardhan, Sirish L. Shah<br />
+		<i>
+		
+		Journal of Process Control.
+		
+		</i>
+		
+		2004
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2003</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Robust Adaptive Back-stepping Control Based on High-Gain Feedback and Its Application to a CSTR</b><br />
+		Mizumoto, I., R. Michino, Z. Iwai, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		Trans. of the Japan Society of Mechanical Engineers.
+		
+		</i>
+		
+		2003
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">A Robust Non-linear Adaptive Backstepping Controller for a CSTR</b><br />
+		R. Bhushan Gopaluni, I. Mizumoto, Sirish L. Shah<br />
+		<i>
+		
+		Ind. Eng. Chem. Res.
+		
+		</i>
+		
+		2003
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">The Nature of Data Pre-filters in MPC Relevant Identification – Open and Closed Loop Issues</b><br />
+		R. Bhushan Gopaluni, R.S. Patwardhan, Sirish L. Shah<br />
+		<i>
+		
+		Automatica.
+		
+		</i>
+		
+		2003
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2002</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Journal Paper</i>
+		
+				
+		<br />
+
+		<b class="large">Robust Adaptive Control for Strictfeedback Non-linear Systems with Non-parametric Uncertainties</b><br />
+		Mizumoto, I., R. Bhushan Gopaluni, Sirish L. Shah, Z. Iwai<br />
+		<i>
+		
+		Trans. of Society for Instrumentation and Control Engineering.
+		
+		</i>
+		
+		2002
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+</ol>
+:ET

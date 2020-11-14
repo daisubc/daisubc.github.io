@@ -1,0 +1,2787 @@
+I"Q�<p><em>Note that six-page full papers were reviewed by two or more international reviewers. The acceptance rate for oral presentations in most conferences is between 40% to 60%. Most papers are available either on IEEEexplorer or on International Federation of Automatic Control (IFAC) website. In my research area, conference proceedings are considered important and go through a rigorous review process.</em></p>
+
+<div class="tabs">
+  <ul>
+    <li><a href="/publications/">All</a></li>
+    <li><a href="/publications/papers">Papers</a></li>
+    <li class="is-active"><a href="/publications/conference">Conference</a></li>
+    <li><a href="/publications/patents">Patents</a></li>
+  </ul>
+</div>
+
+<ol reversed="" class="list is-hoverable">
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2020</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Almost Surely Stable Deep Dynamics</b><br />
+		Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of Advances in Neural Information Processing Systems 33 (NeurIPS 2020, To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020C6_Lawrence_NeurIPS.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Process Analytics And Machine Learning to Predict Arc Loss In An Electric Arc Furnace</b><br />
+		Lee D. Rippon, Ibrahim Yousef, R. Bhushan Gopaluni, Behrooz Hosseini, Jean-François Beaulieu, Carole Prévost, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of the 59th Conference of Metallurgists (To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020C5_Rippon_COM.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+		
+		<a target="_blank" href="https://vimeo.com/453887620"><span class="tag is-primary">[Video]</span></a>
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Modern Machine Learning Tools for Monitoring and Control of Industrial Processes: A Survey</b><br />
+		R. Bhushan Gopaluni, Aditya Tulsyan, Benoit Chachuat, Biao Huang, Jong Min Lee, Faraz Amjad, Seshu Kumar Damarla, Jong Woo Kim, Nathan P. Lawrence<br />
+		<i>
+		
+		In proceedings of IFAC World Congress (To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/2020C4_Gopaluni_IFAC.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+		
+		<a target="_blank" href="/assets/preprints/2020C4_Gopaluni_IFAC_Supp.docx"><span class="tag is-warning">[Supplementary Info]</span></a>
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Deep Neural Network Approximation of Nonlinear Model Predictive Control</b><br />
+		Yankai Cao, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of IFAC World Congress (To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/IFAC20_3818_FI.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+		<a target="_blank" href="/assets/preprints/2020IFAC_Yankai_Slides.pdf"><span class="tag is-warning">[Slides]</span></a>
+		
+
+					
+
+		
+
+		
+
+		
+		<a target="_blank" href="https://vimeo.com/456390157"><span class="tag is-primary">[Video]</span></a>
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Optimal PID and Antiwindup Control Design as a Reinforcement Learning Problem</b><br />
+		Nathan P. Lawrence, Gregory E. Stewart, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of IFAC World Congress (To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/IFAC_PID_RL_2020-7.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+		
+		<a target="_blank" href="https://vimeo.com/455075386"><span class="tag is-primary">[Video]</span></a>
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Reinforcement Learning based Design of Linear Fixed Structure Controllers</b><br />
+		Nathan P. Lawrence, Gregory E. Stewart, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of IFAC World Congress (To Appear).
+		
+		</i>
+		
+		2020
+
+		
+		<a target="_blank" href="/assets/preprints/IFAC_PID_RL_2020-8.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+		
+		<a target="_blank" href="https://vimeo.com/455075443"><span class="tag is-primary">[Video]</span></a>
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2019</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Intelligent Processes: Leveraging the Data Revolution for Decision and Control</b><br />
+		R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of AIChE Spring Meeting and 15th Global Congress on Process Safety.
+		
+		</i>
+		
+		2019
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Assessment of Simplifications to a Pseudo–2D Electrochemical Model of Li-ion Batteries</b><br />
+		XiangRong Kong, Brian Wetton, and R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of DYCOPS Conference.
+		
+		</i>
+		
+			<br />
+			pp. 946-951.
+		
+		2019
+
+		
+		<a target="_blank" href="/assets/preprints/2019C1_Kong_DYCOPS.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2018</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">An Efficient Model Based Control Algorithm for the Determination of an Optimal Control Policy for a Constrained Stochastic Linear System</b><br />
+		J Prakash, D Zamar, R. Bhushan Gopaluni, E Kwok<br />
+		<i>
+		
+		In Proceedings of ADCHEM Conference, Shengyang, China.
+		
+		</i>
+		
+			<br />
+			pp. 590-595.
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018C3_Prakash_ADCHEM.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Pattern and Knowledge Extraction using Process Data Analytics: A Tutorial</b><br />
+		Yiting Tsai, Qiugang Lu, Lee Rippon, Siang Lim, Aditya Tulsyan, R. Bhushan Gopaluni<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S240589631831913X">
+			In Proceedings of ADCHEM Conference, Shengyang, China.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 13-18.
+		
+		2018
+
+			
+
+		
+
+					
+
+		
+		<a target="_blank" href="https://dais.chbe.ubc.ca/adchem/"><span class="tag is-success">[Code]</span></a>
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">A Deep Learning Architecture for Predictive Control</b><br />
+		Steven P. Spielberg, Aditya Tulsyan, R. Bhushan Gopaluni, Philip D. Loewen<br />
+		<i>
+		
+		In Proceedings of ADCHEM Conference, Shenyang, China.
+		
+		</i>
+		
+			<br />
+			pp. 512-517.
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018C2_Steven_ADCHEM.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">State of Health Estimation for Lithium-Ion Batteries</b><br />
+		XiangRong Kong, Arman Bonakdarpour, Brian T. Wetton, David P. Wilkinson, and R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of ADCHEM Conference, Shenyang, China.
+		
+		</i>
+		
+			<br />
+			pp. 661-665.
+		
+		2018
+
+		
+		<a target="_blank" href="/assets/preprints/2018C4_Kong_ADCHEM.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2017</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Fault identification with modified reconstruction-based contribution based on kernel principal component analysis</b><br />
+		K Kitano, M Kano, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of 11th Asian Control Conference (ASCC).
+		
+		</i>
+		
+		2017
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Noncausal modeling and closed-loop optimal input design for cross-directional processes of paper machines</b><br />
+		Lu, Q., D. Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J.U. Backstrom, G.A. Dumont<br />
+		<i>
+		
+		<a target="_blank" href="https://ieeexplore.ieee.org/document/7963381">
+			American Control Conference.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 2837-2842.
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017C3_Lu_ACC.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+		<a target="_blank" href="/assets/preprints/2017C3_Lu_ACC_Slides.pdf"><span class="tag is-warning">[Slides]</span></a>
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Constrained k-means and Nearest Neighbor Approach for Route Optimization: With an application to the Bale Collection</b><br />
+		David Zamar, R. Bhushan Gopaluni, and Shahab Sokhansanj<br />
+		<i>
+		
+		In Proceedings of IFAC World Congress.
+		
+		</i>
+		
+			<br />
+			pp. 12125-12130.
+		
+		2017
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Model-Plant Mismatch Detection with Support Vector Machines</b><br />
+		Lu, Q., R. Bhushan Gopaluni, Forbes, M.G., Loewen, P.D., Backstrom, J.U., and Dumont, G.A<br />
+		<i>
+		
+		In Proceedings of IFAC World Congress.
+		
+		</i>
+		
+			<br />
+			pp. 7993-7998.
+		
+		2017
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Deep Reinforcement Learning Approaches for Process Control</b><br />
+		Steven P. Spielberg, R. Bhushan Gopaluni, and Loewen, P.D<br />
+		<i>
+		
+		In Proceedings of ADCONIP.
+		
+		</i>
+		
+			<br />
+			pp. 201-206.
+		
+		2017
+
+		
+		<a target="_blank" href="/assets/preprints/2017C4_Spielberg_ADCONIP.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2016</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Multi-objective Economic Model Predictive Control of Mechanical Pulping Processes</b><br />
+		Tian, H., Lu, R. Bhushan Gopaluni, V. Zavala<br />
+		<i>
+		
+		In proceedings of IEEE CDC, Las Vegas, USA.
+		
+		</i>
+		
+			<br />
+			pp. 4040-4045.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Blood Glucose Regulation in Type II Diabetes Using Predictive Control Strategy with Asymmetric Objective Function and Soft Constraints</b><br />
+		Ekram, F., Barazandegan, K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of 2nd Global Conference on Biomedical Engineering, Taipei, Taiwan.
+		
+		</i>
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Model-based fault detection of glucose-insulin system</b><br />
+		Barazandegan, M.,E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of American Control Conference, Boston, USA.
+		
+		</i>
+		
+			<br />
+			pp. 3994 – 3999.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Robust model based delay timer alarm for nonlinear processes</b><br />
+		Aditya Tulsyan,R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of American Control Conference, Boston, USA.
+		
+		</i>
+		
+			<br />
+			pp. 2989 – 2994.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Economic nonlinear model predictive control for thermo-mechanical pulping processes</b><br />
+		Tian, H., Lu, R. Bhushan Gopaluni, V. Zavala, J.A. Olson<br />
+		<i>
+		
+		In proceedings of American Control Conference, Boston, USA.
+		
+		</i>
+		
+			<br />
+			pp. 1796 – 1801.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Transfer Entropy Method to Quantify Causality in Stochastic Nonlinear Systems</b><br />
+		Gao, J., Aditya Tulsyan, Yang, F. and R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of 11th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Trondheim, Norway.
+		
+		</i>
+		
+			<br />
+			pp. 454 – 459.
+		
+		2016
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Economic optimization of sawmill residues collection for bioenergy conversion</b><br />
+		Zamar, D.,R. Bhushan Gopaluni, S. Sokhansanj<br />
+		<i>
+		
+		In proceedings of 11th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Trondheim, Norway.
+		
+		</i>
+		
+			<br />
+			pp. 857 – 862.
+		
+		2016
+
+		
+		<a target="_blank" href="/assets/preprints/2017C1_Zamar_IFAC.pdf"><span class="tag is-info">[PDF]</span></a>
+			
+
+		
+		<a target="_blank" href="/assets/preprints/2017C1_Zamar_IFAC_Slides.pdf"><span class="tag is-warning">[Slides]</span></a>
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2015</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">Robust optimization of competing biomass supply chains under feedback uncertainty</b><br />
+		Zamar, D.,R. Bhushan Gopaluni, S. Sokhansanj, N. Newlands<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 1223 – 1228.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Moving horizon predictive input design for closed loop identification</b><br />
+		Yousefi, M.,G. Forbes, R. Bhushan Gopaluni, P.D. Loewen, G.A. Dumont, J. Backstrom<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 135 – 140.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Model predictive control in industry: Challenges and opportunities</b><br />
+		Forbes, M.G.,S. Patwardhan, H. Hamadah, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 532 – 539.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Overload detection in semi-autogenous grinding: A nonlinear process monitoring approach</b><br />
+		McClure, K.S.,R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 961 – 966.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A novel algorithm for model-plant mismatch detection for model predictive controllers</b><br />
+		Yiting Tsai, R. Bhushan Gopaluni, D.J. Marshman, T. Chmelyk<br />
+		<i>
+		
+		<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2405896315011398">
+			In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada.
+		</a>
+		
+		</i>
+		
+			<br />
+			pp. 747 – 753.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Evaluation of treatment regimens for blood glucose control in type II diabetic patients using mathematical modeling</b><br />
+		Ekram, F., Barazandegan, K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of 34th Chinese Control Conference, Nanjing, China.
+		
+		</i>
+		
+			<br />
+			pp. 8519 – 8524.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Real time model predictive control for the optimal charging of a Lithium-ion battery</b><br />
+		Marcello, T.,A. Wolff, D.M. Raimondo, L. Magni, U. Krewer, R. Bhushan Gopaluni, J. Paulson, R.D. Braatz<br />
+		<i>
+		
+		In proceedings of American Control Conference, Chicago, USA.
+		
+		</i>
+		
+			<br />
+			pp. 4536 – 4541.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Cross-directional controller performance monitoring for paper machines</b><br />
+		Lu, Q., Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont<br />
+		<i>
+		
+		In proceedings of American Control Conference, Chicago, USA.
+		
+		</i>
+		
+			<br />
+			pp. 4970 – 4975.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Detecting model-plant mismatch without external excitation</b><br />
+		Yousefi, M., Lu, R. Bhushan Gopaluni, P.D. Loewen, M.G. Forbes, G.A. Dumont, J. Backstrom<br />
+		<i>
+		
+		In proceedings of American Control Conference, Chicago, USA.
+		
+		</i>
+		
+			<br />
+			pp. 4976 – 4981.
+		
+		2015
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2014</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Sensitivity of MIMO Controller Performance to Model-Plant Mismatch with Applications to Paper Machine Control </b><br />
+		Yousefi, M., M.G. Forbes, R. Bhushan Gopaluni, P.D. Loewen, G.A. Dumont, J. Backstrom<br />
+		<i>
+		
+		In Proceedings of IEEE Multi Conference on Systems and Control.
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Keynote Presentation</span>
+				
+		<br />
+
+		<b class="large">An Algorithm for Optimal Charging of Li-ion Batteries Using a Single Particle Model</b><br />
+		Yiting Tsai, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of the 5th International Symposium on Advanced Control of Industrial Processes, Hiroshima, Japan.
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Fault Isolation Based on General Observer Scheme in Stochastic Nonlinear State-Space Models Using Particle Filters</b><br />
+		Al-Rowaie, F., K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of the 5th International Symposium on Advanced Control of Industrial Processes, Hiroshima, Japan.
+		
+		</i>
+		
+			<br />
+			pp. 537 – 542.
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Alarm Design for Nonlinear Stochastic Systems</b><br />
+		Al-Rowaie, F., K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of the 11th World Congress on Intelligent Control and Automation, Shenyang, China.
+		
+		</i>
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Sensitivity of Controller Performance Indices to Model-Plant Mismatch: An Application to Paper Machine Control</b><br />
+		Yousefi, M., M.G. Forbes, R. Bhushan Gopaluni, G.A. Dumont, J. Backstrom, A. Malhotra<br />
+		<i>
+		
+		In Proceedings of American Control Conference (ACC), Portland, USA.
+		
+		</i>
+		
+			<br />
+			pp. 3506 – 3511.
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Sparse Identification in Chemical Master Equations for Monomolecular Reaction Networks</b><br />
+		Kim, K.K., J. Hong, R. Bhushan Gopaluni, J.H. Lee, R.D. Braatz<br />
+		<i>
+		
+		In Proceedings of American Control Conference (ACC), Portland, USA.
+		
+		</i>
+		
+			<br />
+			pp. 3698 – 3703.
+		
+		2014
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2013</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Invited Paper</span>
+				
+		<br />
+
+		<b class="large">State of Charge Estimation in Li-ion Batteries Using an Isothermal Pseudo Two Dimensional Model</b><br />
+		R. Bhushan Gopaluni, R.D. Braatz<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 135 – 140.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Moving Horizon Approach to Multivariable Input Design in General Linear Systems with Constraints</b><br />
+		Patwardhan, R.S., R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 577 – 582.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Evaluation of Adaptive State Estimation of Algorithms for State Estimation in Presence of Model-Plant Mismatch</b><br />
+		Bavdekar, V., R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 184 – 189.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Comparison of Moving Horizon and Bayesian State Estimators with an Application to a pH Process</b><br />
+		Bavdekar, V., R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 160 – 165.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Best presentation in the session award</span>
+				
+		<br />
+
+		<b class="large">Bayesian Idnetification of Non-linear State-space Models: Part I – Input Design</b><br />
+		Aditya Tulsyan S. Khare, Biao Huang, R. Bhushan Gopaluni, J.F. Forbes<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 774 – 779.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Best Presentation Award</span>
+				
+		<br />
+
+		<b class="large">Bayesian Idnetification of Non-linear State-space Models: Part I – Input Design</b><br />
+		Aditya Tulsyan S. Khare, Biao Huang, R. Bhushan Gopaluni, J.F. Forbes<br />
+		<i>
+		
+		In proceedings of 10th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 631 – 636.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Optimal Control and State Estimation of Lithium-ion Batteries Using Reformulated Models</b><br />
+		B. Suthar, V. Ramadesigan, P. W. C. Northrop, R. Bhushan Gopaluni, R. D. Braatz, V. R. Subramanian<br />
+		<i>
+		
+		In proceedings of American Control Conference, Washington DC, USA.
+		
+		</i>
+		
+			<br />
+			pp. 5350 – 5355.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Constrained Dual Ensemble Kalman Filter for State and Parameter Estimation</b><br />
+		Bavdekar, V., J. Prakash, Sirish L. Shah, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of American Control Conference, Washington D.C., USA.
+		
+		</i>
+		
+			<br />
+			pp. 3093 – 3098.
+		
+		2013
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2012</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Performance Assessment of Nonlinear State Filters</b><br />
+		Aditya Tulsyan Biao Huang, R. Bhushan Gopaluni, J.F. Forbes<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Singapore.
+		
+		</i>
+		
+			<br />
+			pp. 371 – 376.
+		
+		2012
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2011</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">An Algorithm for Fault Isolation in Stochastic Non-linear State-Space Models Using Particle Filters</b><br />
+		Al-Rowaie, F., K.E. Kwok, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of Canadian Congress of Applied Mechanics (CANCAM), Vancouver, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 37 – 40.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Experiment design for nonlinear stochastic systems – A Particle Filter Approach</b><br />
+		R. Bhushan Gopaluni, T. Schon, A. Wills<br />
+		<i>
+		
+		In Proceedings of International Federation of Automatic Control World Congress.
+		
+		</i>
+		
+			<br />
+			pp. 13191 – 13196.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Compressed Sensing Approach to Separation of Machine and Cross Direction Data on a Paper Machine</b><br />
+		Towfigi, P., G.A. Dumont , M.S. Davies, P.D. Loewen, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In Proceedings of International Federation of Automatic Control World Congress.
+		
+		</i>
+		
+			<br />
+			pp. 4266 – 4271.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Detection of Organ Dysfunction in Type II Diabetic Patients</b><br />
+		O. Vahidi, R. Bhushan Gopaluni , K.E. Kwok<br />
+		<i>
+		
+		In Proceedings of American Control Conference, San Fransisco, USA.
+		
+		</i>
+		
+			<br />
+			pp. 4769 – 4774.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">An Algorithm for Fault Detection in Stochastic Non-linear State-Space Models Using Particle Filters</b><br />
+		Al-Rowaie, F., K.E. Kwok, R. Bhushan Gopaluni <br />
+		<i>
+		
+		In Proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Hangzhou, China.
+		
+		</i>
+		
+			<br />
+			pp. 60 – 65.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Nonlinear Bayesian State Estimation: Review and Recent Trends</b><br />
+		Prakash, J., R. Bhushan Gopaluni, S.C. Patwardhan, S. Narasimhan, Sirish L. Shah <br />
+		<i>
+		
+		In Proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Hangzhou, China.
+		
+		</i>
+		
+			<br />
+			pp. 450 – 455.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">A Feedback Glucose Control Strategy for Type II Diabetes Mellitus</b><br />
+		Sun, L., K.E. Kwok , R. Bhushan Gopaluni, O. Vahidi<br />
+		<i>
+		
+		In Proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Hangzhou, China.
+		
+		</i>
+		
+			<br />
+			pp. 349 – 352.
+		
+		2011
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2010</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Nonlinear System Identification: A Compressed Sensing Approach</b><br />
+		R. Bhushan Gopaluni , D.J. Marshman<br />
+		<i>
+		
+		In proceedings of 9th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Leuven, Belgium.
+		
+		</i>
+		
+			<br />
+			pp. 575 – 580.
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Economic performance assessment with optimized LQG benchmarking in MIMO systems</b><br />
+		Marshman, D.J., T. Chmelyk, M.S. Sidhu, R. Bhushan Gopaluni , G.A. Dumont<br />
+		<i>
+		
+		In proceedings of 9th International Symposium on Dynamics and Control of Process Systems (DYCOPS), Leuven, Belgium.
+		
+		</i>
+		
+			<br />
+			pp. 761 – 766.
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Energy Management Optimization in a Pulp and Paper Mill Cogeneration Facility</b><br />
+		Marshman, D.J., T. Chmelyk, M.S. Sidhu, R. Bhushan Gopaluni , G.A. Dumont<br />
+		<i>
+		
+		In proceedings of American Control Conference (ACC), Maryland, USA.
+		
+		</i>
+		
+			<br />
+			pp. 1229 – 1234.
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Development of a physiological model for patients with type 2 Diabetes mellitus</b><br />
+		Vahidi, O., E.K. Kwok , R. Bhushan Gopaluni, L. Sun<br />
+		<i>
+		
+		In proceedings of American Control Conference (ACC), Maryland, USA.
+		
+		</i>
+		
+			<br />
+			pp. 2027 – 2032.
+		
+		2010
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2009</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Identification of Nonlinear State-Space Models: The Case of Unknown Model Structure</b><br />
+		R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Istanbul, Turkey.
+		
+		</i>
+		
+			<br />
+			pp. 489 – 494.
+		
+		2009
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Particle Filter Approach to Nonlinear System Identification under Missing Observations with a Real Application</b><br />
+		Goplauni, R.B. , T. Schon, A. Wills<br />
+		<i>
+		
+		In proceedings of International Federation of Automatic Control (IFAC) Conference on System Identification, St. Malo, France.
+		
+		</i>
+		
+			<br />
+			pp. 804 – 809.
+		
+		2009
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Comparison of Expectation-Maximization based parameter estimation using Particle Filter, Unscented and Extended Kalman Filtering techniques</b><br />
+		Chitralekha, S.B., J. Prakash, H. Raghavan, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of International Federation of Automatic Control (IFAC) Conference on System Identification, St. Malo, France.
+		
+		</i>
+		
+			<br />
+			pp. 810 – 815.
+		
+		2009
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2008</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Particle Filter Approach to Identification of Nonlinear State-Space Models: An Application to a Fermenter</b><br />
+		Raghavan, H., R. R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Jasper, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 353 – 358.
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Parameter Estimation Using Sparse and Irregularly Sampled Data from Multiple Experiments</b><br />
+		Jang, S. S., H. D. Siegler, A. Ben-zvi, R. R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Jasper, Canada.
+		
+		</i>
+		
+			<br />
+			pp. 335 – 340.
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Identification of Nonlinear Processes with Known Model Structure under Missing Observations</b><br />
+		R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of International Federation of Automatic Control (IFAC) World Congress, Seoul, Korea.
+		
+		</i>
+		
+			<br />
+			pp. 6478 – 6483.
+		
+		2008
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2006</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Identification of Symmetric Non-causal Processes: Cross-directional modeling of paper machines</b><br />
+		R. Bhushan Gopaluni, P.D. Loewen, M. Ammar, G.A. Dumont, M.S. Davies<br />
+		<i>
+		
+		In proceedings of IEEE Conference on Decision and Control, San Diego, USA.
+		
+		</i>
+		
+			<br />
+			pp. 6744 – 6749.
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">An Online Nonintrusive Method for Alignment between Actuators and their Response Centres</b><br />
+		R. Bhushan Gopaluni, F. Farahmand, G.A. Dumont, M.S. Davies, P. Loewen<br />
+		<i>
+		
+		In proceedings of Control Systems Conference, Temepere, Finland.
+		
+		</i>
+		
+			<br />
+			pp. 203 – 209.
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">MD-CD Separation, Mapping and Model Identification in a Paper Machine: A Discussion Paper</b><br />
+		R. Bhushan Gopaluni, G.A. Dumont, M.S. Davies, P. Loewen<br />
+		<i>
+		
+		In proceedings of Control Systems Conference, Tempere, Finland.
+		
+		</i>
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Autonomous Alignment of CD Control on Paper Machines</b><br />
+		Farahmand, F., R. Bhushan Gopaluni, G.A. Dumont, M.S. Davies, P.D. Loewen<br />
+		<i>
+		
+		In proceedings of Control Systems Conference, Tempere, Finland.
+		
+		</i>
+		
+			<br />
+			pp. 209 – 215.
+		
+		2006
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2005</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Predictability Analysis of Asset Price Dynamics under the HMM Paradigm</b><br />
+		Mamon, R., C. Erlwein, R. Bhushan Gopaluni<br />
+		<i>
+		
+		In proceedings of Stochastic Calculus and its Applications to Quantitative Finance and Electrical Engineering Conference, Calgary, Canada.
+		
+		</i>
+		
+		2005
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2004</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Detecting Sustained Plant-Wide Oscillations Using Spectral Envelope</b><br />
+		R. Bhushan Gopaluni, A. Vishnubhotla<br />
+		<i>
+		
+		In proceedings of IEEE Advanced Process Control Applications for Industry Workshop, Vancouver, Canada.
+		
+		</i>
+		
+		2004
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2003</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">System Identification from Multi-Rate Data</b><br />
+		R. Bhushan Gopaluni, H. Raghavan, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Hong Kong, China.
+		
+		</i>
+		
+			<br />
+			pp. 159-165.
+		
+		2003
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Identifying Multi-Rate Chemical Processes – An Expectation Maximization Approach</b><br />
+		R. Bhushan Gopaluni, H. Raghavan, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of International Symposium on Process Systems Engineering and Control, Mumbai, India.
+		
+		</i>
+		
+			<br />
+			pp. 271-276.
+		
+		2003
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+	
+	
+	
+		<h5 class="list-item" style="background-color: #eee;"><strong>2002</strong></h5>
+	
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Bias Distribution in MPC Relevant Identification</b><br />
+		R. Bhushan Gopaluni, R.S. Patwardhan, Sirish L. Shah <br />
+		<i>
+		
+		In proceedings of International Federation of Automatic Control (IFAC) World Congress, Barcelona, Spain.
+		
+		</i>
+		
+			<br />
+			pp. 2196-2201.
+		
+		2002
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+		
+		<span class="tag is-info is-light">Best Paper in Session Award</span>
+				
+		<br />
+
+		<b class="large">Experiment Design for MPC Relevant Identification</b><br />
+		R. Bhushan Gopaluni, R.S. Patwardhan, Sirish L. Shah <br />
+		<i>
+		
+		In proceedings of American Control Conference (ACC), Anchorage, USA.
+		
+		</i>
+		
+			<br />
+			pp. 2713-2718.
+		
+		2002
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Robust High-gain Adaptive Control for Non-linear Systems with Uncertainties and Its Application to a CSTR Control</b><br />
+		Mizumoto, I., R. Michino, Z. Iwai, R. Bhushan Gopaluni, Sirish L. Shah<br />
+		<i>
+		
+		In proceedings of International Symposium on Advanced Control of Industrial Processes (ADCONIP), Kumamoto, Japan.
+		
+		</i>
+		
+			<br />
+			pp. 303-308.
+		
+		2002
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	<li class="list-item" style="display: list-item">
+		
+			<i>Conference Proceedings</i>
+		
+				
+		<br />
+
+		<b class="large">Robust Adaptive Control for Non-linear Systems with Non-parametric Uncertainties</b><br />
+		Mizumoto, I., R. Bhushan Gopaluni, Sirish L. Shah, Z. Iwai<br />
+		<i>
+		
+		In proceedings of Asian Control Conference, Singapore.
+		
+		</i>
+		
+			<br />
+			pp. 501-506.
+		
+		2002
+
+			
+
+		
+
+					
+
+		
+
+		
+
+				
+				
+	</li>
+	
+	
+</ol>
+:ET

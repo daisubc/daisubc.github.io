@@ -1,0 +1,13 @@
+I"Y<p>Nathan’s paper on <em>“Almost Surely Stable Deep Dynamics”</em> has been accepted at NeurIPS 2020 and selected as a Spotlight session. Congratulations! At NeurIPS 2020, 385 papers out of 1900 were selected as spotlights or orals. 1900 papers were accepted out of ~11,000 submissions.</p>
+
+<p><strong>Almost Surely Stable Deep Dynamics</strong>
+by Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni</p>
+
+<p><em>Abstract</em></p>
+<blockquote>
+  <p>We introduce a method for learning provably stable deep neural network based dynamic models from observed data. Specifically, we consider discrete-time stochastic dynamic models, as they are of particular interest in practical applications such as estimation and control.  However, these aspects exacerbate the challenge of guaranteeing stability of a neural network dynamic model. Our method constrains the dynamic model to be stable subject to a neural network Lyapunov function. To this end, we propose two approaches: one exploits convexity of the Lyapunov function, while the other enforces stability through an implicit output layer. Numerical results are presented and the accompanying code is (will be) publicly available.</p>
+</blockquote>
+
+<p>Read the pre-print:
+<a href="/assets/preprints/2020C6_Lawrence_NeurIPS.pdf">2020C6_Lawrence_NeurIPS.pdf</a></p>
+:ET
