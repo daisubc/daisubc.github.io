@@ -14,7 +14,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 {% for degree in degrees %}
 
 <h1 class="title"> {{ degree }} </h1>
-{% assign members = site.profiles | where:"degree", degree | sort: 'year_start' | reverse %}
+{% assign members = site.profiles | where_exp:"member", "member.degree == degree and member.status != 'alumni' " | sort: 'year_start' | reverse %}
 
 <div class="columns is-multiline">
 {% for member in members %}

@@ -1,7 +1,11 @@
+- name: "Ying Xiong"
+  year: "2020"
+  degree: "Postdoc"
+
 - name: "Thomas Lai"
   year: "2020"
   degree: "Summer Student (Visiting)"
-  position: "McMaster University"
+  position: "Undergraduate Bioengineering, McGill University"
 
 - name: "Hui Tian"
   year: "2020"

@@ -7,4 +7,5 @@ degree: Postdoc
 year_end: None
 year_start: 2019
 title: Ying Xiong
+status: alumni
 ---
