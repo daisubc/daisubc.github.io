@@ -6,15 +6,18 @@ permalink: /people/
 years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002"]
 ---
 
+{% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
+{% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
+
 # Faculty & Staff
 - **[Dr. Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Aleli Capuno](https://engineering.ubc.ca/about/staff-directory)**, Admin Assistant to Associate Deans
 
-{% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
 {% for degree in degrees %}
 
 <h1 class="title"> {{ degree }} </h1>
-{% assign members = site.profiles | where_exp:"member", "member.degree == degree and member.status != 'alumni' " | sort: 'year_start' | reverse %}
+<!-- Github pages is still at jekyll 3.9.0, doesnt support binary operators in where_exp yet -->
+{% assign members = active_members | where_exp:"member", "member.degree == degree" | sort: 'year_start' | reverse %}
 
 <div class="columns is-multiline">
 {% for member in members %}
