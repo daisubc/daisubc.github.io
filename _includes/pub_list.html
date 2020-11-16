@@ -1,4 +1,4 @@
-<ol reversed class="list is-hoverable">
+<ol reversed id="publist" class="list-nomargin" type="1" style="list-style-position: inside;">
 	{% for y in page.years %}
 	{% if include.papertype %}
 		{% assign filteredpapers = site.data.publications | where:"type", include.papertype %}
@@ -8,10 +8,10 @@
 
 	{% assign pubs = filteredpapers | where:"year", y %}
 	{% if pubs.size > 0 %}
-		<h5 class="list-item" style="background-color: #eee;"><strong>{{y}}</strong></h5>
+		<div class="pub-year"><p class="title is-spaced is-6"><strong>{{y}}</strong></p></div>
 	{% endif %}
 	{% for pub in pubs %}
-	<li class="list-item" style="display: list-item">
+	<li class="box box-left-border list-item">
 		{% if pub.type == "paper" %}
 			<i>Journal Paper</i>
 		{% elsif pub.type == "conference" %}

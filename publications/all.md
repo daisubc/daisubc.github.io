@@ -13,10 +13,8 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 
 - Posters, data and other documents are also available in our [Figshare](https://figshare.com/authors/Bhushan_Gopaluni/9643466) page.
 
----
-
 <div class="tabs">
-  <ul>
+  <ul class="list-nomargin">
     <li class="is-active"><a href="{{ site.baseurl }}/publications/">All</a></li>
     <li><a href="{{ site.baseurl }}/publications/papers">Papers</a></li>
     <li><a href="{{ site.baseurl }}/publications/conference">Conference</a></li>
