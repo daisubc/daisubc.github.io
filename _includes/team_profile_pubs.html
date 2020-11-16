@@ -2,7 +2,7 @@
 {% capture pub_list %}
   {% for pub in pubs %}
   {% if (pub.authors contains page.title) or (pub.authors contains page.pub_name) %}
-  <li class="list-item" style="display: list-item">
+  <li class="box box-left-border list-item" style="display: list-item">
     {% if pub.type == "paper" %}
       <i>Journal Paper</i>
     {% elsif pub.type == "conference" %}
@@ -67,8 +67,8 @@
 {% assign pub_list_cleaned = pub_list | strip_newlines | strip %}
 
 {% if pub_list_cleaned.size > 1 %}
-  <p><b>Publications</b></p>
-  <ol class="list is-hoverable">
+  <p><b>DAIS Lab Publications</b></p>
+  <ol class="publist list-nomargin" style="list-style-position: inside;">
     {{ pub_list }}
   </ol>
 {% endif %}

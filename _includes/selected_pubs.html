@@ -1,9 +1,9 @@
 {% assign pubs = site.data.publications %}
 
-<ol class="list is-hoverable">
+<ol class="publist list-nomargin" style="list-style-position: inside;">
 {% for pub in pubs %}
 {% if page.papers contains pub.title %}
-<li class="list-item" style="display: list-item">
+<li class="box box-left-border list-item" style="display: list-item">
   {% if pub.type == "paper" %}
     <i>Journal Paper</i>
   {% elsif pub.type == "conference" %}

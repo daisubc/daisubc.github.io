@@ -9,18 +9,16 @@ description: Latest news from the DAIS Lab research group at UBC. Check out our 
 
 <div class="content">
 
-<ol reversed class="list is-hoverable">
+<ol reversed class="publist list-nomargin" style="list-style-position: inside;">
   {% for news in articles %}
-  <li class="list-item" style="display: list-item" itemscope itemtype="http://schema.org/NewsArticle">
-    <p>
-      <small><time itemprop="datePublished" datetime="{{ news.date | date_to_xmlschema }}">{{news.date | date_to_long_string}}</time></small>
+  <li class="box box-left-border list-item" itemscope itemtype="http://schema.org/NewsArticle">
+    <i>Posted: <time itemprop="datePublished" datetime="{{ news.date | date_to_xmlschema }}">{{news.date | date_to_long_string}}</time></i>
     <h5>
       <a href="{{ news.url }}"><strong itemprop="name headline">{{ news.title }}</strong></a>
     </h5>
     <div itemprop="articleBody">
-      {{ news.content }}
+      {{ news.content | strip_html | truncatewords: 30 }}
     </div>
-    </p>
   </li>
   {% endfor %}
 </ol>

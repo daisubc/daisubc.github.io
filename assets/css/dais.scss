@@ -87,9 +87,11 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
   margin-bottom: 1em;
 }
 
-#publist li {
-  display: list-item;
-  list-style-type: decimal;
+.publist {
+  li {
+    display: list-item;
+    list-style-type: decimal;
+  }
 }
 
 .list-nomargin {
@@ -98,4 +100,17 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
 
 .box-left-border{
   border-left: 0.3em solid $darkblue;
+}
+
+.home-news-container {
+  margin-bottom: 2em;
+
+  article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+.news-desc{
+  padding-left: 0.5em;
 }
