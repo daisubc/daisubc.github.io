@@ -75,8 +75,11 @@ ol.breadcrumbs-ol {
 }
 
 ol.breadcrumbs-ol li { 
-  display: inline-block; 
+  display: inline;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: 1.1em;
+  white-space:nowrap;
 }
 
 ol.breadcrumbs-ol li a {text-decoration: none;}
@@ -164,8 +167,16 @@ p {
   font-weight: 500 !important;
 }
 
+.is-sans-serif{
+  font-family: $sans-serif-font !important;
+}
+
 .breadcrumb-header{
   color: $darkblue;
   font-weight: 500 !important;
   font-size: 1.1em;
+}
+
+.research-card-item{
+  font-size: 0.7em;
 }
