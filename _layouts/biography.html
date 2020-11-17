@@ -4,7 +4,7 @@ layout: basic
 
 <div class="columns is-multiline">
   <div class="column is-full">
-    <h1>{{ page.title }}</h1>
+    <h1 class="very-bold"><b>{{ page.title }}</b></h1>
   </div>
   <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">   
     <figure class="image is-128x128 is-inline-block is-round">
@@ -20,7 +20,7 @@ layout: basic
     {% endif %}
     <div class="columns">
       <div class="column is-full-mobile is-one-quarter-desktop">
-        <b>Program/Degree</b>
+        <b>📚 Program/Degree</b>
       </div>
       <div class="column">
         {{ page.degree }}, since {{ page.year_start }}
@@ -28,7 +28,7 @@ layout: basic
     </div>
     <div class="columns">
       <div class="column is-full-mobile is-one-quarter-desktop">
-        <b>Research</b>
+        <b>📝 Research</b>
       </div>
       <div class="column">
         {{ page.project }}
@@ -37,7 +37,7 @@ layout: basic
     {% if page.cosupervisor %}
     <div class="columns">
       <div class="column is-full-mobile is-one-quarter-desktop">
-        <b>Co-supervisor(s)</b>
+        <b>👥 Co-supervisor(s)</b>
       </div>
       <div class="column">
         {{ page.cosupervisor }}
@@ -46,7 +46,7 @@ layout: basic
     {% endif %}
     <div class="columns">      
       <div class="column is-full-mobile is-one-quarter-desktop">
-        <b>Contact</b>
+        <b>📨 Contact</b>
       </div>
       <div class="column">
         {{ page.email }}
@@ -60,4 +60,4 @@ layout: basic
   </div>
 </div>
 <hr>
-<p class="small is-7"><a href="{{ site.baseurl }}/people/"><span class="icon"><i class="fa fa-arrow-circle-left"></i></span>Back to Lab Members</a></p>
+<p class="small is-7"><a href="{{ site.baseurl }}/people/"><span class="icon"><i class="fa fa-arrow-circle-left"></i></span>Back to Group Members</a></p>
