@@ -29,11 +29,10 @@ layout: default
       </div>
       {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
       {% for highlight in highlights %}
-      <div class="box">
+      <div class="box has-background-warning">
         <i class="fas fa-bullhorn"></i> 
-        <span class="tag is-warning">{{ highlight.date | date_to_long_string}}</span>
-        <br>
-        <b>{{ highlight.message }}</b>
+        <span class="tag is-dark">{{ highlight.date | date_to_long_string}}</span>
+        <p class="news-title"><b>{{ highlight.message }}</b></p>
         <strong><a href="{{ highlight.url }}">Link</a></strong>
       </div>
       {% endfor %}
@@ -48,7 +47,7 @@ layout: default
           {% for news in articles limit: 7 %}
           <article class="box">
             <span class="tag is-info">{{ news.date | date_to_long_string}}</span>
-            <header>
+            <header class="news-title">
               {% if news.url %}
                 <a class="news-date" href="{{news.url}}"><b>{{ news.title }}</b></a>
               {% else %}

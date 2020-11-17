@@ -9,7 +9,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 {% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
 {% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
 
-# Faculty & Staff
+<h1 class="title">Faculty & Staff</h1>
 - **[Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Link to APSC Staff Directory](https://engineering.ubc.ca/about/staff-directory)**
 

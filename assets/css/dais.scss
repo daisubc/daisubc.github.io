@@ -1,9 +1,18 @@
 ---
 ---
-@import "bulma-0.9.1/bulma";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700;800;900&display=swap');
 
 $darkerblue: #002145;
 $darkblue: #0055B7;
+$orangemuted: #DB4D00;
+$sans-serif-font: 'Raleway', sans-serif;
+$serif-font: 'Libre Baskerville', serif;
+
+$family-primary: $sans-serif-font;
+$weight-normal: 500;
+
+@import "bulma-0.9.1/bulma";
 
 .container {
   margin: 10px auto;
@@ -39,7 +48,7 @@ $darkblue: #0055B7;
 }      
 
 .has-text-orangemuted {
-  color: #DB4D00 !important;
+  color: $orangemuted !important;
 }    
 
 .has-text-blue {
@@ -91,7 +100,13 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
   li {
     display: list-item;
     list-style-type: decimal;
+    font-family: $serif-font;
   }
+}
+
+.pub-title {
+  font-family: $sans-serif-font;
+  font-size: 1.05em;
 }
 
 .list-nomargin {
@@ -99,7 +114,7 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
 }
 
 .box-left-border{
-  border-left: 0.3em solid $darkblue;
+  border-left: 0.18em solid $darkblue;
 }
 
 .home-news-container {
@@ -113,4 +128,44 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
 
 .news-desc{
   padding-left: 0.5em;
+}
+
+.news-date{
+  font-family: $sans-serif-font !important;
+  font-weight: 500 !important;
+}
+
+.title, .news-title, .pub-title {
+  font-family: $sans-serif-font;
+  margin-top: 0.1em;
+}
+
+p {
+  font-family: $serif-font;
+}
+
+.very-bold{
+  font-weight: 800 !important;
+}
+
+.news-headline{
+  font-size: 2.1em !important;
+  font-weight: 800 !important;
+  margin-bottom: 0.1em !important;
+}
+
+.news-headline-date{
+  margin-bottom: 1.5em !important;
+  font-weight: 600 !important;
+  font-family: $sans-serif-font !important;
+}
+
+.navbar-item{
+  font-weight: 500 !important;
+}
+
+.breadcrumb-header{
+  color: $darkblue;
+  font-weight: 500 !important;
+  font-size: 1.1em;
 }

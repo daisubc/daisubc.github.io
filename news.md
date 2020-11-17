@@ -12,12 +12,12 @@ description: Latest news from the DAIS Lab research group at UBC. Check out our 
 <ol reversed class="publist list-nomargin" style="list-style-position: inside;">
   {% for news in articles %}
   <li class="box box-left-border list-item" itemscope itemtype="http://schema.org/NewsArticle">
-    <i>Posted: <time itemprop="datePublished" datetime="{{ news.date | date_to_xmlschema }}">{{news.date | date_to_long_string}}</time></i>
-    <h5>
+    <span class="news-date"><i>Posted: <time itemprop="datePublished" datetime="{{ news.date | date_to_xmlschema }}">{{news.date | date_to_long_string}}</time></i></span>
+    <h5 class="news-title">
       <a href="{{ news.url }}"><strong itemprop="name headline">{{ news.title }}</strong></a>
     </h5>
     <div itemprop="articleBody">
-      {{ news.content | strip_html | truncatewords: 30 }}
+      <p>{{ news.content | strip_html | truncatewords: 30 }}</p>
     </div>
   </li>
   {% endfor %}

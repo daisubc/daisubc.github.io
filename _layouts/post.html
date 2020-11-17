@@ -17,9 +17,9 @@ title: News
 
 <div class="content">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
-		<header>
-			<span class="tag is-info"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_long_string}}</time></span>
-			<h1 itemprop="name headline">{{page.title}}</h1>
+		<header class="has-text-centered">
+			<h1 class="news-headline" itemprop="name headline">{{page.title}}</h1>
+      <p class="news-headline-date"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_long_string}}</time></p>
 		</header>
 		<div class itemprop="articleBody">
 			{{ page.content }}
