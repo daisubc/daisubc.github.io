@@ -103,12 +103,8 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
     display: list-item;
     list-style-type: decimal;
     font-family: $serif-font;
+    color: $darkblue !important;    
   }
-}
-
-.pub-title {
-  font-family: $sans-serif-font;
-  font-size: 1.05em;
 }
 
 .list-nomargin {
@@ -176,6 +172,34 @@ p {
   font-size: 1.1em;
 }
 
+.pub-type{
+  color: $darkblue;
+  font-family: $sans-serif-font !important;  
+  font-weight: 500 !important;
+  margin-right: 0.5em;  
+}
+
+.pub-title {
+  font-family: $sans-serif-font;
+  font-size: 1.05em;
+  color: $darkerblue !important;
+}
+
+.pub-journal {
+  font-size: 1.0em;
+}
+
+.pub-authors, .pub-journal, .pub-news{
+  font-size: 0.91em;
+  color: $darkerblue !important;
+  a {
+    text-decoration: underline;
+  }  
+}
+
+.news-title strong{
+  color: $darkerblue !important;
+}
 .research-card-item{
   font-size: 0.7em;
 }

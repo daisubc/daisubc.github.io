@@ -16,7 +16,7 @@ description: Latest news from the DAIS Lab research group at UBC. Check out our 
     <h5 class="news-title">
       <a href="{{ news.url }}"><strong itemprop="name headline">{{ news.title }}</strong></a>
     </h5>
-    <div itemprop="articleBody">
+    <div class="pub-news" itemprop="articleBody">
       <p>{{ news.content | strip_html | truncatewords: 30 }}</p>
     </div>
   </li>

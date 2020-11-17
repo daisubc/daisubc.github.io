@@ -1,32 +1,41 @@
 <li class="box box-left-border list-item">
-{% if pub.type == "paper" %}
-  <i>Journal Paper</i>
-{% elsif pub.type == "conference" %}
-  <i>Conference Proceedings</i>
-{% elsif pub.type == "patent" %}
-  <i>Patent</i>           
-{% endif %}
+
+<span class="pub-type">
+  {% if pub.type == "paper" %}
+    <i>Journal Paper</i>
+  {% elsif pub.type == "conference" %}
+    <i>Conference Proceedings</i>
+  {% elsif pub.type == "patent" %}
+    <i>Patent</i>           
+  {% endif %}
+</span>
+
 {% if pub.notes %}
 <span class="tag is-info is-light">{{ pub.notes }}</span>
 {% endif %}   
 <br>
 
-<b class="large pub-title">{{ pub.title }}</b><br>
-{{ pub.authors }}<br>
-<i>
-{% if pub.url %}
-<a target="_blank" href="{{ pub.url }}" target="_blank">
-  {{ pub.journal }}.
-</a>
-{% else %}
-{{ pub.journal }}.
-{% endif %}
-</i>
+<b class="large pub-title">{{ pub.title }}</b>
+<br>
+<span class="pub-authors"> {{ pub.authors }} </span>
+<br>
+
+<span class="pub-journal">
+  <i>
+    {% if pub.url %}
+    <a target="_blank" href="{{ pub.url }}" target="_blank">
+      {{ pub.journal }}.
+    </a>
+    {% else %}
+      {{ pub.journal }}.
+    {% endif %}
+  </i>
 {% if pub.pagenum %}
   <br>
   pp. {{ pub.pagenum }}.
 {% endif %}
 {{ pub.year }}
+</span>
 
 {% if pub.pdf %}
 <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><span class="tag is-info">[PDF]</span></a>
