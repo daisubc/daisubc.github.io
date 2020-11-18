@@ -15,7 +15,15 @@
 {% endif %}   
 <br>
 
-<b class="large pub-title">{{ pub.title }}</b>
+<b class="large pub-title">
+  {% if pub.url %}
+    <a target="_blank" href="{{ pub.url }}" target="_blank">
+      {{ pub.title }}
+    </a>
+  {% else %}
+    {{ pub.title }}
+  {% endif %}
+</b>
 <br>
 <span class="pub-authors"> {{ pub.authors }} </span>
 <br>
@@ -23,9 +31,7 @@
 <span class="pub-journal">
   <i>
     {% if pub.url %}
-    <a target="_blank" href="{{ pub.url }}" target="_blank">
-      {{ pub.journal }}.
-    </a>
+    <a target="_blank" href="{{ pub.url }}" target="_blank">{{ pub.journal }}.</a>
     {% else %}
       {{ pub.journal }}.
     {% endif %}

@@ -129,13 +129,21 @@ ol.breadcrumbs-ol li a {text-decoration: none;}
 }
 
 .news-date{
+  color: $darkerblue !important;
   font-family: $sans-serif-font !important;
   font-weight: 500 !important;
+  time {
+    margin-bottom: 0.5em !important;
+  }
 }
 
 .title, .news-title, .pub-title {
   font-family: $sans-serif-font;
-  margin-top: 0.1em;
+  margin-top: 0.1em !important;
+}
+
+.news-title{
+  margin-bottom: 0.2em !important;
 }
 
 p {
@@ -183,6 +191,9 @@ p {
   font-family: $sans-serif-font;
   font-size: 1.05em;
   color: $darkerblue !important;
+  a {
+    color: $darkerblue !important;
+  }
 }
 
 .pub-journal {
@@ -199,6 +210,7 @@ p {
 
 .news-title strong{
   color: $darkerblue !important;
+  text-decoration: underline;
 }
 .research-card-item{
   font-size: 0.7em;
