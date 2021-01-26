@@ -1,3 +1,10 @@
+- authors: "Qiugang Lu, Michael G. Forbes, Philip D. Loewen, Johan U. Backström, Guy A. Dumont, R. Bhushan Gopaluni"
+  type: "paper"
+  year: "2021"
+  title: "Model-Plant Mismatch Detection for Cross-directional Processes"
+  journal: "ISA Transactions (To Appear)"
+  pdf: "2021J1_Lu_ISA.pdf"
+
 - title: "Almost Surely Stable Deep Dynamics"
   type: "conference"
   year: "2020"

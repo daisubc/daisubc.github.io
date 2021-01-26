@@ -1,5 +1,8 @@
 <ol reversed class="publist list-nomargin" type="1" style="list-style-position: inside;">
-	{% for y in page.years %}
+	{% assign y_end = site.time | date: '%Y' %}
+	{% assign y_start = 2002 %}
+
+	{% for y in (y_start..y_end) reversed %}
 	{% if include.papertype %}
 		{% assign filteredpapers = site.data.publications | where:"type", include.papertype %}
 	{% else %}
