@@ -52,6 +52,27 @@ layout: basic
         {{ page.email }}
       </div>      
     </div>
+    {% if page.github %}
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>💻 GitHub</b>
+      </div>
+      <div class="column">
+        <a href="{{ page.github }}">{{ page.github }}</a>
+      </div>
+    </div>
+    {% endif %}
+    {% if page.website %}
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b>🔗 Website</b>
+      </div>
+      <div class="column">
+        <a href="{{ page.website }}">{{ page.website }}</a>
+      </div>
+    </div>
+    {% endif %}
+    <div class="mt-6"></div>
     <div class="columns">
       <div class="column is-full-desktop">
         {% include team_profile_pubs.html %}

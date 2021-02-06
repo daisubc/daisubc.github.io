@@ -1,6 +1,8 @@
 ---
 layout: biography
 email: leeripp@chbe.ubc.ca
+website: https://leerippon.com/
+github: https://github.com/LeeRippon
 project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
 img: leephoto2.png
 degree: PhD
