@@ -1,26 +1,48 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Your lab name
+title: UBC DAIS Lab - Bhushan Gopaluni
+labname: UBC Data Analytics and Intelligent Systems Lab
+tagline: Paving the way for the next industrial revolution through data
+labshortname: DAIS Lab
+unishortname: UBC
+url: "https://dais.chbe.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: DAIS Website
+# Your name
+name: Bhushan Gopaluni
+department: Department of Chemical & Biological Engineering
+depturl: https://chbe.ubc.ca/
+university: University of British Columbia (UBC)
+jobtitle: Professor
+
+secondjobtitle: Associate Dean, Education and Professional Development
+faculty: Faculty of Applied Science
+facultyprofile: https://engineering.ubc.ca/staff/bhushan-gopaluni
+facultyurl: https://apsc.ubc.ca/
+
+profilepic: https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg
+
+# Your address and contact
 email: bhushan.gopaluni@ubc.ca
+phone: 604-827-5668
+office: KAISER 5018
+address: 5000-2332 Main Mall
+postalcode: V6T 1Z4
+city: Vancouver
+region: British Columbia
+
+# Short bio for front page
+shortbio: >-
+  leads research activities at the UBC DAIS Lab. 
+  He is a Professor in the Department of Chemical and Biological Engineering and 
+  Associate Dean, Education and Professional Development 
+  in the Faculty of Applied Science at the University of British Columbia (UBC).
+
 description: >- # this means to ignore newlines until "baseurl:"
   The UBC DAIS Lab conducts research at the intersection of process control, data analytics 
   and machine learning. We develop novel algorithms and computational tools 
   to bring a new level of automation to the process industry. 
-# baseurl:  # the subpath of your site, e.g. /blog
-url: "https://dais.chbe.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
+
+# For google search console
+googleverification: Uhr-tsoENf7WIxvNZZ6G7PWLp2_kZMrJ5tCOfBbTGXw
 
 # Build settings
 markdown: kramdown

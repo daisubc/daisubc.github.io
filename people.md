@@ -13,6 +13,8 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 - **[Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Link to APSC Staff Directory](https://engineering.ubc.ca/about/staff-directory)**
 
+<hr>
+
 {% for degree in degrees %}
 
 <h1 class="title"> {{ degree }} </h1>

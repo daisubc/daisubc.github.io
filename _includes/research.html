@@ -1,4 +1,4 @@
-<p class="title is-3 is-spaced very-bold">Welcome to the <span class="has-text-darkblue"><i class="fas fa-cubes"></i> UBC DAIS Lab</span></p>
+<p class="title is-3 is-spaced very-bold">Welcome to the <span class="has-text-darkblue"><i class="fas fa-cubes"></i> {{ site.unishortname}} {{ site.labshortname }}</span></p>
 <p class="subtitle is-5">We develop <b>novel algorithms</b> and <b>computational tools</b> to bring a new level of automation to the process industry.</p>
 
 <section>
@@ -10,7 +10,7 @@
     </div> 
     <div class="column">   
       <div class="content">
-        <blockquote><p><b>Dr. Bhushan Gopaluni</b> leads research activities at the UBC DAIS Lab. He is a Professor in the Department of Chemical and Biological Engineering and Associate Dean, Education and Professional Development in the Faculty of Applied Science at the University of British Columbia (UBC). <a href="{{ site.baseurl }}/about/">Read More.</a></p></blockquote>
+        <blockquote><p><b>Dr. {{ site.name }}</b> {{ site.shortbio }} <a href="{{ site.baseurl }}/about/">Read More.</a></p></blockquote>
       </div>
     </div>
   </div>
@@ -18,95 +18,19 @@
 
 <hr>
 
-<p class="title is-4 very-bold">DAIS Lab Research</p>
+<p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Research</p>
 <p class="subtitle is-5">Our research lies at the intersection of <i>industrial process control</i>, <i>data analytics</i> and <i>machine learning</i>.</p>
+<p class="subtitle is-6">
+  Recent Publications:
+</p>
 
-<p class="is-6">Recent Representative Publications:</p>
-
-<div class="columns is-multiline is-mobile is-tablet">
-  <div class="column is-half-tablet is-one-quarter-desktop is-half-mobile">
-    <div class="card">
-        <div class="card-image">
-            <figure class="image is-square">
-              <img alt="modeling batch processes data analytics kai wang" title="Batch Processes" src="{{ site.baseurl }}/assets/img/timeslice.png">
-            </figure>
-            <div class="card-content is-overlay is-clipped">
-              <span class="tag is-link is-light">
-                Wang et al. (2019)
-              </span>       
-            </div>
-        </div>
-        <footer class="card-footer">
-            <p class="card-footer-item research-card-item">
-              Data Analytics
-            </p>
-        </footer>
-    </div>
-  </div>
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
-    <div class="card">
-        <div class="card-image">
-            <figure class="image is-square">
-              <img alt="machine direction adaptive control on a paper machine lee rippon" title="Machine Direction Adaptive Control" src="{{ site.baseurl }}/assets/img/control.png">
-            </figure>
-            <div class="card-content is-overlay is-clipped">
-              <span class="tag is-link is-light">
-                Rippon et al. (2019)
-              </span>       
-            </div>
-        </div>
-        <footer class="card-footer">
-            <p class="card-footer-item research-card-item">
-              Process Control
-            </p>
-        </footer>
-    </div>
-  </div>  
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
-    <div class="card">
-        <div class="card-image">
-            <figure class="image is-square">
-              <img alt="deep reinforcement learning process control steven spielberg kumar" title="Deep Reinforcement Learning" src="{{ site.baseurl }}/assets/img/rl2.png">
-            </figure>
-            <div class="card-content is-overlay is-clipped">
-              <span class="tag is-link is-light">
-                Spielberg et al. (2019)
-              </span>       
-            </div>
-        </div>
-        <footer class="card-footer">
-            <p class="card-footer-item research-card-item">
-              Machine Learning
-            </p>
-        </footer>
-    </div>
-  </div>
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
-    <div class="card">
-        <div class="card-image">
-            <figure class="image is-square">
-              <img alt="deadband alarm design nonlinear process aditya tulsyan" title="Univariate Model-based Deadband Alarm Design for Nonlinear Processes" src="{{ site.baseurl }}/assets/img/alarm.png">
-            </figure>
-            <div class="card-content is-overlay is-clipped">
-              <span class="tag is-link is-light">
-                Tulsyan et al. (2019)
-              </span>       
-            </div>
-        </div>
-        <footer class="card-footer">
-            <p class="card-footer-item research-card-item">
-              Alarm Analytics
-            </p>
-        </footer>
-    </div>
-  </div>
-</div>
+{% include homepage_pubs.html %}
 
 <div class="content">
+  
+  <hr>
 
-  {% include selected_pubs.html %}
-
-  <h2>Research Themes</h2>
+  <p class="title is-3 is-spaced very-bold">Research Themes</p>
 
   <p>We are at a unique historical moment with conditions ripe for a new industrial revolution that is going to take us to a level of automation that had never been seen before. This revolution is driven by a serendipitous confluence of ubiquitous cyber-physical systems or internet of things, gargantuan computing power, inexpensive memory and major algorithmic developments in machine learning and artificial intelligence.
 
@@ -114,10 +38,18 @@
 
   <p>The process industries are in possession of treasure troves of heterogenous data that are gravely under utilized. These incredible volumes of data that industries already possess are poised to provide a level of insight and information never realized before, and thus alleviate economic and competitive pressures.</p>
 
-  <p>We often collaborate with industry partners and other academic researchers for problem-solving in specific domains. For a list of our projects and collaborators, please visit our <a href="{{ site.baseurl }}/research/">Research</a> page:</p>
+  <p>We often collaborate with industry partners and other academic researchers for problem-solving in specific domains. For a list of our projects and collaborators, please visit our <a href="{{ site.baseurl }}/research/">Research</a> page, check out our <a href="{{ site.baseurl }}/publications/">Publications</a> and see our <a href="{{ site.baseurl }}/people/">Team</a> members:</p>
 
   <p>
-    <a href="{{ site.baseurl }}/research/" class="button is-rounded is-info is-sans-serif"><i class="fas fa-microscope"></i>&nbsp; DAIS Lab Research</a>
+    <a href="{{ site.baseurl }}/research/" class="button is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; {{ site.labshortname }} Research</a>
+  </p>
+
+  <p>
+    <a href="{{ site.baseurl }}/publications/" class="button is-sans-serif is-link"><i class="fas fa-book"></i>&nbsp; {{ site.labshortname }} Publications</a>
+  </p>
+
+  <p>
+    <a href="{{ site.baseurl }}/people/" class="button is-sans-serif is-link"><i class="fas fa-users"></i>&nbsp; {{ site.labshortname }} People</a>
   </p>
 
 </div>

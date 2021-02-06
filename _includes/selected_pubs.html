@@ -2,8 +2,8 @@
 
 <ol class="publist list-nomargin" style="list-style-position: inside;">
 {% for pub in pubs %}
-{% if page.papers contains pub.title %}
-  {% include single_pub.html pub=pub %}
-{% endif %}
+  {% if page.papers contains pub.title %}
+    {% include single_pub.html pub=pub %}
+  {% endif %}
 {% endfor %}
 </ol>

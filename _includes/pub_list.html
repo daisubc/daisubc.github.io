@@ -11,7 +11,15 @@
 
 	{% assign pubs = filteredpapers | where:"year", y %}
 	{% if pubs.size > 0 %}
-		<div class="pub-year"><p class="title is-spaced is-6"><strong>{{y}}</strong></p></div>
+		<div class="pub-year" id="{{y}}">
+			<p class="is-sans-serif">
+				<strong class="is-5 is-spaced has-text-light">{{y}}</strong>
+				{% unless forloop.last %}
+					| <a href="#{{y | minus: 1}}" class="has-text-info-light is-italic has-text-weight-light"><i class="fas fa-angle-double-right"></i> Jump to {{y | minus: 1}}</a>
+				{% endunless %}
+				 | <a href="#" class="has-text-info-light is-italic has-text-weight-light"><i class="fas fa-angle-double-up"></i> Scroll up</a>
+			</p>
+		</div>
 	{% endif %}
 	{% for pub in pubs %}
 		{% include single_pub.html pub=pub %}

@@ -2,48 +2,61 @@
   <div class="container">
   <div class="columns">
     <div class="column">
-      <div class="content">
-        <h4>Contact</h4>
-        <b>Bhushan Gopaluni</b><br>
-        <i>Professor</i><br> <a target="_blank" href="https://chbe.ubc.ca/">Department of Chemical & Biological Engineering</a><br>University of British Columbia</p>
-        <b>Phone:</b><br>  604.827.5668 <br>
-        <b>Email: </b><br> bhushan.gopaluni@ubc.ca <br>
-        <b>Office:</b><br> KAISER 5018 <br>
-        <b>Address: </b><br>5000-2332 Main Mall, Vancouver, BC  V6T 1Z4
-      </div>
+      <h1 class="title is-spaced is-4 has-text-darkblue very-bold"><i class="fas fa-cubes"></i> {{ site.unishortname }} <b> {{ site.labshortname }} </b></h1>    
+    </div>
+    <div class="column">
     </div>    
     <div class="column">
       <div class="content">
-        <h4>Navigation</h4>
-          <ul itemprop="WebPageElement" itemscope itemtype="http://schema.org/SiteNavigationElement" style="list-style-type: square;">
-          <li itemprop="name"><a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
-            <b>Home</b>
-          </a></li>
-          {% for link in site.data.pages %}
-            {% if link.url %}
-              <li itemprop="name"><a itemprop="url" class="navbar-item" href="{{link.url}}/"> 
-                {{ link.name }}
-              </a></li>
-            {% else %}
-              <li itemprop="name"><a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
-                {{ link.name }}
-              </a></li>
-            {% endif %}
-          {% endfor %}
-          <ul>
+        <h1 class="title has-text-darkblue is-4 has-text-darkblue very-bold">Contact</h1>
+        {% include contact.html %}
       </div>
     </div>
     <div class="column">
-      <h1 class="title is-spaced is-4 has-text-darkblue very-bold">UBC <b>DAIS Lab</b></h1>
-
-      <h3 class="subtitle is-spaced is-5"><b>Data Analytics and Intelligent Systems Lab</b>
-        <br>Research Group of Bhushan Gopaluni at the University of British Columbia (UBC).
-      </h3>
-
-      <p>
-        All Rights Reserved. Source Code on <a target="_blank" href="https://github.com/daisubc/daisubc.github.io">GitHub</a>.
-      </p>      
     </div>    
+    <div class="column">
+      <div class="content">
+        <h1 class="title has-text-darkblue is-4 has-text-darkblue very-bold">Navigation</h1>
+          <ul itemprop="WebPageElement" itemscope itemtype="http://schema.org/SiteNavigationElement" class="list-nomargin" style="list-style-type: none;">
+          <li itemprop="name">
+            <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
+              <b>Home</b>
+            </a>
+          </li>
+          {% for link in site.data.pages %}
+            {% if link.url %}
+              <li itemprop="name">
+                <a itemprop="url" class="navbar-item" target="_blank" href="{{link.url}}/">
+                  {{ link.name }}
+                </a>
+              </li>
+            {% else %}
+              <li itemprop="name">
+                <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
+                  {{ link.name }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+          </ul>
+      </div>
+    </div>
   </div>
+    <div class="column">
+      <hr>
+      <div class="content">
+
+        <p class="subtitle is-spaced is-5">
+          <strong>{{ site.labname }}</strong>
+        </p>
+        <p>
+          Research Group of {{ site.name }} at the {{ site.university }}.
+        </p>
+
+        <p class="mt-6">
+          All Rights Reserved. <span class="has-text-info">Website source on <a target="_blank" href="https://github.com/daisubc/daisubc.github.io">GitHub</a></span>.
+        </p>
+      </div>      
+    </div>  
 </div>
 </footer>

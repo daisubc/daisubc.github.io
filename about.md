@@ -5,43 +5,11 @@ title: About
 permalink: /about/
 ---
 
-<script type="application/ld+json">
-{
-"@context": "http://schema.org/",
-"@type": "schema:Person",
-"name": "Prof. Bhushan Gopaluni",
-"honorificPrefix": "Prof.",
-"givenName": "Bhushan",
-"familyName": "Gopaluni",
-"telephone": "604-827-5668",
-"worksFor": {
-   "@type": "CollegeOrUniversity",
-   "name": "University of British Columbia",
-   "url": "https://www.ubc.ca/"
-},
-"address": {
-   "@type": "PostalAddress",
-   "addressLocality": "Vancouver",
-   "addressRegion": "BC",
-   "postalCode": "V6T1Z4",
-   "streetAddress": "5000-2332 Main Mall"
-},
-"image": "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg",
-"jobTitle": "Professor",
-"url": "https://dais.chbe.ubc.ca",
-"workLocation": {
-   "@type": "Place",
-   "name": "KAISER 5018",
-   "url": "https://dais.chbe.ubc.ca"
-}
-}
-</script>
-
 <figure class="image is-pulled-left is-128x128">
 	<img  alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
 </figure>
 
-### Biography - Bhushan Gopaluni
+### Biography - {{ site.name }}
 
 **Bhushan Gopaluni** is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia (UBC). 
 
@@ -58,15 +26,5 @@ He is one of the leading experts on data analytics for process industry and has 
 He is also the recipient of the prestigious [Killam Teaching Prize](https://academic.ubc.ca/awards-funding/award-winners/killam-teaching-service-winners){:target="_blank"} and the Dean’s service medal from the University of British Columbia.
 
 ### Contact
-**Bhushan Gopaluni**
 
-Professor, [Department of Chemical & Biological Engineering](https://chbe.ubc.ca/){:target="_blank"}, University of British Columbia      
-
-Associate Dean, Education and Professional Development, [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"}, University of British Columbia
-
-UBC Faculty Profile - [Bhushan Gopaluni <i class="fas fa-external-link-alt"></i>](https://engineering.ubc.ca/staff/bhushan-gopaluni){:target="_blank"}
-
-- Phone: 604.827.5668
-- Email: bhushan.gopaluni@ubc.ca
-- Office: KAISER 5018
-- Address: 5000-2332 Main Mall, Vancouver, BC V6T 1Z4
+{% include contact.html %}

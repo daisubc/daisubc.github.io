@@ -4,7 +4,7 @@ title: Research Overview
 permalink: /research/
 ---
 
-The DAIS Lab at the University of British Columbia conducts research at the intersection of *process control*, *data analytics* and *machine learning*.
+The {{ site.labshortname }} at the {{ site.university }} conducts research at the intersection of *process control*, *data analytics* and *machine learning*.
 
 On the applied research side, we develop novel algorithms and computational tools to solve industrial process control problems. We also explore fundamental problems in control theory and machine learning for theoretical insights.
 

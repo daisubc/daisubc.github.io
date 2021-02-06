@@ -1,0 +1,30 @@
+{% assign pubs = site.data.publications %}
+
+{% for pub in pubs %}
+  {% if page.papers contains pub.title %}
+    <div class="columns is-vcentered">
+      <div class="column is-one-quarter-desktop is-full-mobile">
+        <div class="card">
+          <header class="card-header has-background-light">
+            <p class="card-header-title has-text-darkblue">
+              {{ pub.category }}
+            </p>
+          </header>          
+          <div class="card-image">
+              <figure class="image is-square">
+                <img alt="{{ pub.title }}" title="{{ pub.title }}" src="{{ site.baseurl }}/assets/img/{{ pub.thumbnail }}">
+              </figure>
+              <div class="card-content is-overlay is-clipped">
+                <span class="tag is-link is-light">
+                  <a target="_blank" href="{{ pub.url }}">{{ pub.authors | split: "," | first | split: " " | last }} et al. {{ pub.year }}</a>
+                </span>
+              </div>
+          </div>
+        </div>        
+      </div>
+      <div class="column">
+        {% include single_pub.html pub=pub %}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}

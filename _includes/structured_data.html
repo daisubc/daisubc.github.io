@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+   "@context": "http://schema.org/",
+   "@type": "schema:Person",
+   "name": "Prof. {{ site.name }}",
+   "honorificPrefix": "Prof.",
+   "givenName": "{{ site.name | split: " " | first}}",
+   "familyName": "{{ site.name | split: " " | last}}",
+   "telephone": "{{ site.phone }}",
+   "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "{{ site.university }}",
+      "url": "{{ site.depturl }}"
+   },
+   "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ site.city }}",
+      "addressRegion": "{{ site.region }}",
+      "postalCode": "{{ site.postalcode }}",
+      "streetAddress": "{{ site.address }}"
+   },
+   "image": "{{ site.profilepic }}",
+   "jobTitle": " {{ site.jobtitle }}",
+   "url": "{{ site.url }}",
+   "workLocation": {
+      "@type": "Place",
+      "name": "{{ site.office }}",
+      "url": "{{ site.url }}"
+   }
+}
+</script>
