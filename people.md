@@ -10,7 +10,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 {% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
 
 <h1 class="title">Faculty & Staff</h1>
-- **[Bhushan Gopaluni]({{ site.baseurl }}/about/)**, Principal Investigator
+- **[Dr. {{ site.name }}]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Link to APSC Staff Directory](https://engineering.ubc.ca/about/staff-directory)**
 
 <hr>
@@ -36,7 +36,12 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 		  </figure>
 	  	<div class="media-content">
 	    	<div class="content">	  
-		  		<b><a href="{{ member.url }}"><span itemprop="name">{{ member.title }}</span></a></b>
+		  		<b>
+		  			<a href="{{ member.url }}">
+		  				{% if member.degree == "Postdoc" %}Dr. {% endif %}
+		  				<span itemprop="name">{{ member.title }}</span>
+			  		</a>
+			  	</b>
 		  		<p><small>{{ member.project }}</small></p>
 		  	</div>
 		  </div>

@@ -5,11 +5,24 @@ title: About
 permalink: /about/
 ---
 
-<figure class="image is-pulled-left is-128x128">
-	<img  alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg">
-</figure>
+<p class="title is-3 is-spaced very-bold">About - {{ site.name }}</p>
 
-### Biography - {{ site.name }}
+<section>
+  <div class="columns is-multiline">
+    <div class="column is-one-fifth is-full-tablet">
+      <figure class="image is-pulled-right is-128x128">
+        <a href="{{ site.baseurl }}/about/"><img alt="bhushan gopaluni process control data analytics dais ubc" title="Bhushan Gopaluni" class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/bhushan.jpg"></a>
+      </figure>
+    </div> 
+    <div class="column">   
+      <div class="content">
+        <blockquote><p><b>Dr. {{ site.name }}</b> {{ site.shortbio }} </p></blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+## Full Biography
 
 **Bhushan Gopaluni** is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia (UBC). 
 

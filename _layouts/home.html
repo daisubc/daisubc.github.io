@@ -17,7 +17,11 @@ layout: default
 
     <section>
       <div class="content">
+        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Recruitment</p>
+
         {{ content }}
+
+        {% include recruitment.html %}
       </div>
     </section>
 
@@ -25,7 +29,7 @@ layout: default
   
     <section>
       <div class="content">
-        <h3>Highlights</h3>
+        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Highlights</p>
       </div>
       {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
       {% for highlight in highlights %}
@@ -41,7 +45,7 @@ layout: default
 
     <section>
       <div class="content">
-        <h3>News</h3>
+        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} News</p>
         <div class="home-news-container">
           {% assign articles = site.news | sort: 'date' | reverse %}
           {% for news in articles limit: 7 %}
