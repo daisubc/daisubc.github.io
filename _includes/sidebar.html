@@ -1,7 +1,21 @@
 {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
 
+<p class="title is-5">
+  <span class="has-text-darkblue"><i class="fas fa-cubes"></i> {{ site.unishortname}} {{ site.labshortname }}</span>
+</p>
+
+<article class="message is-small is-dark">
+  <div class="message-header">
+    <p><i class="fas fa-users"></i> Recruitment</p>
+  </div>
+  <div class="message-body">
+    {% include recruitment.html %}
+  </div>
+</article>                            
+
+
 {% for highlight in highlights %}
-<article class="message is-small is-link">
+<article class="message is-small is-warning">
   <div class="message-header">
     <b><i class="fas fa-bullhorn"></i> Highlights - {{ highlight.date | date_to_long_string}}</b>
   </div>    
@@ -12,7 +26,7 @@
 </article>
 {% endfor %}
 
-<article class="message is-small">
+<article class="message is-small is-info">
   <div class="message-header">
     <p><i class="fas fa-newspaper"></i> News</p>
   </div>    
@@ -26,23 +40,12 @@
       {% else %}
       <b>{{ news.title }}</b><br>
       {% endif %}
-      {{ news.description}}
     </p>
     {% endfor %}
     <br>
     <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
   </div>
-</article>  
-
-<article class="message is-small is-warning">
-  <div class="message-header">
-    <p><i class="fas fa-users"></i> Recruitment</p>
-  </div>
-  <div class="message-body">
-    {% include recruitment.html %}
-  </div>
-</article>                            
-
+</article>
 
 <article class="message is-small">
   <div class="message-header">

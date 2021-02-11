@@ -18,6 +18,11 @@ $weight-normal: 500;
 .container {
   margin: 10px auto;
 }
+
+.sidebar{
+  border-left: 1px solid rgba(0, 0, 0, .2);
+}
+
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
