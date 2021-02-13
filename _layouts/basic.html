@@ -6,7 +6,10 @@ layout: default
   <div class="column">
     <div class="content">
       {% include breadcrumbs.html url=page.url path=page.path title=page.title %}
-      <hr>
+      <hr class="narrow-hr">
+      {% if page.layout != 'post' %}
+        <p class="has-text-centered title is-3 is-spaced very-bold">{{ page.title }}</p>
+      {% endif %}
       {{ content }}
     </div>
   </div>

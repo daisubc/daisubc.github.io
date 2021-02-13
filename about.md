@@ -5,8 +5,6 @@ title: About
 permalink: /about/
 ---
 
-<p class="title is-3 is-spaced very-bold">About - {{ site.name }}</p>
-
 <section>
   <div class="columns is-multiline">
     <div class="column is-one-fifth is-full-tablet">

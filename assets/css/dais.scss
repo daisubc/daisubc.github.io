@@ -33,12 +33,11 @@ $navbar-item-hover-background-color: $darkblue;
 .navbar-brand {
   .navbar-item{
     color: $darkblue;
+    &:hover {
+      color: $darkblue !important;
+      font-size: 1.1em;
+    }    
   }
-  &:hover {
-    background-color: $darkblue;
-    color: #fff;
-    font-size: 1.1em;
-  }  
 }
 
 .navbar-item.is-active{
@@ -54,7 +53,7 @@ $navbar-item-hover-background-color: $darkblue;
 }
 
 .sidebar{
-  border-left: 1px solid rgba(0, 0, 0, .2);
+  border-left: 1px solid rgba(0, 0, 0, .1);
 }
 
 .video-wrapper {
@@ -104,9 +103,18 @@ $navbar-item-hover-background-color: $darkblue;
 }
 
 ol.breadcrumbs-ol {
-  margin-bottom: 10px;
-  padding-left: 0px;
+  margin-bottom: 0em !important;
   margin-left: 0px;
+  padding: 0.3em 0em;
+  font-family: $sans-serif-font;
+  font-weight: 500;
+  font-size: 1.0em;
+  letter-spacing: 0px;
+}
+
+.narrow-hr{
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 #breadcrumbs hr{
@@ -121,9 +129,16 @@ ol.breadcrumbs-ol li {
   font-size: 1.1em;
 }
 
-ol.breadcrumbs-ol li a {text-decoration: none;}
+ol.breadcrumbs-ol li a {
+  text-decoration: none;
+}
 
-.breadcrumb-item:before{content:'/';padding-right:1px;}
+.breadcrumb-item:before{
+  content:'/';
+  padding-right:1px;
+  color: $grey-light;
+  font-weight: 800;
+}
 
 .breadcrumb-item:first-child:before{content:''; padding-right: 0px;}
 
