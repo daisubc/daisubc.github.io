@@ -5,6 +5,7 @@
 
 $darkerblue: #002145;
 $darkblue: #0055B7;
+$lightblue: #0079FF;
 $orangemuted: #DB4D00;
 $sans-serif-font: 'Raleway', sans-serif;
 $serif-font: 'Libre Baskerville', serif;
@@ -13,7 +14,40 @@ $body-line-height: 1.6;
 $family-primary: $sans-serif-font;
 $weight-normal: 500;
 
+$navbar-height: 3.2rem;
+$navbar-background-color: #fff;
+$navbar-item-active-background-color: #fff;
+$navbar-item-active-color: $darkblue;
+$navbar-item-hover-color: #fff;
+$navbar-item-hover-background-color: $darkblue;
+
 @import "bulma-0.9.1/bulma";
+
+.navbar-item{
+  padding: 0.5rem 1.1rem;
+  font-weight: 600;
+  font-family: $sans-serif-font;
+  font-size: 1.05em;
+}
+
+.navbar-brand {
+  .navbar-item{
+    color: $darkblue;
+  }
+  &:hover {
+    background-color: $darkblue;
+    color: #fff;
+    font-size: 1.1em;
+  }  
+}
+
+.navbar-item.is-active{
+  border-bottom: 0.1em solid $darkblue;
+  &:hover {
+    color: #fff;
+    font-size: 1.1em;
+  }   
+}
 
 .container {
   margin: 10px auto;
@@ -170,10 +204,6 @@ p {
   margin-bottom: 1.5em !important;
   font-weight: 600 !important;
   font-family: $sans-serif-font !important;
-}
-
-.navbar-item{
-  font-weight: 500 !important;
 }
 
 .is-sans-serif{
