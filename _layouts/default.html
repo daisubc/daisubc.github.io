@@ -21,18 +21,28 @@
   {% include navbar.html %}
   
   {% if page.title == "Home" %}
-  <header class="hero is-bold is-light">
+  <section class="hero is-fullheight-with-navbar">
     <div class="hero-body">
-      <div class="container">       
-        <h1 class="title is-size-3 has-text-darkblue is-size-4-mobile very-bold">
-          <i class="fas fa-cubes"></i> {{ site.labname }}
-        </h1>
-        <h2 class="subtitle has-text-darkerblue is-size-5 is-size-6-mobile">
-          <i>{{ site.tagline }}</i>
-        </h2>
-      </div>
+      <div class="container">
+        <div class="columns is-vcentered">
+          <div class="column is-half is-full-tablet">
+            <p class="title is-1 is-spaced very-bold"><span class="has-text-darkblue"><i class="fas fa-cubes"></i> {{ site.labname}} </span></p>
+            <p class="subtitle is-5"><i>Paving the way for the next industrial revolution through <b>data.</b></i></p>
+            <hr>
+            <p class="subtitle is-4"> We develop <b>novel algorithms</b> and <b>computational tools</b> to bring a new level of automation to the process industry.</p>
+            <p class="title">
+              <a href="{{ site.baseurl }}/research/" class="button is-sans-serif is-link">Research Overview</a>
+            </p>
+          </div>
+          <div class="column">
+            <div class="container">
+              {% include homepage_recent_pubs.html %}
+            </div>
+          </div>
+        </div>
+      </div>   
     </div>
-  </header>  
+  </section> 
   {% endif %}
 
   <section class="section">

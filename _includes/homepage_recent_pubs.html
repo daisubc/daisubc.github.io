@@ -1,0 +1,6 @@
+{% assign pubs = site.data.publications %}
+
+<p class="subtitle">Latest Publications:</p>
+{% for pub in pubs | sort:'year' | limit:3 %}
+  {% include single_pub_compact.html pub=pub %}
+{% endfor %}
