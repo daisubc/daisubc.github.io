@@ -17,22 +17,22 @@
     <div class="column">
       <div class="content">
         <h1 class="title has-text-darkblue is-4 has-text-darkblue very-bold">Navigation</h1>
-          <ul itemprop="WebPageElement" itemscope itemtype="http://schema.org/SiteNavigationElement" class="list-nomargin" style="list-style-type: none;">
+          <ul itemprop="WebPageElement" itemscope itemtype="http://schema.org/SiteNavigationElement" class="list-nomargin footer-list" style="list-style-type: none;">
           <li itemprop="name">
-            <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/">
+            <a itemprop="url" class="footer-navbar-item" href="{{ site.baseurl }}/">
               <b>Home</b>
             </a>
           </li>
           {% for link in site.data.pages %}
             {% if link.url %}
               <li itemprop="name">
-                <a itemprop="url" class="navbar-item" target="_blank" href="{{link.url}}/">
+                <a itemprop="url" class="footer-navbar-item" target="_blank" href="{{link.url}}/">
                   {{ link.name }}
                 </a>
               </li>
             {% else %}
               <li itemprop="name">
-                <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
+                <a itemprop="url" class="footer-navbar-item" href="{{ site.baseurl }}/{{ link.name | downcase }}/"> 
                   {{ link.name }}
                 </a>
               </li>

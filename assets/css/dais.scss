@@ -32,6 +32,18 @@ $navbar-item-hover-background-color: $darkblue;
   letter-spacing: 1px;
 }
 
+.footer-list li{
+  padding: 0.6rem 0rem;
+}
+
+.footer-navbar-item{
+  font-weight: 600;
+  font-family: $sans-serif-font;
+  font-size: 0.90em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .navbar-brand {
   .navbar-item{
     color: $darkblue;
