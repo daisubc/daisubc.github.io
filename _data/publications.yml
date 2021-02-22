@@ -11,8 +11,11 @@
   year: "2020"
   authors: "Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni"
   journal: "In Proceedings of NeurIPS 2020 (To Appear)"
+  notes: "NeurIPS Spotlight"
   pdf: "2020C6_Lawrence_NeurIPS.pdf"
   code: "https://github.com/daisubc/stochastic_dynamics"
+  url: "https://proceedings.neurips.cc//paper_files/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html"
+  video: "https://nips.cc/virtual/2020/protected/poster_daecf755df5b1d637033bb29b319c39a.html"
   poster: "https://figshare.com/articles/poster/Almost_Surely_Stable_Deep_Dynamics/13238408"
 
 - title: "Data-driven Dynamic Inferential Sensors Based on Causality Analysis"
