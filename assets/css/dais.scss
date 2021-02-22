@@ -39,13 +39,19 @@ p:not(.image):not(.no-deco){
   text-decoration: none;
 }
 
+.message-body p{
+  margin-bottom: 1em;
+}
+
+
 .navbar-item{
-  padding: 1.5rem 1.1rem;
-  font-weight: 600;
+  padding: 1.5rem 1.5rem;
+  font-weight: 700;
   font-family: $sans-serif-font;
-  font-size: 0.90em;
+  font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: $darkerblue;
 }
 
 .footer-list li{
@@ -265,6 +271,12 @@ ol.breadcrumbs-ol li a {
   }
   blockquote p {
     font-size: 0.9em !important;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
   }
 }
 
