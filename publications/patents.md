@@ -7,7 +7,7 @@ permalink: /publications/patents
 **Publication list under construction.** 
 
 <div class="tabs">
-  <ul class="list-nomargin">
+  <ul class="list-nomargin no-deco">
     <li><a href="{{ site.baseurl }}/publications/">All</a></li>
     <li><a href="{{ site.baseurl }}/publications/papers">Papers</a></li>
     <li><a href="{{ site.baseurl }}/publications/conference">Conference</a></li>

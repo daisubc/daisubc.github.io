@@ -22,15 +22,10 @@ We are interested in the development of smart plants and intelligent processes, 
 Please see our [publications list](/publications) for more information on our past projects on:
 
 - Nonlinear System Identification
-
 - Fault Detection and Diagnosis in Nonlinear Stochastic Systems
-
 - Metabolic Flux Analysis
-
 - Pulp & Paper Control
-
 - Diabetes Modeling and Control
-
 - Experiment Design for Mammalian Cell Cultures
 
 ## Domains

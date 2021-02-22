@@ -13,7 +13,7 @@ permalink: /publications/
 - Posters, data and other documents are also available in our [Figshare](https://figshare.com/authors/Bhushan_Gopaluni/9643466) page.
 
 <div class="tabs">
-  <ul class="list-nomargin">
+  <ul class="list-nomargin no-deco">
     <li class="is-active"><a href="{{ site.baseurl }}/publications/">All</a></li>
     <li><a href="{{ site.baseurl }}/publications/papers">Papers</a></li>
     <li><a href="{{ site.baseurl }}/publications/conference">Conference</a></li>
