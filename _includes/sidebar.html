@@ -1,8 +1,10 @@
 {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
 
-<p class="title is-5">
-  <span class="has-text-darkblue"><i class="fas fa-cubes"></i> {{ site.unishortname}} {{ site.labshortname }}</span>
-</p>
+<header class="sidebar-header">
+  <p class="title is-6">
+    <span><i class="fas fa-cubes"></i> {{ site.unishortname}} {{ site.labshortname }}</span>
+  </p>
+</header>
 
 <article class="message is-small is-light">
   <div class="message-header">
@@ -20,8 +22,13 @@
     <b><i class="fas fa-bullhorn"></i> Highlights - {{ highlight.date | date_to_long_string}}</b>
   </div>    
   <div class="message-body">
-    {{ highlight.message }} <br>
-    <strong><a href="{{ highlight.url }}">LINK</a></strong>
+    <p>
+      {{ highlight.message }}
+    </p>
+    <br>
+    <p>
+      <a href="{{ highlight.url }}">LINK</a>
+    </p>
   </div>
 </article>
 {% endfor %}
@@ -36,14 +43,14 @@
     <p class="sidebar-news-date">
       <small>{{ news.date | date_to_long_string}}</small><br>
       <i class="fas fa-arrow-right"></i> {% if news.url %}
-      <a href="{{ news.url}}"><b>{{ news.title }}</b></a><br>
+      <a href="{{ news.url}}"><span>{{ news.title }}</span></a><br>
       {% else %}
-      <b>{{ news.title }}</b><br>
+      <span>{{ news.title }}</span><br>
       {% endif %}
     </p>
     {% endfor %}
     <br>
-    <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
+    <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See More</a></p>
   </div>
 </article>
 

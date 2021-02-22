@@ -12,7 +12,7 @@
 	{% assign pubs = filteredpapers | where:"year", y %}
 	{% if pubs.size > 0 %}
 		<div class="pub-year" id="{{y}}">
-			<p class="is-sans-serif">
+			<p class="is-sans-serif no-deco">
 				<strong class="is-5 is-spaced has-text-light">{{y}}</strong>
 				{% unless forloop.last %}
 					| <a href="#{{y | minus: 1}}" class="has-text-info-light is-italic has-text-weight-light"><i class="fas fa-angle-double-right"></i> Jump to {{y | minus: 1}}</a>

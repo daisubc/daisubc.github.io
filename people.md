@@ -3,8 +3,10 @@ layout: basic
 title: People
 description: Meet the UBC DAIS Lab team. Our research group is working on machine learning, data analytics and process control research.
 permalink: /people/
-years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008", "2007", "2006", "2005", "2004", "2003", "2002"]
 ---
+
+{% assign y_end = site.time | date: '%Y' %}
+{% assign y_start = 2002 %}
 
 {% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
 {% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
@@ -65,7 +67,7 @@ years: ["2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", 
 		</tr>
 	</thead>
 	<tbody>	
-	{% for y in page.years %}
+	{% for y in (y_start..y_end) reversed %}
 		{% assign sorted_alum = site.data.alumni | where:"year", y %}	
 		{% if sorted_alum.size > 0 %}
 			<td colspan="3" style="background-color: #eee;"><b>{{y}}</b></td>

@@ -8,7 +8,7 @@ layout: default
       {% include breadcrumbs.html url=page.url path=page.path title=page.title %}
       <hr class="narrow-hr">
       {% if page.layout != 'post' %}
-        <p class="has-text-centered title is-3 is-spaced very-bold">{{ page.title }}</p>
+        <p class="title is-3 has-text-centered very-bold page-title-container"><span class="page-title">{{ page.title }}</span></p>
       {% endif %}
       {{ content }}
     </div>

@@ -17,11 +17,11 @@ title: News
 
 <div class="content">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
-		<header class="has-text-centered">
+		<header class="news-header">
 			<h1 class="news-headline" itemprop="name headline">{{page.title}}</h1>
-      <p class="news-headline-date"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_long_string}}</time></p>
+      <p class="news-headline-date"><time class="news-headline-border" itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date_to_long_string}}</time></p>
 		</header>
-		<div class itemprop="articleBody">
+		<div class="news-content" itemprop="articleBody">
 			{{ page.content }}
 		</div>
 	</article>
