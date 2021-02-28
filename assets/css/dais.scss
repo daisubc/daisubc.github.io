@@ -179,7 +179,16 @@ p:not(.image):not(.no-deco){
 
 .content p{
   font-size: 1.02rem;
-  line-height: 1.7em;
+  line-height: 1.95em;
+}
+
+.member-name{
+  font-weight: 600;
+}
+
+.member-project{
+  font-size: 0.90em !important;
+  line-height: 1.55em !important;
 }
 
 ol.breadcrumbs-ol {
@@ -316,11 +325,11 @@ ol.breadcrumbs-ol li a {
 
 blockquote > p:first-child:first-letter {
   float: left;
-  font-size: 4.0em;
-  padding-top: .25em;
+  font-size: 4.2em;
+  padding-top: .18em;
   padding-right: .15em;
   font-family: serif;
-  line-height: .4;
+  line-height: .6;
   color: $darkerblue;
 } 
 

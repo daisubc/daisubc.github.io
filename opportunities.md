@@ -5,41 +5,47 @@ permalink: /opportunities/
 description: The UBC DAIS Lab is recruiting researchers and students for research projects in data analytics, machine learning and process control.
 ---
 
-The UBC DAIS Lab is always looking for curious, motivated and talented researchers who are interested in working on projects related to *process control*, *data analytics* and *machine learning*. Our group recruits year-round for research associates, postdocs, MASc students, PhD students, visiting students and undergraduate students.
+The UBC DAIS Lab is always looking for curious, motivated and talented researchers who are interested in exploring the intersection of *process control*, *data analytics* and *machine learning*. Our group recruits year-round for research associates, postdocs, MASc students, PhD students, visiting students and undergraduate students.
 
 Before you apply, please review our [publications list](/publications) and [research page](/research) to see if our academic interests align. Our current team members and alumni are listed in the [people page](/people), along with their backgrounds and research projects.
 
-All admitted students will receive a stipend.
+All admitted students will receive a stipend. Please visit the UBC [Graduate and Posdoctoral Studies (GPS)](https://www.grad.ubc.ca/){:target="_blank"} website for more information.
+
+---
 
 ## Postdoctoral Researchers & Graduate Students
 
 If you're interested in pursuing research or graduate studies with the UBC DAIS Lab, please email a copy of your:
 
-- CV, and
+- CV
 - Research Statement
 - Work samples (if relevant)
+- *Indicate if you are holding any external funding or scholarships (e.g. NSERC)*.
 
-*Indicate if you are holding any external funding or scholarships (e.g. NSERC)*.
-
-#### [Graduate Funding Opportunities](https://www.grad.ubc.ca/scholarships-awards-funding/award-opportunities){:target="_blank"}
+### [Graduate Funding Opportunities](https://www.grad.ubc.ca/scholarships-awards-funding/award-opportunities){:target="_blank"}
 
 The [UBC Graduate School website](https://www.grad.ubc.ca/scholarships-awards-funding/award-opportunities){:target="_blank"} maintains a list of awards and funding opportunities for domestic and international students. Please review funding eligibility and due dates.
 
+---
+
 ## Undergraduate Students
 
-Please email your CV/resume and transcripts after you have reviewed funding opportunities listed below. Please be mindful of eligibility and due dates.
+Please review funding opportunities listed below and email a copy of your: 
+
+- CV/resume 
+- Transcripts
 
 Our undergraduate team members typically have a strong foundation in chemical engineering, process control and mathematics, along with extensive programming skills. Prior experience with computational projects (research, internships, co-op etc.) will be an asset.
 
-#### [NSERC USRA](https://students.ubc.ca/career/ubc-experiences/nserc-undergraduate-student-research-awards){:target="_blank"}
+### [NSERC USRA](https://students.ubc.ca/career/ubc-experiences/nserc-undergraduate-student-research-awards){:target="_blank"}
 
-The UBC CHBE department typically awards 5-7 USRA fellowships per year. Awards are competitive and applicants are ranked based on merit and academic performance. If you are applying from a different department or university, please contact your department's [USRA administrators](https://students.ubc.ca/career/ubc-experiences/nserc-undergraduate-student-research-awards){:target="_blank"} for more information.
+The UBC CHBE department typically awards 5-7 USRA fellowships per year to CHBE undergraduates. Awards are competitive and applicants are ranked based on merit and academic performance. If you are applying from a different department or university, please contact your department's [USRA administrators](https://students.ubc.ca/career/ubc-experiences/nserc-undergraduate-student-research-awards){:target="_blank"} for more information.
 
-#### [Work Learn International Undergraduate Student Research Award](https://students.ubc.ca/career/campus-experiences/undergraduate-research/work-learn-international-undergraduate-research-awards){:target="_blank"}
+### [UBC Work Learn International Undergraduate Student Research Award](https://students.ubc.ca/career/campus-experiences/undergraduate-research/work-learn-international-undergraduate-research-awards){:target="_blank"}
 
-The UBC Work Learn IURA is a research award for UBC international students. Please review the [UBC Work Learn website](https://facultystaff.students.ubc.ca/student-engagement/centre-student-involvement-careers/work-learn){:target="_blank"} for research proposal requirements and due dates.
+The UBC Work Learn IURA is a research award for UBC international students. Please review the [UBC Work Learn website](https://students.ubc.ca/career/campus-experiences/undergraduate-research/work-learn-international-undergraduate-research-awards){:target="_blank"} for research proposal requirements and due dates.
 
-#### [Work Learn Program](https://facultystaff.students.ubc.ca/student-engagement/centre-student-involvement-careers/work-learn){:target="_blank"}
+### [UBC Work Learn Program](https://facultystaff.students.ubc.ca/student-engagement/centre-student-involvement-careers/work-learn){:target="_blank"}
 
 All UBC undergraduate students (domestic and international) are eligible for Work Learn funding to pursue experiential learning opportunities on campus. Please visit the [UBC Work Learn](https://students.ubc.ca/career/ubc-experiences/work-learn-program){:target="_blank"} website for advice on how to leverage Work Learn funding to create your own research opportunities with the DAIS Lab:
 
@@ -47,6 +53,6 @@ All UBC undergraduate students (domestic and international) are eligible for Wor
 
 <div class='has-text-right'><p>- From the Work Learn FAQ: <i>'How can I create my own Work Learn job?'</i></p></div>
 
-#### [MITACS Globalink](https://www.mitacs.ca/en/programs/globalink/globalink-research-internship){:target="_blank"}
+### [MITACS Globalink](https://www.mitacs.ca/en/programs/globalink/globalink-research-internship){:target="_blank"}
 
 The [Mitacs Globalink Research Internship](https://www.mitacs.ca/en/programs/globalink/globalink-research-internship){:target="_blank"} is a competitive initiative for international undergraduates from the following countries and regions: Australia, Brazil, China, France, Germany, Hong Kong, India, Mexico, Taiwan, Tunisia, Ukraine, United Kingdom and the United States. From May to October of each year, top-ranked applicants participate in a 12-week research internship under the supervision of Canadian university faculty members in a variety of academic disciplines, from science, engineering and mathematics to the humanities and social sciences.

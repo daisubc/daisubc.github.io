@@ -14,7 +14,7 @@ permalink: /about/
     </div> 
     <div class="column">   
       <div class="content">
-        <blockquote><p><b>Dr. {{ site.name }}</b> {{ site.shortbio }} </p></blockquote>
+        <blockquote><p><b>Prof. {{ site.name }}</b> {{ site.shortbio }} </p></blockquote>
       </div>
     </div>
   </div>

@@ -324,6 +324,7 @@
   title: "LIONSIMBA — A Matlab framework based on a finite volume model suitable for Li-ion battery design, simulation, and control"
   journal: "Journal of The Electrochemical Society, 163(7)"
   pdf: "2016J3_Torchio_JES.pdf"
+  pagenum: "4536 – 4541"
   code: "http://sisdin.unipv.it/labsisdin/lionsimba.php"
   url: "https://iopscience.iop.org/article/10.1149/2.0291607jes/meta"
 
@@ -342,6 +343,13 @@
   journal: "Journal of Medical and Biological Engineering"
   pdf: "2016J2_Barazandegan_JMBE.pdf"
   url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2769622/"
+
+- authors: "Torchio, Marcello, Nicolas A. Wolff, Davide M. Raimondo, Lalo Magni, Ulrike Krewer, R. Bhushan Gopaluni, Joel A. Paulson, and Richard D. Braatz"
+  type: "conference"
+  year: "2015"
+  title: "Real-time model predictive control for the optimal charging of a lithium-ion battery"
+  journal: "In proceedings of the American Control Conference, Chicago, IL, USA"
+  url: "https://ieeexplore.ieee.org/abstract/document/7172043"
 
 - authors: "Vahidi, O., R. Bhushan Gopaluni, E.K. Kwok"
   type: "paper"
@@ -753,13 +761,6 @@
   title: "Evaluation of treatment regimens for blood glucose control in type II diabetic patients using mathematical modeling"
   journal: "In proceedings of 34th Chinese Control Conference, Nanjing, China"
   pagenum: "8519 – 8524"
-
-- type: "conference"
-  authors: "Marcello, T.,A. Wolff, D.M. Raimondo, L. Magni, U. Krewer, R. Bhushan Gopaluni, J. Paulson, R.D. Braatz"
-  year: "2015" 
-  title: "Real time model predictive control for the optimal charging of a Lithium-ion battery"
-  journal: "In proceedings of American Control Conference, Chicago, USA"
-  pagenum: "4536 – 4541"
 
 - type: "conference"
   authors: "Lu, Q., Lee D. Rippon, R. Bhushan Gopaluni, M.G. Forbes, P.D. Loewen, J. Backstrom, G.A. Dumont"

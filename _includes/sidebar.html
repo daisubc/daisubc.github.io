@@ -39,7 +39,7 @@
   <div class="message-body">
     {% assign articles = site.news | sort: 'date' | reverse %}
     {% for news in articles limit: 5 %}
-    <p class="sidebar-news-date">
+    <p class="sidebar-news-date no-deco">
       <small>{{ news.date | date_to_long_string}}</small><br>
       <i class="fas fa-arrow-right"></i> {% if news.url %}
       <a href="{{ news.url}}"><span>{{ news.title }}</span></a><br>

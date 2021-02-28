@@ -37,14 +37,12 @@ permalink: /people/
 		    </p>
 		  </figure>
 	  	<div class="media-content">
-	    	<div class="content">	  
-		  		<b>
-		  			<a href="{{ member.url }}">
-		  				{% if member.degree == "Postdoc" %}Dr. {% endif %}
-		  				<span itemprop="name">{{ member.title }}</span>
-			  		</a>
-			  	</b>
-		  		<p><small>{{ member.project }}</small></p>
+	    	<div class="content team-member">
+	  			<a href="{{ member.url }}" class="member-name">
+	  				{% if member.degree == "Postdoc" %}Dr. {% endif %}
+	  				<span itemprop="name">{{ member.title }}</span>
+		  		</a>
+		  		<p class="member-project">{{ member.project }}</p>
 		  	</div>
 		  </div>
 		</article>
