@@ -18,7 +18,7 @@ We are interested in the development of smart plants and intelligent processes, 
 - Predictive analytics
 
 <div class="columns is-multiline is-mobile is-tablet">
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+  <div class="column is-one-quarter-desktop is-full-mobile is-half-tablet">
     <div class="card">
         <div class="card-image">
             <figure class="image is-3by2">
@@ -32,7 +32,7 @@ We are interested in the development of smart plants and intelligent processes, 
         </footer>
     </div>
   </div>
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+  <div class="column is-one-quarter-desktop is-full-mobile is-half-tablet">
     <div class="card">
         <div class="card-image">
             <figure class="image is-3by2">
@@ -46,7 +46,7 @@ We are interested in the development of smart plants and intelligent processes, 
         </footer>
     </div>
   </div>  
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+  <div class="column is-one-quarter-desktop is-full-mobile is-half-tablet">
     <div class="card">
         <div class="card-image">
             <figure class="image is-3by2">
@@ -60,7 +60,7 @@ We are interested in the development of smart plants and intelligent processes, 
         </footer>
     </div>
   </div>
-  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+  <div class="column is-one-quarter-desktop is-full-mobile is-half-tablet">
     <div class="card">
         <div class="card-image">
             <figure class="image is-3by2">

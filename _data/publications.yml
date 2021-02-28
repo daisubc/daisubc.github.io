@@ -5,6 +5,7 @@
   journal: "ISA Transactions"
   pdf: "2021J1_Lu_ISA.pdf"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0019057821000616"
+  thumbnail: "lu_isa_2021.png"
 
 - title: "Almost Surely Stable Deep Dynamics"
   type: "conference"
@@ -17,6 +18,7 @@
   url: "https://proceedings.neurips.cc//paper_files/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html"
   video: "https://nips.cc/virtual/2020/protected/poster_daecf755df5b1d637033bb29b319c39a.html"
   poster: "https://figshare.com/articles/poster/Almost_Surely_Stable_Deep_Dynamics/13238408"
+  thumbnail: "lawrence_neurips_2020.png"
 
 - title: "Data-driven Dynamic Inferential Sensors Based on Causality Analysis"
   type: "paper"
@@ -25,6 +27,7 @@
   journal: "Control Engineering Practice"
   pdf: "2020J3_Cao_CEP.pdf"
   url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066120301969"
+  thumbnail: "cao_cep_2020.png"
 
 - title: "A Tractable Approximation for Stochastic MPC and Application to Mechanical Pulping Processes"
   type: "paper"

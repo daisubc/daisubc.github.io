@@ -11,4 +11,4 @@
 - message: "We are working on a COVID-19 project. Check it out here."
   date: "2020-04-26"
   url: "https://dais.chbe.ubc.ca/covid-19/"  
-  display: "True"
+  display: "False"
