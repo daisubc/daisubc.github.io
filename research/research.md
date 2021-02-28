@@ -17,6 +17,65 @@ We are interested in the development of smart plants and intelligent processes, 
 - Automatic detection and diagnosis of faults
 - Predictive analytics
 
+<div class="columns is-multiline is-mobile is-tablet">
+  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-3by2">
+              <img style="object-fit: contain;" src="{{ site.baseurl }}/assets/img/deeprl.png" alt="maintenance-free controllers" title="maintenance-free controllers">
+            </figure>
+        </div>
+        <footer class="card-footer">
+            <a href="{{ site.baseurl }}/research/maintenancefreecontrollers" class="card-footer-item">
+              Maintenance-free controllers
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-3by2">
+              <img src="{{ site.baseurl }}/assets/img/luo2020.png" alt="large-scale dynamic models" title="large-scale dynamic models">
+            </figure>
+        </div>
+        <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              Large-scale dynamic models
+            </a>
+        </footer>
+    </div>
+  </div>  
+  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-3by2">
+              <img src="{{ site.baseurl }}/assets/img/rippon2019.png" alt="automatic fault diagnostics" title="automatic fault diagnostics">
+            </figure>
+        </div>
+        <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              Automatic fault diagnostics
+            </a>
+        </footer>
+    </div>
+  </div>
+  <div class="column is-one-quarter-desktop is-half-mobile is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <figure class="image is-3by2">
+              <img src="{{ site.baseurl }}/assets/img/tsai2019.png" alt="preditive analytics" title="predictive analytics">
+            </figure>
+        </div>
+        <footer class="card-footer">
+            <a href="#" class="card-footer-item">
+              Predictive analytics
+            </a>
+        </footer>
+    </div>
+  </div>
+</div>
+
 ## Past Projects:
 
 Please see our [publications list](/publications) for more information on our past projects on:
