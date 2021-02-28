@@ -84,8 +84,12 @@ permalink: /people/
 		{% endif %}
 	{% endfor %}
 	</tbody>
-</table>	
+</table>
 </div>
+
+<p class="is-size-7 has-text-weight-light has-text-grey">
+  <span class="tag is-light">Missing Names?</span> Submit a pull request on GitHub to add your information - <a href="https://github.com/daisubc/daisubc.github.io/blob/master/_data/alumni.yml">alumni.yml</a>.
+</p>
 
 <small><sup>*</sup><i>My collaborators formally supervised these students but I played a significant role in guiding the research of the respective students.</i></small>
 
