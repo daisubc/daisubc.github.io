@@ -9,5 +9,6 @@ biography: Originally from Iran, Ali received his bachelor's degree in petroleum
 year_end: None
 year_start: 2018
 cosupervisor: James Piret (CHBE, Michael Smith Labs)
+cosupervisor_url: https://www.chbe.ubc.ca/profile/james-piret/
 title: Ali Chamkalani
 ---

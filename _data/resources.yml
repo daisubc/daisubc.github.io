@@ -18,6 +18,11 @@
   date: 2020-02-14
   filename: nl021420.pdf
 
+- title: UBC OpenChemE Jupyter Notebooks for Process Dynamics and Control
+  authors: ["TLEF Team"]
+  date: 2019-01-01
+  url: "https://opencheme.github.io/CHBE356/"
+
 - title: ADCHEM 2018 Workshop
   authors: ["DAIS Lab"]
   date: 2018-07-24

@@ -10,5 +10,6 @@ degree: PhD
 year_end: None
 year_start: 2019
 cosupervisor: Yankai Cao (CHBE)
+cosupervisor_url: https://optimal.chbe.ubc.ca/
 title: Liang Cao
 ---
