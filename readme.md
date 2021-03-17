@@ -30,7 +30,6 @@ To update or add new entries to the publications page, go to `/_data/publication
 ## Group Members Page Update
 1. Create a new `.md` file in the `/_profiles/` folder. Use the existing profiles as a template for the variable names.
 2. Place your profile picture in the `/assets/profile` photo. Please crop your photo to a squarish shape and keep the filesize to something reasonable.
-3. If you'd like to attach a PDF link to your project, modify the `project_url` variable.
 
 ## Graduating Members
 Graduating members are moved to `_data/alumni.yml`. The `status` variable in `_profiles` is set to `alumni` to disable the profile from being displayed in the teams page.
