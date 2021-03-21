@@ -1,3 +1,18 @@
+- name: "Hashim Migaybil"
+  year: "2021"
+  degree: "MASc"
+  position: "PhD (UBC)"
+
+- name: "Yulan Zhang"
+  year: "2020"
+  degree: "MEng"
+
+- name: "Shams Elnawawi"
+  year: "2020"
+  degree: "Undergraduate Thesis"
+  position: "ARIA Technologies, Cairo"
+  url: "https://github.com/shams-n"
+
 - name: "Bryan Bohn"
   year: "2021"
   degree: "MAsc"
@@ -89,7 +104,7 @@
 - name: "Yang Liu"          
   degree: "Internship"           
   year: "2015"
-  position: "Yale PhD"
+  position: "PhD (Yale)"
 
 - name: "Alireza Nazari"    
   degree: "Undergraduate Thesis" 
@@ -123,7 +138,7 @@
 - name: "Aditya Tulsyan*"          
   degree: "Ph.D."
   year: "2013"
-  position: "MIT Postdoc, now Amgen"
+  position: "Postdoc (MIT), now Amgen"
 
 - name: "Omid Vahidi"             
   degree: "Ph.D."

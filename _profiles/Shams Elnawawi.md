@@ -7,4 +7,5 @@ degree: Undergraduate
 year_end: None
 year_start: 2019
 title: Shams Elnawawi
+status: alumni
 ---

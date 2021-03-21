@@ -9,7 +9,7 @@ permalink: /people/
 {% assign y_start = 2002 %}
 
 {% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
-{% assign degrees = "Research Associate|Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
+{% assign degrees = "Research Associate|Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
 
 <h1 class="title">Faculty & Staff</h1>
 - **[Dr. {{ site.name }}]({{ site.baseurl }}/about/)**, Principal Investigator
