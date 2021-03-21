@@ -1,3 +1,11 @@
+- authors: "Maricela Best Mckay, Brian Wetton, R. Bhushan Gopaluni"
+  type: "conference"
+  year: "2021"
+  title: "Learning Physics Based Models of Lithium-ion Batteries"
+  journal: "In Proceedings of IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM, To Appear)"
+  pdf: "2021C1_McKay_ADCHEM.pdf"
+  thumbnail: "mckay_adchem_2021.png"
+
 - authors: "Qiugang Lu, Michael G. Forbes, Philip D. Loewen, Johan U. Backström, Guy A. Dumont, R. Bhushan Gopaluni"
   type: "paper"
   year: "2021"
