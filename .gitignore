@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 .DS_Store
 .ipynb_checkpoints
-.scripts
+scripts
