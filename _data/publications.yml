@@ -1,3 +1,12 @@
+- title: "A Meta-Reinforcement Learning Approach to Process Control"
+  type: "conference"
+  year: "2021"
+  authors: "Daniel G. McClement, Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni"
+  journal: "In Proceedings of IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM, To Appear)"
+  notes: "Keynote Presentation"
+  pdf: "2021C2_McClement_ADCHEM.pdf"
+  thumbnail: "mcclement_adchem_2021.png"
+
 - authors: "Maricela Best Mckay, Brian Wetton, R. Bhushan Gopaluni"
   type: "conference"
   year: "2021"

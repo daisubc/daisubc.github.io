@@ -8,7 +8,13 @@ date: "2021-03-21"
 Congratulations to Daniel, Nathan and Mari for their papers at IFAC ADCHEM 2021. Daniel and Nathan's work on *"A Meta-Reinforcement Learning Approach to Process Control"* has been selected for a **Keynote presentation at ADCHEM 2021.**
 
 ### 1. A Meta-Reinforcement Learning Approach to Process Control
-Pre-print will be shared shortly.
+
+![mcclement_adchem_2021.png]({{ site.baseurl }}/assets/thumbnails/mcclement_adchem_2021.png){:.news-img-smaller}
+
+- Read the pre-print: [2021C2_McClement_ADCHEM.pdf]({{ site.baseurl }}/assets/preprints/2021C2_McClement_ADCHEM.pdf)
+
+Abstract
+> Meta-learning is a branch of machine learning which aims to quickly adapt models,such as neural networks, to perform new tasks by learning an underlying structure across relatedtasks. In essence, models are being trained to learn new tasks effectively rather than master asingle task. Meta-learning is appealing for process control applications because the perturbations to a process required to train an AI controller can be costly and unsafe. Additionally, the dynamics and control objectives are similar across many different processes, so it is feasible to create a generalizable controller through meta-learning capable of quickly adapting to different systems. In this work, we construct a deep reinforcement learning (DRL) based controller and meta-train the controller using a latent context variable through a separate embedding neural network. We test our meta-algorithm on its ability to adapt to new process dynamics as wellas different control objectives on the same process. In both cases, our meta-learning algorithmadapts very quickly to new tasks, outperforming a regular DRL controller trained from scratch.Meta-learning appears to be a promising approach for constructing more intelligent and sampleefficientcontrollers.
 
 ### 2. Learning Physics Based Models of Lithium-ion Batteries
 By Maricela Best Mckay, Brian Wetton, R. Bhushan Gopaluni

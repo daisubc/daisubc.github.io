@@ -1,7 +1,12 @@
+- message: "Daniel and Nathan's paper on meta-reinforcement learning has been selected as a Keynote at ADCHEM 2021. Congratulations!"
+  date: "2021-03-21"
+  url: "https://dais.chbe.ubc.ca/news/2021-03-21-adchem-papers/"
+  display: "True"
+
 - message: "Nathan's paper on 'Almost Surely Stable Deep Dynamics' has been accepted as a NeurIPS 2020 Spotlight session. Congratulations!"
   date: "2020-09-25"
   url: "https://dais.chbe.ubc.ca/assets/preprints/2020C6_Lawrence_NeurIPS.pdf"
-  display: "True"
+  display: "False"
 
 - message: "We are organizing an IFAC 2020 workshop on Process Data Analytics. See the workshop website for more information."
   date: "2020-06-07"
