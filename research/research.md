@@ -87,7 +87,7 @@ Please see our [publications list](/publications) for more information on our pa
 - Diabetes Modeling and Control
 - Experiment Design for Mammalian Cell Cultures
 
-## Domains
+## Application Domains
 A big subset of our research projects have an applied flavour with useful and immediate applications in industry. We often collaborate with industry partners and other academic researchers for problem-solving in specific domains.
 
 <div class="columns is-multiline is-mobile is-tablet">

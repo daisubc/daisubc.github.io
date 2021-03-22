@@ -9,4 +9,5 @@ degree: MASc
 year_end: None
 year_start: 2020
 title: Daniel McClement
+pub_name: Daniel G. McClement
 ---

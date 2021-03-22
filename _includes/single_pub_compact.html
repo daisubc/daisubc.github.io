@@ -18,8 +18,11 @@
         </a>
       {% else %}
         {{ pub.title }}
-      {% endif %}
+      {% endif %}     
     </b>
+    {% if pub.notes %}
+      <span class="tag is-info is-light">{{ pub.notes }}</span>
+    {% endif %}     
     <br>
     <span class="pub-authors"> {{ pub.authors }} </span> | 
 
