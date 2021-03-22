@@ -5,7 +5,7 @@ description: 1 - A Meta-Reinforcement Learning Approach to Process Control and 2
 date: "2021-03-21"
 ---
 
-Congratulations to Daniel, Nathan and Mari for their papers at IFAC ADCHEM 2021. Daniel and Nathan's work on *"A Meta-Reinforcement Learning Approach to Process Control"* has been selected for a **Keynote presentation at ADCHEM.**
+Congratulations to Daniel, Nathan and Mari for their papers at IFAC ADCHEM 2021. Daniel and Nathan's work on *"A Meta-Reinforcement Learning Approach to Process Control"* has been selected for a **Keynote presentation at ADCHEM 2021.**
 
 ### 1. A Meta-Reinforcement Learning Approach to Process Control
 Pre-print will be shared shortly.
