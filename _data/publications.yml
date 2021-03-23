@@ -1,3 +1,11 @@
+- title: "Representation Learning and Predictive Classification: Application with an Electric Arc Furnace"
+  type: "paper"
+  year: "2021"
+  authors: "Lee D. Rippon, Ibrahim Yousef, Behrooz Hosseini, Arbi Bouchoucha, Jean-François Beaulieu, Carole Prévost, Michel Ruel, Sirish L. Shah, R. Bhushan Gopaluni"
+  journal: "Computers & Chemical Engineering"
+  pdf: "2021J2_Rippon_CACE.pdf"
+  thumbnail: "rippon_cace_2021.png"
+
 - title: "A Meta-Reinforcement Learning Approach to Process Control"
   type: "conference"
   year: "2021"

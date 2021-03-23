@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Keynote presentation and 2 papers accepted at IFAC ADCHEM 2021"
-description: 1 - A Meta-Reinforcement Learning Approach to Process Control and 2 - Learning Physics Based Models of Lithium-ion Batteries'
+description: "1 - A Meta-Reinforcement Learning Approach to Process Control and 2 - Learning Physics Based Models of Lithium-ion Batteries"
 date: "2021-03-21"
 ---
 
