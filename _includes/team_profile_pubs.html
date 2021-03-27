@@ -10,7 +10,7 @@
 {% assign pub_list_cleaned = pub_list | strip_newlines | strip %}
 
 {% if pub_list_cleaned.size > 1 %}
-  <p><b>DAIS Lab Publications</b></p>
+  <p><b>{{site.labshortname}} Publications</b></p>
   <ol class="publist list-nomargin" style="list-style-position: inside;">
     {{ pub_list }}
   </ol>

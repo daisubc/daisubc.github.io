@@ -5,6 +5,7 @@ tagline: Paving the way for the next industrial revolution through data
 labshortname: DAIS Lab
 unishortname: UBC
 url: "https://dais.chbe.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: daisubc
 
 # Your name
 name: Bhushan Gopaluni
