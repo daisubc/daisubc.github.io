@@ -15,6 +15,7 @@
   notes: "Keynote Presentation"
   pdf: "2021C2_McClement_ADCHEM.pdf"
   thumbnail: "mcclement_adchem_2021.png"
+  arxiv: "https://arxiv.org/abs/2103.14060"
 
 - authors: "Maricela Best Mckay, Brian Wetton, R. Bhushan Gopaluni"
   type: "conference"
@@ -37,7 +38,7 @@
   type: "conference"
   year: "2020"
   authors: "Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni"
-  journal: "In Proceedings of NeurIPS 2020 (To Appear)"
+  journal: "In Proceedings of Advances in Neural Information Processing Systems 33 (NeurIPS 2020)"
   notes: "NeurIPS Spotlight"
   pdf: "2020C6_Lawrence_NeurIPS.pdf"
   code: "https://github.com/daisubc/stochastic_dynamics"
@@ -45,6 +46,7 @@
   video: "https://nips.cc/virtual/2020/protected/poster_daecf755df5b1d637033bb29b319c39a.html"
   poster: "https://figshare.com/articles/poster/Almost_Surely_Stable_Deep_Dynamics/13238408"
   thumbnail: "lawrence_neurips_2020.png"
+  arxiv: "https://arxiv.org/abs/2103.14722"
 
 - title: "Data-driven Dynamic Inferential Sensors Based on Causality Analysis"
   type: "paper"
@@ -97,6 +99,7 @@
   journal: "In proceedings of IFAC World Congress (To Appear)"
   video: "https://vimeo.com/455075386"
   pdf: "IFAC_PID_RL_2020-7.pdf"
+  arxiv: "https://arxiv.org/abs/2005.04539"
 
 - title: "Reinforcement Learning based Design of Linear Fixed Structure Controllers"
   type: "conference"
@@ -105,6 +108,7 @@
   journal: "In proceedings of IFAC World Congress (To Appear)"
   video: "https://vimeo.com/455075443"
   pdf: "IFAC_PID_RL_2020-8.pdf"
+  arxiv: "https://arxiv.org/abs/2005.04537"
 
 - title: "A Novel Approach to Alarm Causality Analysis Using Active Dynamic Transfer Entropy"
   type: "paper"
