@@ -1,0 +1,13 @@
+{% for author in pub_authors %}
+  {% assign found = site.profiles | where:"pub_name", author | first %}
+  {% if found %}
+    <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+  {% else %}
+    {% assign found = site.profiles | where:"title", author | first %}
+    {% if found %}
+      <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+    {% else %}
+      <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

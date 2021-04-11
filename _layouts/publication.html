@@ -5,6 +5,7 @@ title: Publications
 
 {% assign dais_members = site.profiles %}
 {% assign pub_authors = page.authors | split: ", " %}
+{% assign pub = page %}
 
 <div class="columns is-multiline">
   <div class="column is-full">
@@ -51,41 +52,7 @@ title: Publications
           {% endfor %}
         </p>
         <h5>
-          {% if page.external_url %}
-          <a target="_blank" href="{{ page.external_url }}"><span>[URL]</span></a>
-          {% endif %} 
-
-          {% if page.pdf %}
-          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.pdf }}"><span>[PDF]</span></a>
-          {% endif %} 
-
-          {% if page.slides %}
-          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.slides }}"><span>[Slides]</span></a>
-          {% endif %}
-
-          {% if page.supplementary %}
-          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.supplementary }}"><span>[Supplementary Info]</span></a>
-          {% endif %}     
-
-          {% if page.code %}
-          <a target="_blank" href="{{ page.code }}"><span>[Code]</span></a>
-          {% endif %}
-
-          {% if page.thesis %}
-          <a target="_blank" href="{{ page.thesis }}"><span>[Thesis]</span></a>
-          {% endif %}
-
-          {% if page.poster %}
-          <a target="_blank" href="{{ page.poster }}"><span>[Poster]</span></a>
-          {% endif %} 
-
-          {% if page.video %}
-          <a target="_blank" href="{{ page.video }}"><span>[Video]</span></a>
-          {% endif %}
-
-          {% if page.arxiv %}
-          <a target="_blank" href="{{ page.arxiv }}"><span>[arXiv]</span></a>
-          {% endif %}
+          {% include pub_links.html pub=pub %}
         </h5>        
       </header>
       {% if page.description %}
@@ -96,7 +63,7 @@ title: Publications
       {% endif %}
     </article>
   </div>
-</div>      
+</div>
 
 	
 <hr>

@@ -1,0 +1,31 @@
+{% if pub.pdf %}
+<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><span class="tag is-info">[PDF]</span></a>
+{% endif %} 
+
+{% if pub.slides %}
+<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.slides }}"><span class="tag is-warning">[Slides]</span></a>
+{% endif %}
+
+{% if pub.supplementary %}
+<a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.supplementary }}"><span class="tag is-warning">[Supplementary Info]</span></a>
+{% endif %}     
+
+{% if pub.code %}
+<a target="_blank" href="{{ pub.code }}"><span class="tag is-success">[Code]</span></a>
+{% endif %}
+
+{% if pub.thesis %}
+<a target="_blank" href="{{ pub.thesis }}"><span class="tag is-warning">[Thesis]</span></a>
+{% endif %}
+
+{% if pub.poster %}
+<a target="_blank" href="{{ pub.poster }}"><span class="tag is-warning">[Poster]</span></a>
+{% endif %} 
+
+{% if pub.video %}
+<a target="_blank" href="{{ pub.video }}"><span class="tag is-primary">[Video]</span></a>
+{% endif %}
+
+{% if pub.arxiv %}
+<a target="_blank" href="{{ pub.arxiv }}"><span class="tag is-danger">[arXiv]</span></a>
+{% endif %}
