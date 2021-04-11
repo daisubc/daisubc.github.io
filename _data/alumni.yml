@@ -2,6 +2,8 @@
   year: "2021"
   degree: "MASc"
   position: "PhD (UBC, DAIS Lab)"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0395380"
 
 - name: "Yulan Zhang"
   year: "2020"
@@ -29,6 +31,8 @@
 - name: "Hui Tian"
   year: "2020"
   degree: "PhD"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0389625"
 
 - name: "Shams Elnawawi"
   year: "2018"
@@ -159,6 +163,8 @@
   degree: "Ph.D."
   year: "2016"
   position: "Vancouver Coastal Health"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0339984"
 
 - name: "David Zamar"             
   degree: "Ph.D."
@@ -169,6 +175,8 @@
   degree: "Ph.D."
   year: "2018"
   position: "GM Canada, then Zavala Lab postdoc (UW-Madison), then faculty (Texas Tech)"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0363007"
 
 - name: "Mahsa Sadeghassadi"
   degree: "Ph.D."
@@ -241,6 +249,8 @@
   degree: "M.A.Sc." 
   year: "2016"
   position: "PhD (UBC)"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0347279"
 
 - name: "Aigerim Ongalbayeva"
   degree: "M.A.Sc." 
@@ -252,6 +262,8 @@
   year: "2017"
   position: "Amazon"
   url: "http://www.stevenspielberg.me/"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0361156"
 
 - name: "David Kong"
   degree: "M.Sc." 

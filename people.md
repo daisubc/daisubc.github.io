@@ -77,7 +77,13 @@ permalink: /people/
 						{{ alum.name }}
 						{% endif %}
 					</td>
-					<td>{{ alum.degree }}</td>
+					<td>
+						{{ alum.degree }}
+						{% if alum.note %}
+							<br>
+							<a target="_blank" href="{{ alum.note_url }}"><span class="tag is-info">[{{ alum.note }}]</span></a>
+						{% endif %}
+					</td>
 					<td>{{ alum.position }}</td>
 				</tr>
 			{% endfor %} 
