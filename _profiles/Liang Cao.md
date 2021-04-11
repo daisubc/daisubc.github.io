@@ -12,4 +12,5 @@ year_start: 2019
 cosupervisor: Yankai Cao (CHBE)
 cosupervisor_url: https://optimal.chbe.ubc.ca/
 title: Liang Cao
+pub_name: Liang Cao
 ---

@@ -1,9 +1,9 @@
-{% assign pubs = site.data.publications %}
+{% assign pubs = site.papers | sort:"order" | reverse %}
 
 <p class="subtitle no-deco">
   <a href="{{ site.baseurl }}/publications/">Latest Publications</a>
 </p>
 
-{% for pub in pubs | sort:'year' | limit:3 %}
+{% for pub in pubs | limit:3 %}
     {% include single_pub_compact.html pub=pub %}
 {% endfor %}

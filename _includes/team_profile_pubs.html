@@ -1,4 +1,4 @@
-{% assign pubs = site.data.publications %}
+{% assign pubs = site.papers %}
 {% capture pub_list %}
   {% for pub in pubs %}
   {% if (pub.authors contains page.title) or (pub.authors contains page.pub_name) %}

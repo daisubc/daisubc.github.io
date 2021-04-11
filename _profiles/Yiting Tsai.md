@@ -9,4 +9,5 @@ degree: PhD
 year_end: None
 year_start: 2016
 title: Yiting Tsai
+pub_name: Yiting Tsai
 ---

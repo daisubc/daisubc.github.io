@@ -1,0 +1,99 @@
+---
+layout: basic
+title: Publications
+---
+
+{% assign dais_members = site.profiles %}
+{% assign pub_authors = page.authors | split: ", " %}
+
+<div class="columns is-multiline">
+  <div class="column is-full">
+    <p>
+      DAIS Lab Publication #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})
+    </p>
+  </div>
+  <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">
+    <p>
+      {% if page.thumbnail %}
+        <figure class="image">
+          <img itemprop="thumbnailUrl" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+        </figure>
+      {% else %}
+        <figure class="image">
+          <img itemprop="thumbnailUrl" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
+        </figure>      
+      {% endif %}
+    </p>    
+  </div>
+  <div class="column">
+    <article itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <header>
+        <h1 class="title is-spaced" itemprop="name">{{page.title}}</h1>
+        <h2 class="subtitle is-5 has-text-darkblue">
+          {% if page.external_url %}
+            <a href="{{ page.external_url }}" target="_blank"><span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time></a>
+          {% else %}
+            <span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
+          {% endif %}
+        </h2>
+        <p class="is-5" itemprop="author">
+          {% for author in pub_authors %}
+            {% assign dais = site.profiles | where:"pub_name", author | first %}
+            {% if dais %}
+              <a href="{{ dais.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+            {% else %}
+            <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+            {% endif %}
+          {% endfor %}
+        </p>
+        <h5>
+          {% if page.external_url %}
+          <a target="_blank" href="{{ page.external_url }}"><span>[URL]</span></a>
+          {% endif %} 
+
+          {% if page.pdf %}
+          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.pdf }}"><span>[PDF]</span></a>
+          {% endif %} 
+
+          {% if page.slides %}
+          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.slides }}"><span>[Slides]</span></a>
+          {% endif %}
+
+          {% if page.supplementary %}
+          <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ page.supplementary }}"><span>[Supplementary Info]</span></a>
+          {% endif %}     
+
+          {% if page.code %}
+          <a target="_blank" href="{{ page.code }}"><span>[Code]</span></a>
+          {% endif %}
+
+          {% if page.thesis %}
+          <a target="_blank" href="{{ page.thesis }}"><span>[Thesis]</span></a>
+          {% endif %}
+
+          {% if page.poster %}
+          <a target="_blank" href="{{ page.poster }}"><span>[Poster]</span></a>
+          {% endif %} 
+
+          {% if page.video %}
+          <a target="_blank" href="{{ page.video }}"><span>[Video]</span></a>
+          {% endif %}
+
+          {% if page.arxiv %}
+          <a target="_blank" href="{{ page.arxiv }}"><span>[arXiv]</span></a>
+          {% endif %}
+        </h5>        
+      </header>
+      {% if page.description %}
+        <p><b>Abstract</b></p>
+        <blockquote itemprop="abstract">
+          <p>{{ page.description }}</p>
+        </blockquote>
+      {% endif %}
+    </article>
+  </div>
+</div>      
+
+	
+<hr>
+<p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>DAIS Lab Publications</a></p>

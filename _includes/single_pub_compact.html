@@ -12,13 +12,9 @@
 
   <div class="column">
     <b class="large pub-title">
-      {% if pub.url %}
-        <a target="_blank" href="{{ pub.url }}" target="_blank">
-          {{ pub.title }}
-        </a>
-      {% else %}
+      <a href="{{ pub.url }}">
         {{ pub.title }}
-      {% endif %}     
+      </a>
     </b>
     {% if pub.notes %}
       <span class="tag is-info is-light">{{ pub.notes }}</span>
@@ -28,8 +24,8 @@
 
     <span class="pub-journal">
       <i>
-        {% if pub.url %}
-        <a target="_blank" href="{{ pub.url }}">{{ pub.journal }}.</a>
+        {% if pub.external_url %}
+        <a target="_blank" href="{{ pub.external_url }}">{{ pub.journal }}.</a>
         {% else %}
           {{ pub.journal }}.
         {% endif %}

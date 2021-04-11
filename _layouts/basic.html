@@ -7,7 +7,7 @@ layout: default
     <div class="content">
       {% include breadcrumbs.html url=page.url path=page.path title=page.title %}
       <hr class="narrow-hr">
-      {% if page.layout != 'post' %}
+      {% if page.layout != 'post' and page.layout != 'publication' %}
         <p class="title is-3 has-text-centered very-bold page-title-container"><span class="page-title">{{ page.title }}</span></p>
       {% endif %}
       {{ content }}

@@ -1,5 +1,4 @@
 <li class="box box-left-border list-item">
-
 <span class="pub-type">
   {% if pub.type == "paper" %}
     <i>Journal Paper</i>
@@ -16,13 +15,7 @@
 <br>
 
 <b class="large pub-title">
-  {% if pub.url %}
-    <a target="_blank" href="{{ pub.url }}" target="_blank">
-      {{ pub.title }}
-    </a>
-  {% else %}
-    {{ pub.title }}
-  {% endif %}
+  <a href="{{ pub.url }}">{{ pub.title }}</a>
 </b>
 <br>
 <span class="pub-authors"> {{ pub.authors }} </span>
@@ -30,8 +23,8 @@
 
 <span class="pub-journal">
   <i>
-    {% if pub.url %}
-    <a target="_blank" href="{{ pub.url }}">{{ pub.journal }}.</a>
+    {% if pub.external_url %}
+    <a target="_blank" href="{{ pub.external_url }}">{{ pub.journal }}.</a>
     {% else %}
       {{ pub.journal }}.
     {% endif %}

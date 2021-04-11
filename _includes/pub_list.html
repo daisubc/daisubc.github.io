@@ -4,12 +4,12 @@
 
 	{% for y in (y_start..y_end) reversed %}
 	{% if include.papertype %}
-		{% assign filteredpapers = site.data.publications | where:"type", include.papertype %}
+		{% assign filteredpapers = site.papers | where:"type", include.papertype %}
 	{% else %}
-		{% assign filteredpapers = site.data.publications %}
+		{% assign filteredpapers = site.papers %}
 	{% endif %}
 
-	{% assign pubs = filteredpapers | where:"year", y %}
+	{% assign pubs = filteredpapers | where:"year", y | sort: "order" | reverse %}
 	{% if pubs.size > 0 %}
 		<div class="pub-year" id="{{y}}">
 			<p class="is-sans-serif no-deco">

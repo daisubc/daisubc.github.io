@@ -16,6 +16,8 @@
         {% assign category = 'people' %}
       {% elsif cat contains 'news' %}
         {% assign category = 'news' %}  
+      {% elsif cat contains 'papers' %}
+        {% assign category = 'publications' %}          
       {% else %}
         {% assign category = cat %}
       {% endif %}
