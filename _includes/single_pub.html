@@ -1,3 +1,5 @@
+{% assign pub_authors = pub.authors | split: ", " %}
+
 <li class="box box-left-border list-item">
 <span class="pub-type">
   {% if pub.type == "paper" %}
@@ -18,7 +20,21 @@
   <a href="{{ pub.url }}">{{ pub.title }}</a>
 </b>
 <br>
-<span class="pub-authors"> {{ pub.authors }} </span>
+<span class="pub-authors">
+  {% for author in pub_authors %}
+    {% assign found = site.profiles | where:"pub_name", author | first %}
+    {% if found %}
+      <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+    {% else %}
+      {% assign found = site.profiles | where:"title", author | first %}
+      {% if found %}
+        <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+      {% else %}
+        <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</span>
 <br>
 
 <span class="pub-journal">

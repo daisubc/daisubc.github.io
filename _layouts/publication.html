@@ -8,9 +8,8 @@ title: Publications
 
 <div class="columns is-multiline">
   <div class="column is-full">
-    <p>
-      DAIS Lab Publication #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})
-    </p>
+    <p class="title is-3 has-text-centered very-bold page-title-container"><span class="page-title">UBC DAIS Lab Publication</span></p>
+    <p class="subtitle is-5 has-text-centered"><span>ID #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})</span></p>
   </div>
   <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">
     <p>
@@ -38,11 +37,16 @@ title: Publications
         </h2>
         <p class="is-5" itemprop="author">
           {% for author in pub_authors %}
-            {% assign dais = site.profiles | where:"pub_name", author | first %}
-            {% if dais %}
-              <a href="{{ dais.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+            {% assign found = site.profiles | where:"pub_name", author | first %}
+            {% if found %}
+              <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
             {% else %}
-            <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+              {% assign found = site.profiles | where:"title", author | first %}
+              {% if found %}
+                <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+              {% else %}
+                <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+              {% endif %}
             {% endif %}
           {% endfor %}
         </p>
@@ -96,4 +100,4 @@ title: Publications
 
 	
 <hr>
-<p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>DAIS Lab Publications</a></p>
+<p class="small is-7"><a href="{{ site.baseurl }}/publications/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>DAIS Lab Publications</a></p>
