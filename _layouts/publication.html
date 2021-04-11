@@ -61,10 +61,29 @@ title: Publications
           <p>{{ page.description }}</p>
         </blockquote>
       {% endif %}
-    </article>
+
+      {% if pub.pdf %}
+        <p><b>Read or Download PDF:</b></p>
+        <object data="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}" width="100%" height="1000" type="application/pdf"></object>
+      {% endif %}       
+    </article>   
   </div>
 </div>
 
-	
 <hr>
+
 <p class="small is-7"><a href="{{ site.baseurl }}/publications/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>DAIS Lab Publications</a></p>
+
+<p>
+  <span>Read More: </span>
+</p>
+<p>
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+</p>
+<p>
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</p>
