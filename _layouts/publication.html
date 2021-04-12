@@ -33,22 +33,22 @@ title: Publications
         <h1 class="title is-spaced" itemprop="name headline">{{page.title}}</h1>
         <h2 class="subtitle is-5 has-text-darkblue">
           {% if page.external_url %}
-            <a href="{{ page.external_url }}" target="_blank"><span itemprop="publisher">{{page.journal}}</span>, <time itemprop="datePublished">{{page.year}}</time></a>
+            <a href="{{ page.external_url }}" target="_blank"><span>{{page.journal}}</span>, <time itemprop="datePublished">{{page.year}}</time></a>
           {% else %}
-            <span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
+            <span>{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
           {% endif %}
         </h2>
         <p class="is-5">
           {% for author in pub_authors %}
             {% assign found = site.profiles | where:"pub_name", author | first %}
             {% if found %}
-              <a href="{{ found.url }}"><span itemprop="author publisher">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+              <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
             {% else %}
               {% assign found = site.profiles | where:"title", author | first %}
               {% if found %}
-                <a href="{{ found.url }}"><span itemprop="author publisher">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+                <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
               {% else %}
-                <span itemprop="author publisher">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+                <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
               {% endif %}
             {% endif %}
           {% endfor %}
