@@ -16,11 +16,11 @@ title: Publications
     <p>
       {% if page.thumbnail %}
         <figure class="image">
-          <img itemprop="thumbnailUrl" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+          <img itemprop="image" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
         </figure>
       {% else %}
         <figure class="image">
-          <img itemprop="thumbnailUrl" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
+          <img itemprop="image" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
         </figure>      
       {% endif %}
     </p>    
@@ -29,15 +29,15 @@ title: Publications
     <article itemscope itemtype="http://schema.org/ScholarlyArticle">
       <header>
         <span class="is-sans-serif has-text-darkblue">{{page.type | upcase }} <b>({{page.year}})</b></span>
-        <h1 class="title is-spaced" itemprop="name">{{page.title}}</h1>
+        <h1 class="title is-spaced" itemprop="name headline">{{page.title}}</h1>
         <h2 class="subtitle is-5 has-text-darkblue">
           {% if page.external_url %}
-            <a href="{{ page.external_url }}" target="_blank"><span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time></a>
+            <a href="{{ page.external_url }}" target="_blank"><span itemprop="publisher">{{page.journal}}</span>, <time itemprop="datePublished">{{page.year}}</time></a>
           {% else %}
             <span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
           {% endif %}
         </h2>
-        <p class="is-5" itemprop="author">
+        <p class="is-5" itemprop="author publisher">
           {% for author in pub_authors %}
             {% assign found = site.profiles | where:"pub_name", author | first %}
             {% if found %}
@@ -58,8 +58,8 @@ title: Publications
       </header>
       {% if page.description %}
         <p><b>Abstract</b></p>
-        <blockquote itemprop="abstract">
-          <p>{{ page.description }}</p>
+        <blockquote>
+          <p itemprop="abstract">{{ page.description }}</p>
         </blockquote>
       {% endif %}
 
