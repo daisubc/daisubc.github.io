@@ -12,15 +12,16 @@ title: Publications
     <p class="title is-3 has-text-centered very-bold page-title-container"><span class="page-title">UBC DAIS Lab Publication</span></p>
     <p class="subtitle is-5 has-text-centered"><span>ID #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})</span></p>
   </div> -->
+
   <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">
     <p>
       {% if page.thumbnail %}
-        <figure class="image">
-          <img itemprop="image" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+        <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+          <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
         </figure>
       {% else %}
-        <figure class="image">
-          <img itemprop="image" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
+        <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+          <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
         </figure>      
       {% endif %}
     </p>    
