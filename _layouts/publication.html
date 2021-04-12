@@ -37,17 +37,17 @@ title: Publications
             <span itemprop="publisher">{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
           {% endif %}
         </h2>
-        <p class="is-5" itemprop="author publisher">
+        <p class="is-5">
           {% for author in pub_authors %}
             {% assign found = site.profiles | where:"pub_name", author | first %}
             {% if found %}
-              <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+              <a href="{{ found.url }}"><span itemprop="author publisher">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
             {% else %}
               {% assign found = site.profiles | where:"title", author | first %}
               {% if found %}
-                <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+                <a href="{{ found.url }}"><span itemprop="author publisher">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
               {% else %}
-                <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+                <span itemprop="author publisher">{{ author }}</span>{% unless forloop.last %},{% endunless %}
               {% endif %}
             {% endif %}
           {% endfor %}
