@@ -64,8 +64,8 @@ title: Publications
       {% endif %}
 
       {% if pub.pdf %}
-        <p><b>Read or Download PDF:</b></p>
-        <object data="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}" width="100%" height="1000" type="application/pdf"></object>
+        <p><b>Read or Download: <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}">PDF</a></b></p>
+        <div class="is-hidden-mobile"><object data="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}" width="100%" height="1000" type="application/pdf"></object></div>
       {% endif %}       
     </article>   
   </div>
