@@ -11,4 +11,5 @@ biography: Originally from Newfoundland, Olivia moved to Vancouver to pursue her
 
 cosupervisor: James Piret (CHBE, Michael Smith Labs)
 cosupervisor_url: https://www.chbe.ubc.ca/profile/james-piret/
+status: alumni
 ---

@@ -10,4 +10,5 @@ year_start: 2020
 cosupervisor: James Piret (CHBE, Michael Smith Labs)
 cosupervisor_url: https://www.chbe.ubc.ca/profile/james-piret/
 title: Wenjia Hao
+status: alumni
 ---
