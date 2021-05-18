@@ -1,7 +1,7 @@
 ---
 layout: biography
 title: Danial Arab
-email: ali.chamkalani@msl.ubc.ca
+email: danial.arab@gmail.com
 project: Data-driven Models for Complex Fluid Flow in Porous Media
 img: danial.jpg
 degree: Postdoc
