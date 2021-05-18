@@ -9,8 +9,9 @@ biography: Liang Cao is a Ph.D. student studying Chemical and Biological Enginee
 degree: PhD
 year_end: None
 year_start: 2019
-cosupervisor: Yankai Cao (CHBE)
-cosupervisor_url: https://optimal.chbe.ubc.ca/
+cosupervisor: 
+  - name: Yankai Cao (CHBE)
+    url: https://optimal.chbe.ubc.ca/
 title: Liang Cao
 pub_name: Liang Cao
 ---

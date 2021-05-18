@@ -37,11 +37,17 @@ layout: basic
         <b>👥 Co-supervisor(s)</b>
       </div>
       <div class="column">
-        {% if page.cosupervisor_url %}
-          <a href="{{ page.cosupervisor_url }}" target="_blank">{{ page.cosupervisor }}</a>
-        {% else %}
-          {{ page.cosupervisor }}
-        {% endif %}
+        {% for cos in page.cosupervisor %}
+          {% if cos.url %}
+            <a href="{{ cos.url }}" target="_blank">{{ cos.name }}</a>
+          {% else %}
+            {{ cos.name }}
+          {% endif %}
+          {% unless forloop.last %}
+          |
+          {% endunless %}
+        {% endfor %}
+
       </div>
     </div>
     {% endif %}

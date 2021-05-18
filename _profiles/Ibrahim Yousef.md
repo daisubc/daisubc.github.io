@@ -5,6 +5,7 @@ degree: PhD
 img: ibrahim.jpg
 project: Developing Predictive Analytics Techniques Towards Fault Detection in an Electric Arc Furnace
 year_start: 2019
-cosupervisor: Sirish Shah (U. Alberta)
+cosupervisor: 
+  - name: Sirish Shah (U. Alberta)
 title: Ibrahim Yousef
 ---

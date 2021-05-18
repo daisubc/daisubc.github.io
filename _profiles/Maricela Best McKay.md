@@ -6,8 +6,9 @@ img: mari.jpg
 degree: PhD
 year_end: None
 year_start: 2019
-cosupervisor: Brian Wetton (Math)
-cosupervisor_url: https://www.math.ubc.ca/~wetton/
+cosupervisor: 
+  - name: Brian Wetton (Math)
+    url: https://www.math.ubc.ca/~wetton/
 title: Maricela Best McKay
 pub_name: Maricela Best Mckay
 biography: >

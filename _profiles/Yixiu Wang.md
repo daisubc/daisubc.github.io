@@ -8,7 +8,8 @@ biography: Yixiu Wang is a PhD student studying Chemical and Biological Engineer
 degree: PhD
 year_end: None
 year_start: 2019
-cosupervisor: Yankai Cao (CHBE)
-cosupervisor_url: https://optimal.chbe.ubc.ca/
+cosupervisor: 
+  - name: Yankai Cao (CHBE)
+    url: https://optimal.chbe.ubc.ca/
 title: Yixiu Wang
 ---
