@@ -2,18 +2,15 @@
   <div class="container">
   <div class="columns">
     <div class="column">
-      <h1 class="title is-spaced is-4 has-text-darkblue very-bold"><i class="fas fa-cubes"></i> {{ site.unishortname }} <b> {{ site.labshortname }} </b></h1>    
+      <h1 class="title is-spaced is-4 has-text-darkblue very-bold"><i class="fas fa-cubes"></i> {{ site.unishortname }} <b> {{ site.labshortname }} </b></h1>   
+      <p class="is-spaced is-5"> {{ site.footer_desc }} </p> 
     </div>
-    <div class="column">
-    </div>    
     <div class="column">
       <div class="content">
         <h1 class="title has-text-darkblue is-4 has-text-darkblue very-bold">Contact</h1>
         {% include contact.html %}
       </div>
     </div>
-    <div class="column">
-    </div>    
     <div class="column">
       <div class="content">
         <h1 class="title has-text-darkblue is-4 has-text-darkblue very-bold">Navigation</h1>
@@ -50,7 +47,7 @@
           <strong>{{ site.labname }}</strong>
         </p>
         <p>
-          Research Group of {{ site.name }} at the {{ site.university }}.
+          Research Group of {{ site.name }} at the {{ site.university }}, {{ site.location }}
         </p>
 
         <p class="mt-6">
