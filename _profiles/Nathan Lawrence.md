@@ -1,6 +1,8 @@
 ---
 layout: biography
 email: Lawrence@math.ubc.ca
+website: https://nplawrence.github.io
+github: https://github.com/NPLawrence
 project: Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications
 project_url: assets/pdf/nl021420.pdf
 img: nathan.jpg
