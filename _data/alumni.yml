@@ -1,13 +1,20 @@
+- name: "Riley Ballachay"
+  year: "2021"
+  degree: "Undergraduate Thesis"
+  position: "BioTwin"
+
 - name: "Wenjia Hao"
   year: "2021"
   degree: "Undergraduate Thesis"
 
 - name: "Olivia Garland"
   year: "2021"
+  position: "AnalysisWorks"
   degree: "Undergraduate Thesis"
 
 - name: "Jude Abu Namous"
   year: "2021"
+  position: "EA SPORTS"
   degree: "Undergraduate Thesis"
 
 - name: "Hashim Migaybil"
