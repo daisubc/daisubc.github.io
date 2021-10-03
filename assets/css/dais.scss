@@ -436,11 +436,11 @@ ul:not(.no-list-deco) {
 }
 
 ul:not(.no-list-deco) li::before {
-  content: "▶";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "›";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: $darkblue; /* Change the color */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1.2em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.8em; /* Also needed for space (tweak if needed) */
 }
 
 .research-card-item{
