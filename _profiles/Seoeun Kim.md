@@ -7,4 +7,5 @@ degree: PhD
 year_end: None
 year_start: 2017
 title: Seoeun Kim
+linkedin: https://www.linkedin.com/in/seoeun-kim-7ba8611a3
 ---

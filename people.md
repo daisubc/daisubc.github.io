@@ -12,14 +12,20 @@ permalink: /people/
 {% assign degrees = "Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
 
 <h1 class="title">Faculty & Staff</h1>
+<hr>
+
 - **[Dr. {{ site.name }}]({{ site.baseurl }}/about/)**, Principal Investigator
 - **[Link to APSC Staff Directory](https://engineering.ubc.ca/about/staff-directory)**
 
-<hr>
+<span class="mb-5"></span>
 
 {% for degree in degrees %}
 
-<h1 class="title"> {{ degree }} </h1>
+<div class="mt-6">
+	<h1 class="title"> {{ degree }} </h1>
+	<hr>
+</div>
+
 <!-- Github pages is still at jekyll 3.9.0, doesnt support binary operators in where_exp yet -->
 {% assign members = active_members | where_exp:"member", "member.degree == degree" | sort: 'year_start' | reverse %}
 
@@ -57,7 +63,8 @@ permalink: /people/
 {% endfor %}
 
 <h1> Alumni </h1>
-<p> Former students and visitors </p>
+<p> Former students, researchers and visitors in the DAIS Lab</p>
+<hr>
 
 <div class="table-container">
 <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">

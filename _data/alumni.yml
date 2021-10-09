@@ -19,11 +19,13 @@
   year: "2021"
   position: "AnalysisWorks"
   degree: "Undergraduate Thesis"
+  linkedin: "https://www.linkedin.com/in/oliviagarland/"
 
 - name: "Jude Abu Namous"
   year: "2021"
   position: "EA SPORTS"
   degree: "Undergraduate Thesis"
+  linkedin: "https://www.linkedin.com/in/jude-abu-namous/"
 
 - name: "Hashim Migaybil"
   year: "2021"
@@ -41,10 +43,13 @@
   degree: "Undergraduate Thesis"
   position: "ARIA Technologies, Cairo, now Burnaby Refinery Process Control"
   url: "https://github.com/shams-n"
+  linkedin: "https://www.linkedin.com/in/shams-elnawawi/"
 
 - name: "Bryan Bohn"
   year: "2021"
   degree: "MAsc"
+  note: "Thesis"
+  note_url: "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0395819"
 
 - name: "Ying Xiong"
   year: "2020"
@@ -54,10 +59,12 @@
   year: "2020"
   degree: "Summer Student (Visiting)"
   position: "Undergraduate Bioengineering, McGill University"
+  linkedin: "https://www.linkedin.com/in/thomas-lai-b3205b172/"
 
 - name: "Hui Tian"
   year: "2020"
   degree: "PhD"
+  linkedin: "https://www.linkedin.com/in/caitlintian/"
   note: "Thesis"
   note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0389625"
 
@@ -66,12 +73,14 @@
   degree: "NSERC USRA"
   position: "Mitsubishi Ireland (Internship), now UBC BASc Thesis"
   url: "https://github.com/shams-n"
+  linkedin: "https://www.linkedin.com/in/shams-elnawawi/"
 
 - name: "Siang Lim"
   year: "2017"
   degree: "NSERC USRA"
   position: "FortisBC, now Burnaby Refinery Process Control"
   url: "https://www.siang.ca/"
+  linkedin: "https://www.linkedin.com/in/csianglim/"
 
 - name: "Anshul Jain*"       
   degree: "Co-Op Student"                
@@ -201,6 +210,7 @@
 - name: "Qiugang Lu"              
   degree: "Ph.D."
   year: "2018"
+  linkedin: "https://www.linkedin.com/in/qiuganglu/"
   position: "GM Canada, then Zavala Lab postdoc (UW-Madison), then faculty (Texas Tech)"
   note: "Thesis"
   note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0363007"

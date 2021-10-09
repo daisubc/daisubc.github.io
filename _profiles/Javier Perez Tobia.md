@@ -12,4 +12,5 @@ year_end: None
 year_start: 2021
 title: Javier Perez Tobia
 pub_name: Javier Perez Tobia
+linkedin: https://www.linkedin.com/in/javipt21/
 ---

@@ -11,5 +11,6 @@ cosupervisor:
   - name: James Piret (CHBE, Michael Smith Labs)
     url: https://www.chbe.ubc.ca/profile/james-piret/
 title: Thomas Lai
+linkedin: https://www.linkedin.com/in/thomas-lai-b3205b172/
 ---
 

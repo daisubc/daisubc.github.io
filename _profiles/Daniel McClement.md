@@ -13,4 +13,5 @@ cosupervisor:
     url: https://www.math.ubc.ca/~loew/
 title: Daniel McClement
 pub_name: Daniel G. McClement
+linkedin: https://www.linkedin.com/in/daniel-mcclement/
 ---
