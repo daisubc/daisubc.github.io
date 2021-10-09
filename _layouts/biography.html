@@ -69,13 +69,23 @@ layout: basic
       </div>
     </div>
     {% endif %}
+    {% if page.linkedin %}
+    <div class="columns">
+      <div class="column is-full-mobile is-one-quarter-desktop">
+        <b><i class="fab fa-linkedin mr-2"></i> Linkedin</b>
+      </div>
+      <div class="column">
+        <a target="_blank" href="{{ page.linkedin }}">{{ page.linkedin }}</a>
+      </div>
+    </div>
+    {% endif %}    
     {% if page.website %}
     <div class="columns">
       <div class="column is-full-mobile is-one-quarter-desktop">
         <b>🔗 Website</b>
       </div>
       <div class="column">
-        <a href="{{ page.website }}">{{ page.website }}</a>
+        <a target="_blank" href="{{ page.website }}">{{ page.website }}</a>
       </div>
     </div>
     {% endif %}

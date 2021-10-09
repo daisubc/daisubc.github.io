@@ -12,4 +12,5 @@ degree: Postdoc
 year_end: None
 year_start: 2020
 title: Shahab Bahrami
+linkedin: https://www.linkedin.com/in/shahab-bahrami-5437a845/
 ---

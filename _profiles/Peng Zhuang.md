@@ -8,4 +8,5 @@ degree: Postdoc
 year_end: None
 year_start: 2020
 title: Peng Zhuang
+linkedin: https://www.linkedin.com/in/peng-zhuang-ph-d-b4568577/
 ---

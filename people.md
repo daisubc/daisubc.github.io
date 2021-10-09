@@ -9,7 +9,7 @@ permalink: /people/
 {% assign y_start = 2002 %}
 
 {% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
-{% assign degrees = "Research Associate|Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
+{% assign degrees = "Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
 
 <h1 class="title">Faculty & Staff</h1>
 - **[Dr. {{ site.name }}]({{ site.baseurl }}/about/)**, Principal Investigator
@@ -33,7 +33,7 @@ permalink: /people/
 		    		<a href="{{ member.url }}"><img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
 		    	{% else %}
 		    		<a href="{{ member.url }}"><img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
-		    	{% endif %}	    	
+		    	{% endif %}
 		    </p>
 		  </figure>
 	  	<div class="media-content">
@@ -42,7 +42,11 @@ permalink: /people/
 	  				{% if member.degree == "Postdoc" %}Dr. {% endif %}
 	  				<span itemprop="name">{{ member.title }}</span>
 		  		</a>
-		  		<p class="member-project">{{ member.project }}</p>
+		  		<p class="member-project no-deco">{{ member.project }}
+		  			{% if member.linkedin %}
+		  				<br><a class="mt-1" href="{{ member.linkedin }}"><i class="fab fa-lg fa-linkedin"></i></a>
+		  			{% endif %}
+		  		</p>	
 		  	</div>
 		  </div>
 		</article>
@@ -71,10 +75,14 @@ permalink: /people/
 			<td colspan="3" style="background-color: #eee;"><b>{{y}}</b></td>
 			{% for alum in sorted_alum %}
 				<tr>
-					<td>{% if alum.url %}
-						<a href="{{ alum.url }}">{{ alum.name }}</a>
+					<td>
+						{% if alum.url %}
+							<a href="{{ alum.url }}">{{ alum.name }}</a>
 						{% else %}
-						{{ alum.name }}
+							{{ alum.name }}
+						{% endif %}
+						{% if alum.linkedin %}
+							<a class="ml-1" href="{{ alum.linkedin }}"><i class="fab fa-linkedin"></i></a>
 						{% endif %}
 					</td>
 					<td>

@@ -12,4 +12,5 @@ cosupervisor:
       url: https://optimal.chbe.ubc.ca/
 title: Mengqi Fang
 pub_name: Mengqi Fang
+linkedin: https://www.linkedin.com/in/mengqi-fang-02417a128/
 ---

@@ -13,4 +13,5 @@ cosupervisor:
     url: https://www.chbe.ubc.ca/profile/peter-englezos/
   - name: Apostolos Kantzas (UofC)
     url: https://schulich.ucalgary.ca/contacts/apostolos-kantzas
+linkedin: https://www.linkedin.com/in/danial-arab
 ---

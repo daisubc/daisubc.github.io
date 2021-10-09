@@ -10,4 +10,5 @@ degree: Research Associate
 year_end: None
 year_start: 2020
 title: Jiachen Wei
+status: alumni
 ---
