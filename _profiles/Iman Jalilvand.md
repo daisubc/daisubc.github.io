@@ -8,5 +8,8 @@ biography: Originally from Tehran, Iran, as his B.Sc., Iman have studied mechani
 
 year_end: None
 year_start: 2020
+cosupervisor:
+  - name: Abbas Milani
+    url: https://engineering.ok.ubc.ca/about/contact/abbas-milani/
 title: Iman Jalilvand
 ---

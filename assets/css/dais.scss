@@ -450,3 +450,8 @@ ul:not(.no-list-deco) li::before {
 .cryptedmail:after {
   content: attr(data-name) "@" attr(data-domain); 
 }
+
+.is-profile{
+  padding: 4px;
+  border: 3px solid $darkblue;
+}

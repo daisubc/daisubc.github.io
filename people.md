@@ -30,9 +30,9 @@ permalink: /people/
 		  <figure class="media-left">
 		    <p class="image is-96x96 is-round">
 		    	{% if member.img %}
-		    		<a href="{{ member.url }}"><img class="is-rounded" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
+		    		<a href="{{ member.url }}"><img class="is-rounded is-profile" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
 		    	{% else %}
-		    		<a href="{{ member.url }}"><img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
+		    		<a href="{{ member.url }}"><img class="is-rounded is-profile" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
 		    	{% endif %}
 		    </p>
 		  </figure>
