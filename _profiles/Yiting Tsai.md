@@ -10,4 +10,5 @@ year_end: None
 year_start: 2016
 title: Yiting Tsai
 pub_name: Yiting Tsai
+linkedin: https://www.linkedin.com/in/yiting-tsai-48a7375a/
 ---

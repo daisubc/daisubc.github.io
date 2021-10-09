@@ -16,4 +16,5 @@ cosupervisor:
     url: https://www.math.ubc.ca/~loew/
 title: Lee Rippon
 pub_name: Lee D. Rippon
+linkedin: https://www.linkedin.com/in/leerippon
 ---

@@ -56,7 +56,12 @@ layout: basic
         <b>📨 Contact</b>
       </div>
       <div class="column">
-        {{ page.email }}
+        {% assign email = page.email | split: "@" %}
+        <a href="#" class="cryptedmail"
+         data-name="{{ email[0] }}"
+         data-domain="{{ email[1] }}"
+         onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain; return false;">
+         </a>
       </div>      
     </div>
     {% if page.github %}

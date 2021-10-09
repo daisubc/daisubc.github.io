@@ -7,7 +7,9 @@ degree: Undergraduate
 biography: I am originally from Taiwan and I moved to Vancouver in 2013. I am now pursuing a Bachelor’s degree in Bioengineering at McGill University. My research project consists of building a reinforcement learning controller to control T-cell culture experiments.
 year_end: None
 year_start: 2020
-cosupervisor: James Piret (CHBE, Michael Smith Labs)
+cosupervisor:
+  - name: James Piret (CHBE, Michael Smith Labs)
+    url: https://www.chbe.ubc.ca/profile/james-piret/
 title: Thomas Lai
 ---
 

@@ -9,4 +9,5 @@ year_end: None
 year_start: 2021
 title: Davis Chiu
 pub_name: Davis Chiu
+linkedin: https://linkedin.com/in/davis-chiu/
 ---

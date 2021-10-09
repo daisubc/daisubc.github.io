@@ -16,4 +16,5 @@ cosupervisor:
     url: https://www.math.ubc.ca/~loew/
 title: Nathan Lawrence
 pub_name: Nathan P. Lawrence
+linkedin: https://www.linkedin.com/in/nathan-lawrence-ab88a8142/
 ---

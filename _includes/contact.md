@@ -14,7 +14,12 @@
 {{ site.phone }}
 
 #### Email
-{{ site.email }}
+{% assign email = "bhushan.gopaluni@ubc.ca" | split: "@" %}
+<a href="#" class="cryptedmail"
+ data-name="{{ email[0] }}"
+ data-domain="{{ email[1] }}"
+ onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain; return false;">
+</a>
 
 #### Office
 {{ site.office }}

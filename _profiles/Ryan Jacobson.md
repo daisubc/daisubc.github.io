@@ -6,6 +6,7 @@ img: ryan.jpg
 degree: PhD
 year_end: None
 year_start: 2016
-cosupervisor: Shahab Sokhansanj (CHBE)
+cosupervisor: 
+  - name: Shahab Sokhansanj (CHBE)
 title: Ryan Jacobson
 ---

@@ -8,6 +8,9 @@ biography: Originally from Calgary, Daniel moved to Vancouver to pursue a bachel
 degree: MASc
 year_end: None
 year_start: 2020
+cosupervisor: 
+  - name: Philip Loewen (Math)
+    url: https://www.math.ubc.ca/~loew/
 title: Daniel McClement
 pub_name: Daniel G. McClement
 ---
