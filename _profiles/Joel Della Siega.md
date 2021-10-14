@@ -8,6 +8,6 @@ year_end:
 year_start: 2021
 title: Joel Della Siega
 biography: >
-  I was born and raised in Vancouver and I am in my fourth and final year of a Chemical and Biological Engineering undergrad. I am interested in the applications of machine learning to aid the development of regenerative medical therapies. I am a former varsity athlete (national champion high jumper) who still stays quite active and enjoys playing any and all sports. My spare time is spent coaching high jump, tutoring, and playing sports.
+  Joel was born and raised in Vancouver and is completing his fourth year of a Chemical and Biological Engineering undergrad. He has past experience with regenerative medicine research with the Piret Group. He is most interested in the applications of machine learning to aid the development of regenerative medical therapies. He has a background as a varsity athlete at UBC and as a national-level high jumper. He spends his spare time coaching high jump, playing sports, and tutoring.
 linkedin: http://www.linkedin.com/in/joel-della-siega-1a3115197
 ---
