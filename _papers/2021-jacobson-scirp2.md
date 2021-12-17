@@ -2,7 +2,7 @@
 layout: publication
 title: "A Cost Analysis of Mobile and Stationary Pellet Mills for Mitigating Wildfire Costs"
 type: "paper"
-order: 157
+order: 158
 year: 2021
 authors: "Ryan Jacobson, Shahab Sokhansanj, Dominik Roeser, Jason Hansen, Bhushan Gopaluni, Xiaotao Bi"
 journal: "Journal of Sustainable Bioenergy Systems"
