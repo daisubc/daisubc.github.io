@@ -15,7 +15,7 @@ Congratulations to DAIS Lab members for their recently accepted papers!
 <img src="/assets/thumbnails/lawrence_cep_2021.jpg" style="width: 40% !important;" />
 
 ## On Refining and Process Control
-Two additional papers, in collaboration with the Burnaby Refinery, has been accepted in *Control Engineering Practice* and *Biofuels, Bioproducts and Biorefining*.
+Two additional papers, in collaboration with the Burnaby Refinery, have been accepted in *Control Engineering Practice* and *Biofuels, Bioproducts and Biorefining*.
 
 [Liang]({% link _profiles/Liang Cao.md %}), with the [Saddler group (UBC)](https://bioenergy.ubc.ca/) and collaborators, worked on novel methodologies for FCC coke burn estimation for lipids co-processing:
 
