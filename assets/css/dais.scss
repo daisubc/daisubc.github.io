@@ -95,6 +95,11 @@ p:not(.image):not(.no-deco){
   letter-spacing: 1px;
 }
 
+.background-tint {
+  filter: grayscale(10%);
+  border-radius: 50%;
+}
+
 .navbar-brand {
   .navbar-item{
     color: $darkblue;

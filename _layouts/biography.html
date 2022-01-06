@@ -20,7 +20,10 @@ layout: basic
         <b>📚 Program/Degree</b>
       </div>
       <div class="column">
-        {{ page.degree }}, since {{ page.year_start }}
+        {% if page.status == "alumni" %}
+          <b>GROUP ALUMNI ({{ page.year_end }})</b> |
+        {% endif %}        
+        {{ page.degree }}, started {{ page.year_start }}
       </div>
     </div>
     <div class="columns">
@@ -34,7 +37,7 @@ layout: basic
     {% if page.cosupervisor %}
     <div class="columns">
       <div class="column is-full-mobile is-one-quarter-desktop">
-        <b>👥 Co-supervisor(s)</b>
+        <b>👥 Also supervised by</b>
       </div>
       <div class="column">
         {% for cos in page.cosupervisor %}

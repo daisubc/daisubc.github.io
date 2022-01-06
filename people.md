@@ -48,10 +48,10 @@ permalink: /people/
 	  				{% if member.degree == "Postdoc" %}Dr. {% endif %}
 	  				<span itemprop="name">{{ member.title }}</span>
 		  		</a>
+	  			{% if member.linkedin %}
+	  			  <a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-lg fa-linkedin"></i></a>
+	  			{% endif %}		  		
 		  		<p class="member-project no-deco">{{ member.project }}
-		  			{% if member.linkedin %}
-		  				<br><a class="mt-1" href="{{ member.linkedin }}"><i class="fab fa-lg fa-linkedin"></i></a>
-		  			{% endif %}
 		  		</p>	
 		  	</div>
 		  </div>
@@ -70,6 +70,7 @@ permalink: /people/
 <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
 	<thead>
 		<tr>
+			<th></th>
 			<th>Name</th>
 			<th>Degree</th>
 			<th>Position After Leaving/Now At</th>
@@ -79,10 +80,22 @@ permalink: /people/
 	{% for y in (y_start..y_end) reversed %}
 		{% assign sorted_alum = site.data.alumni | where:"year", y %}	
 		{% if sorted_alum.size > 0 %}
-			<td colspan="3" style="background-color: #eee;"><b>{{y}}</b></td>
+			<td colspan="4" style="background-color: #eee;"><b>{{y}}</b></td>
 			{% for alum in sorted_alum %}
 				<tr>
-					<td>
+					<td width="10">
+				    {% for profile in site.profiles %}
+				      {% if profile.title == alum.name %}
+								<a href="{{ profile.url }}">
+									{{ alum_page.name }}
+									<div class="image is-24x24">
+										<img class="background-tint is-rounded" src="{{ site.baseurl }}/assets/profile/{{ profile.img }}" style="height: 100%; object-fit: cover;" alt="{{ alum.name }}">
+									</div>
+								</a>
+				      {% endif %}
+				    {% endfor %}	    					
+					</td>
+					<td>					
 						{% if alum.url %}
 							<a href="{{ alum.url }}">{{ alum.name }}</a>
 						{% else %}
@@ -90,12 +103,11 @@ permalink: /people/
 						{% endif %}
 						{% if alum.linkedin %}
 							<a class="ml-1" href="{{ alum.linkedin }}"><i class="fab fa-linkedin"></i></a>
-						{% endif %}
+						{% endif %}						
 					</td>
 					<td>
 						{{ alum.degree }}
 						{% if alum.note %}
-							<br>
 							<a target="_blank" href="{{ alum.note_url }}"><span class="tag is-info">[{{ alum.note }}]</span></a>
 						{% endif %}
 					</td>
