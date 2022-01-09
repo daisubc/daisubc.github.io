@@ -13,11 +13,29 @@ title: Publications
     <p class="subtitle is-5 has-text-centered"><span>ID #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})</span></p>
   </div> -->
 
+  <div class="modal" id="img-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="is-size-7">{{page.title}}</p>
+      </header>
+      <section class="modal-card-body">
+        <p><img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}"></p>
+      </section>
+      <footer class="modal-card-foot">
+        <p class="is-size-7">{{ page.thumbnail_caption }}</p>
+      </footer>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+
   <div class="column has-text-centered is-full-mobile is-one-third-desktop">
     <p>
       {% if page.thumbnail %}
         <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-          <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+          <a class = "modal-click" data-target = "#img-modal">
+            <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+          </a>
         </figure>
       {% else %}
         <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
@@ -89,3 +107,16 @@ title: Publications
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </p>
+
+<script>
+   $(".modal-click").click(function() {
+      var target = $(this).data("target");
+      $("html").addClass("is-clipped");
+      $(target).addClass("is-active");
+   });
+   
+   $(".modal-close").click(function() {
+      $("html").removeClass("is-clipped");
+      $(this).parent().removeClass("is-active");
+   });
+</script>
