@@ -4,7 +4,7 @@
   <div class="column is-one-fifth">
     {% if pub.thumbnail %}
       <figure class="image mb-1">
-        <img style="object-fit: contain;" src="{{ site.baseurl }}/assets/thumbnails/{{ pub.thumbnail }}">
+        <img alt="{{ pub.title }} by {{ pub.authors}}" title="{{ pub.title }} by {{ pub.authors}}" style="object-fit: contain;" src="{{ site.baseurl }}/assets/thumbnails/{{ pub.thumbnail }}">
       </figure>
     {% endif %}
   </div>
