@@ -8,6 +8,7 @@ authors: "Jianping Su, Liang Cao, Gary Lee, Bhushan Gopaluni, Don O’Connor, Su
 journal: "Biofuels, Bioproducts and Biorefining"
 pdf: "2021J7_Su_Bio.pdf"
 thumbnail: "su_bio_2021.jpg"
+image: "/assets/thumbnails/su_bio_2021.jpg"
 thumbnail_caption: >
   Figure 3: Correlation between the various factors that impact coke yield during commercial FCC operations.
 external_url: "https://onlinelibrary.wiley.com/doi/10.1002/bbb.2325"
