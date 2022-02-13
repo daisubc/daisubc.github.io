@@ -4,10 +4,15 @@ UBC DAIS Lab Website: [https://dais.chbe.ubc.ca](https://dais.chbe.ubc.ca)
 Please see below for a guide on updating this website.
 
 # New Students
+
+## Account setup
 1. Please create a GitHub account if you do not already have one. Send your GitHub username to `bhushan.gopaluni@ubc.ca` and CC `siang@alumni.ubc.ca` to add your account to the DAIS lab organization.
 2. Wait for confirmation that your account has been added before proceeding.
-3. First, upload your profile pic to the [`assets/profile`](https://github.com/daisubc/daisubc.github.io/tree/master/assets/profile) folder. Important: Please crop your photo to a squarish shape and keep the file size to something reasonable, <1MB.
-4. Then, create a new `.md` file with your name in the [`_profiles/`](https://github.com/daisubc/daisubc.github.io/tree/master/_profiles) folder. Use the existing profiles, an example is shown below for you to modify:
+3. You will receive an email from GitHub with an invitation to join the `daisubc` organization. Click accept. If you do not see the email, login to GitHub and check your notifications on the top right corner.
+
+## Profile update
+1. First, upload your profile pic to the [`assets/profile`](https://github.com/daisubc/daisubc.github.io/tree/master/assets/profile) folder. Important: Please crop your photo to a squarish shape and keep the file size to something reasonable, <1MB.
+2. Then, create a new `.md` file with your name in the [`_profiles/`](https://github.com/daisubc/daisubc.github.io/tree/master/_profiles) folder. Use the existing profiles, an example is shown below for you to modify:
 
 ```
 ---
