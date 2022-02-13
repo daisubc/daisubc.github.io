@@ -51,8 +51,12 @@ permalink: /people/
 	  			{% if member.linkedin %}
 	  			  <a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-lg fa-linkedin"></i></a>
 	  			{% endif %}		  		
-		  		<p class="member-project no-deco">{{ member.project }}
-		  		</p>	
+		  		<p class="member-project no-deco">
+		        {% if member.visitor %}
+		          <i>(Visiting)</i>
+		        {% endif %}		  			
+		  			{{ member.project }}
+		  		</p> 
 		  	</div>
 		  </div>
 		</article>

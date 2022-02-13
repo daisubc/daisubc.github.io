@@ -22,8 +22,12 @@ layout: basic
       <div class="column">
         {% if page.status == "alumni" %}
           <b>GROUP ALUMNI ({{ page.year_end }})</b> |
-        {% endif %}        
-        {{ page.degree }}, started {{ page.year_start }}
+        {% endif %}
+        {{ page.degree }}
+        {% if page.visitor %}
+          <i>(Visiting)</i>
+        {% endif %}
+        , started {{ page.year_start }}
       </div>
     </div>
     <div class="columns">
