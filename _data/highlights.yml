@@ -1,7 +1,12 @@
+- message: "Ibrahim's paper on visual analytics has been selected as a keynote for DYCOPS 2022. Congratulations!"
+  date: "2022-03-13"
+  url: "https://dais.chbe.ubc.ca/news/2022-yousef-dycops/"
+  display: "True"
+
 - message: "Daniel and Nathan's paper on meta-reinforcement learning has been selected as a Keynote at ADCHEM 2021. Congratulations!"
   date: "2021-03-21"
   url: "https://dais.chbe.ubc.ca/news/2021-03-21-adchem-papers/"
-  display: "True"
+  display: "False"
 
 - message: "Nathan's paper on 'Almost Surely Stable Deep Dynamics' has been accepted as a NeurIPS 2020 Spotlight session. Congratulations!"
   date: "2020-09-25"
