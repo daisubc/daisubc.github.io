@@ -1,7 +1,24 @@
-# DAIS Website Guide
-UBC DAIS Lab Website: [https://dais.chbe.ubc.ca](https://dais.chbe.ubc.ca)
+# UBC Data Analytics and Intelligent Systems Lab
+<img src="./assets/img/dais_lab.png" width="250">
 
-Please see below for a guide on updating this website.
+UBC DAIS - Data Analytics and Intelligent Systems Lab
+
+- Lab Website: [https://dais.chbe.ubc.ca](https://dais.chbe.ubc.ca)
+
+For current/incoming students: Please see below for a guide on updating this website.
+
+---
+  
+### License
+Copyright 2022 UBC DAIS Lab and [Bhushan Gopaluni](https://chbe.ubc.ca/profile/bhushan-gopaluni/). Website design and framework developed by [Siang Lim](https://www.siang.ca) in Jekyll/Liquid.
+
+#### MIT License
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 # New Students
 
