@@ -4,6 +4,7 @@
 UBC DAIS - Data Analytics and Intelligent Systems Lab
 
 - Lab Website: [https://dais.chbe.ubc.ca](https://dais.chbe.ubc.ca)
+- Faculty Website: [https://chbe.ubc.ca/profile/bhushan-gopaluni/](https://chbe.ubc.ca/profile/bhushan-gopaluni/)
 
 For current/incoming students: Please see below for a guide on updating this website.
 
