@@ -1,0 +1,18 @@
+{% assign current = page.url | downcase | split: '/' %}
+
+**Note:** Publication list under construction. Can't find a paper? Create a <a href="https://github.com/daisubc/daisubc.github.io/issues" target="_blank">GitHub issue</a> to request a preprint.
+
+<ul>
+  <li>Please see <a href="https://scholar.google.com/citations?user=3rB_SGYAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> for a full list of publications.</li>
+  <li>Videos and presentations are available in our <a href="https://vimeo.com/showcase/7521351" target="_blank">Vimeo</a> page.</li>
+  <li>Posters, data and other documents are also available in our <a href="https://figshare.com/authors/Bhushan_Gopaluni/9643466" target="_blank">Figshare</a> page.</li>
+</ul>
+
+<div class="tabs">
+  <ul class="list-nomargin no-deco no-list-deco">
+    <li {% if current.size == 2 %}class="is-active"{% endif %}><a href="{{ site.baseurl }}/publications/">All</a></li>
+    <li {% if current[2] == "papers" %}class="is-active"{% endif %}><a href="{{ site.baseurl }}/publications/papers">Papers</a></li>
+    <li {% if current[2] == "conference" %}class="is-active"{% endif %}><a href="{{ site.baseurl }}/publications/conference">Conference</a></li>
+    <li {% if current[2] == "patents" %}class="is-active"{% endif %}><a href="{{ site.baseurl }}/publications/patents">Patents</a></li>
+  </ul>
+</div>
