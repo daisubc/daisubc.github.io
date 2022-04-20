@@ -6,7 +6,7 @@ order: 163
 year: 2022
 authors: "Ibrahim Yousef, Sirish L. Shah, R. Bhushan Gopaluni"
 journal: "13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS), To Appear"
-# pdf: "2022C1_Yousef_DYCOPS.pdf"
+pdf: "2022C1_Yousef_DYCOPS.pdf"
 thumbnail: "2022C1_Yousef_DYCOPS.png"
 image: "/assets/thumbnails/2022C1_Yousef_DYCOPS.png"
 thumbnail_caption: >
