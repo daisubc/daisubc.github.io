@@ -1,3 +1,8 @@
+- message: "We are organizing a workshop on the design and operation of Li-ion batteries at DYCOPS 2022"
+  date: "2022-04-20"
+  url: "https://dais.chbe.ubc.ca/assets/pdf/2022DYCOPS_Workshop_v2.pdf"
+  display: "True"
+
 - message: "Yixiu's paper on battery capacity estimation has been accepted in Nature Communications. Congratulations!"
   date: "2022-04-02"
   url: "https://dais.chbe.ubc.ca/publication/2022-zhu-naturecomm/"
