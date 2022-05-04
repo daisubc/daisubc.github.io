@@ -1,0 +1,17 @@
+---
+layout: biography
+email: tobi.alabi@connect.polyu.hk
+website: https://scholar.google.ca/citations?hl=en&authuser=1&user=fHmACVUAAAAJ 
+github: https://github.com/Michael-HK
+project: Deep reinforcement learning algorthm for real-time energy scheduling of integrated energy systems with carbon capture technology
+img: Michael.png
+degree: PhD
+year_end: None
+year_start: 2019
+has_profile: True
+biography: Michael is a visiting PhD student in the Department of Chemical and Biological Engineering at UBC. He is presently working on his PhD project which is a multidisciplinary research between the department of Building Environment and Energy Engineering (BEEE) in The Hong Kong Polytechnic University and the Department of Mechanical and Energy Engineering (MEEE) in Shenzhen Univ. of Science and Technology (SUStech). His research focuses on the application of optimzation methods, advanced machine learning techniques (including deep reinforcement learning), data-driven control mechanism, building energy model, and energy systems modeling for the development of robust algorithm for zero-carbon multi-energy systems' planning and operation feasiblity. His research output has been published in some notable SCI journals in the energy field which can be access on his google scholar profile.  
+Visitor: True
+title: Alabi, Tobi Michael
+pub_name: Alabi, Tobi Michael
+linkedin: https://www.linkedin.com/in/tobi-michael-alabi/
+---
