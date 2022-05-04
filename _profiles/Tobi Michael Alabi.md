@@ -3,7 +3,7 @@ layout: biography
 email: tobi.alabi@connect.polyu.hk
 website: https://scholar.google.ca/citations?hl=en&authuser=1&user=fHmACVUAAAAJ 
 github: https://github.com/Michael-HK
-project: Deep reinforcement learning algorthm for real-time energy scheduling of integrated energy systems with carbon capture technology
+project: (Visiting) Deep reinforcement learning algorthm for real-time energy scheduling of integrated energy systems with carbon capture technology
 img: Tobi.png
 degree: PhD
 year_end: None
