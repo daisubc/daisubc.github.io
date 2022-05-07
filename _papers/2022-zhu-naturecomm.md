@@ -7,6 +7,7 @@ year: 2022
 authors: "Jiangong Zhu, Yixiu Wang, Yuan Huang, R. Bhushan Gopaluni, Yankai Cao, Michael Heere, Martin J. Mühlbauer, Liuda Mereacre, Haifeng Dai, Xinhua Liu, Anatoliy Senyshyn, Xuezhe Wei, Michael Knapp, Helmut Ehrenberg"
 journal: "Nature Communications"
 pdf: "2022J2_Zhu_NC.pdf"
+external_url: "https://www.nature.com/articles/s41467-022-29837-w"
 thumbnail: "2022J2_Zhu_NC.png"
 thumbnail_caption: >
   Figure 1: Battery cycling data. Voltage and current profile in the first cycle of one CY25-0.5/1 NCA battery
