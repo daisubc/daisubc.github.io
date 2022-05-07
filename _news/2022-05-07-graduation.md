@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DAIS group members successfully defend thesis"
+title:  "Successful thesis defense"
 description: Daniel and Seoun successfully defended their MASc thesis and MEng project respectively
 date: "2022-05-07"
 ---
