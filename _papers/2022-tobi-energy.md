@@ -2,7 +2,7 @@
 layout: publication
 title: "A review on the integrated optimization techniques and machine learning approaches for modeling, prediction, and decision making on integrated energy systems"
 type: "paper"
-order: 165
+order: 166
 year: 2022
 authors: "Tobi Michael Alabi, Emmanuel I. Aghimien, Favour D. Agbajor, Zaiyue Yang, Lin Lu, Adebusola R. Adeoye, Bhushan Gopaluni"
 journal: "Renewable Energy"
