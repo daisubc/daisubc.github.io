@@ -1,3 +1,20 @@
+- degree: "MEng"
+  year: 2022
+  name: Seoeun Kim
+  linkedin: https://www.linkedin.com/in/seoeun-kim-7ba8611a3
+  position: UBC CHBE
+
+- degree: "Undergraduate Thesis"
+  year: 2022
+  name: Landon Jackson
+  linkedin: https://www.linkedin.com/in/landon-jackson/
+  position: Process Engineer, Hatch
+
+- degree: "Undergraduate Thesis"
+  year: 2022
+  name: Kenechukwu (Kene) Ene
+  linkedin: https://www.linkedin.com/in/keneene/
+
 - degree: Postdoc
   year: 2022
   name: Mengqi Fang

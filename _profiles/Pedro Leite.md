@@ -7,6 +7,6 @@ degree: Undergraduate
 biography: Originally from Brazil, I am a 4th year electrical engineering student at UBC, passionate about data statistics and analytics. 
 
 year_end: 2024
-year_start: 2018
+year_start: 2022
 title: Pedro Leite
 ---
