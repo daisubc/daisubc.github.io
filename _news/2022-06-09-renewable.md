@@ -5,7 +5,7 @@ description: New paper on machine learning approaches for energy systems publish
 date: "2022-06-09"
 ---
 
-Congratulations to [Tobi]({% link _profiles/Tobi Michael Alabi.md %}) for his in Renewable Energy (IF: 8).
+Congratulations to [Tobi]({% link _profiles/Tobi Michael Alabi.md %}) for his latest paper in Renewable Energy *(IF: 8.0).*
 
 - [A review on the integrated optimization techniques and machine learning approaches for modeling, prediction, and decision making on integrated energy systems]({% link _papers/2022-tobi-energy.md %})
 
