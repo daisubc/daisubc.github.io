@@ -2,7 +2,7 @@
 layout: post
 title:  "New paper in Renewable Energy"
 description: New paper on machine learning approaches for energy systems published in Renewable Energy.
-date: "2022-06-20"
+date: "2022-06-09"
 ---
 
 Congratulations to [Tobi]({% link _profiles/Tobi Michael Alabi.md %}) for his in Renewable Energy (IF: 8).
