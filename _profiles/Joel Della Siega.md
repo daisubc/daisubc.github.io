@@ -4,7 +4,8 @@ email: jadellasiega@gmail.com
 project: Machine Learning For Regenerative Medical Therapies
 img: joel.jpg
 degree: Undergraduate
-year_end: 
+status: alumni
+year_end: 2022
 year_start: 2021
 title: Joel Della Siega
 cosupervisor:
