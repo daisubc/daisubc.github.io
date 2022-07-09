@@ -1,7 +1,12 @@
+- message: "Ibrahim receives DYCOPS Young Author Award for his paper on Visual Analytics. Congratulations!"
+  date: "2022-06-16"
+  url: "https://dais.chbe.ubc.ca/news/2022-06-20-youngauthor/"
+  display: "True"
+
 - message: "We are organizing a workshop on the design and operation of Li-ion batteries at DYCOPS 2022"
   date: "2022-04-20"
   url: "https://dais.chbe.ubc.ca/assets/pdf/2022DYCOPS_Workshop_v2.pdf"
-  display: "True"
+  display: "False"
 
 - message: "Yixiu's paper on battery capacity estimation has been accepted in Nature Communications. Congratulations!"
   date: "2022-04-02"
@@ -11,7 +16,7 @@
 - message: "Ibrahim's paper on visual analytics has been selected as a keynote for DYCOPS 2022. Congratulations!"
   date: "2022-03-13"
   url: "https://dais.chbe.ubc.ca/publication/2022-yousef-dycops/"
-  display: "True"
+  display: "False"
 
 - message: "Daniel and Nathan's paper on meta-reinforcement learning has been selected as a Keynote at ADCHEM 2021. Congratulations!"
   date: "2021-03-21"
