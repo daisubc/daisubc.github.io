@@ -29,6 +29,12 @@ permalink: /people/
 <!-- Github pages is still at jekyll 3.9.0, doesnt support binary operators in where_exp yet -->
 {% assign members = active_members | where_exp:"member", "member.degree == degree" | sort: 'year_start' | reverse %}
 
+{% if members.size == 0 %}
+
+<p> - </p>
+
+{% else %}
+
 <div class="columns is-multiline">
 {% for member in members %}
 	<div class="column is-one-third-desktop is-full-mobile">
@@ -63,6 +69,7 @@ permalink: /people/
 	</div>
 {% endfor %}
 </div>
+{% endif %}
 
 {% endfor %}
 
