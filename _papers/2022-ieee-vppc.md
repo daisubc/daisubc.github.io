@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Online Capacity Estimation of Lithium-ion Batteries by Partial Incremental Capacity Curve"
-type: "paper"
+type: "conference"
 order: 168
 year: 2022
 authors: "Yixiu Wang, Jiangong Zhu, Liang Cao, Bhushan Gopaluni, Yankai Cao"
