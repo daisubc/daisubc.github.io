@@ -2,7 +2,7 @@
 layout: biography
 email: groversiddharth21@gmail.com
 github: https://github.com/killerninja8
-project: Process Analytics and Machine Learning Techniques for the Kraft Pulping Process
+project: Process Analytics and Machine Learning for Product Monitoring and Bottleneck Identification
 img: sid.jpg
 degree: Undergraduate
 year_end: 
