@@ -1,3 +1,8 @@
+- message: "Lee's lime kiln monitoring research commercialized by BlueMarvel AI. Congratulations!"
+  date: "2022-10-15"
+  url: "https://dais.chbe.ubc.ca/news/2022-10-15-heatseeker/"
+  display: "True"
+
 - message: "Ibrahim receives DYCOPS Young Author Award for his paper on Visual Analytics. Congratulations!"
   date: "2022-06-16"
   url: "https://dais.chbe.ubc.ca/news/2022-06-20-youngauthor/"
@@ -11,7 +16,7 @@
 - message: "Yixiu's paper on battery capacity estimation has been accepted in Nature Communications. Congratulations!"
   date: "2022-04-02"
   url: "https://dais.chbe.ubc.ca/publication/2022-zhu-naturecomm/"
-  display: "True"
+  display: "False"
 
 - message: "Ibrahim's paper on visual analytics has been selected as a keynote for DYCOPS 2022. Congratulations!"
   date: "2022-03-13"
