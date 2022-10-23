@@ -9,7 +9,7 @@ permalink: /people/
 {% assign y_start = 2002 %}
 
 {% assign active_members = site.profiles | where_exp:"member", "member.status != 'alumni'" %}
-{% assign degrees = "Postdoc|PhD|MASc|Undergraduate" | split: "|" %}
+{% assign degrees = "Postdoc|PhD|MASc|MEng|Undergraduate" | split: "|" %}
 
 <h1 class="title">Faculty & Staff</h1>
 <hr>
