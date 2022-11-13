@@ -44,7 +44,7 @@ permalink: /people/
 		    	{% if member.img %}
 		    		<a href="{{ member.url }}"><img class="is-rounded is-profile" style="height: 100%; object-fit: cover;" src="{{ site.baseurl }}/assets/profile/{{ member.img }}" alt="{{ member.title }}"></a>
 		    	{% else %}
-		    		<a href="{{ member.url }}"><img class="is-rounded is-profile" src="https://bulma.io/images/placeholders/128x128.png" alt="Placeholder Profile Image"></a>
+		    		<a href="{{ member.url }}"><img class="is-rounded is-profile" src="{{ site.baseurl }}/assets/profile/blank.png" alt="{{ member.title }}"></a>
 		    	{% endif %}
 		    </p>
 		  </figure>
