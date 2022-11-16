@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Tracking the green coke production when co-processing lipids at a commercial fluid catalytic cracker (FCC): combining isotope <sup>14</sup>C and causal discovery analysis"
-type: journal
+type: paper
 order: 172
 year: 2022
 authors: Jianping Su, Liang Cao, Gary Lee, Bhushan Gopaluni, Lim C. Siang, Yankai Cao, Susan van Dyk, Robert Pinchuk, Jack Saddler
