@@ -7,6 +7,7 @@ year: 2022
 authors: "Liang Cao, R. Bhushan Gopaluni, Lim C. Siang, Yankai Cao, Jin Li"
 journal: "Society of Instrument and Control Engineers (SICE) Annual Conference, Kumamoto, Japan (To Appear)"
 pdf: "2022C4_SICE_Cao.pdf"
+external_url: "https://ieeexplore.ieee.org/document/9905787"
 thumbnail: "2022C4_SICE_Cao.png"
 slides: "2022C4_SICE_Slides.pdf"
 image: "/assets/thumbnails/2022C4_SICE_Cao.png"

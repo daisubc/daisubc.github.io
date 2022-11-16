@@ -6,6 +6,7 @@ order: 168
 year: 2022
 authors: "Daniel G. McClement, Nathan P. Lawrence, Johan U. Backström, Philip D. Loewen, Michael G. Forbes, R. Bhushan Gopaluni"
 journal: "Journal of Process Control"
+external_url: "https://www.sciencedirect.com/science/article/pii/S0959152422001445"
 pdf: "2022J5_jpc_mcclement.pdf"
 thumbnail: "2022J5_jpc_mcclement.png"
 image: "/assets/thumbnails/2022J5_jpc_mcclement.png"

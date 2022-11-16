@@ -7,6 +7,7 @@ year: 2022
 authors: Daniel G. McClement, Nathan P. Lawrence, Michael G. Forbes, Philip D. Loewen, Johan U. Backström, R. Bhushan Gopaluni
 journal: In Proceedings of the 7th International Symposium on Advanced Control of Industrial Processes (AdCONIP)
 pdf: "2022C5_AdCONIP_McClement.pdf"
+external_url: "https://ieeexplore.ieee.org/document/9894150"
 thumbnail: "2022C5_AdCONIP_McClement.png"
 image: "/assets/thumbnails/2022C5_AdCONIP_McClement.png"
 video: "https://vimeo.com/743323651"

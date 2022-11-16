@@ -8,6 +8,7 @@ authors: Liang Cao, Jianping Su, Yixiu Wang, Yankai Cao, Lim C. Siang, Jin Li, J
 journal: "Industrial & Engineering Chemistry Research"
 pdf: "2022J6_IECR_Cao.pdf"
 thumbnail: "2022J6_IECR_Cao.png"
+external_url: "https://pubs.acs.org/doi/10.1021/acs.iecr.2c01326"
 image: "/assets/thumbnails/2022J6_IECR_Cao.png"
 thumbnail_caption: >
   Figure 5. Framework of causal discovery based on observational data and process knowledge
