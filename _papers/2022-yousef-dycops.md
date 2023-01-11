@@ -4,6 +4,7 @@ title: "Visual Analytics: A New Paradigm for Process Monitoring"
 type: "conference"
 order: 163
 year: 2022
+notes: "Young Author Award"
 authors: "Ibrahim Yousef, Sirish L. Shah, R. Bhushan Gopaluni"
 journal: "13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS), To Appear"
 pdf: "2022C1_Yousef_DYCOPS.pdf"

@@ -14,7 +14,7 @@
   year: 2022
   name: Shahab Bahrami
   linkedin: https://www.linkedin.com/in/shahab-bahrami-5437a845/
-  position: 
+  position: "SenseNet Inc./Aqua Intelligent Technology"
 
 - degree: "MEng"
   year: 2022
@@ -49,6 +49,7 @@
 - degree: Postdoc
   year: 2022
   name: Mengqi Fang
+  position: "Alberta Machine Intelligence Institute (Amii)"
 
 - degree: Postdoc
   position: DarkVision
@@ -111,6 +112,7 @@
 - name: "Yulan Zhang"
   year: "2020"
   degree: "MEng"
+  position: "PhD (McMaster University, Khan Research Group)"
 
 - name: "Shams Elnawawi"
   year: "2020"
@@ -139,6 +141,7 @@
   year: "2020"
   degree: "PhD"
   linkedin: "https://www.linkedin.com/in/caitlintian/"
+  position: "Instructor, Texas Tech University"
   note: "Thesis"
   note_url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0389625"
 
