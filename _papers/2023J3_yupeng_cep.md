@@ -4,6 +4,7 @@ title: "False alarm reduction in drilling process monitoring using virtual sampl
 type: "paper"
 order: 175
 year: 2023
+external_url: https://www.sciencedirect.com/science/article/abs/pii/S0967066123000266
 authors: "Yupeng Li, Weihua Cao, R. Bhushan Gopaluni , Wenkai Hua, Liang Cao, Min Wu"
 journal: "Control Engineering Practice"
 pdf: "2023J3_yupeng_cep.pdf"

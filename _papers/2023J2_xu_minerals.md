@@ -4,6 +4,7 @@ title: "Evaluation of Logistic Regression and Support Vector Machine Approaches 
 type: "paper"
 order: 174
 year: 2023
+external_url: https://www.sciencedirect.com/science/article/abs/pii/S0892687523000171
 authors: "Yang Xu, Bern Klein, Genzhuang Li, Bhushan Gopaluni"
 journal: "Minerals Engineering"
 pdf: "2023J2_xu_minerals.pdf"
