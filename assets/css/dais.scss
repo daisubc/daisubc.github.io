@@ -460,3 +460,11 @@ ul:not(.no-list-deco) li::before {
   padding: 4px;
   border: 3px solid $darkblue;
 }
+
+.home-banner {
+  width: 100%;
+  padding-bottom: 30%;
+  background-image: url(../img/cover.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
