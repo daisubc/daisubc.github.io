@@ -1,3 +1,8 @@
+- message: "6 papers were accepted for the IFAC World Congress 2023 in Yokohama, Japan. Congratulations! Details to follow."
+  date: "2022-03-25"
+  url: "https://dais.chbe.ubc.ca/news/"
+  display: "True"
+
 - message: "Lee's lime kiln monitoring research commercialized by BlueMarvel AI. Congratulations!"
   date: "2022-10-15"
   url: "https://dais.chbe.ubc.ca/news/2022-10-15-heatseeker/"
@@ -6,7 +11,7 @@
 - message: "Ibrahim receives DYCOPS Young Author Award for his paper on Visual Analytics. Congratulations!"
   date: "2022-06-16"
   url: "https://dais.chbe.ubc.ca/news/2022-06-20-youngauthor/"
-  display: "True"
+  display: "False"
 
 - message: "We are organizing a workshop on the design and operation of Li-ion batteries at DYCOPS 2022"
   date: "2022-04-20"
