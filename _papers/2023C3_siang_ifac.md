@@ -4,6 +4,7 @@ title: "Data Quality Over Quantity: Pitfalls and Guidelines for Process Analytic
 type: "conference"
 order: 178
 year: 2023
+arxiv: https://arxiv.org/abs/2211.06440
 authors: "Lim C. Siang, Shams Elnawawi, Lee D. Rippon, Daniel L. O’Connor, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
 pdf: "2023C3_siang_ifac.pdf"

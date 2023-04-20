@@ -4,6 +4,7 @@ title: "A modular framework for stabilizing deep reinforcement learning control"
 type: "conference"
 order: 179
 year: 2023
+arxiv: https://arxiv.org/abs/2304.03422
 authors: "Nathan P. Lawrence, Philip D. Loewen, Shuyuan Wang, Michael G. Forbes, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
 pdf: "2023C4_lawrence_ifac.pdf"
