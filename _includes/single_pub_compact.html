@@ -6,7 +6,11 @@
       <figure class="image mb-1">
         <img alt="{{ pub.title }} by {{ pub.authors}}" title="{{ pub.title }} by {{ pub.authors}}" style="object-fit: contain;" src="{{ site.baseurl }}/assets/thumbnails/{{ pub.thumbnail }}">
       </figure>
-    {% endif %}
+    {% else %}
+      <figure class="image mb-1">
+        <img alt="{{ pub.title }} by {{ pub.authors}}" title="{{ pub.title }} by {{ pub.authors}}" style="object-fit: contain;" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
+      </figure>
+    {% endif %}    
   </div>
 
   <div class="column">
