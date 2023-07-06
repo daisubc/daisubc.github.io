@@ -1,3 +1,8 @@
+- message: "Iman Jalilvand wins Silver Award at 2023 HCI International Student Design Competition"
+  date: "2023-07-05"
+  url: "https://dais.chbe.ubc.ca/news/2023-07-05-hcii/"
+  display: "True"
+
 - message: "Recruiting graduate students for industry-academic collaborative projects with Burnaby Refinery"
   date: "2023-03-25"
   url: "https://dais.chbe.ubc.ca/news/2023-03-25-burnaby/"
@@ -11,7 +16,7 @@
 - message: "Lee's lime kiln monitoring research commercialized by BlueMarvel AI. Congratulations!"
   date: "2022-10-15"
   url: "https://dais.chbe.ubc.ca/news/2022-10-15-heatseeker/"
-  display: "True"
+  display: "False"
 
 - message: "Ibrahim receives DYCOPS Young Author Award for his paper on Visual Analytics. Congratulations!"
   date: "2022-06-16"
