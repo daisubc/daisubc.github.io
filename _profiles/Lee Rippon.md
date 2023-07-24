@@ -10,7 +10,7 @@ year_end: 2022
 year_start: 2017
 has_profile: True
 biography: Lee Rippon is a PhD student studying Chemical and Biologial Engineering (CHBE) at UBC. He also holds BASc and MASc degrees from UBC in CHBE where his research experience includes applications of compressive sensing, adaptive control, system identification and process monitoring on sheet and film processes. His current research interests include applying process analytics and machine learning techniques to historical process data to perform fault detection, isolation, and diagnosis in a kraft pulping process.
-
+status: alumni
 cosupervisor: 
   - name: Philip Loewen (Math)
     url: https://www.math.ubc.ca/~loew/

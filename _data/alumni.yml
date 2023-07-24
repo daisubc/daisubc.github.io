@@ -1,3 +1,35 @@
+- degree: "Undergraduate"
+  year: 2023
+  name: Aria Azari
+  position: PhD (Oxford)
+
+- degree: "Undergraduate"
+  year: 2023
+  name: Thomas Lai
+  position: MSc (McGill)
+
+- degree: "Undergraduate"
+  year: 2023
+  name: Siddharth Grover
+  position: MS Data Science (UBC)
+
+- degree: "PhD"
+  year: 2023
+  name: Yiting Tsai
+  linkedin: https://www.linkedin.com/in/yiting-tsai-48a7375a/
+  position: Postdoctoral Researcher (McMaster)
+
+- degree: "PhD"
+  year: 2023
+  name: Nathan Lawrence
+  linkedin: https://nplawrence.github.io
+  position: Postdoctoral Researcher (UBC)
+
+- degree: "PhD (Visiting)"
+  year: 2023
+  name: Yupeng Li
+  position: China University of Geosciences
+
 - degree: "PhD (Visiting)"
   year: 2022
   name: Tobi Michael Alabi
