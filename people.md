@@ -15,7 +15,8 @@ permalink: /people/
 <hr>
 
 - **[Dr. {{ site.name }}]({{ site.baseurl }}/about/)**, Principal Investigator
-- **[Link to APSC Staff Directory](https://engineering.ubc.ca/about/staff-directory)**
+- **[Link to Department Page](https://chbe.ubc.ca/bhushan-gopaluni/)**
+- **[Link to Faculty Planning Page](https://academic.ubc.ca/about-vp-academic/meet-team)**
 
 <span class="mb-5"></span>
 
