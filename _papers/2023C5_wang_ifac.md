@@ -9,6 +9,7 @@ journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
 pdf: "2023C5_wang_ifac.pdf"
 thumbnail: "2023C5_wang_ifac.png"
 image: "/assets/thumbnails/2023C5_wang_ifac.png"
+arxiv: "https://arxiv.org/abs/2304.13223"
 video: https://vimeo.com/849890913
 thumbnail_caption: "Fig. 2: Stochastic trajectories generated from the learned
 controller. The X-axis represents simulation steps."
