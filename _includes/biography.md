@@ -1,4 +1,4 @@
-**Bhushan Gopaluni** is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia (UBC). 
+**Bhushan Gopaluni** is a Professor in the [Department of Chemical and Biological Engineering](https://www.chbe.ubc.ca/){:target="_blank"} and Vice-Provost and Associate Vice-President, Faculty Planning in the Office of the Provost and Vice-President Academic, UBC Vancouver. From 2017 to 2022, he was the Associate Dean, Education and Professional Development in the [Faculty of Applied Science](https://apsc.ubc.ca/){:target="_blank"} at the University of British Columbia (UBC). 
 
 He is also an associate faculty in the [Institute of Applied Mathematics](https://www.iam.ubc.ca/){:target="_blank"}, the [Institute for Computing, Information and Cognitive Systems](https://icics.ubc.ca/){:target="_blank"}, [Pulp and Paper Center](https://www.ppc.ubc.ca/){:target="_blank"} and the [Clean Energy Research Center](https://cerc.ubc.ca/){:target="_blank"}. 
 
