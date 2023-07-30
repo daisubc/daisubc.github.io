@@ -8,6 +8,7 @@ arxiv: https://arxiv.org/abs/2211.06440
 authors: "Lim C. Siang, Shams Elnawawi, Lee D. Rippon, Daniel L. O’Connor, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
 pdf: "2023C3_siang_ifac.pdf"
+slides: "2023C3_siang_ifac_slides.pdf"
 thumbnail: "2023C3_siang_ifac.png"
 video: https://vimeo.com/849890105
 image: "/assets/thumbnails/2023C3_siang_ifac.png"

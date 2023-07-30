@@ -8,6 +8,7 @@ authors: "Jingyi Wang, Jesús Moreira, Yankai Cao, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
 pdf: "2023C6_jingyi_ifac.pdf"
 thumbnail: "2023C6_jingyi_ifac.png"
+slides: "2023C6_jingyi_ifac_slides.pdf"
 image: "/assets/thumbnails/2023C6_jingyi_ifac.png"
 video: https://vimeo.com/849891133
 thumbnail_caption: "Fig. 2: Graphical illustration of the neural network and SINDy integrated algorithm."
