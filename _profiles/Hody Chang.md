@@ -10,6 +10,5 @@ degree: MASc
 year_end: 
 year_start: 2023
 title: Hody Chang
-biography: >
-  I received my bachelor's degree in mathematics and statistic from Hong Kong Baptist University. My current research interest includes Scientific Computing and Scientific Machine Learning. In my free time, I enjoy boardgame and cooking.
+biography: Hody received his bachelor's degree in mathematics and statistic from Hong Kong Baptist University. His current research interest includes Scientific Computing and Scientific Machine Learning. In his free time, he enjoys boardgame and cooking.
 ---
