@@ -7,6 +7,7 @@ degree: MEng
 year_end: 2022
 year_start: 2020
 has_profile: True
+status: alumni
 biography: Noah Taylor is currently pursuing his MEng in electrical and computer engineering at UBC after receiving his BA in Physics and History from Colgate University. His research with Dr. Gopaluni and Dr. Wetton involves modeling battery thermal management systems for electric vehicles to determine optimal efficiency for a given climate. In his free time, he enjoys watching movies, climbing, and skiing.
 cosupervisor: 
   - name: Brian Wetton (Math)
