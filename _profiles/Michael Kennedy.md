@@ -4,6 +4,7 @@ pub_name: Michael Kennedy
 title: Michael Kennedy
 email: mike.kennedy@greenanalytics.ca
 has_profile: True
+img: mike.jpeg
 project: Urban Data Lab
 degree: Postdoc
 year_start: 2022
