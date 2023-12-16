@@ -22,19 +22,15 @@ permalink: /people/
 
 {% for degree in degrees %}
 
+<!-- Github pages is still at jekyll 3.9.0, doesnt support binary operators in where_exp yet -->
+{% assign members = active_members | where_exp:"member", "member.degree == degree" | sort: 'year_start' | reverse %}
+
+{% if members.size != 0 %}
+
 <div class="mt-6">
 	<h1 class="title"> {{ degree }} </h1>
 	<hr>
 </div>
-
-<!-- Github pages is still at jekyll 3.9.0, doesnt support binary operators in where_exp yet -->
-{% assign members = active_members | where_exp:"member", "member.degree == degree" | sort: 'year_start' | reverse %}
-
-{% if members.size == 0 %}
-
-<p> - </p>
-
-{% else %}
 
 <div class="columns is-multiline">
 {% for member in members %}

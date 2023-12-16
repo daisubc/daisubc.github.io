@@ -6,12 +6,12 @@
 - message: "Recruiting graduate students for industry-academic collaborative projects with Burnaby Refinery"
   date: "2023-03-25"
   url: "https://dais.chbe.ubc.ca/news/2023-03-25-burnaby/"
-  display: "True"
+  display: "False"
 
 - message: "6 papers were accepted for the IFAC World Congress 2023 in Yokohama, Japan. Congratulations!"
   date: "2023-03-20"
   url: "https://dais.chbe.ubc.ca/news/2023-04-19-ifac/"
-  display: "True"
+  display: "False"
 
 - message: "Lee's lime kiln monitoring research commercialized by BlueMarvel AI. Congratulations!"
   date: "2022-10-15"
