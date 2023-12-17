@@ -6,7 +6,8 @@ order: 163
 year: 2022
 notes: "Young Author Award"
 authors: "Ibrahim Yousef, Sirish L. Shah, R. Bhushan Gopaluni"
-journal: "13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS), To Appear"
+journal: "13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS)"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896322008795"
 pdf: "2022C1_Yousef_DYCOPS.pdf"
 thumbnail: "2022C1_Yousef_DYCOPS.png"
 image: "/assets/thumbnails/2022C1_Yousef_DYCOPS.png"

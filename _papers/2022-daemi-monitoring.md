@@ -8,6 +8,7 @@ authors: "Atefeh Daemi, Bhushan Gopaluni, Biao Huang"
 journal: "IEEE Transactions on Industrial Informatics"
 pdf: "2022J1_Daemi_TII.pdf"
 thumbnail: "2022J1_Daemi_TII.png"
+external_url: "https://ieeexplore.ieee.org/abstract/document/9733234/"
 thumbnail_caption: >
   Figure 1: A schematic of the proposed method for process monitoring via transfer learning.
 image: "/assets/thumbnails/2022J1_Daemi_TII.png"

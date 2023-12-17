@@ -5,9 +5,10 @@ type: "conference"
 order: 164
 year: 2022
 authors: "Jingyi Wang, Jesús Moreira, Yankai Cao, Bhushan Gopaluni"
-journal: "2022 American Control Conference, To Appear"
+journal: "In Proceedings of the 2022 American Control Conference (ACC)"
 pdf: "2022C2_Wang_ACC.pdf"
 thumbnail: "2022C2_Wang_ACC.png"
+external_url: "https://ieeexplore.ieee.org/document/9867786/"
 image: "/assets/thumbnails/2022C2_Wang_ACC.png"
 thumbnail_caption: >
   Fig. 3. Graphical illustration about the Kalman-GSINDy steps.

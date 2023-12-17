@@ -5,8 +5,9 @@ type: "conference"
 order: 153
 year: 2021
 authors: "Daniel G. McClement, Nathan P. Lawrence, Philip D. Loewen, Michael G. Forbes, Johan U. Backstrom and R. Bhushan Gopaluni"
-journal: "In Proceedings of IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM, To Appear)"
+journal: "In Proceedings of the 16th IFAC International Symposium on Advanced Control of Chemical Processes (ADCHEM 2021)"
 notes: "Keynote Presentation"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896321010958"
 slides: "2021IFAC_Daniel_Slides.pptx"
 pdf: "2021C2_McClement_ADCHEM.pdf"
 video: "https://vimeo.com/573573806"
