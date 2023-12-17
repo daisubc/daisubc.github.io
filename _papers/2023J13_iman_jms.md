@@ -7,6 +7,7 @@ year: 2023
 authors: "Iman Jalilvand, Jiyoung Jang, Bhushan Gopaluni, Abbas S. Milani"
 journal: "Journal of Manufacturing Systems"
 pdf: "2023J13_iman_jms.pdf"
+external_url: "https://doi.org/10.1016/j.jmsy.2023.11.007"
 thumbnail: "2023J13_iman_jms.png"
 image: "/assets/thumbnails/2023J13_iman_jms.png"
 thumbnail_caption: "Figure 1. Overview of the methods employed in the present study."
