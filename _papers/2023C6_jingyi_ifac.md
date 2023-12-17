@@ -5,9 +5,10 @@ type: "conference"
 order: 180
 year: 2023
 authors: "Jingyi Wang, Jesús Moreira, Yankai Cao, R. Bhushan Gopaluni"
-journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
+journal: "In Proceedings of the 22nd IFAC World Congress"
 pdf: "2023C6_jingyi_ifac.pdf"
 thumbnail: "2023C6_jingyi_ifac.png"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896323008704"
 slides: "2023C6_jingyi_ifac_slides.pdf"
 image: "/assets/thumbnails/2023C6_jingyi_ifac.png"
 video: https://vimeo.com/849891133

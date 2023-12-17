@@ -5,8 +5,9 @@ type: "conference"
 order: 176
 year: 2023
 authors: "Iman Jalilvand, Jay Jiyoung, Hadi Hosseinionari, Rudolf Seethaler, Bhushan Gopaluni, Abbas S. Milani"
-journal: "In Proceedings of the 25th International Conference on Human-Computer Interaction (To Appear)"
+journal: "In Proceedings of the 25th International Conference on Human-Computer Interaction"
 pdf: "2023C1_iman_hci.pdf"
+external_url: "https://link.springer.com/chapter/10.1007/978-3-031-36004-6_28"
 thumbnail: "2023C1_iman_hci.png"
 image: "/assets/thumbnails/2023C1_iman_hci.png"
 thumbnail_caption: "Figure 1: The present MR application design framework"

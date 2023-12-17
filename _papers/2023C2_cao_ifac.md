@@ -5,8 +5,9 @@ type: "conference"
 order: 177
 year: 2023
 authors: "Liang Cao, Xiaolu Ji, Yankai Cao, Yupeng Li, Lim C. Siang, Jin Li, Vijay Kumar Pediredla, R. Bhushan Gopaluni"
-journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
+journal: "In Proceedings of the 22nd IFAC World Congress"
 pdf: "2023C2_cao_ifac.pdf"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896323013058"
 thumbnail: "2023C2_cao_ifac.png"
 video: https://vimeo.com/849890434
 image: "/assets/thumbnails/2023C2_cao_ifac.png"

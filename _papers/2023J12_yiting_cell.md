@@ -6,6 +6,7 @@ order: 191
 year: 2023
 authors: "Yiting Tsai, Vikash Nanthakumar, Saeed Mohammadi, Susan A. Baldwin, Bhushan Gopaluni, and Fei Geng"
 journal: "iScience"
+external_url: "https://doi.org/10.1016/j.isci.2023.108006"
 pdf: "2023J12_yiting_cell.pdf"
 thumbnail: "2023J12_yiting_cell.png"
 image: "/assets/thumbnails/2023J12_yiting_cell.png"

@@ -5,8 +5,9 @@ type: "conference"
 order: 180
 year: 2023
 authors: "Shuyuan Wang, Philip D. Loewen, Nathan P. Lawrence, Michael G. Forbes, R. Bhushan Gopaluni"
-journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
+journal: "In Proceedings of the 22nd IFAC World Congress"
 pdf: "2023C5_wang_ifac.pdf"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896323013071"
 thumbnail: "2023C5_wang_ifac.png"
 image: "/assets/thumbnails/2023C5_wang_ifac.png"
 arxiv: "https://arxiv.org/abs/2304.13223"

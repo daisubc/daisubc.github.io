@@ -1,12 +1,13 @@
 ---
 layout: "publication"
-title: "Frequent Event Pattern Extraction of Drilling Time Series Using Change Point Detection and Event Sequence Generation (I)"
+title: "Frequent Event Pattern Extraction of Drilling Time Series Using Change Point Detection and Event Sequence Generation"
 type: "conference"
 order: 183
 year: 2023
 authors: "Yupeng Li, Wenkai Hu, Weihua Cao, Bhushan Gopaluni, Liang Cao, Chao Gan, Min Wu"
-journal: "In Proceedings of the 22nd IFAC World Congress (To Appear)"
+journal: "In Proceedings of the 22nd IFAC World Congress"
 video: https://vimeo.com/849891357?share=copy
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896323011059"
 pdf: "2023C8_yupeng_ifac.pdf"
 thumbnail: "2023C8_yupeng_ifac.png"
 slides: "2023C8_yupeng_ifac_slides.pdf"

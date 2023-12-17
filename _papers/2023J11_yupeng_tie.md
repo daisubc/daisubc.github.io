@@ -5,6 +5,7 @@ type: "paper"
 order: 190
 year: 2023
 authors: "Yupeng Li, Weihua Cao, R. Bhushan Gopaluni, Wenkai Hu, Chao Gan, Min Wu"
+external_url: "https://ieeexplore.ieee.org/abstract/document/10256038"
 journal: "IEEE Transactions on Industrial Electronics"
 pdf: "2023J11_yupeng_tie.pdf"
 thumbnail: "2023J11_yupeng_tie.png"

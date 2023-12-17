@@ -8,6 +8,7 @@ external_url:
 authors: "Mengqi Fang, Ejaz Wattoo, Brendon Palmer, Darren Guliov, Paul Bicho, Yankai Cao, Vijay Kumar Pediredla, Bhushan Gopaluni"
 journal: "Control Engineering Practice"
 pdf: "2023J6_vijay_cep.pdf"
+external_url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066123001673"
 thumbnail: "2023J6_vijay_cep.png"
 image: "/assets/thumbnails/2023J6_vijay_cep.png"
 thumbnail_caption: "Figure 6: The illustration of the process variables in CTMP process, with shaded nodes representing the operating variables."
