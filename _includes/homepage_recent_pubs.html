@@ -1,7 +1,7 @@
 {% assign pubs = site.papers | sort:"order" | reverse %}
 
 <p class="subtitle no-deco">
-  Recent Papers. <a href="{{ site.baseurl }}/publications/">All Publications</a>.
+  Showing recent papers. <a href="{{ site.baseurl }}/publications/">See all publications</a>.
 </p>
 
 {% for pub in pubs | limit:3 %}
