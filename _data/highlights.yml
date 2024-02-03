@@ -1,7 +1,12 @@
+- message: "DAIS Lab publishes its 100th journal article in Automatica!"
+  date: "2024-01-21"
+  url: "https://dais.chbe.ubc.ca/news/2024-01-21-100/"
+  display: "True"
+
 - message: "Iman Jalilvand wins Silver Award at 2023 HCI International Student Design Competition"
   date: "2023-07-05"
   url: "https://dais.chbe.ubc.ca/news/2023-07-05-hcii/"
-  display: "True"
+  display: "False"
 
 - message: "Recruiting graduate students for industry-academic collaborative projects with Burnaby Refinery"
   date: "2023-03-25"
