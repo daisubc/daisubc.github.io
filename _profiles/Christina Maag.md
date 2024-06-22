@@ -9,6 +9,7 @@ has_profile: True
 project: Data Acquisition and Curation for Modeling Cell Cultures
 degree: Undergraduate
 year_start: 2023
-year_end: 
+year_end: 2024
+status: alumni
 biography: Christina is an undergraduate student studying Chemical and Biological Engineering at UBC.
 ---
