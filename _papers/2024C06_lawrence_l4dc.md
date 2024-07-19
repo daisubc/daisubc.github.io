@@ -2,7 +2,7 @@
 layout: "publication"
 title: "Deep Hankel matrices with random elements"
 type: "conference"
-order: 203
+order: 204
 year: 2024
 authors: "Nathan P. Lawrence, Philip D. Loewen, Shuyuan Wang, Michael G. Forbes, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 6th Annual Learning for Dynamics & Control Conference (L4DC)"
