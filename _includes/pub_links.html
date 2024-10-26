@@ -26,6 +26,10 @@
 <a target="_blank" href="{{ pub.video }}"><span class="tag is-primary">[Video]</span></a>
 {% endif %}
 
+{% if pub.presentation %}
+<a target="_blank" href="{{ pub.presentation }}"><span class="tag is-success">[Presentation]</span></a>
+{% endif %}
+
 {% if pub.arxiv %}
 <a target="_blank" href="{{ pub.arxiv }}"><span class="tag is-danger">[arXiv]</span></a>
 {% endif %}
