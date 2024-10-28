@@ -1,9 +1,9 @@
 ---
 layout: publication
 title: "Model-plant mismatch detection with support vector machine for cross-directional process behavior monitoring"
-order: 2
-year: 2018
+order: 4
+year: 2022
 type: "patent"
 authors: "Qiugang Lu, R. Bhushan Gopaluni, Michael Forbes, Philip Loewen, Johan Backstrom, Guy A. Dumont"
-journal: "US Patent App. 15"
+journal: "U.S. Patent No. 11,449,046"
 ---
