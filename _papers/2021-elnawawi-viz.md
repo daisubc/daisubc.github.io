@@ -11,6 +11,7 @@ pdf: "2021J8_Elnawawi_Viz.pdf"
 thumbnail: "2021J8_Elnawawi_Viz.png"
 image: "/assets/thumbnails/2021J8_Elnawawi_Viz.png"
 thesis: "/assets/pdf/Shams_2020_Thesis.pdf"
+slides: "L1a_Visualization_Example.pdf"
 thumbnail_caption: >
   Figure 1: Essential components in the design of visualization tools for MPC systems. Engineers and operators often need to interact with the control system through a user interface to diagnose faults and abnormal controller behaviour. MPC systems store and generate large amounts of data in various forms, including process models and gain matrices, time series process data, and optimizer solutions. MPC users must successfully navigate through these complex datasets to obtain situational knowledge of the controller [...]
 external_url: "https://www.sciencedirect.com/science/article/pii/S0967066121003014?dgcid=coauthor"
