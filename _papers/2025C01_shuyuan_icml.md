@@ -1,6 +1,6 @@
 ---
 layout: "publication"
-title: "Empowering Neural Networks with Control and Planning Abilities"
+title: "DiLQR: Differentiable Iterative Linear Quadratic Regulator via Implicit Differentiation"
 type: "conference"
 order: 214
 year: 2025
