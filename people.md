@@ -57,7 +57,10 @@ permalink: /people/
 		  		<p class="member-project no-deco">
 		        {% if member.visitor %}
 		          <i>(Visiting)</i>
-		        {% endif %}		  			
+		        {% endif %}
+		        {% if member.on_leave %}
+		          <i>(On Leave)</i>
+		        {% endif %}
 		  			{{ member.project }}
 		  		</p> 
 		  	</div>
