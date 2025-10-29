@@ -6,7 +6,9 @@ img: jingyi.jpg
 biography: Jingyi Wang is a Ph.D. student studying Chemical and Biological Engineering (CHBE) at UBC. She received her bachelor's degree and master's degree in Chemical Engineering/Process Control from the University of Alberta in Canada. Her previous research includes sensor fusion, soft sensor, and artificial neural networks. Her current research interest includes combining traditional control methods with machine learning techniques to improve algorithm performance.
 
 degree: PhD
-year_end: None
+year_end: 2025
 year_start: 2020
+status: alumni
 title: Jingyi Wang
+linkedin: https://www.linkedin.com/in/jingyi-wang-66bb1a177/
 ---
