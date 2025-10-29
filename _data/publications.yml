@@ -1,3 +1,11 @@
+- title: "Adsorption Mechanisms and AI-Driven Discovery of Biomass-Based CO2 Sorbents"
+  type: "paper"
+  year: "2025"
+  authors: "Faezeh Hajiali, Jingqian Chen, Tao Zou, Scott Renneckar, R. Bhushan Gopaluni, Naoko Ellis, Orlando J. Rojas"
+  journal: "Small"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/smll.202504877"
+  description: "This review analyzes recent advances in biomass-derived activated carbons for CO2 capture. The paper focuses on bio-based adsorbents, detailing various biomass sources and their characteristics, highlighting aspects of sustainability, circularity, and cost-effectiveness. The review examines activation methods and surface chemistry modifications aimed at enhancing CO2 capture performance and selectivity, especially under humid conditions. The integration of Artificial Intelligence in the design, modeling, and optimization of bio-based adsorbents is explored, along with kinetic and equilibrium models commonly used to evaluate adsorption behavior."
+
 - title: "DiLQR: Differentiable Iterative Linear Quadratic Regulator via Implicit Differentiation"
   type: "conference"
   year: "2025"
