@@ -1,3 +1,29 @@
+- degree: "MASc"
+  year: 2025
+  name: Ghazaleh Mozafari
+  linkedin: https://www.linkedin.com/in/ghazaleh-mozafari-651a24161/
+  position: PhD (UBC, DAIS Lab)
+
+- degree: "MASc"
+  year: 2025
+  name: Hody Chang
+  position: PhD (UBC, DAIS Lab)
+
+- degree: "PhD"
+  year: 2025
+  name: Iman Jalilvand
+  position:
+
+- degree: "PhD"
+  year: 2025
+  name: Hashim Migaybil
+  position:
+
+- degree: "PhD (Visiting)"
+  year: 2025
+  name: XiangXiang Zhang
+  position: PhD student at China University of Geosciences
+
 - degree: "Postdoc"
   year: 2025
   name: Yiting Tsai
@@ -25,6 +51,17 @@
   year: 2024
   name: Nathan Lawrence
   position: Postdoctoral Researcher (UC Berkeley, Mesbah Group)
+
+- degree: "Undergraduate"
+  year: 2024
+  name: Atharva Laud
+  position: MASc (UBC, DAIS Lab)
+
+- degree: "Undergraduate"
+  year: 2024
+  name: Pedro Leite
+  linkedin: https://www.linkedin.com/in/pedro-leite-675914138/
+  position: Digital design and verification engineer (Microchip)
 
 - degree: "Undergraduate"
   year: 2024
