@@ -69,7 +69,11 @@ class PublicationFetcher:
         """
         try:
             url = f"{self.crossref_base}/{doi}"
-            response = requests.get(url, timeout=30)
+            headers = {
+                'User-Agent': 'UBC-DAIS-Lab-Website/1.0 (mailto:bhushan.gopaluni@ubc.ca)',
+                'Accept': 'application/json'
+            }
+            response = requests.get(url, headers=headers, timeout=30)
             response.raise_for_status()
             return response.json().get('message', {})
         except requests.exceptions.RequestException as e:

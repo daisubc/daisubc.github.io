@@ -33,11 +33,16 @@ def fetch_from_crossref(doi: str) -> Optional[Dict]:
     """Fetch publication metadata from CrossRef API"""
     try:
         url = f"https://api.crossref.org/works/{doi}"
-        response = requests.get(url, timeout=30)
+        headers = {
+            'User-Agent': 'UBC-DAIS-Lab-Website/1.0 (mailto:bhushan.gopaluni@ubc.ca)',
+            'Accept': 'application/json'
+        }
+        response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         return response.json().get('message', {})
     except Exception as e:
         print(f"Error fetching from CrossRef: {e}")
+        print(f"Note: Some publishers may require manual entry. You can still create an entry manually.")
         return None
 
 def format_crossref_to_yaml(data: Dict) -> Dict:

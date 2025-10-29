@@ -1,0 +1,40 @@
+# Quick Publication Entry Template
+# Copy this template and fill in the details, then add to _data/publications.yml
+
+- title: "Your Paper Title Here"
+  type: "paper"  # Options: "paper" for journal, "conference" for conference proceedings
+  year: "2025"
+  authors: "First Author, Second Author, R. Bhushan Gopaluni, Last Author"
+  journal: "Journal Name or Conference Name"
+  url: "https://doi.org/10.xxxx/xxxxx"  # DOI link or publisher URL
+  description: "Brief description of the paper. Explain the key contribution, methodology, and results in 2-3 sentences."
+
+# Optional fields (add if available):
+#  arxiv: "https://arxiv.org/abs/xxxx.xxxxx"
+#  code: "https://github.com/username/repo"
+#  pdf: "2025J1_FirstAuthor_Journal.pdf"  # If you have PDF in assets/publications/
+#  thumbnail: "paper_thumbnail.png"  # If you have image in assets/publications/
+#  notes: "Best Paper Award"  # For special recognition
+#  video: "https://youtube.com/..."  # For presentation videos
+
+# Examples:
+
+# Journal Article Example:
+# - title: "Machine Learning for Process Control"
+#   type: "paper"
+#   year: "2025"
+#   authors: "John Smith, R. Bhushan Gopaluni"
+#   journal: "IEEE Transactions on Control Systems"
+#   url: "https://doi.org/10.1109/tcst.2025.xxxxx"
+#   arxiv: "https://arxiv.org/abs/2501.12345"
+#   description: "This paper presents a novel deep reinforcement learning approach for adaptive process control in chemical manufacturing."
+
+# Conference Paper Example:
+# - title: "Deep Learning for Fault Detection"
+#   type: "conference"
+#   year: "2025"
+#   authors: "Jane Doe, R. Bhushan Gopaluni"
+#   journal: "In Proceedings of ICML 2025"
+#   url: "https://icml.cc/virtual/2025/poster/12345"
+#   code: "https://github.com/janedoe/fault-detection"
+#   description: "We introduce a self-supervised learning framework for industrial fault detection that achieves state-of-the-art performance with minimal labeled data."
