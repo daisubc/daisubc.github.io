@@ -8,6 +8,7 @@ authors: "Liang Cao, Jianping Su, Emilio Conde, Lim C. Siang, Yankai Cao and Bhu
 journal: "Control Engineering Practice"
 pdf: "2025J03_cao_cep.pdf"
 thumbnail: "2025J03_cao_cep.png"
+preprint: "https://dais.chbe.ubc.ca/assets/preprints/2025J03_cao_cep.pdf"
 external_url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066125000851"
 image: "/assets/thumbnails/2025J03_cao_cep.png"
 thumbnail_caption: "Figure 1: Overview of Automated Soft Sensor Manager’s Structure"
