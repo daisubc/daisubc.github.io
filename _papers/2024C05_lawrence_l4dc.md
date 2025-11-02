@@ -6,6 +6,7 @@ order: 204
 year: 2024
 authors: "Nathan P. Lawrence, Philip D. Loewen, Shuyuan Wang, Michael G. Forbes, R. Bhushan Gopaluni"
 journal: "In Proceedings of the 6th Annual Learning for Dynamics & Control Conference (L4DC)"
+arxiv: "https://arxiv.org/abs/2404.15512"
 pdf: "2024C05_lawrence_l4dc.pdf"
 thumbnail: "2024C05_lawrence_l4dc.png"
 image: "/assets/thumbnails/2024C05_lawrence_l4dc.png"
