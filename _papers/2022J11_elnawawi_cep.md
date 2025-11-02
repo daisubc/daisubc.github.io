@@ -3,7 +3,7 @@ layout: publication
 title: "Interactive Visualization for Diagnosis of Industrial Model Predictive Controllers with Steady-State Optimizers"
 type: "paper"
 order: 161
-year: 2021
+year: 2022
 video: https://vimeo.com/660949803
 authors: "Shams Elnawawi, Lim C. Siang, Daniel L. O'Connor, Bhushan Gopaluni"
 journal: "Control Engineering Practice"

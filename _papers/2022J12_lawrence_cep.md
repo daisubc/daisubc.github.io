@@ -3,7 +3,7 @@ layout: publication
 title: "Deep Reinforcement Learning with Shallow Controllers: An Experimental Application to PID Tuning"
 type: "paper"
 order: 159
-year: 2021
+year: 2022
 authors: "Nathan P. Lawrence, Michael G. Forbes, Philip D. Loewen, Daniel G. McClement, Johan U. Backström, R. Bhushan Gopaluni"
 journal: "Control Engineering Practice"
 pdf: "2021J6_Lawrence_CEP.pdf"
