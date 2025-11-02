@@ -3,7 +3,7 @@ layout: "publication"
 title: "Machine Learning in Process Systems Engineering: Challenges and Opportunities"
 type: "paper"
 order: 194
-year: 2023
+year: 2024
 authors: "Prodromos Daoutidis, Jay H. Lee, Srinivas Rangarajan, Leo Chiang, Bhushan Gopaluni, Artur M. Schweidtmann, Iiro Harjunkoski, Mehmet Mercangöz, Ali Mesbah, Fani Boukouvala, Fernando V. Lima, Antonio del Rio Chanona, Christos Georgakis"
 journal: "Computers and Chemical Engineering"
 pdf: "2023J15_daoutidis_cace.pdf"
