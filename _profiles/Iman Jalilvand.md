@@ -13,4 +13,5 @@ cosupervisor:
   - name: Abbas Milani
     url: https://engineering.ok.ubc.ca/about/contact/abbas-milani/
 title: Iman Jalilvand
+pub_name: Iman Jalilvand
 ---

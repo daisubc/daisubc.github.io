@@ -12,4 +12,5 @@ cosupervisor:
   - name: James Piret (CHBE, Michael Smith Labs)
     url: https://www.chbe.ubc.ca/profile/james-piret/
 title: Ali Chamkalani
+pub_name: A. Chamkalani
 ---

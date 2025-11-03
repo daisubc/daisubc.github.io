@@ -13,4 +13,5 @@ cosupervisor:
   - name: Yankai Cao (CHBE)
     url: https://optimal.chbe.ubc.ca/
 title: Yixiu Wang
+pub_name: Yixiu Wang
 ---

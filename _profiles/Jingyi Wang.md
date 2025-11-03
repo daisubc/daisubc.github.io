@@ -9,4 +9,5 @@ degree: PhD
 year_end: None
 year_start: 2020
 title: Jingyi Wang
+pub_name: Jingyi Wang
 ---
