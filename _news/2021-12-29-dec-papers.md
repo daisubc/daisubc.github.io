@@ -10,7 +10,7 @@ Congratulations to DAIS Lab members for their recently accepted papers!
 ### On Reinforcement Learning
 [Nathan]({% link _profiles/Nathan Lawrence.md %}) and [Daniel's]({% link _profiles/Daniel McClement.md %}) paper on reinforcement learning for PID tuning, in collaboration with Honeywell, has been accepted in *Control Engineering Practice*.
 
-- [Deep Reinforcement Learning with Shallow Controllers: An Experimental Application to PID Tuning (**Lawrence et al.**)]({% link _papers/2021-lawrence-cep.md %})
+- [Deep Reinforcement Learning with Shallow Controllers: An Experimental Application to PID Tuning (**Lawrence et al.**)]({% link _papers/2022J12_lawrence_cep.md %})
 
 <img src="/assets/thumbnails/lawrence_cep_2021.jpg" style="width: 40% !important;" />
 
