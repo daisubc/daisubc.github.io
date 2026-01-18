@@ -7,6 +7,8 @@ year: 2024
 external_url: "https://www.sciencedirect.com/science/article/pii/S0967066124000017"
 authors: "Nathan P. Lawrence, Seshu Kumar Damarla, Jong Woo Kim, Aditya Tulsyan, Faraz Amjad, Kai Wang, Benoit Chachuat, Jong Min Lee, Biao Huang, R. Bhushan Gopaluni"
 journal: "Control Engineering Practice"
+volume: "145"
+pages: "105841"
 pdf: "2024J01_lawrence_cep.pdf"
 thumbnail: "2024J01_lawrence_cep.png"
 image: "/assets/thumbnails/2024J01_lawrence_cep.png"

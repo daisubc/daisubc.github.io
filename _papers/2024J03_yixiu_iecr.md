@@ -7,6 +7,8 @@ year: 2024
 external_url: "https://pubs.acs.org/doi/10.1021/acs.iecr.3c02849"
 authors: "Yixiu Wang, Jiangong Zhu, Liang Cao, Jianfeng Liu, Pufan You, Bhushan Gopaluni, and Yankai Cao"
 journal: "Industrial and Engineering Chemistry Research"
+volume: "63"
+pages: "1044-1054"
 pdf: "2024J03_yixiu_iecr.pdf"
 thumbnail: "2024J03_yixiu_iecr.jpeg"
 image: "/assets/thumbnails/2024J03_yixiu_iecr.jpeg"

@@ -6,6 +6,8 @@ order: 212
 year: 2025
 authors: "Ibrahim Yousef, Sirish L. Shah, and R. Bhushan Gopaluni"
 journal: "Engineering Applications of Artificial Intelligence"
+volume: "149"
+pages: "110425"
 pdf: "2025J04_ibrahim_eaai.pdf"
 thumbnail: "2025J04_ibrahim_eaai.png"
 external_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5085741"

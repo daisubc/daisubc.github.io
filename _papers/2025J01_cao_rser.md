@@ -6,6 +6,8 @@ order: 209
 year: 2025
 authors: "Liang Cao, Jianping Su, Jack Saddler, Yankai Cao, Yixiu Wang, Gary Lee, Lim C. Siang, Yi Luo, Robert Pinchuk, Jin Li, R. Bhushan Gopaluni"
 journal: "Renewable and Sustainable Energy Reviews"
+volume: "213"
+pages: "115417"
 pdf: "2025J01_cao_rser.pdf"
 thumbnail: "2025J01_cao_rser.png"
 external_url: "https://www.sciencedirect.com/science/article/pii/S1364032125000905"
