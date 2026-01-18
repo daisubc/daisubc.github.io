@@ -7,4 +7,5 @@ order: 66
 year: 2017
 journal: "In Proceedings of IFAC World Congress"
 pagenum: "7993-7998"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896317314751"
 ---

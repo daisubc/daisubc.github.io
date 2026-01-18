@@ -6,4 +6,5 @@ year: 2017
 type: "conference"
 authors: "K Kitano, M Kano, R. Bhushan Gopaluni"
 journal: "In proceedings of 11th Asian Control Conference (ASCC)"
+external_url: "https://ieeexplore.ieee.org/document/8287394/"
 ---

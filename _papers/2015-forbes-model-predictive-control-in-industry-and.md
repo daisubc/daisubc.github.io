@@ -7,4 +7,5 @@ year: 2015
 title: "Model predictive control in industry: Challenges and opportunities"
 journal: "In proceedings of International Symposium on Advanced Control of Chemical Processes (ADCHEM), Whistler, Canada"
 pagenum: "532 – 539"
+external_url: "https://www.sciencedirect.com/science/article/pii/S2405896315011039"
 ---
