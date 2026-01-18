@@ -7,4 +7,5 @@ year: 2016
 title: "Model-based fault detection of glucose-insulin system"
 journal: "In proceedings of American Control Conference, Boston, USA"
 pagenum: "3994 – 3999"
+external_url: "https://ieeexplore.ieee.org/document/7525537/"
 ---

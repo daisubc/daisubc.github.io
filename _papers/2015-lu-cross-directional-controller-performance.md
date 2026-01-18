@@ -7,4 +7,5 @@ year: 2015
 title: "Cross-directional controller performance monitoring for paper machines"
 journal: "In proceedings of American Control Conference, Chicago, USA"
 pagenum: "4970 – 4975"
+external_url: "https://ieeexplore.ieee.org/document/7172113/"
 ---

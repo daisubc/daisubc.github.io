@@ -6,4 +6,5 @@ year: 2020
 type: "patent"
 authors: "Qiugang Lu, Bhushan Gopaluni, Michael Forbes, Johan Backstrom, Guy A. Dumont, Philip Loewen"
 journal: "U.S. Patent No. 10,809,674"
+external_url: "https://patents.google.com/patent/US10809674"
 ---

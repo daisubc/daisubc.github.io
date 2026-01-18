@@ -7,4 +7,5 @@ year: 2016
 title: "Economic nonlinear model predictive control for thermo-mechanical pulping processes"
 journal: "In proceedings of American Control Conference, Boston, USA"
 pagenum: "1796 – 1801"
+external_url: "https://ieeexplore.ieee.org/document/7525179/"
 ---

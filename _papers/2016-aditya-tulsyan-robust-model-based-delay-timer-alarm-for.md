@@ -7,4 +7,5 @@ year: 2016
 title: "Robust model based delay timer alarm for nonlinear processes"
 journal: "In proceedings of American Control Conference, Boston, USA"
 pagenum: "2989 – 2994"
+external_url: "https://ieeexplore.ieee.org/document/7525374/"
 ---
