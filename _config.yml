@@ -8,11 +8,9 @@ unishortname: UBC
 url: "https://dais.chbe.ubc.ca" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: daisubc
 footer_desc: |
-  The UBC Data Analytics and Intelligent Systems Lab is based in Vancouver, BC, Canada. Our lab conducts research at the intersection of process control, data analytics 
-  and machine learning. 
-
-  We develop novel algorithms and computational tools 
-  to bring a new level of automation to the process industry.
+  The UBC Data Analytics and Intelligent Systems Lab is based in Vancouver, BC, Canada.
+  Our research brings modern machine learning and AI to industrial process control.
+  We develop theory and methods that bridge fundamental research and real-world deployment.
 
 # Your name
 name: Bhushan Gopaluni
@@ -42,9 +40,10 @@ shortbio: >-
   and Vice-Provost and Associate Vice-President, Faculty Planning at UBC Vancouver.
 
 description: >- # this means to ignore newlines until "baseurl:"
-  The UBC DAIS Lab conducts research at the intersection of process control, data analytics 
-  and machine learning. We develop novel algorithms and computational tools 
-  to bring a new level of automation to the process industry. 
+  Our research brings modern machine learning and AI to industrial process control.
+  We develop theory and methods that bridge fundamental research and real-world deployment,
+  spanning resource industries, pharmaceuticals, energy systems, battery manufacturing,
+  health analytics, and material discovery. 
 
 # For google search console
 googleverification: Uhr-tsoENf7WIxvNZZ6G7PWLp2_kZMrJ5tCOfBbTGXw

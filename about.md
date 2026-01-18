@@ -1,6 +1,6 @@
 ---
 layout: basic
-description: Dr. Bhushan Gopaluni leads research activities at the UBC DAIS Lab. He is a Professor in the Department of Chemical and Biological Engineering and Vice-Provost and Associate Vice-President, Faculty Planning in the Office of the Provost and Vice-President Academic, UBC Vancouver. From 2017 to 2022, he was the Associate Dean for Education and Professional Development in the Faculty of Applied Science at the University of British Columbia (UBC).
+description: Dr. Bhushan Gopaluni leads research activities at the UBC DAIS Lab. He is a Professor in the Department of Chemical and Biological Engineering and Vice-Provost and Associate Vice-President, Faculty Planning at UBC Vancouver.
 title: About
 permalink: /about/
 ---
