@@ -6,6 +6,8 @@ order: 198
 year: 2024
 authors: "Liang Cao, Jianping Su, Jack Saddler, Yankai Cao, Yixiu Wang, Gary Lee, Lim C. Siang, Robert Pinchuk, Jin Li, R. Bhushan Gopaluni"
 journal: "Applied Energy"
+volume: "360"
+pages: "122815"
 pdf: "2024J05_liang_ae.pdf"
 external_url: "https://www.sciencedirect.com/science/article/abs/pii/S0306261924001995"
 thumbnail: "2024J05_liang_ae.png"

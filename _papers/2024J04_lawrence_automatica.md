@@ -6,6 +6,8 @@ order: 197
 year: 2024
 authors: "Nathan P. Lawrence, Philip D. Loewen, Shuyuan Wang, Michael G. Forbes, R. Bhushan Gopaluni"
 journal: "Automatica"
+volume: "164"
+pages: "111642"
 arxiv: "https://arxiv.org/abs/2310.14098"
 code: "https://github.com/NPLawrence/StableBehavior.jl"
 pdf: "2024J04_lawrence_automatica.pdf"
