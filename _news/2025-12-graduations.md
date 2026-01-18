@@ -2,7 +2,7 @@
 layout: post
 title:  "Congratulations to Dr. Shuyuan Wang and Dr. Hashim Migaybil"
 description: DAIS Lab celebrates the graduation of two PhD students.
-date: "2025-01-18"
+date: "2025-12-15"
 ---
 
 We are delighted to congratulate [Dr. Shuyuan Wang]({% link _profiles/Shuyuan Wang.md %}) and [Dr. Hashim Migaybil]({% link _profiles/Hashim Migaybil.md %}) on successfully completing their PhD degrees!
