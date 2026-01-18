@@ -19,12 +19,12 @@ Two additional papers, in collaboration with the Burnaby Refinery, have been acc
 
 [Liang]({% link _profiles/Liang Cao.md %}), with the [Saddler group (UBC)](https://bioenergy.ubc.ca/) and collaborators, worked on novel methodologies for FCC coke burn estimation for lipids co-processing:
 
-- [Determining the amount of 'green' coke generated when co-processing lipids commercially by fluid catalytic cracking (FCC) **(Su et al.)**]({% link _papers/2021-su-bio.md %}) - Biofuels, Bioproducts and Biorefining
+- [Determining the amount of 'green' coke generated when co-processing lipids commercially by fluid catalytic cracking (FCC) **(Su et al.)**]({% link _papers/2022J13_su_bio.md %}) - Biofuels, Bioproducts and Biorefining
 
 <img src="/assets/thumbnails/su_bio_2021.jpg" style="width: 40% !important;" />
 
 DAIS Lab alumni members, [Shams]({% link _profiles/Shams Elnawawi.md %}) '20 and [Siang](https://www.siang.ca) '17, with Dan O'Connor (Control Consulting Inc.), worked on developing tools for visualizing and troubleshooting large-scale industrial model predictive controllers:
 
-- [Interactive Visualization for Diagnosis of Industrial Model Predictive Controllers with Steady-State Optimizers **(Elnawawi et al.)**]({% link _papers/2021-elnawawi-viz.md %}) - Control Engineering Practice
+- [Interactive Visualization for Diagnosis of Industrial Model Predictive Controllers with Steady-State Optimizers **(Elnawawi et al.)**]({% link _papers/2022J11_elnawawi_cep.md %}) - Control Engineering Practice
 
 <img src="/assets/thumbnails/2021J8_Elnawawi_Viz.png" style="width: 40% !important;" />
