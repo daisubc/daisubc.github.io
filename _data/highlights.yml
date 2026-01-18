@@ -1,3 +1,8 @@
+- message: "New perspective paper on autonomous process operations published in Computers & Chemical Engineering!"
+  date: "2025-01-15"
+  url: "https://dais.chbe.ubc.ca/publication/2025J11_baldea_cce/"
+  display: "True"
+
 - message: "Tx MED & UBC-Rogers partnership highlighted by Innovation UBC!"
   date: "2024-07-21"
   url: "https://dais.chbe.ubc.ca/news/2024-07-21-txmed/"
@@ -6,7 +11,7 @@
 - message: "DAIS Lab publishes its 100th journal article in Automatica!"
   date: "2024-01-21"
   url: "https://dais.chbe.ubc.ca/news/2024-01-21-100/"
-  display: "True"
+  display: "False"
 
 - message: "Iman Jalilvand wins Silver Award at 2023 HCI International Student Design Competition"
   date: "2023-07-05"
