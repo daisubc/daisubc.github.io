@@ -10,5 +10,7 @@ volume: "165"
 pages: "106603"
 external_url: "https://www.sciencedirect.com/science/article/abs/pii/S0967066125000164"
 pdf: "2025J07_zhang_cep.pdf"
+thumbnail: "2025J07_zhang_cep.png"
+image: "/assets/thumbnails/2025J07_zhang_cep.png"
 description: "This work proposes a novel approach for discovering alarm event causality using neural point process modeling with topology constraints to enable effective root cause analysis in industrial processes."
 ---
