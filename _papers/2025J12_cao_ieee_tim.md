@@ -9,5 +9,6 @@ journal: "IEEE Transactions on Instrumentation and Measurement"
 volume: "74"
 pages: "1-17"
 external_url: "https://ieeexplore.ieee.org/document/10777746"
+pdf: "2025J12_cao_ieee_tim.pdf"
 description: "This paper provides a comprehensive analysis of machine learning approaches for developing interpretable and stable soft sensors in industrial applications, addressing key challenges in model reliability and transparency."
 ---
