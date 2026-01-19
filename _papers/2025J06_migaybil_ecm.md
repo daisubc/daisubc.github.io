@@ -11,5 +11,7 @@ pages: "120565"
 external_url: "https://www.sciencedirect.com/science/article/pii/S0196890425000244"
 pdf: "2025J06_migaybil_ecm.pdf"
 supplementary: "2025J06_migaybil_ecm_supp.pdf"
+thumbnail: "2025J06_migaybil_ecm.png"
+image: "/assets/thumbnails/2025J06_migaybil_ecm.png"
 description: "This paper presents a deep learning approach for predictive modeling in conventional solar stills, leveraging data augmentation techniques and convolutional neural networks to enhance prediction accuracy."
 ---

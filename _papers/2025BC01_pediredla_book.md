@@ -9,5 +9,7 @@ journal: "Deep Learning for Advanced X-ray Detection and Imaging Applications"
 pages: "177-190"
 external_url: "https://link.springer.com/chapter/10.1007/978-3-031-73281-2_8"
 pdf: "2025BC01_pediredla_book.pdf"
+thumbnail: "2025BC01_pediredla_book.png"
+image: "/assets/thumbnails/2025BC01_pediredla_book.png"
 description: "This book chapter presents enhanced 3D X-ray tomography techniques using deep learning-based advanced algorithms for fiber instance segmentation, with applications in materials science and manufacturing."
 ---
