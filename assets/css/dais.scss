@@ -485,6 +485,9 @@ $ws-border: rgba(0, 33, 69, 0.12);
 .workshop-body {
   background-color: #ffffff;
   color: $ws-ink;
+  scroll-behavior: smooth;
+
+  section[id^="ws-"] { scroll-margin-top: 88px; }
 
   .container {
     margin-left: auto;
@@ -505,6 +508,8 @@ $ws-border: rgba(0, 33, 69, 0.12);
     color: $ws-ink;
   }
 }
+
+html:has(body.workshop-body) { scroll-behavior: smooth; }
 
 /* ---------- Hero ---------- */
 .ws-hero {

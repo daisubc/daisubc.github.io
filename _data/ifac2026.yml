@@ -147,7 +147,7 @@ speakers:
     title: "Professor, Chemical & Biological Engineering"
     secondary: "Vice-Provost & Associate Vice-President, Faculty Planning"
     location: "Vancouver, Canada"
-    photo: "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg"
+    photo: "/assets/img/ifac2026/bhushan.jpg"
     profile_url: "https://dais.chbe.ubc.ca/"
     sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application III (Simulation)"
     bio: |
@@ -162,7 +162,7 @@ speakers:
     title: "ABB Reader in Autonomous Industrial Systems"
     secondary: "Sargent Centre for Process Systems Engineering"
     location: "London, United Kingdom"
-    photo: ""
+    photo: "/assets/img/ifac2026/mehmet.jpg"
     profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
     sessions: "Application II — Autonomous Control and Fault Diagnosis"
     bio: |
@@ -178,7 +178,7 @@ speakers:
     title: "Professor, College of Control Science and Engineering"
     secondary: ""
     location: "Hangzhou, China"
-    photo: ""
+    photo: "/assets/img/ifac2026/chunhui.png"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
     sessions: "Application III — Process Simulation and Optimization"
     bio: |

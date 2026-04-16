@@ -32,37 +32,30 @@
         $(".navbar-burger").toggleClass("is-active");
         $(".navbar-menu").toggleClass("is-active");
       });
-
-      // Smooth scroll with sticky-nav offset
-      $('a.ws-anchor').on('click', function(e) {
-        var href = $(this).attr('href');
-        if (href && href.charAt(0) === '#') {
-          var target = $(href);
-          if (target.length) {
-            e.preventDefault();
-            var offset = $('.ws-subnav').outerHeight() + 16;
-            $('html, body').animate({ scrollTop: target.offset().top - offset }, 300);
-            history.replaceState(null, '', href);
-          }
-        }
-      });
-
-      // Make sticky nav active section tracking
-      var sections = $('section[id^="ws-"]');
-      var navLinks = $('.ws-subnav a.ws-anchor');
-      $(window).on('scroll', function() {
-        var scrollPos = $(document).scrollTop() + 120;
-        sections.each(function() {
-          var top = $(this).offset().top;
-          var bottom = top + $(this).outerHeight();
-          if (scrollPos >= top && scrollPos < bottom) {
-            var id = $(this).attr('id');
-            navLinks.removeClass('is-active');
-            navLinks.filter('[href="#' + id + '"]').addClass('is-active');
-          }
-        });
-      });
     });
+
+    // Sticky sub-nav: native-CSS smooth scroll + active-section tracking.
+    // (Site-wide jQuery is the slim build, which has no .animate/.scroll helpers.)
+    (function () {
+      var sections = document.querySelectorAll('section[id^="ws-"]');
+      var navLinks = document.querySelectorAll('.ws-subnav a.ws-anchor');
+      if (!sections.length || !navLinks.length) return;
+
+      function setActive() {
+        var scrollPos = window.scrollY + 140;
+        var current = null;
+        sections.forEach(function (s) {
+          if (s.offsetTop <= scrollPos) current = s.id;
+        });
+        navLinks.forEach(function (l) {
+          var href = l.getAttribute('href') || '';
+          if (current && href === '#' + current) l.classList.add('is-active');
+          else l.classList.remove('is-active');
+        });
+      }
+      window.addEventListener('scroll', setActive, { passive: true });
+      setActive();
+    })();
   </script>
 </body>
 </html>
