@@ -14,5 +14,9 @@
 
 - name: Resources
 
+- name: IFAC 2026
+  url: /ifac2026/
+  internal: true
+
 - name: Videos
   url: https://vimeo.com/showcase/7521351

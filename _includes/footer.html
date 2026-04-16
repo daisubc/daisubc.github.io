@@ -23,9 +23,15 @@
           {% for link in site.data.pages %}
             {% if link.url %}
               <li itemprop="name">
-                <a itemprop="url" class="footer-navbar-item" target="_blank" href="{{link.url}}/">
-                  {{ link.name }}
-                </a>
+                {% if link.internal %}
+                  <a itemprop="url" class="footer-navbar-item" href="{{ site.baseurl }}{{ link.url }}">
+                    {{ link.name }}
+                  </a>
+                {% else %}
+                  <a itemprop="url" class="footer-navbar-item" target="_blank" href="{{link.url}}/">
+                    {{ link.name }}
+                  </a>
+                {% endif %}
               </li>
             {% else %}
               <li itemprop="name">

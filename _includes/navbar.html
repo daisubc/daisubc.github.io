@@ -17,7 +17,15 @@
       {% for link in site.data.pages %}
       {% assign linkname = link.name | downcase %}
         {% if link.url %}
-          <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}&nbsp;<i class="fas fa-external-link-alt"></i></a>
+          {% if link.internal %}
+            {% if page.url contains link.url %}
+              <a itemprop="url" class="navbar-item is-active" href="{{ site.baseurl }}{{ link.url }}"><b>{{ link.name }}</b></a>
+            {% else %}
+              <a itemprop="url" class="navbar-item" href="{{ site.baseurl }}{{ link.url }}">{{ link.name }}</a>
+            {% endif %}
+          {% else %}
+            <a itemprop="url" target="_blank" class="navbar-item" href="{{ link.url }}">{{ link.name }}&nbsp;<i class="fas fa-external-link-alt"></i></a>
+          {% endif %}
         {% else %}
           {% if paths contains linkname %}
             <a itemprop="url" class="navbar-item is-active" href="{{ site.baseurl }}/{{ link.name | downcase }}/"><b>{{ link.name }}</b></a>

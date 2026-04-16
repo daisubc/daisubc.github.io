@@ -1,0 +1,374 @@
+---
+layout: workshop
+title: "IFAC 2026 Workshop — LLM Agents for Process Industries"
+description: "Full-day workshop at the IFAC World Congress 2026 in Busan, Korea, covering foundations, applications, and open challenges of LLM agents for process industries. Organized by Gopaluni (UBC), Mercangöz (Imperial), and Zhao (Zhejiang)."
+permalink: /ifac2026/
+---
+
+{% assign ws = site.data.ifac2026 %}
+
+<!-- ============ HERO ============ -->
+<section class="ws-hero">
+  <div class="ws-hero-bg"></div>
+  <div class="ws-hero-overlay"></div>
+  <div class="container ws-hero-inner">
+    <div class="ws-hero-chip">
+      <i class="fas fa-flask"></i>&nbsp; Pre-Congress Workshop · IFAC World Congress 2026
+    </div>
+    <h1 class="ws-hero-title">{{ ws.title }}</h1>
+    <p class="ws-hero-subtitle">{{ ws.subtitle }}</p>
+
+    <div class="ws-hero-meta">
+      <div class="ws-meta-item">
+        <i class="far fa-calendar-alt"></i>
+        <div>
+          <div class="ws-meta-label">Date</div>
+          <div class="ws-meta-value">{{ ws.date_display }}</div>
+        </div>
+      </div>
+      <div class="ws-meta-item">
+        <i class="far fa-clock"></i>
+        <div>
+          <div class="ws-meta-label">Time</div>
+          <div class="ws-meta-value">{{ ws.time_display }}</div>
+        </div>
+      </div>
+      <div class="ws-meta-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <div class="ws-meta-label">Location</div>
+          <div class="ws-meta-value">{{ ws.city }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ws-hero-cta">
+      <a href="{{ ws.register_url }}" target="_blank" rel="noopener" class="button is-link ws-btn-primary no-deco">
+        <i class="fas fa-ticket-alt"></i>&nbsp; Register via IFAC 2026
+      </a>
+      <a href="#ws-schedule" class="button ws-btn-ghost ws-anchor no-deco">
+        <i class="far fa-calendar"></i>&nbsp; See full schedule
+      </a>
+    </div>
+
+    <div class="ws-hero-tags">
+      {% for kw in ws.keywords %}<span class="ws-tag">{{ kw }}</span>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ STICKY SUB-NAV ============ -->
+<nav class="ws-subnav" aria-label="Workshop sections">
+  <div class="container ws-subnav-inner">
+    <a class="ws-anchor" href="#ws-overview">Overview</a>
+    <a class="ws-anchor" href="#ws-outcomes">Outcomes</a>
+    <a class="ws-anchor" href="#ws-schedule">Schedule</a>
+    <a class="ws-anchor" href="#ws-handson">Hands-on</a>
+    <a class="ws-anchor" href="#ws-organizers">Organizers</a>
+    <a class="ws-anchor" href="#ws-materials">Materials</a>
+    <a class="ws-anchor" href="#ws-register">Register</a>
+  </div>
+</nav>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="ws-overview" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">01 · Overview</span>
+      <h2 class="ws-h2">Why we are running this workshop</h2>
+    </div>
+    <div class="columns is-variable is-6">
+      <div class="column is-7">
+        <div class="content ws-prose">
+          {{ ws.abstract | markdownify }}
+        </div>
+      </div>
+      <div class="column is-5">
+        <div class="ws-callout">
+          <h3 class="ws-callout-title"><i class="fas fa-bolt"></i>&nbsp; Why now?</h3>
+          <div class="content ws-prose">
+            {{ ws.why_now | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEARNING OUTCOMES ============ -->
+<section id="ws-outcomes" class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">02 · Learning outcomes</span>
+      <h2 class="ws-h2">What you'll take away</h2>
+      <p class="ws-lede">After attending, participants will be able to:</p>
+    </div>
+    <div class="ws-outcomes">
+      {% for outcome in ws.learning_outcomes %}
+        <div class="ws-outcome-card">
+          <div class="ws-outcome-num">{{ forloop.index }}</div>
+          <div class="ws-outcome-text">{{ outcome }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCHEDULE ============ -->
+<section id="ws-schedule" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">03 · Schedule</span>
+      <h2 class="ws-h2">{{ ws.date_display }} · {{ ws.time_display }}</h2>
+      <p class="ws-lede">A full day balanced across foundations, hands-on exercises, applications, and open discussion.</p>
+    </div>
+
+    {% for block in ws.schedule %}
+      <div class="ws-schedule-block">
+        <h3 class="ws-schedule-block-title">{{ block.block }}</h3>
+        <div class="ws-schedule-table">
+          {% for s in block.sessions %}
+            <div class="ws-schedule-row{% if s.break %} ws-schedule-break{% endif %}">
+              <div class="ws-schedule-time">{{ s.time }}</div>
+              <div class="ws-schedule-body">
+                <div class="ws-schedule-title">{{ s.title }}</div>
+                {% if s.lead and s.lead != "" %}
+                  <div class="ws-schedule-lead">{{ s.lead }}</div>
+                {% endif %}
+                {% if s.details and s.details != "" %}
+                  <div class="ws-schedule-details">{{ s.details }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ============ HANDS-ON ============ -->
+<section id="ws-handson" class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">04 · Hands-on session</span>
+      <h2 class="ws-h2">Build, break, and debug simple LLM agents</h2>
+      <p class="ws-lede">Bring a laptop. We'll give you everything else. Observers are welcome — code if you like, watch if you prefer.</p>
+    </div>
+
+    <div class="columns is-variable is-6">
+      <div class="column is-6">
+        <div class="ws-card">
+          <h3 class="ws-card-title"><i class="fas fa-laptop"></i>&nbsp; What to bring</h3>
+          <ul class="ws-check-list no-deco">
+            {% for item in ws.hands_on.bring %}
+              <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="column is-6">
+        <div class="ws-card ws-card-accent">
+          <h3 class="ws-card-title"><i class="fas fa-toolbox"></i>&nbsp; What we provide</h3>
+          <ul class="ws-check-list no-deco">
+            {% for item in ws.hands_on.provided %}
+              <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="ws-h3 ws-mt">Exercises</h3>
+    <div class="ws-exercises">
+      {% for ex in ws.hands_on.exercises %}
+        <div class="ws-exercise">
+          <div class="ws-exercise-num">0{{ forloop.index }}</div>
+          <div>
+            <h4 class="ws-exercise-title">{{ ex.title }}</h4>
+            <p class="ws-exercise-desc">{{ ex.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="ws-callout ws-mt">
+      <h3 class="ws-callout-title"><i class="fas fa-graduation-cap"></i>&nbsp; Prerequisites</h3>
+      <div class="content ws-prose">{{ ws.prerequisites | markdownify }}</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORGANIZERS ============ -->
+<section id="ws-organizers" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">05 · Organizers</span>
+      <h2 class="ws-h2">Three continents, complementary expertise</h2>
+      <p class="ws-lede">The team spans academic research in North America, Europe, and Asia, with extended industrial practice represented alongside.</p>
+    </div>
+
+    <div class="ws-organizers">
+      {% for org in ws.organizers %}
+        <div class="ws-organizer-card">
+          <div class="ws-organizer-photo">
+            {% if org.photo and org.photo != "" %}
+              <img src="{{ org.photo }}" alt="{{ org.name }}" />
+            {% else %}
+              <div class="ws-organizer-initials">
+                {% assign parts = org.name | split: " " %}
+                {% for part in parts %}{{ part | slice: 0 }}{% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <div class="ws-organizer-body">
+            <div class="ws-organizer-role">{{ org.role }}</div>
+            <h3 class="ws-organizer-name">
+              {% if org.profile_url and org.profile_url != "" %}
+                <a href="{{ org.profile_url }}" target="_blank" rel="noopener">{{ org.name }}</a>
+              {% else %}
+                {{ org.name }}
+              {% endif %}
+            </h3>
+            <div class="ws-organizer-affil"><strong>{{ org.affiliation }}</strong></div>
+            <div class="ws-organizer-title">{{ org.title }}</div>
+            {% if org.secondary and org.secondary != "" %}
+              <div class="ws-organizer-title">{{ org.secondary }}</div>
+            {% endif %}
+            <div class="ws-organizer-location"><i class="fas fa-map-marker-alt"></i>&nbsp; {{ org.location }}</div>
+            <div class="ws-organizer-bio">{{ org.bio | markdownify }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUDIENCE & IFAC ============ -->
+<section class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column is-6">
+        <div class="ws-section-head">
+          <span class="ws-eyebrow">06 · Target audience</span>
+          <h2 class="ws-h2">Who this is for</h2>
+        </div>
+        <ul class="ws-bullet-list no-deco">
+          {% for aud in ws.target_audience %}
+            <li><i class="fas fa-users"></i>&nbsp; {{ aud }}</li>
+          {% endfor %}
+        </ul>
+        <p class="ws-note">Expected attendance: <strong>25–40 participants</strong> across academia and industry.</p>
+      </div>
+
+      <div class="column is-6">
+        <div class="ws-section-head">
+          <span class="ws-eyebrow">07 · Relevance to IFAC</span>
+          <h2 class="ws-h2">Aligned with IFAC technical areas</h2>
+        </div>
+        <p class="ws-prose">{{ ws.ifac_relevance.description }}</p>
+        <div class="ws-tc-list">
+          {% for tc in ws.ifac_relevance.committees %}
+            <div class="ws-tc-item">
+              <div class="ws-tc-code">{{ tc.code }}</div>
+              <div>
+                <div class="ws-tc-name">{{ tc.name }}</div>
+                <div class="ws-tc-desc">{{ tc.description }}</div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MATERIALS & REFERENCES ============ -->
+<section id="ws-materials" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">08 · Code & materials</span>
+      <h2 class="ws-h2">Notebooks, slides, and reading list</h2>
+    </div>
+
+    <div class="ws-card ws-card-feature">
+      <div>
+        <h3 class="ws-card-title"><i class="fab fa-github"></i>&nbsp; Workshop notebooks</h3>
+        <p class="ws-prose">Hands-on exercises, starter code, and datasets will be published in a GitHub repository ahead of the workshop. Notebooks run on Google Colab — no local install required.</p>
+      </div>
+      <a href="{{ ws.code_repo_url }}" target="_blank" rel="noopener" class="button ws-btn-primary no-deco">
+        <i class="fab fa-github"></i>&nbsp; Open repository
+      </a>
+    </div>
+
+    <h3 class="ws-h3 ws-mt">Selected references</h3>
+    <p class="ws-lede">Recent papers that ground the workshop content. A fuller reading list will be shared on the day.</p>
+    <ol class="ws-ref-list">
+      {% for ref in ws.references %}
+        <li class="ws-ref-item">
+          <span class="ws-ref-authors">{{ ref.authors }}</span>
+          <span class="ws-ref-year">({{ ref.year }}).</span>
+          {% if ref.url and ref.url != "" %}
+            <a href="{{ ref.url }}" target="_blank" rel="noopener" class="ws-ref-title">{{ ref.title }}</a>
+          {% else %}
+            <span class="ws-ref-title">{{ ref.title }}</span>
+          {% endif %}
+          <span class="ws-ref-venue">{{ ref.venue }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+
+    <h3 class="ws-h3 ws-mt">Related workshops by the organizers</h3>
+    <div class="ws-prior-list">
+      {% for pw in ws.prior_workshops %}
+        <div class="ws-prior-item">
+          <span class="ws-prior-year">{{ pw.year }}</span>
+          <span class="ws-prior-name">
+            {% if pw.url %}<a href="{{ pw.url }}" target="_blank" rel="noopener">{{ pw.name }}</a>{% else %}{{ pw.name }}{% endif %}
+          </span>
+          <span class="ws-prior-topic">— {{ pw.topic }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGISTER ============ -->
+<section id="ws-register" class="ws-section ws-section-register">
+  <div class="container">
+    <div class="ws-register-card">
+      <div class="ws-register-left">
+        <span class="ws-eyebrow ws-eyebrow-light">09 · Register</span>
+        <h2 class="ws-h2 ws-h2-light">Join us in Busan on August 23, 2026</h2>
+        <p class="ws-lede-light">Workshop registration is handled through the official IFAC 2026 World Congress portal. Fees and logistics are set by the congress.</p>
+        <div class="ws-register-meta">
+          <div><i class="far fa-calendar-alt"></i>&nbsp; {{ ws.date_display }}</div>
+          <div><i class="far fa-clock"></i>&nbsp; {{ ws.time_display }}</div>
+          <div><i class="fas fa-map-marker-alt"></i>&nbsp; {{ ws.city }}</div>
+          <div><i class="fas fa-door-open"></i>&nbsp; {{ ws.room }}</div>
+        </div>
+      </div>
+      <div class="ws-register-right">
+        <a href="{{ ws.register_url }}" target="_blank" rel="noopener" class="button ws-btn-primary ws-btn-lg no-deco">
+          <i class="fas fa-ticket-alt"></i>&nbsp; Register via IFAC 2026
+        </a>
+        <a href="mailto:{{ ws.contact_email }}" class="button ws-btn-ghost-light no-deco">
+          <i class="far fa-envelope"></i>&nbsp; Ask the organizers
+        </a>
+        <p class="ws-register-contact">Questions? Email <a href="mailto:{{ ws.contact_email }}">{{ ws.contact_email }}</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACKNOWLEDGEMENT ============ -->
+<section class="ws-section ws-ack">
+  <div class="container has-text-centered">
+    <p class="ws-ack-text">
+      Supported by the UBC DAIS Lab, Imperial College London, and Zhejiang University.
+      Held as a pre-congress workshop at the
+      <a href="{{ ws.ifac_url }}" target="_blank" rel="noopener">IFAC World Congress 2026</a>,
+      Busan, Republic of Korea.
+    </p>
+  </div>
+</section>

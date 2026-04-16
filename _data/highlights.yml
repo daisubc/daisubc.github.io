@@ -1,3 +1,8 @@
+- message: "We are organizing a full-day workshop on LLM Agents for Process Industries at IFAC 2026 in Busan, Korea!"
+  date: "2026-04-16"
+  url: "/ifac2026/"
+  display: "True"
+
 - message: "New paper on ML-driven CO2 capture materials discovery published in npj Computational Materials!"
   date: "2025-11-15"
   url: "https://dais.chbe.ubc.ca/publication/2025J14_hajiali_npj/"

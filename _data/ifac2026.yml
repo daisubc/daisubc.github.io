@@ -1,0 +1,279 @@
+title: "LLM Agents for Process Industries"
+subtitle: "Foundations, Applications, and Open Challenges"
+tagline: "A full-day workshop at the IFAC World Congress 2026"
+
+date_iso: "2026-08-23"
+date_display: "Sunday, August 23, 2026"
+time_display: "9:00 AM – 5:00 PM (KST)"
+venue: "IFAC World Congress 2026"
+city: "Busan, Republic of Korea"
+room: "Venue room TBA"
+
+ifac_url: "https://www.ifac2026.org/"
+register_url: "https://www.ifac2026.org/"
+contact_email: "bhushan.gopaluni@ubc.ca"
+code_repo_url: "https://github.com/daisubc/ifac2026-workshop"
+
+abstract: |
+  Large Language Models have evolved from text generators to agents that reason, use tools, and take actions.
+  Researchers are now applying these agents to process industries: interpreting flowsheets, predicting control
+  structures, diagnosing faults, even acting as autonomous operators. The results so far are intriguing but
+  preliminary, and the gap between laboratory demonstrations and plant deployment remains substantial.
+
+  This full-day workshop brings together researchers from three continents to examine what LLM agents can
+  actually do today, where they fail, and what problems deserve our attention. The morning session covers
+  fundamentals and includes a hands-on session where participants build simple agents and probe their
+  limitations. The afternoon session surveys applications in process design, autonomous control, and
+  simulation. We close with a structured discussion aimed at identifying research priorities.
+
+  Participants will leave with practical experience, a grounded assessment of the technology, and ideas
+  for their own work.
+
+why_now: |
+  LLMs have moved past the initial hype phase, and the process control community now has enough published
+  work and practical experience to evaluate what actually works. At the same time, the technology is still
+  immature enough that we can shape its development rather than simply adopt tools designed for other domains.
+
+  Plants generate vast amounts of unstructured text — maintenance logs, alarm records, operating procedures,
+  incident reports — that traditional analytics cannot easily exploit. LLM agents can work with this data
+  directly. As experienced operators retire, these agents offer a mechanism for encoding and applying
+  organizational knowledge. Natural language interfaces could change how engineers interact with process data
+  and systems, invoking simulations, querying historians, and executing calculations. But the limitations are
+  real: hallucination, weak numerical reasoning, no safety guarantees by default, and the challenge of
+  validating agent behavior in autonomous settings.
+
+keywords:
+  - Large Language Models
+  - Autonomous Agents
+  - Process Control
+  - Artificial Intelligence
+  - Industrial Automation
+  - Machine Learning
+  - Fault Diagnosis
+
+learning_outcomes:
+  - "Explain how LLM agents work and critically evaluate claims about their capabilities."
+  - "Build simple LLM agents for process engineering tasks using standard tools."
+  - "Recognize current LLM applications in process design, control, and simulation."
+  - "Identify the key challenges — safety validation, hallucination, integration — that must be addressed for industrial deployment."
+  - "Articulate open research problems and opportunities in this emerging field."
+
+target_audience:
+  - "Academic researchers and graduate students in process control and process systems engineering exploring AI applications."
+  - "Industry practitioners — control engineers, automation specialists, and technology developers — evaluating LLM tools."
+  - "Research managers and technical leaders assessing the technology for their organizations."
+
+prerequisites: |
+  Participants should understand basic process control concepts (feedback loops, PIDs, cascade control) and
+  have some familiarity with machine learning ideas (training, inference, overfitting). Prior experience with
+  LLMs or Python programming is helpful but not required — the morning sessions provide necessary background
+  and hands-on exercises can be completed collaboratively. Attendees who prefer to observe rather than code
+  are also welcome.
+
+hands_on:
+  bring:
+    - "A laptop with a modern web browser."
+    - "Ability to connect to the workshop Wi-Fi."
+  provided:
+    - "Jupyter notebooks hosted on Google Colab — no local install required."
+    - "Temporary LLM API access for use during the workshop."
+    - "Sample datasets: simplified P&IDs, alarm lists, maintenance logs."
+    - "An offline fallback bundle of pre-recorded demos and local notebooks using open-source models in case of connectivity issues."
+  exercises:
+    - title: "Prompt engineering basics"
+      description: "Prompt a model to interpret a simplified P&ID and critique its control structure suggestions. Experiment with different prompting strategies."
+    - title: "Building a simple agent"
+      description: "Construct a minimal fault diagnosis agent that combines an LLM with tool calls to query sensor data and search maintenance logs."
+    - title: "Failure analysis"
+      description: "Probe agent limitations — numerical reasoning errors, hallucinated equipment names, overconfident recommendations — to develop intuition for where these systems fail."
+
+schedule:
+  - block: "Morning — Foundations & Hands-On"
+    sessions:
+      - time: "9:00 – 9:15"
+        title: "Welcome and Framing"
+        lead: "Organizers"
+        details: "Overview of the day, learning outcomes, and an introduction to where LLM agent technology stands in the process industries."
+      - time: "9:15 – 10:15"
+        title: "LLM and Agent Fundamentals"
+        lead: "Gopaluni"
+        details: "Attention mechanism and transformer architecture; introduction to simple agent architectures via process control examples (alarm lists, operator procedures, simplified P&ID encodings)."
+      - time: "10:15 – 10:30"
+        title: "☕ Coffee Break"
+        lead: ""
+        details: ""
+        break: true
+      - time: "10:30 – 11:30"
+        title: "Hands-On Session"
+        lead: "All organizers"
+        details: "Participants work directly with LLM APIs on process control tasks using provided Python notebooks. Three exercises progressing from prompt engineering through agent construction to failure analysis."
+      - time: "11:30 – 12:30"
+        title: "Application I — Process Design and Engineering"
+        lead: "Gopaluni"
+        details: "P&ID interpretation, control structure prediction, and automated design review. Discussion of Hirtreiter et al. (2024), Balhorn et al. (2024), and graph-based approaches for capturing process topology."
+      - time: "12:30 – 13:30"
+        title: "🥢 Lunch"
+        lead: ""
+        details: ""
+        break: true
+  - block: "Afternoon — Applications & Open Problems"
+    sessions:
+      - time: "13:30 – 14:30"
+        title: "Application II — Autonomous Control and Fault Diagnosis"
+        lead: "Mercangöz"
+        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration."
+      - time: "14:30 – 14:45"
+        title: "☕ Coffee Break"
+        lead: ""
+        details: ""
+        break: true
+      - time: "14:45 – 15:45"
+        title: "Application III — Process Simulation and Optimization"
+        lead: "Gopaluni & Zhao"
+        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
+      - time: "15:45 – 16:45"
+        title: "Open Problems, Research Directions, and Q&A"
+        lead: "All organizers + participants"
+        details: "Structured discussion: What works now? What's tractable? What's hard? Followed by an open floor for questions about content, research directions, industrial deployment, and collaboration."
+      - time: "16:45 – 17:00"
+        title: "Wrap-up and Resources"
+        lead: "Organizers"
+        details: "Synthesis of the day's themes plus pointers to resources for continued learning — key papers, open-source tools, benchmark datasets, and community forums."
+
+organizers:
+  - name: "R. Bhushan Gopaluni"
+    role: "Primary Contact"
+    affiliation: "University of British Columbia"
+    title: "Professor, Chemical & Biological Engineering"
+    secondary: "Vice-Provost & Associate Vice-President, Faculty Planning"
+    location: "Vancouver, Canada"
+    photo: "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg"
+    profile_url: "https://dais.chbe.ubc.ca/"
+    bio: |
+      Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focusing on machine learning,
+      reinforcement learning, and data analytics for process industries. Author of over 200 refereed
+      publications. Recipient of the UBC Killam Teaching Prize and the D.G. Fisher Award from the
+      Canadian Society for Chemical Engineering. Extensive experience organizing IFAC workshops,
+      including sessions at ADCHEM and DYCOPS.
+  - name: "Mehmet Mercangöz"
+    role: "Organizer"
+    affiliation: "Imperial College London"
+    title: "ABB Reader in Autonomous Industrial Systems"
+    secondary: "Sargent Centre for Process Systems Engineering"
+    location: "London, United Kingdom"
+    photo: ""
+    profile_url: "https://www.imperial.ac.uk/people/m.mercangoz"
+    bio: |
+      Spent 14 years at ABB Corporate Research, most recently as coordinator for industrial
+      artificial intelligence, before joining Imperial College. His combination of academic
+      research and industrial R&D experience uniquely positions him to address the practical
+      challenges of deploying LLM agents in industrial settings. Current research focuses on
+      agentic frameworks that leverage LLMs for autonomous industrial control with appropriate
+      safety guarantees.
+  - name: "Chunhui Zhao"
+    role: "Organizer"
+    affiliation: "Zhejiang University"
+    title: "Professor, College of Control Science and Engineering"
+    secondary: ""
+    location: "Hangzhou, China"
+    photo: ""
+    profile_url: "https://person.zju.edu.cn/en/chhzhao"
+    bio: |
+      Leading researcher in AI for process systems engineering. Work on process monitoring,
+      fault diagnosis, and multimodal data fusion — combining process measurements, text, and
+      images — is directly relevant to LLM applications in process industries. Brings
+      perspective on developments in the rapidly growing AI and process systems research
+      community in Asia.
+
+ifac_relevance:
+  description: "This workshop aligns directly with IFAC's mission to promote automatic control and its applications. The topics span multiple IFAC technical areas:"
+  committees:
+    - code: "TC 6.1"
+      name: "Process Control"
+      description: "Techniques for modeling, analysis, and control in chemical and bioprocess systems."
+    - code: "TC 6.2"
+      name: "Mining, Mineral and Metal Processing"
+      description: "Process control and digital technologies in mining and metals production."
+    - code: "TC 6.4"
+      name: "Fault Detection, Supervision and Safety"
+      description: "Methodologies for detection, supervision, and safety of technical processes."
+
+references:
+  - authors: "Balhorn, L. S., Caballero, M., Schweidtmann, A. M."
+    year: "2024"
+    title: "Toward autocorrection of chemical process flowsheets using large language models."
+    venue: "Computer Aided Chemical Engineering, Vol. 53, 3109–3114. Elsevier."
+    url: ""
+  - authors: "Du, W., Yang, S."
+    year: "2025"
+    title: "The potential and challenges of large language model agent systems in chemical process simulation."
+    venue: "Frontiers of Chemical Science and Engineering, 19(10), 99."
+    url: "https://doi.org/10.1007/s11705-025-2587-5"
+  - authors: "Gill, M. S., Vyas, J., Markaj, A., Gehlhoff, F., Mercangöz, M."
+    year: "2025"
+    title: "Leveraging LLM agents and digital twins for fault handling in process plants."
+    venue: "arXiv:2505.02076"
+    url: "https://arxiv.org/abs/2505.02076"
+  - authors: "Hirtreiter, E., Schulze Balhorn, L., Schweidtmann, A. M."
+    year: "2024"
+    title: "Toward automatic generation of control structures for process flow diagrams with large language models."
+    venue: "AIChE Journal, 70(1), e18259."
+    url: "https://doi.org/10.1002/aic.18259"
+  - authors: "Qaid, H. A. et al."
+    year: "2024"
+    title: "FD-LLM: Large language model for fault diagnosis of machines."
+    venue: "arXiv:2412.01218"
+    url: "https://arxiv.org/abs/2412.01218"
+  - authors: "Schulze Balhorn, L. et al."
+    year: "2024"
+    title: "Graph-to-SFILES: Control structure prediction from process topologies using generative artificial intelligence."
+    venue: "arXiv:2412.00508"
+    url: "https://arxiv.org/abs/2412.00508"
+  - authors: "Venkatasubramanian, V."
+    year: "2019"
+    title: "The promise of artificial intelligence in chemical engineering: Is it here, finally?"
+    venue: "AIChE Journal, 65(2), 466–478."
+    url: "https://doi.org/10.1002/aic.16489"
+  - authors: "Vyas, J., Mercangöz, M."
+    year: "2024"
+    title: "Autonomous industrial control using an agentic framework with large language models."
+    venue: "arXiv:2411.05904"
+    url: "https://arxiv.org/abs/2411.05904"
+  - authors: "Woo, T., Kim, S., Tariq, S. et al."
+    year: "2025"
+    title: "Leveraging generative AI and large language models for process systems engineering: a state-of-the-art review."
+    venue: "Korean Journal of Chemical Engineering, 42, 2787–2808."
+    url: "https://doi.org/10.1007/s11814-025-00524-y"
+  - authors: "Xia, Y., Dittler, D., Jazdi, N., Chen, H., Weyrich, M."
+    year: "2024"
+    title: "LLM experiments with simulation: Large language model multi-agent system for process simulation parametrization in digital twins."
+    venue: "IEEE ETFA."
+    url: ""
+  - authors: "Xia, Y. et al."
+    year: "2024"
+    title: "Control industrial automation system with large language model agents."
+    venue: "arXiv preprint."
+    url: ""
+
+prior_workshops:
+  - year: "2023"
+    name: "FOPAM"
+    topic: "Machine learning for process industries"
+  - year: "2022"
+    name: "DYCOPS"
+    topic: "State and parameter estimation"
+  - year: "2021"
+    name: "ADCHEM"
+    topic: "Data analytics and machine learning"
+  - year: "2019"
+    name: "NUS Summer Workshop"
+    topic: "Data analytics for process industries"
+    url: "https://daisubc.github.io/2019NUS_Workshop/"
+  - year: "2019"
+    name: "DYCOPS"
+    topic: "Process data analytics workshop"
+    url: "https://daisubc.github.io/DYCOPS/"
+  - year: "2018"
+    name: "ADCHEM"
+    topic: "Machine learning for process industries"
+    url: "https://daisubc.github.io/adchem/"

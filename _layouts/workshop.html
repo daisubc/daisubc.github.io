@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}/assets/img/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/dais.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+  <meta name="google-site-verification" content="{{ site.googleverification }}" />
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+
+  {% seo %}
+</head>
+<body class="workshop-body">
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".navbar-burger").click(function() {
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+
+      // Smooth scroll with sticky-nav offset
+      $('a.ws-anchor').on('click', function(e) {
+        var href = $(this).attr('href');
+        if (href && href.charAt(0) === '#') {
+          var target = $(href);
+          if (target.length) {
+            e.preventDefault();
+            var offset = $('.ws-subnav').outerHeight() + 16;
+            $('html, body').animate({ scrollTop: target.offset().top - offset }, 300);
+            history.replaceState(null, '', href);
+          }
+        }
+      });
+
+      // Make sticky nav active section tracking
+      var sections = $('section[id^="ws-"]');
+      var navLinks = $('.ws-subnav a.ws-anchor');
+      $(window).on('scroll', function() {
+        var scrollPos = $(document).scrollTop() + 120;
+        sections.each(function() {
+          var top = $(this).offset().top;
+          var bottom = top + $(this).outerHeight();
+          if (scrollPos >= top && scrollPos < bottom) {
+            var id = $(this).attr('id');
+            navLinks.removeClass('is-active');
+            navLinks.filter('[href="#' + id + '"]').addClass('is-active');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
