@@ -64,7 +64,7 @@ permalink: /ifac2026/
     <a class="ws-anchor" href="#ws-outcomes">Outcomes</a>
     <a class="ws-anchor" href="#ws-schedule">Schedule</a>
     <a class="ws-anchor" href="#ws-handson">Hands-on</a>
-    <a class="ws-anchor" href="#ws-organizers">Organizers</a>
+    <a class="ws-anchor" href="#ws-organizers">Speakers</a>
     <a class="ws-anchor" href="#ws-materials">Materials</a>
     <a class="ws-anchor" href="#ws-register">Register</a>
   </div>
@@ -199,24 +199,25 @@ permalink: /ifac2026/
   </div>
 </section>
 
-<!-- ============ ORGANIZERS ============ -->
+<!-- ============ SPEAKERS ============ -->
 <section id="ws-organizers" class="ws-section">
   <div class="container">
     <div class="ws-section-head">
-      <span class="ws-eyebrow">05 · Organizers</span>
+      <span class="ws-eyebrow">05 · Speakers</span>
       <h2 class="ws-h2">Three continents, complementary expertise</h2>
-      <p class="ws-lede">The team spans academic research in North America, Europe, and Asia, with extended industrial practice represented alongside.</p>
+      <p class="ws-lede">Our speakers are also the workshop organizers — spanning academic research in North America, Europe, and Asia, with extended industrial practice represented alongside.</p>
     </div>
 
     <div class="ws-organizers">
-      {% for org in ws.organizers %}
+      {% for org in ws.speakers %}
+        {% assign name_no_prefix = org.name | replace: "Prof. ", "" %}
         <div class="ws-organizer-card">
           <div class="ws-organizer-photo">
             {% if org.photo and org.photo != "" %}
               <img src="{{ org.photo }}" alt="{{ org.name }}" />
             {% else %}
               <div class="ws-organizer-initials">
-                {% assign parts = org.name | split: " " %}
+                {% assign parts = name_no_prefix | split: " " %}
                 {% for part in parts %}{{ part | slice: 0 }}{% endfor %}
               </div>
             {% endif %}
@@ -236,6 +237,9 @@ permalink: /ifac2026/
               <div class="ws-organizer-title">{{ org.secondary }}</div>
             {% endif %}
             <div class="ws-organizer-location"><i class="fas fa-map-marker-alt"></i>&nbsp; {{ org.location }}</div>
+            {% if org.sessions and org.sessions != "" %}
+              <div class="ws-organizer-sessions"><i class="far fa-calendar-alt"></i>&nbsp; <strong>Sessions:</strong> {{ org.sessions }}</div>
+            {% endif %}
             <div class="ws-organizer-bio">{{ org.bio | markdownify }}</div>
           </div>
         </div>

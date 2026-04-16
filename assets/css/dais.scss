@@ -1141,9 +1141,23 @@ $ws-border: rgba(0, 33, 69, 0.12);
   font-family: $sans-serif-font;
   font-size: 0.85rem;
   color: $ws-muted;
-  margin: 0.6rem 0 0.9rem;
+  margin: 0.6rem 0 0.5rem;
 
   i { color: $ws-accent; margin-right: 0.2rem; }
+}
+
+.ws-organizer-sessions {
+  font-family: $sans-serif-font;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: $ws-primary-deep;
+  background: rgba(0, 85, 183, 0.06);
+  padding: 0.55rem 0.7rem;
+  border-radius: 6px;
+  margin: 0 0 0.9rem;
+
+  i { color: $ws-primary; margin-right: 0.15rem; }
+  strong { color: $ws-primary; }
 }
 
 .ws-organizer-bio {

@@ -10,7 +10,7 @@ city: "Busan, Republic of Korea"
 room: "Venue room TBA"
 
 ifac_url: "https://www.ifac2026.org/"
-register_url: "https://www.ifac2026.org/"
+register_url: "https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG"
 contact_email: "bhushan.gopaluni@ubc.ca"
 code_repo_url: "https://github.com/daisubc/ifac2026-workshop"
 
@@ -140,29 +140,31 @@ schedule:
         lead: "Organizers"
         details: "Synthesis of the day's themes plus pointers to resources for continued learning — key papers, open-source tools, benchmark datasets, and community forums."
 
-organizers:
-  - name: "R. Bhushan Gopaluni"
-    role: "Primary Contact"
+speakers:
+  - name: "Prof. R. Bhushan Gopaluni"
+    role: "Primary Contact & Speaker"
     affiliation: "University of British Columbia"
     title: "Professor, Chemical & Biological Engineering"
     secondary: "Vice-Provost & Associate Vice-President, Faculty Planning"
     location: "Vancouver, Canada"
     photo: "https://dais.chbe.ubc.ca/assets/profile/bhushan.jpg"
     profile_url: "https://dais.chbe.ubc.ca/"
+    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application III (Simulation)"
     bio: |
       Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focusing on machine learning,
       reinforcement learning, and data analytics for process industries. Author of over 200 refereed
       publications. Recipient of the UBC Killam Teaching Prize and the D.G. Fisher Award from the
       Canadian Society for Chemical Engineering. Extensive experience organizing IFAC workshops,
       including sessions at ADCHEM and DYCOPS.
-  - name: "Mehmet Mercangöz"
-    role: "Organizer"
+  - name: "Prof. Mehmet Mercangöz"
+    role: "Speaker & Organizer"
     affiliation: "Imperial College London"
     title: "ABB Reader in Autonomous Industrial Systems"
     secondary: "Sargent Centre for Process Systems Engineering"
     location: "London, United Kingdom"
     photo: ""
-    profile_url: "https://www.imperial.ac.uk/people/m.mercangoz"
+    profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
+    sessions: "Application II — Autonomous Control and Fault Diagnosis"
     bio: |
       Spent 14 years at ABB Corporate Research, most recently as coordinator for industrial
       artificial intelligence, before joining Imperial College. His combination of academic
@@ -170,14 +172,15 @@ organizers:
       challenges of deploying LLM agents in industrial settings. Current research focuses on
       agentic frameworks that leverage LLMs for autonomous industrial control with appropriate
       safety guarantees.
-  - name: "Chunhui Zhao"
-    role: "Organizer"
+  - name: "Prof. Chunhui Zhao"
+    role: "Speaker & Organizer"
     affiliation: "Zhejiang University"
     title: "Professor, College of Control Science and Engineering"
     secondary: ""
     location: "Hangzhou, China"
     photo: ""
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
+    sessions: "Application III — Process Simulation and Optimization"
     bio: |
       Leading researcher in AI for process systems engineering. Work on process monitoring,
       fault diagnosis, and multimodal data fusion — combining process measurements, text, and
