@@ -214,7 +214,7 @@ permalink: /ifac2026/
         <div class="ws-organizer-card">
           <div class="ws-organizer-photo">
             {% if org.photo and org.photo != "" %}
-              <img src="{{ org.photo }}" alt="{{ org.name }}" />
+              <img src="{{ org.photo }}" alt="{{ org.name }}"{% if org.photo_position %} style="object-position: {{ org.photo_position }};"{% endif %} />
             {% else %}
               <div class="ws-organizer-initials">
                 {% assign parts = name_no_prefix | split: " " %}
@@ -322,7 +322,7 @@ permalink: /ifac2026/
       {% endfor %}
     </ol>
 
-    <h3 class="ws-h3 ws-mt">Related workshops by the organizers</h3>
+    <h3 class="ws-h3 ws-mt">{{ ws.prior_workshops_heading | default: "Related workshops" }}</h3>
     <div class="ws-prior-list">
       {% for pw in ws.prior_workshops %}
         <div class="ws-prior-item">

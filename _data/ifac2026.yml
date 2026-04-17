@@ -72,13 +72,13 @@ prerequisites: |
 
 hands_on:
   bring:
-    - "A laptop with a modern web browser."
+    - "A laptop (required — you will work directly with LLM APIs on Python notebooks during the session)."
     - "Ability to connect to the workshop Wi-Fi."
   provided:
-    - "Jupyter notebooks hosted on Google Colab — no local install required."
-    - "Temporary LLM API access for use during the workshop."
+    - "Jupyter notebooks and starter code."
+    - "Access to LLMs for the duration of the session."
     - "Sample datasets: simplified P&IDs, alarm lists, maintenance logs."
-    - "An offline fallback bundle of pre-recorded demos and local notebooks using open-source models in case of connectivity issues."
+    - "Offline backup — pre-recorded demos and local notebooks using open-source models — in case of connectivity issues."
   exercises:
     - title: "Prompt engineering basics"
       description: "Prompt a model to interpret a simplified P&ID and critique its control structure suggestions. Experiment with different prompting strategies."
@@ -88,15 +88,15 @@ hands_on:
       description: "Probe agent limitations — numerical reasoning errors, hallucinated equipment names, overconfident recommendations — to develop intuition for where these systems fail."
 
 schedule:
-  - block: "Morning — Foundations & Hands-On"
+  - block: "Morning — Foundations & Applications"
     sessions:
       - time: "9:00 – 9:15"
         title: "Welcome and Framing"
-        lead: "Organizers"
+        lead: "Prof. R. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
         details: "Overview of the day, learning outcomes, and an introduction to where LLM agent technology stands in the process industries."
       - time: "9:15 – 10:15"
         title: "LLM and Agent Fundamentals"
-        lead: "Gopaluni"
+        lead: "Prof. R. Bhushan Gopaluni"
         details: "Attention mechanism and transformer architecture; introduction to simple agent architectures via process control examples (alarm lists, operator procedures, simplified P&ID encodings)."
       - time: "10:15 – 10:30"
         title: "☕ Coffee Break"
@@ -104,40 +104,40 @@ schedule:
         details: ""
         break: true
       - time: "10:30 – 11:30"
-        title: "Hands-On Session"
-        lead: "All organizers"
-        details: "Participants work directly with LLM APIs on process control tasks using provided Python notebooks. Three exercises progressing from prompt engineering through agent construction to failure analysis."
-      - time: "11:30 – 12:30"
         title: "Application I — Process Design and Engineering"
-        lead: "Gopaluni"
+        lead: "Prof. R. Bhushan Gopaluni"
         details: "P&ID interpretation, control structure prediction, and automated design review. Discussion of Hirtreiter et al. (2024), Balhorn et al. (2024), and graph-based approaches for capturing process topology."
+      - time: "11:30 – 12:30"
+        title: "Application II — Autonomous Control and Fault Diagnosis"
+        lead: "Prof. Mehmet Mercangöz & Prof. Chunhui Zhao"
+        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Prof. Mercangöz and Prof. Zhao."
       - time: "12:30 – 13:30"
         title: "🥢 Lunch"
         lead: ""
         details: ""
         break: true
-  - block: "Afternoon — Applications & Open Problems"
+  - block: "Afternoon — Applications, Open Problems & Hands-On"
     sessions:
       - time: "13:30 – 14:30"
-        title: "Application II — Autonomous Control and Fault Diagnosis"
-        lead: "Mercangöz"
-        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration."
+        title: "Application III — Process Simulation and Optimization"
+        lead: "Prof. R. Bhushan Gopaluni & Prof. Chunhui Zhao"
+        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
       - time: "14:30 – 14:45"
         title: "☕ Coffee Break"
         lead: ""
         details: ""
         break: true
       - time: "14:45 – 15:45"
-        title: "Application III — Process Simulation and Optimization"
-        lead: "Gopaluni & Zhao"
-        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
-      - time: "15:45 – 16:45"
         title: "Open Problems, Research Directions, and Q&A"
-        lead: "All organizers + participants"
+        lead: "Prof. R. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao — with all participants"
         details: "Structured discussion: What works now? What's tractable? What's hard? Followed by an open floor for questions about content, research directions, industrial deployment, and collaboration."
+      - time: "15:45 – 16:45"
+        title: "Hands-On Session — Build, Break & Debug Simple LLM Agents"
+        lead: "Prof. R. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
+        details: "Participants work directly with LLM APIs on process control tasks using provided Python notebooks. Three exercises progressing from prompt engineering through agent construction to failure analysis."
       - time: "16:45 – 17:00"
         title: "Wrap-up and Resources"
-        lead: "Organizers"
+        lead: "Prof. R. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
         details: "Synthesis of the day's themes plus pointers to resources for continued learning — key papers, open-source tools, benchmark datasets, and community forums."
 
 speakers:
@@ -148,8 +148,9 @@ speakers:
     secondary: "Vice-Provost & Associate Vice-President, Faculty Planning"
     location: "Vancouver, Canada"
     photo: "/assets/img/ifac2026/bhushan.jpg"
+    photo_position: "center 30%"
     profile_url: "https://dais.chbe.ubc.ca/"
-    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application III (Simulation)"
+    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application III (Simulation) · Hands-On · Wrap-up"
     bio: |
       Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focusing on machine learning,
       reinforcement learning, and data analytics for process industries. Author of over 200 refereed
@@ -163,8 +164,9 @@ speakers:
     secondary: "Sargent Centre for Process Systems Engineering"
     location: "London, United Kingdom"
     photo: "/assets/img/ifac2026/mehmet.jpg"
+    photo_position: "center 18%"
     profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
-    sessions: "Application II — Autonomous Control and Fault Diagnosis"
+    sessions: "Application II (Autonomous Control & Fault Diagnosis, jointly with Prof. Zhao) · Hands-On · Open Problems"
     bio: |
       Spent 14 years at ABB Corporate Research, most recently as coordinator for industrial
       artificial intelligence, before joining Imperial College. His combination of academic
@@ -179,8 +181,9 @@ speakers:
     secondary: ""
     location: "Hangzhou, China"
     photo: "/assets/img/ifac2026/chunhui.png"
+    photo_position: "center top"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
-    sessions: "Application III — Process Simulation and Optimization"
+    sessions: "Application II (jointly with Prof. Mercangöz) · Application III (Process Simulation, jointly with Prof. Gopaluni) · Hands-On · Open Problems"
     bio: |
       Leading researcher in AI for process systems engineering. Work on process monitoring,
       fault diagnosis, and multimodal data fusion — combining process measurements, text, and
@@ -258,6 +261,7 @@ references:
     venue: "arXiv preprint."
     url: ""
 
+prior_workshops_heading: "Related workshops organized by Prof. Gopaluni"
 prior_workshops:
   - year: "2023"
     name: "FOPAM"
@@ -268,15 +272,3 @@ prior_workshops:
   - year: "2021"
     name: "ADCHEM"
     topic: "Data analytics and machine learning"
-  - year: "2019"
-    name: "NUS Summer Workshop"
-    topic: "Data analytics for process industries"
-    url: "https://daisubc.github.io/2019NUS_Workshop/"
-  - year: "2019"
-    name: "DYCOPS"
-    topic: "Process data analytics workshop"
-    url: "https://daisubc.github.io/DYCOPS/"
-  - year: "2018"
-    name: "ADCHEM"
-    topic: "Machine learning for process industries"
-    url: "https://daisubc.github.io/adchem/"

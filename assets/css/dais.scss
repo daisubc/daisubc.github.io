@@ -1073,7 +1073,7 @@ html:has(body.workshop-body) { scroll-behavior: smooth; }
 
 .ws-organizer-photo {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, $ws-primary 0%, $ws-primary-deep 100%);
   display: grid;
   place-items: center;
@@ -1083,6 +1083,7 @@ html:has(body.workshop-body) { scroll-behavior: smooth; }
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center 22%;
   }
 }
 
