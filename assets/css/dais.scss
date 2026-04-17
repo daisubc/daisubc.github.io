@@ -1166,6 +1166,22 @@ html:has(body.workshop-body) { scroll-behavior: smooth; }
   strong { color: $ws-primary; }
 }
 
+/* Linked speaker names produced by the ifac2026_linkify include. */
+.ws-name-link {
+  color: inherit;
+  font-style: normal !important;
+  font-weight: 600;
+  border-bottom: 1px dotted currentColor;
+  text-decoration: none !important;
+  transition: color 0.15s ease, border-bottom-color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: $ws-accent !important;
+    border-bottom-color: $ws-accent;
+  }
+}
+
 .ws-organizer-bio {
   font-family: $sans-serif-font;
   font-size: 0.92rem;

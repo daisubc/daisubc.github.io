@@ -133,10 +133,10 @@ permalink: /ifac2026/
               <div class="ws-schedule-body">
                 <div class="ws-schedule-title">{{ s.title }}</div>
                 {% if s.lead and s.lead != "" %}
-                  <div class="ws-schedule-lead">{{ s.lead }}</div>
+                  <div class="ws-schedule-lead">{% include ifac2026_linkify.html text=s.lead %}</div>
                 {% endif %}
                 {% if s.details and s.details != "" %}
-                  <div class="ws-schedule-details">{{ s.details }}</div>
+                  <div class="ws-schedule-details">{% include ifac2026_linkify.html text=s.details %}</div>
                 {% endif %}
               </div>
             </div>
@@ -238,7 +238,7 @@ permalink: /ifac2026/
             {% endif %}
             <div class="ws-organizer-location"><i class="fas fa-map-marker-alt"></i>&nbsp; {{ org.location }}</div>
             {% if org.sessions and org.sessions != "" %}
-              <div class="ws-organizer-sessions"><i class="far fa-calendar-alt"></i>&nbsp; <strong>Sessions:</strong> {{ org.sessions }}</div>
+              <div class="ws-organizer-sessions"><i class="far fa-calendar-alt"></i>&nbsp; <strong>Sessions:</strong> {% include ifac2026_linkify.html text=org.sessions %}</div>
             {% endif %}
             <div class="ws-organizer-bio">{{ org.bio | markdownify }}</div>
           </div>

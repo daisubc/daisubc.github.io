@@ -108,9 +108,9 @@ schedule:
         lead: "Prof. R. Bhushan Gopaluni"
         details: "P&ID interpretation, control structure prediction, and automated design review. Discussion of Hirtreiter et al. (2024), Balhorn et al. (2024), and graph-based approaches for capturing process topology."
       - time: "11:30 – 12:30"
-        title: "Application II — Autonomous Control and Fault Diagnosis"
-        lead: "Prof. Mehmet Mercangöz & Prof. Chunhui Zhao"
-        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Prof. Mercangöz and Prof. Zhao."
+        title: "Application II — Process Simulation and Optimization"
+        lead: "Prof. R. Bhushan Gopaluni & Prof. Chunhui Zhao"
+        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
       - time: "12:30 – 13:30"
         title: "🥢 Lunch"
         lead: ""
@@ -119,9 +119,9 @@ schedule:
   - block: "Afternoon — Applications, Open Problems & Hands-On"
     sessions:
       - time: "13:30 – 14:30"
-        title: "Application III — Process Simulation and Optimization"
-        lead: "Prof. R. Bhushan Gopaluni & Prof. Chunhui Zhao"
-        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
+        title: "Application III — Autonomous Control and Fault Diagnosis"
+        lead: "Prof. Mehmet Mercangöz & Prof. Chunhui Zhao"
+        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Prof. Mehmet Mercangöz and Prof. Chunhui Zhao."
       - time: "14:30 – 14:45"
         title: "☕ Coffee Break"
         lead: ""
@@ -150,7 +150,7 @@ speakers:
     photo: "/assets/img/ifac2026/bhushan.jpg"
     photo_position: "center 30%"
     profile_url: "https://dais.chbe.ubc.ca/"
-    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application III (Simulation) · Hands-On · Wrap-up"
+    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application II (Process Simulation, jointly with Prof. Zhao) · Hands-On · Wrap-up"
     bio: |
       Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focusing on machine learning,
       reinforcement learning, and data analytics for process industries. Author of over 200 refereed
@@ -166,7 +166,7 @@ speakers:
     photo: "/assets/img/ifac2026/mehmet.jpg"
     photo_position: "center 18%"
     profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
-    sessions: "Application II (Autonomous Control & Fault Diagnosis, jointly with Prof. Zhao) · Hands-On · Open Problems"
+    sessions: "Application III (Autonomous Control & Fault Diagnosis, jointly with Prof. Zhao) · Hands-On · Open Problems"
     bio: |
       Spent 14 years at ABB Corporate Research, most recently as coordinator for industrial
       artificial intelligence, before joining Imperial College. His combination of academic
@@ -183,7 +183,7 @@ speakers:
     photo: "/assets/img/ifac2026/chunhui.png"
     photo_position: "center top"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
-    sessions: "Application II (jointly with Prof. Mercangöz) · Application III (Process Simulation, jointly with Prof. Gopaluni) · Hands-On · Open Problems"
+    sessions: "Application II (Process Simulation, jointly with Prof. Gopaluni) · Application III (Autonomous Control, jointly with Prof. Mercangöz) · Hands-On · Open Problems"
     bio: |
       Leading researcher in AI for process systems engineering. Work on process monitoring,
       fault diagnosis, and multimodal data fusion — combining process measurements, text, and
