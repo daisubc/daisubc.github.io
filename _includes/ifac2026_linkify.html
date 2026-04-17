@@ -1,19 +1,19 @@
 {%- comment -%}
 Auto-link speaker names in any text. Replaces known name patterns with
 anchors pointing at each speaker's profile URL (from _data/ifac2026.yml).
-Longer names are replaced first so "Prof. R. Bhushan Gopaluni" is not
+Longer names are replaced first so "Prof. Bhushan Gopaluni" is not
 clipped to "Prof. Gopaluni" mid-pass.
 
 Usage: {% include ifac2026_linkify.html text=some.text %}
 {%- endcomment -%}
 {%- assign _out = include.text -%}
-{%- assign _link_bg = '<a href="https://dais.chbe.ubc.ca/" target="_blank" rel="noopener" class="ws-name-link">Prof. R. Bhushan Gopaluni</a>' -%}
+{%- assign _link_bg = '<a href="https://dais.chbe.ubc.ca/" target="_blank" rel="noopener" class="ws-name-link">Prof. Bhushan Gopaluni</a>' -%}
 {%- assign _link_mm = '<a href="https://profiles.imperial.ac.uk/m.mercangoz" target="_blank" rel="noopener" class="ws-name-link">Prof. Mehmet Mercangöz</a>' -%}
 {%- assign _link_cz = '<a href="https://person.zju.edu.cn/en/chhzhao" target="_blank" rel="noopener" class="ws-name-link">Prof. Chunhui Zhao</a>' -%}
 {%- assign _link_g = '<a href="https://dais.chbe.ubc.ca/" target="_blank" rel="noopener" class="ws-name-link">Prof. Gopaluni</a>' -%}
 {%- assign _link_m = '<a href="https://profiles.imperial.ac.uk/m.mercangoz" target="_blank" rel="noopener" class="ws-name-link">Prof. Mercangöz</a>' -%}
 {%- assign _link_z = '<a href="https://person.zju.edu.cn/en/chhzhao" target="_blank" rel="noopener" class="ws-name-link">Prof. Zhao</a>' -%}
-{%- assign _out = _out | replace: 'Prof. R. Bhushan Gopaluni', _link_bg -%}
+{%- assign _out = _out | replace: 'Prof. Bhushan Gopaluni', _link_bg -%}
 {%- assign _out = _out | replace: 'Prof. Mehmet Mercangöz', _link_mm -%}
 {%- assign _out = _out | replace: 'Prof. Chunhui Zhao', _link_cz -%}
 {%- assign _out = _out | replace: 'Prof. Gopaluni', _link_g -%}
