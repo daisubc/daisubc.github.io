@@ -1,0 +1,275 @@
+---
+layout: workshop
+title: "Workshop Materials — IFAC 2026 LLM Agents"
+description: "Access the hands-on notebooks, slides, and reading list for the IFAC 2026 workshop 'LLM Agents for Process Industries.' Password-protected; passcode shared with registered participants."
+permalink: /ifac2026/materials/
+---
+
+{% assign ws = site.data.ifac2026 %}
+
+<!-- ============ HEADER ============ -->
+<section class="ws-materials-header">
+  <div class="container">
+    <div class="ws-eyebrow">IFAC 2026 · Workshop Materials</div>
+    <h1 class="ws-h2 ws-h2-light">Hands-on notebooks, slides, and reading list</h1>
+    <p class="ws-lede-light">
+      Materials for the full-day workshop on <strong>{{ ws.date_display }}</strong> in {{ ws.city }}.
+      Access is limited to registered participants — the passcode will be shared with you by email
+      closer to the workshop date.
+    </p>
+    <p class="ws-materials-back">
+      <a href="{{ site.baseurl }}/ifac2026/" class="ws-name-link">&larr; Back to workshop homepage</a>
+    </p>
+  </div>
+</section>
+
+<!-- ============ GATE ============ -->
+<section id="ws-materials-gate" class="ws-section">
+  <div class="container">
+    <div class="ws-gate-card" id="ws-gate">
+      <div class="ws-gate-icon"><i class="fas fa-lock"></i></div>
+      <h2 class="ws-h3">Enter the workshop passcode</h2>
+      <p class="ws-prose">The passcode is shared with registered participants in your confirmation email.
+        If you haven't received it yet, contact <a href="mailto:{{ ws.contact_email }}" class="ws-name-link">{{ ws.contact_email }}</a>.</p>
+
+      <form id="ws-gate-form" class="ws-gate-form" autocomplete="off">
+        <label class="ws-gate-label" for="ws-gate-pw">Passcode</label>
+        <div class="ws-gate-row">
+          <input type="password" id="ws-gate-pw" name="pw" class="ws-gate-input" placeholder="••••••••" autocomplete="off" required />
+          <button type="submit" class="button ws-btn-primary no-deco">
+            <i class="fas fa-unlock-alt"></i>&nbsp; Unlock
+          </button>
+        </div>
+        <div id="ws-gate-error" class="ws-gate-error" role="alert" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GATED CONTENT ============ -->
+<div id="ws-materials-content" class="ws-materials-content" hidden>
+
+  <section class="ws-section">
+    <div class="container">
+      <div class="ws-section-head">
+        <span class="ws-eyebrow">Welcome</span>
+        <h2 class="ws-h2">Introduction</h2>
+      </div>
+
+      <div class="content ws-prose" style="max-width: 780px;">
+        <p>
+          Welcome to the workshop on <strong>LLM Agents for Process Industries</strong>. This page is your
+          single entry point to everything you'll need for the hands-on session and beyond — starter
+          notebooks, datasets, slide decks, and curated reading.
+        </p>
+
+        <p>
+          Our aim for the day is modest but concrete. You'll build a couple of small LLM-agent prototypes
+          on realistic process-engineering tasks, deliberately break them to see where they fail, and
+          leave with enough intuition to evaluate claims about this technology rather than take them on
+          trust.
+        </p>
+
+        <p>
+          You don't need deep Python experience or prior exposure to LLMs. The morning sessions cover
+          the necessary background, and the afternoon exercises are designed to be completed
+          collaboratively. Observers are welcome — code if you like, watch if you prefer.
+        </p>
+
+        <p>
+          The code and datasets will also live on a dedicated GitHub repository once it's published
+          (tentatively <code>github.com/daisubc/ifac2026-workshop</code>) — the link here will update
+          automatically when the repo goes live.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ws-section ws-section-alt">
+    <div class="container">
+      <div class="ws-section-head">
+        <span class="ws-eyebrow">Before you arrive</span>
+        <h2 class="ws-h2">Checklist</h2>
+      </div>
+
+      <div class="columns is-variable is-6">
+        <div class="column is-6">
+          <div class="ws-card">
+            <h3 class="ws-card-title"><i class="fas fa-laptop"></i>&nbsp; Bring</h3>
+            <ul class="ws-check-list no-deco">
+              {% for item in ws.hands_on.bring %}
+                <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="column is-6">
+          <div class="ws-card ws-card-accent">
+            <h3 class="ws-card-title"><i class="fas fa-toolbox"></i>&nbsp; Provided on the day</h3>
+            <ul class="ws-check-list no-deco">
+              {% for item in ws.hands_on.provided %}
+                <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ws-section">
+    <div class="container">
+      <div class="ws-section-head">
+        <span class="ws-eyebrow">Resources</span>
+        <h2 class="ws-h2">Notebooks, slides, and data</h2>
+        <p class="ws-lede">
+          Placeholder entries below — they'll turn into live download / Colab links when the repository
+          is published. Bookmark this page and re-visit on the morning of the workshop.
+        </p>
+      </div>
+
+      <div class="ws-materials-grid">
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
+          <h3 class="ws-material-title">Exercise 01 — Prompt engineering on a simplified P&amp;ID</h3>
+          <p class="ws-material-desc">Prompt a model to interpret a simplified P&amp;ID and critique its control structure suggestions.</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
+          <h3 class="ws-material-title">Exercise 02 — Build a minimal fault-diagnosis agent</h3>
+          <p class="ws-material-desc">Combine an LLM with tool calls to query sensor data and search maintenance logs.</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
+          <h3 class="ws-material-title">Exercise 03 — Probe where agents fail</h3>
+          <p class="ws-material-desc">Numerical reasoning errors, hallucinated equipment names, overconfident recommendations.</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="far fa-file-pdf"></i>&nbsp; Slides</div>
+          <h3 class="ws-material-title">Morning deck — Foundations + Applications I &amp; II</h3>
+          <p class="ws-material-desc">Covers LLM and agent fundamentals, Application I (Process Design), Application II (Simulation).</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="far fa-file-pdf"></i>&nbsp; Slides</div>
+          <h3 class="ws-material-title">Afternoon deck — Application III + Wrap-up</h3>
+          <p class="ws-material-desc">Autonomous Control &amp; Fault Diagnosis, research-priorities synthesis.</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+        <div class="ws-material-item">
+          <div class="ws-material-kind"><i class="fas fa-database"></i>&nbsp; Dataset</div>
+          <h3 class="ws-material-title">Sample data — simplified P&amp;IDs, alarm lists, maintenance logs</h3>
+          <p class="ws-material-desc">Small curated datasets used across the three hands-on exercises.</p>
+          <span class="ws-material-status">Coming soon</span>
+        </div>
+      </div>
+
+      <div class="ws-card ws-card-feature ws-mt">
+        <div>
+          <h3 class="ws-card-title"><i class="fab fa-github"></i>&nbsp; GitHub repository</h3>
+          <p class="ws-prose">Full source for notebooks, data, and environment setup will live here. The repository is being prepared; the link will go live ahead of the workshop.</p>
+        </div>
+        <a href="{{ ws.code_repo_url }}" target="_blank" rel="noopener" class="button ws-btn-primary no-deco">
+          <i class="fab fa-github"></i>&nbsp; github.com/daisubc/ifac2026-workshop
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ws-section ws-section-alt">
+    <div class="container">
+      <div class="ws-section-head">
+        <span class="ws-eyebrow">Reading list</span>
+        <h2 class="ws-h2">Key papers</h2>
+        <p class="ws-lede">A short, focused list if you'd like to prime yourself before the workshop. All are linked directly to arXiv or publisher copies.</p>
+      </div>
+      <ol class="ws-ref-list">
+        {% for ref in ws.references %}
+          <li class="ws-ref-item">
+            <span class="ws-ref-authors">{{ ref.authors }}</span>
+            <span class="ws-ref-year">({{ ref.year }}).</span>
+            {% if ref.url and ref.url != "" %}
+              <a href="{{ ref.url }}" target="_blank" rel="noopener" class="ws-ref-title">{{ ref.title }}</a>
+            {% else %}
+              <span class="ws-ref-title">{{ ref.title }}</span>
+            {% endif %}
+            <span class="ws-ref-venue">{{ ref.venue }}</span>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+
+  <section class="ws-section">
+    <div class="container has-text-centered">
+      <p class="ws-prose">
+        Questions before the workshop? Email
+        <a href="mailto:{{ ws.contact_email }}" class="ws-name-link">{{ ws.contact_email }}</a>.
+      </p>
+    </div>
+  </section>
+</div>
+
+<!-- ============ GATE SCRIPT ============ -->
+<script type="text/javascript">
+(function () {
+  // SHA-256 of the workshop passcode. Default is "busan2026".
+  // To change the passcode: compute SHA-256 of the new one and replace the hash below.
+  //   $ python3 -c "import hashlib; print(hashlib.sha256(b'NEWPASS').hexdigest())"
+  var EXPECTED_HASH = "d70a7155597886dd9d57f5374fd151f7df9ef8bf110a8a1f903074c1519e9757";
+  var STORAGE_KEY = "ifac2026_materials_unlocked_v1";
+
+  var gate     = document.getElementById("ws-gate");
+  var form     = document.getElementById("ws-gate-form");
+  var input    = document.getElementById("ws-gate-pw");
+  var errBox   = document.getElementById("ws-gate-error");
+  var content  = document.getElementById("ws-materials-content");
+  var gateWrap = document.getElementById("ws-materials-gate");
+
+  function showContent() {
+    if (gateWrap) gateWrap.style.display = "none";
+    if (content) {
+      content.hidden = false;
+      content.removeAttribute("hidden");
+    }
+  }
+
+  // If already unlocked in this session, skip the gate.
+  try {
+    if (sessionStorage.getItem(STORAGE_KEY) === "1") {
+      showContent();
+      return;
+    }
+  } catch (e) { /* sessionStorage may be unavailable */ }
+
+  async function sha256Hex(text) {
+    var encoder = new TextEncoder();
+    var buffer = await crypto.subtle.digest("SHA-256", encoder.encode(text));
+    var bytes = Array.from(new Uint8Array(buffer));
+    return bytes.map(function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+  }
+
+  form.addEventListener("submit", async function (ev) {
+    ev.preventDefault();
+    errBox.textContent = "";
+    var val = (input.value || "").trim();
+    if (!val) { errBox.textContent = "Please enter the passcode."; return; }
+    try {
+      var hash = await sha256Hex(val);
+      if (hash === EXPECTED_HASH) {
+        try { sessionStorage.setItem(STORAGE_KEY, "1"); } catch (e) { /* ignore */ }
+        showContent();
+      } else {
+        errBox.textContent = "Incorrect passcode. Please try again or contact the organizers.";
+        input.value = "";
+        input.focus();
+      }
+    } catch (e) {
+      errBox.textContent = "Your browser does not support the required crypto API.";
+    }
+  });
+})();
+</script>
