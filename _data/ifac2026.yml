@@ -21,10 +21,11 @@ abstract: |
   preliminary, and the gap between laboratory demonstrations and plant deployment remains substantial.
 
   This full-day workshop brings together researchers from three continents to examine what LLM agents can
-  actually do today, where they fail, and what problems deserve our attention. The morning session covers
-  fundamentals and includes a hands-on session where participants build simple agents and probe their
-  limitations. The afternoon session surveys applications in process design, autonomous control, and
-  simulation. We close with a structured discussion aimed at identifying research priorities.
+  actually do today, where they fail, and what problems deserve our attention. The morning covers the
+  fundamentals of LLMs and agents and surveys applications in process design and process simulation. The
+  afternoon turns to autonomous control and fault diagnosis, followed by a hands-on session in which
+  participants build simple agents and probe their limitations. We close with an open discussion aimed at
+  identifying research priorities.
 
   Participants will leave with practical experience, a grounded assessment of the technology, and ideas
   for their own work.
