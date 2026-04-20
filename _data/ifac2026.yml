@@ -105,7 +105,7 @@ schedule:
         details: ""
         break: true
       - time: "10:30 – 11:30"
-        title: "Application I — Process Design and Engineering"
+        title: "Application I — Process Design"
         lead: "Prof. Bhushan Gopaluni"
         details: "P&ID interpretation, control structure prediction, and automated design review. Discussion of Hirtreiter et al. (2024), Balhorn et al. (2024), and graph-based approaches for capturing process topology."
       - time: "11:30 – 12:30"
@@ -117,7 +117,7 @@ schedule:
         lead: ""
         details: ""
         break: true
-  - block: "Afternoon — Applications, Open Problems & Hands-On"
+  - block: "Afternoon — Applications, Hands-On & Open Discussion"
     sessions:
       - time: "13:30 – 14:30"
         title: "Application III — Autonomous Control and Fault Diagnosis"
