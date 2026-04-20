@@ -149,7 +149,6 @@ speakers:
     secondary: "Vice-Provost & Associate Vice-President, Faculty Planning"
     location: "Vancouver, Canada"
     photo: "/assets/img/ifac2026/bhushan.jpg"
-    photo_position: "center 30%"
     profile_url: "https://dais.chbe.ubc.ca/"
     sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application II (Process Simulation, jointly with Prof. Zhao) · Hands-On · Wrap-up"
     bio: |
@@ -165,7 +164,6 @@ speakers:
     secondary: "Sargent Centre for Process Systems Engineering"
     location: "London, United Kingdom"
     photo: "/assets/img/ifac2026/mehmet.jpg"
-    photo_position: "center 18%"
     profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
     sessions: "Application III (Autonomous Control & Fault Diagnosis, jointly with Prof. Zhao) · Hands-On · Open Problems"
     bio: |
@@ -181,8 +179,7 @@ speakers:
     title: "Professor, College of Control Science and Engineering"
     secondary: ""
     location: "Hangzhou, China"
-    photo: "/assets/img/ifac2026/chunhui.png"
-    photo_position: "center top"
+    photo: "/assets/img/ifac2026/chunhui.jpg"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
     sessions: "Application II (Process Simulation, jointly with Prof. Gopaluni) · Application III (Autonomous Control, jointly with Prof. Mercangöz) · Hands-On · Open Problems"
     bio: |
