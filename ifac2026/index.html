@@ -67,6 +67,7 @@ permalink: /ifac2026/
     <a class="ws-anchor" href="#ws-organizers">Speakers</a>
     <a class="ws-anchor" href="#ws-materials">Materials</a>
     <a class="ws-anchor" href="#ws-register">Register</a>
+    <a class="ws-anchor" href="#ws-keepposted">Updates</a>
   </div>
 </nav>
 
@@ -344,7 +345,7 @@ permalink: /ifac2026/
       <div class="ws-register-left">
         <span class="ws-eyebrow ws-eyebrow-light">09 · Register</span>
         <h2 class="ws-h2 ws-h2-light">Join us in Busan on August 23, 2026</h2>
-        <p class="ws-lede-light">Workshop registration is handled through the official IFAC 2026 World Congress portal. Fees and logistics are set by the congress.</p>
+        <p class="ws-lede-light">The workshop is open to anyone interested in the topic, whether or not you are attending the IFAC World Congress. Workshop registration for IFAC attendees is handled through the official IFAC 2026 portal; fees and logistics are set by the congress.</p>
         <div class="ws-register-meta">
           <div><i class="far fa-calendar-alt"></i>&nbsp; {{ ws.date_display }}</div>
           <div><i class="far fa-clock"></i>&nbsp; {{ ws.time_display }}</div>
@@ -356,6 +357,9 @@ permalink: /ifac2026/
         <a href="{{ ws.register_url }}" target="_blank" rel="noopener" class="button ws-btn-primary ws-btn-lg no-deco">
           <i class="fas fa-ticket-alt"></i>&nbsp; Register via IFAC 2026
         </a>
+        <a href="#ws-keepposted" class="button ws-btn-ghost-light no-deco ws-anchor">
+          <i class="far fa-paper-plane"></i>&nbsp; Just keep me posted
+        </a>
         <a href="mailto:{{ ws.contact_email }}" class="button ws-btn-ghost-light no-deco">
           <i class="far fa-envelope"></i>&nbsp; Ask the organizers
         </a>
@@ -364,6 +368,113 @@ permalink: /ifac2026/
     </div>
   </div>
 </section>
+
+<!-- ============ KEEP ME POSTED ============ -->
+<section id="ws-keepposted" class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">10 · Stay in the loop</span>
+      <h2 class="ws-h2">Keep me posted on this workshop</h2>
+      <p class="ws-lede">Leave your details and we'll send you programme updates, hands-on materials, and announcements as we get closer to the date. The workshop is open to anyone interested in the topic, whether or not you are attending the IFAC World Congress.</p>
+    </div>
+
+    <form id="ws-interest-form" class="ws-interest-form" novalidate>
+      <div class="ws-form-grid">
+        <label class="ws-form-field">
+          <span class="ws-form-label">Name <span class="ws-form-optional">(optional)</span></span>
+          <input type="text" name="name" autocomplete="name" />
+        </label>
+        <label class="ws-form-field">
+          <span class="ws-form-label">Email <span class="ws-form-required">*</span></span>
+          <input type="email" name="email" autocomplete="email" required />
+        </label>
+        <label class="ws-form-field">
+          <span class="ws-form-label">Organisation <span class="ws-form-optional">(optional)</span></span>
+          <input type="text" name="org" autocomplete="organization" />
+        </label>
+        <label class="ws-form-field">
+          <span class="ws-form-label">Role <span class="ws-form-optional">(optional)</span></span>
+          <input type="text" name="role" autocomplete="organization-title" />
+        </label>
+      </div>
+      <label class="ws-form-field ws-form-field-wide">
+        <span class="ws-form-label">What interests you about this workshop? <span class="ws-form-optional">(optional)</span></span>
+        <textarea name="interests" rows="3" placeholder="Anything specific you're hoping to take away, or topics you'd like us to cover."></textarea>
+      </label>
+      <label class="ws-form-consent">
+        <input type="checkbox" name="consent" required />
+        <span>I'd like to receive workshop updates by email from the organisers. I understand my contact details will be used only for this purpose.</span>
+      </label>
+      <div class="ws-form-actions">
+        <button type="submit" class="button ws-btn-primary no-deco">
+          <i class="far fa-paper-plane"></i>&nbsp; Send my details
+        </button>
+        <p class="ws-form-or">or email <a href="mailto:{{ ws.contact_email }}" class="ws-name-link">{{ ws.contact_email }}</a> directly</p>
+      </div>
+      <div id="ws-form-status" class="ws-form-status" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<script type="text/javascript">
+(function () {
+  var form = document.getElementById('ws-interest-form');
+  if (!form) return;
+  var statusBox = document.getElementById('ws-form-status');
+  var TO_EMAIL = "{{ ws.contact_email }}";
+
+  function showStatus(msg, kind) {
+    statusBox.textContent = msg;
+    statusBox.className = 'ws-form-status' + (kind ? ' ws-form-status-' + kind : '');
+  }
+
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var f = ev.target;
+
+    var email = (f.email.value || '').trim();
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showStatus('Please enter a valid email address.', 'error');
+      f.email.focus();
+      return;
+    }
+    if (!f.consent.checked) {
+      showStatus('Please tick the consent box so we know you want to be contacted.', 'error');
+      f.consent.focus();
+      return;
+    }
+
+    var name = (f.name.value || '').trim();
+    var org  = (f.org.value  || '').trim();
+    var role = (f.role.value || '').trim();
+    var ints = (f.interests.value || '').trim();
+
+    var subject = 'IFAC 2026 LLM Workshop -- please add me to the mailing list';
+    var body = [
+      'Hello Prof. Gopaluni,',
+      '',
+      'Please add me to the IFAC 2026 LLMs and Agents workshop mailing list.',
+      '',
+      'Name: ' + (name || '(not provided)'),
+      'Email: ' + email,
+      'Organisation: ' + (org || '(not provided)'),
+      'Role: ' + (role || '(not provided)'),
+      '',
+      'Interests:',
+      (ints || '(not provided)'),
+      '',
+      'Thank you.'
+    ].join('\n');
+
+    var url = 'mailto:' + encodeURIComponent(TO_EMAIL)
+      + '?subject=' + encodeURIComponent(subject)
+      + '&body='    + encodeURIComponent(body);
+
+    window.location.href = url;
+    showStatus('Opening your email client. Please review and send the pre-filled message to confirm. If nothing happens, copy your details into an email to ' + TO_EMAIL + '.', 'info');
+  });
+})();
+</script>
 
 <!-- ============ ACKNOWLEDGEMENT ============ -->
 <section class="ws-section ws-ack">
