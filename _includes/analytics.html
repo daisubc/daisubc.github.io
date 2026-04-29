@@ -1,0 +1,51 @@
+{%- comment -%}
+  Privacy-friendly analytics loader.
+
+  All providers below produce *private* dashboards. The data is not visible
+  to public visitors of this site. Only the account owner who logs into
+  the provider's dashboard can see the stats.
+
+  To enable, pick ONE provider and fill the matching ID in _config.yml:
+
+    analytics:
+      provider: "ga4"             # "ga4" | "goatcounter" | "plausible" | ""
+      ga4_id: "G-XXXXXXXXXX"      # Google Analytics 4 Measurement ID
+      goatcounter_code: "yoursub" # subdomain at goatcounter.com (yoursub.goatcounter.com)
+      plausible_domain: "dais.chbe.ubc.ca"  # site domain registered at plausible.io
+
+  Recommended:
+    - GA4: most familiar, free, requires cookies (consent banner advisable
+      for EU traffic), full feature set.
+    - GoatCounter: free for non-commercial use, cookie-less, no banner needed,
+      simple page-view counts. Sign up at https://www.goatcounter.com/signup
+    - Plausible: paid (~ EUR 9/mo), cookie-less, GDPR-friendly, polished UI.
+
+  Leave provider blank to disable analytics entirely.
+{%- endcomment -%}
+
+{%- assign a = site.analytics -%}
+{%- if a and a.provider and a.provider != "" -%}
+
+  {%- if a.provider == "ga4" and a.ga4_id and a.ga4_id != "" -%}
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ a.ga4_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ a.ga4_id }}', { anonymize_ip: true });
+  </script>
+  {%- endif -%}
+
+  {%- if a.provider == "goatcounter" and a.goatcounter_code and a.goatcounter_code != "" -%}
+  <!-- GoatCounter (cookie-less, privacy-friendly) -->
+  <script data-goatcounter="https://{{ a.goatcounter_code }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif -%}
+
+  {%- if a.provider == "plausible" and a.plausible_domain and a.plausible_domain != "" -%}
+  <!-- Plausible (cookie-less, privacy-friendly) -->
+  <script defer data-domain="{{ a.plausible_domain }}" src="https://plausible.io/js/script.js"></script>
+  {%- endif -%}
+
+{%- endif -%}

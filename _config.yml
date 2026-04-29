@@ -48,6 +48,18 @@ description: >- # this means to ignore newlines until "baseurl:"
 # For google search console
 googleverification: Uhr-tsoENf7WIxvNZZ6G7PWLp2_kZMrJ5tCOfBbTGXw
 
+# Visitor analytics (private dashboard, not publicly viewable).
+# Pick ONE provider and fill the matching ID; leave provider blank to disable.
+#   provider:
+#     "ga4"        -> requires ga4_id (G-XXXXXXXXXX from analytics.google.com)
+#     "goatcounter"-> requires goatcounter_code (subdomain at goatcounter.com)
+#     "plausible"  -> requires plausible_domain (site registered at plausible.io)
+analytics:
+  provider: ""
+  ga4_id: ""
+  goatcounter_code: ""
+  plausible_domain: ""
+
 # Build settings
 markdown: kramdown
 theme: minima
