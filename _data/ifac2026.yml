@@ -93,7 +93,7 @@ schedule:
     sessions:
       - time: "9:00 – 9:15"
         title: "Welcome and Framing"
-        lead: "Prof. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
+        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
         details: "Overview of the day, learning outcomes, and an introduction to where LLM agent technology stands in the process industries."
       - time: "9:15 – 10:15"
         title: "LLM and Agent Fundamentals"
@@ -121,8 +121,8 @@ schedule:
     sessions:
       - time: "13:30 – 14:30"
         title: "Application III — Autonomous Control and Fault Diagnosis"
-        lead: "Prof. Mehmet Mercangöz & Prof. Chunhui Zhao"
-        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Prof. Mehmet Mercangöz and Prof. Chunhui Zhao."
+        lead: "Dr. Mehmet Mercangöz & Prof. Chunhui Zhao"
+        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Dr. Mehmet Mercangöz and Prof. Chunhui Zhao."
       - time: "14:30 – 14:45"
         title: "☕ Coffee Break"
         lead: ""
@@ -130,15 +130,15 @@ schedule:
         break: true
       - time: "14:45 – 15:45"
         title: "Hands-On Session — Build, Break & Debug Simple LLM Agents"
-        lead: "Prof. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
+        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
         details: "Participants work directly with LLM APIs on process control tasks using provided Python notebooks. Three exercises progressing from prompt engineering through agent construction to failure analysis."
       - time: "15:45 – 16:45"
         title: "Open Problems, Research Directions, and Q&A"
-        lead: "Prof. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao — with all participants"
+        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao — with all participants"
         details: "Structured discussion: What works now? What's tractable? What's hard? Followed by an open floor for questions about content, research directions, industrial deployment, and collaboration."
       - time: "16:45 – 17:00"
         title: "Wrap-up and Resources"
-        lead: "Prof. Bhushan Gopaluni, Prof. Mehmet Mercangöz, Prof. Chunhui Zhao"
+        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
         details: "Synthesis of the day's themes plus pointers to resources for continued learning — key papers, open-source tools, benchmark datasets, and community forums."
 
 speakers:
@@ -157,7 +157,7 @@ speakers:
       publications. Recipient of the UBC Killam Teaching Prize and the D.G. Fisher Award from the
       Canadian Society for Chemical Engineering. Extensive experience organizing IFAC workshops,
       including sessions at ADCHEM and DYCOPS.
-  - name: "Prof. Mehmet Mercangöz"
+  - name: "Dr. Mehmet Mercangöz"
     role: "Speaker & Organizer"
     affiliation: "Imperial College London"
     title: "ABB Reader in Autonomous Industrial Systems"
@@ -181,7 +181,7 @@ speakers:
     location: "Hangzhou, China"
     photo: "/assets/img/ifac2026/chunhui.jpg"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
-    sessions: "Application II (Process Simulation, jointly with Prof. Gopaluni) · Application III (Autonomous Control, jointly with Prof. Mercangöz) · Hands-On · Open Problems"
+    sessions: "Application II (Process Simulation, jointly with Prof. Gopaluni) · Application III (Autonomous Control, jointly with Dr. Mercangöz) · Hands-On · Open Problems"
     bio: |
       Leading researcher in AI for process systems engineering. Work on process monitoring,
       fault diagnosis, and multimodal data fusion — combining process measurements, text, and
