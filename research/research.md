@@ -4,9 +4,9 @@ title: Research Overview
 permalink: /research/
 ---
 
-The {{ site.labshortname }} at the {{ site.university }} conducts research at the intersection of *process control*, *data analytics* and *machine learning*.
+We develop AI and machine learning methods for industrial process control, with research informed by collaborations with industry partners across refining, pulp and paper, mining, and pharmaceuticals.
 
-On the applied research side, we develop novel algorithms and computational tools to solve industrial process control problems. We also explore fundamental problems in control theory and machine learning for theoretical insights.
+Our work spans both theory and application: we develop novel algorithms and computational tools to solve industrial process control problems, while also exploring fundamental problems in control theory and machine learning.
 
 ## Research Topics:
 
@@ -40,9 +40,9 @@ We are interested in the development of smart plants and intelligent processes, 
             </figure>
         </div>
         <footer class="card-footer">
-            <a href="#" class="card-footer-item">
+            <span class="card-footer-item">
               Large-scale dynamic models
-            </a>
+            </span>
         </footer>
     </div>
   </div>  
@@ -54,9 +54,9 @@ We are interested in the development of smart plants and intelligent processes, 
             </figure>
         </div>
         <footer class="card-footer">
-            <a href="#" class="card-footer-item">
+            <span class="card-footer-item">
               Automatic fault diagnostics
-            </a>
+            </span>
         </footer>
     </div>
   </div>
@@ -68,9 +68,9 @@ We are interested in the development of smart plants and intelligent processes, 
             </figure>
         </div>
         <footer class="card-footer">
-            <a href="#" class="card-footer-item">
+            <span class="card-footer-item">
               Predictive analytics
-            </a>
+            </span>
         </footer>
     </div>
   </div>
