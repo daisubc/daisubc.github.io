@@ -7,7 +7,7 @@ project: Machine learning, control theory, and optimization.
 img: thiago.png
 degree: Undergraduate
 year_start: 2022
-year_end: 2025
+year_end: 2026
 status: alumni 
 biography: Thiago is an undergraduate student at UBC majoring in statistics with a concentration in computer science. His main interests revolve around ML, control theory, and optimization.
 title: Thiago da Cunha Vasco
