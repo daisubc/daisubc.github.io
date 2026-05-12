@@ -5,7 +5,9 @@ permalink: /opportunities/
 description: The UBC DAIS Lab is recruiting researchers and students for research projects in data analytics, machine learning and process control.
 ---
 
-The UBC DAIS Lab is always looking for curious, motivated and talented researchers who are interested in exploring the intersection of *process control*, *data analytics* and *machine learning*. Our group recruits year-round for:
+Join a research group with a strong track record of placing graduates in industry and academia. Work on challenging problems at the intersection of *machine learning*, *AI*, and *industrial process control*.
+
+We are always looking for curious, motivated and talented researchers. Our group recruits year-round for:
 
 <ul>
   <li>Research Associates</li>
