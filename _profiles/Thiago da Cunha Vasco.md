@@ -5,7 +5,7 @@ has_profile: True
 github: https://github.com/Thiagodcv
 project: Machine learning, control theory, and optimization.
 img: thiago.png
-degree: Undergraduate
+degree: MASc
 year_start: 2022
 year_end: 2026
 status: alumni 
