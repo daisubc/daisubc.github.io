@@ -1,9 +1,13 @@
 {% assign pubs = site.papers | sort:"order" | reverse %}
 
-<p class="subtitle no-deco">
-  Showing recent papers. <a href="{{ site.baseurl }}/publications/">See all publications</a>.
-</p>
-
-{% for pub in pubs | limit:3 %}
-    {% include single_pub_compact.html pub=pub %}
-{% endfor %}
+<div class="home-pubs-card">
+  <p class="subtitle is-6 no-deco has-text-weight-bold">
+    Recent Publications
+  </p>
+  {% for pub in pubs | limit:3 %}
+      {% include single_pub_compact.html pub=pub %}
+  {% endfor %}
+  <p class="has-text-centered" style="margin-top: 1rem;">
+    <a href="{{ site.baseurl }}/publications/" class="button is-small is-link is-outlined">View All Publications</a>
+  </p>
+</div>

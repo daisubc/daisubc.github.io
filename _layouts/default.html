@@ -23,17 +23,15 @@
   
   {% if page.title == "Home" %}
 
-  <div class='home-banner'></div>  
-
-  <section class="hero is-fullheight-with-navbar">
+  <section class="hero is-medium home-hero">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-vcentered">
           <div class="column is-half is-full-tablet">
-            <p class="title is-1 is-spaced very-bold"><span class="has-text-darkblue"><i class="fas fa-cubes"></i> {{ site.labname}} </span></p>
-            <p class="subtitle is-5"><i>Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></i></p>
-            <hr>
-            <p class="subtitle is-4">Our research brings modern <b>machine learning</b> and <b>AI</b> to industrial process control. We develop theory and methods that bridge fundamental research and real-world deployment.</p>
+            <p class="title is-1 is-spaced very-bold"><span class="has-text-white"><i class="fas fa-cubes"></i> {{ site.labname}} </span></p>
+            <p class="subtitle is-5 has-text-white-ter"><i>Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></i></p>
+            <hr class="home-hero-hr">
+            <p class="subtitle is-4 has-text-white-bis">Our research brings modern <b>machine learning</b> and <b>AI</b> to industrial process control. We develop theory and methods that bridge fundamental research and real-world deployment.</p>
             <p class="title no-deco">
               <div class="buttons">
                 <a href="{{ site.baseurl }}/research/" class="button is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; Research Overview</a>
