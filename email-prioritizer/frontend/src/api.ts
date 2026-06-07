@@ -1,6 +1,9 @@
 import type { ProcessResponse } from "./types";
 
-const API_BASE = import.meta.env.VITE_API_BASE ?? "http://localhost:8000";
+// Default to same-origin ("") so the app works when the backend serves it
+// directly (the single-link iPad setup). For two separate dev servers, set
+// VITE_API_BASE=http://localhost:8000 in frontend/.env.
+const API_BASE = import.meta.env.VITE_API_BASE ?? "";
 
 async function handle(res: Response): Promise<ProcessResponse> {
   if (!res.ok) {

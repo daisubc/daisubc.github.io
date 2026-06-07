@@ -1,15 +1,24 @@
-"""FastAPI entrypoint — deploy to Render.
+"""FastAPI entrypoint.
+
+Can run two ways:
+  * API only (separate Vite dev server / Vercel)         — endpoints below.
+  * Single-origin: also serves the built frontend at "/" — best for using the
+    app from another device (e.g. an iPad) through one secure link.
 
 Endpoints:
-  GET  /                  health/info
+  GET  /api/health        health/info
   GET  /api/demo          process the built-in sample inbox (no auth needed)
   POST /api/process       process a caller-supplied batch of emails
   POST /api/gmail/process fetch from Gmail with a client OAuth token, then process
+  GET  /                  the web app, if frontend/dist has been built
 """
 from __future__ import annotations
 
+from pathlib import Path
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from .config import get_settings
 from .gmail import fetch_messages
@@ -33,8 +42,8 @@ app.add_middleware(
 )
 
 
-@app.get("/")
-def root() -> dict:
+@app.get("/api/health")
+def health() -> dict:
     return {
         "service": "email-prioritizer",
         "status": "ok",
@@ -67,3 +76,10 @@ def gmail_process(req: GmailProcessRequest) -> ProcessResponse:
         return ProcessResponse(emails=[], llm_used=False, model=None)
     processed, llm_used, model = process_emails(emails, settings)
     return ProcessResponse(emails=processed, llm_used=llm_used, model=model)
+
+
+# Serve the built frontend from the same origin, if it has been built.
+# (API routes above are registered first, so they always take precedence.)
+_FRONTEND_DIST = Path(__file__).resolve().parents[2] / "frontend" / "dist"
+if _FRONTEND_DIST.is_dir():
+    app.mount("/", StaticFiles(directory=str(_FRONTEND_DIST), html=True), name="web")
