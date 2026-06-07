@@ -16,13 +16,14 @@ load_dotenv()
 
 class Settings:
     # --- LLM (OpenAI-compatible endpoint serving an open-source model) ---
+    # DEFAULT = local Ollama, so email text never leaves your machine (safe).
     # Examples:
+    #   Ollama:   base_url=http://localhost:11434/v1        model=llama3.1   (default, local + private)
     #   Groq:     base_url=https://api.groq.com/openai/v1   model=llama-3.3-70b-versatile
     #   Together: base_url=https://api.together.xyz/v1      model=meta-llama/Llama-3.3-70B-Instruct-Turbo
-    #   Ollama:   base_url=http://localhost:11434/v1        model=llama3.1
-    llm_base_url: str = os.getenv("LLM_BASE_URL", "https://api.groq.com/openai/v1")
+    llm_base_url: str = os.getenv("LLM_BASE_URL", "http://localhost:11434/v1")
     llm_api_key: str = os.getenv("LLM_API_KEY", "")
-    llm_model: str = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
+    llm_model: str = os.getenv("LLM_MODEL", "llama3.1")
     llm_timeout: float = float(os.getenv("LLM_TIMEOUT", "60"))
 
     # --- CORS ---

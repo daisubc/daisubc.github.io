@@ -73,16 +73,30 @@ up Google OAuth (below) and click **"Connect Gmail"**.
 
 ## Choosing the open-source model
 
-The backend talks to any **OpenAI-compatible** endpoint, so you can use a
-hosted open-source model or run one locally. Set these in `backend/.env`:
+The backend talks to any **OpenAI-compatible** endpoint. The **default is a
+local Ollama model**, so email text never leaves your computer — the private,
+safe choice (recommended, especially for monitoring a child's mail).
+
+### Recommended: local & private with Ollama
+1. Install Ollama from [ollama.com](https://ollama.com) (Mac / Windows / Linux).
+2. Download a model once: `ollama pull llama3.1`
+   (on an older/slower computer use the smaller `ollama pull llama3.2` and set
+   `LLM_MODEL=llama3.2`).
+3. Ollama runs in the background at `http://localhost:11434`. That's the
+   backend default — no API key, nothing to configure.
+
+Nothing is sent to the internet for summarizing; everything runs on your machine.
+
+### Optional: hosted providers (faster, but email is sent to them)
 
 | Provider   | `LLM_BASE_URL`                    | `LLM_MODEL` example                                |
 |------------|-----------------------------------|----------------------------------------------------|
+| Ollama ✅  | `http://localhost:11434/v1`       | `llama3.1` (local, private, default)               |
 | Groq       | `https://api.groq.com/openai/v1`  | `llama-3.3-70b-versatile`                           |
 | Together   | `https://api.together.xyz/v1`     | `meta-llama/Llama-3.3-70B-Instruct-Turbo`          |
-| Ollama     | `http://localhost:11434/v1`       | `llama3.1` (no API key needed)                      |
 
-Leave `LLM_API_KEY` blank to use the rule-based heuristic instead.
+If no model is reachable, the app falls back to a transparent rule-based
+heuristic so it never breaks.
 
 ## Gmail OAuth setup
 
