@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.*.local
+
+# Misc
+.DS_Store
+
+# TS build info
+*.tsbuildinfo
