@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Inbox Triage — Preview</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--text:#e7e9ee;--muted:#9aa3b2;--border:#262b35;--accent:#4f8cff;}
+*{box-sizing:border-box;}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+.app{max-width:820px;margin:0 auto;padding:40px 20px 80px;}
+.header h1{margin:0 0 6px;font-size:28px;}
+.tagline{margin:0;color:var(--muted);}
+.controls{display:flex;gap:12px;margin:28px 0 8px;flex-wrap:wrap;}
+.btn{padding:10px 18px;border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:8px;font-size:14px;cursor:pointer;}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff;}
+.summary-bar{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin:24px 0 16px;padding:12px 16px;background:var(--panel);border:1px solid var(--border);border-radius:10px;font-size:14px;}
+.summary-bar .engine{margin-left:auto;color:var(--muted);}
+.dot::before{content:"●";margin-right:6px;}
+.dot.high::before{color:#e5484d;}.dot.medium::before{color:#f5a623;}.dot.low::before{color:#6b7280;}
+.list{display:flex;flex-direction:column;gap:12px;}
+.card{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--border);border-radius:10px;padding:16px 18px;}
+.card-top{display:flex;gap:10px;align-items:center;margin-bottom:8px;flex-wrap:wrap;}
+.badge{color:#fff;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.03em;padding:3px 9px;border-radius:20px;}
+.category{font-size:12px;color:var(--muted);}
+.action{font-size:11px;color:#ffd479;border:1px solid #5a4a1f;background:#2a2412;padding:2px 8px;border-radius:20px;}
+.subject{margin:4px 0;font-size:16px;}
+.sender{margin:0 0 8px;color:var(--muted);font-size:13px;}
+.summary{margin:0 0 6px;line-height:1.5;}
+.reason{margin:0;color:var(--muted);font-size:13px;font-style:italic;}
+.footer{margin-top:40px;text-align:center;color:var(--muted);font-size:12px;}
+.note{margin:8px 0 0;font-size:12px;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="header">
+    <h1>📥 Inbox Triage</h1>
+    <p class="tagline">Summarizes your emails and ranks them by priority using an open-source LLM.</p>
+  </header>
+
+  <div class="controls">
+    <button class="btn primary">Connect Gmail</button>
+    <button class="btn">Try the demo inbox</button>
+  </div>
+  <p class="note">Static preview — this is the demo inbox as the app renders it. (No backend required for this file.)</p>
+
+  <div class="summary-bar">
+    <span>6 emails</span>
+    <span class="dot high">3 high</span>
+    <span class="dot medium">1 medium</span>
+    <span class="dot low">2 low</span>
+    <span class="engine">🤖 llama-3.3-70b-versatile</span>
+  </div>
+
+  <div class="list">
+
+    <article class="card" style="border-left-color:#e5484d">
+      <div class="card-top">
+        <span class="badge" style="background:#e5484d">high · 96</span>
+        <span class="category">Deadline</span>
+        <span class="action">Action needed</span>
+      </div>
+      <h3 class="subject">URGENT: Grant report due tomorrow 5pm</h3>
+      <p class="sender">Dr. Sarah Lin &lt;s.lin@university.edu&gt;</p>
+      <p class="summary">Dr. Lin needs your experimental-results section and the updated budget table for the NSF progress report, which is due tomorrow at 5 PM. She's asking you to send your part by noon so she has time to integrate it.</p>
+      <p class="reason">Why: Hard external deadline, from your collaborator, and a direct request for your input.</p>
+    </article>
+
+    <article class="card" style="border-left-color:#e5484d">
+      <div class="card-top">
+        <span class="badge" style="background:#e5484d">high · 81</span>
+        <span class="category">Finance</span>
+        <span class="action">Action needed</span>
+      </div>
+      <h3 class="subject">Action needed: reimbursement form incomplete</h3>
+      <p class="sender">Finance Dept &lt;accounts@university.edu&gt;</p>
+      <p class="summary">Your travel reimbursement is on hold because the hotel receipt is missing. Upload it within 7 days or the claim will be closed.</p>
+      <p class="reason">Why: Time-boxed action (7 days) with a financial consequence if missed.</p>
+    </article>
+
+    <article class="card" style="border-left-color:#e5484d">
+      <div class="card-top">
+        <span class="badge" style="background:#e5484d">high · 72</span>
+        <span class="category">CI / Dev</span>
+        <span class="action">Action needed</span>
+      </div>
+      <h3 class="subject">[daisubc/repo] CI run failed on main</h3>
+      <p class="sender">GitHub &lt;noreply@github.com&gt;</p>
+      <p class="summary">The build workflow failed on main — 2 tests in test_summarize.py are failing for commit a1b2c3. Main is currently red.</p>
+      <p class="reason">Why: Automated, but a broken main branch usually needs a prompt fix.</p>
+    </article>
+
+    <article class="card" style="border-left-color:#f5a623">
+      <div class="card-top">
+        <span class="badge" style="background:#f5a623">medium · 54</span>
+        <span class="category">Scheduling</span>
+        <span class="action">Action needed</span>
+      </div>
+      <h3 class="subject">Re: Coffee next week?</h3>
+      <p class="sender">Alex Chen &lt;alex.chen@gmail.com&gt;</p>
+      <p class="summary">Alex is free Tuesday or Wednesday afternoon for coffee and wants you to pick a day so they can book a spot.</p>
+      <p class="reason">Why: A personal reply is expected, but it isn't urgent.</p>
+    </article>
+
+    <article class="card" style="border-left-color:#6b7280">
+      <div class="card-top">
+        <span class="badge" style="background:#6b7280">low · 21</span>
+        <span class="category">Receipt</span>
+      </div>
+      <h3 class="subject">Your order has shipped</h3>
+      <p class="sender">Amazon &lt;auto-confirm@amazon.com&gt;</p>
+      <p class="summary">Your USB-C cable order has shipped and is expected to arrive Wednesday. No action required.</p>
+      <p class="reason">Why: Automated shipping notification, purely informational.</p>
+    </article>
+
+    <article class="card" style="border-left-color:#6b7280">
+      <div class="card-top">
+        <span class="badge" style="background:#6b7280">low · 9</span>
+        <span class="category">Newsletter</span>
+      </div>
+      <h3 class="subject">Your Monday digest: 12 stories you missed</h3>
+      <p class="sender">TechWeekly &lt;digest@techweekly.com&gt;</p>
+      <p class="summary">TechWeekly's Monday newsletter rounding up 12 tech stories in AI, startups, and gadgets. Promotional, nothing to act on.</p>
+      <p class="reason">Why: Bulk newsletter with an unsubscribe link; lowest priority.</p>
+    </article>
+
+  </div>
+
+  <footer class="footer">Read-only Gmail access · processed per-request · nothing stored.</footer>
+</div>
+</body>
+</html>
