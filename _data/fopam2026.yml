@@ -1,0 +1,153 @@
+title: "Foundations to Frontier: Machine Learning & AI for the Process Industries"
+subtitle: "From Classical Methods to LLMs and Agents, to What Works on the Plant Floor"
+tagline: "A 1.5-day pre-conference workshop at FOPAM 2026"
+
+date_iso: "2026-07-26"
+date_display: "Sunday–Monday, July 26–27, 2026"
+time_display: "1:00 PM Sunday – 4:30 PM Monday"
+venue: "FOPAM 2026"
+city: "Decatur, GA"
+room: "Courtyard by Marriott Atlanta Decatur Downtown/Emory"
+
+fopam_url: "https://fopam.cache.org/"
+register_url: "https://fopam.cache.org/"
+contact_email: "bhushan.gopaluni@ubc.ca"
+
+abstract: |
+  This workshop offers process and product engineers, data scientists, and graduate students a single,
+  coherent arc through machine learning and AI for the process industries: from the classical statistical
+  foundations that have driven process and product development for decades, to today's deep learning,
+  large language models (LLMs), and agentic systems, and finally to what actually works on the plant floor.
+
+  Rather than a survey of disconnected methods, the workshop is built as three linked modules taught by
+  leaders who span academia, pharmaceutical R&D, and chemicals manufacturing. Module 1 grounds participants
+  in the experimental design, data, and statistical modeling that remain the bedrock of sound analytics.
+  Module 2 builds from there to the modern methods reshaping the field. Module 3 closes the loop with
+  hard-won industrial reality and hands-on datasets.
+
+  Participants leave understanding not just *how* these methods work, but *when* to reach for each and
+  *what it takes* to deploy them responsibly.
+
+why_now: |
+  The process industries (pharmaceuticals, chemicals, materials, energy) are in the middle of a genuine
+  shift in how data and models are used. Classical design of experiments and multivariate statistics
+  remain indispensable, yet deep learning, foundation models, and LLM-based agents are now entering
+  process design, monitoring, and operations.
+
+  Practitioners face a widening gap between what is demonstrated in papers and what is dependable in a
+  regulated, safety-critical plant. This workshop is timed to meet that gap head-on at FOPAM, the premier
+  venue bridging process systems engineering and machine learning. It pairs the rigor of classical methods
+  with an honest assessment of modern AI and the practitioner's view of what survives contact with real
+  manufacturing data.
+
+keywords:
+  - Design of Experiments
+  - Machine Learning
+  - Deep Learning
+  - Large Language Models
+  - Process Industries
+  - Data Analytics
+  - Bayesian Optimization
+
+learning_outcomes:
+  - "Design sound experiments and apply classical statistical, regression, and dimensionality-reduction methods to process/product data."
+  - "Explain how deep learning, LLMs, and agents work, and critically evaluate claims about their capabilities and limits."
+  - "Recognize where modern AI adds real value versus where classical methods remain the right tool."
+  - "Anticipate the data-quality, deployment, and organizational challenges of putting ML/AI into industrial practice, informed by hands-on work on real datasets."
+
+target_audience:
+  - "Process and product engineers and R&D scientists in pharma, chemicals, materials, and energy."
+  - "Data scientists and analytics practitioners working with process/product data."
+  - "Academic researchers and graduate students in process systems engineering and applied ML."
+
+prerequisites: |
+  Familiarity with basic engineering data analysis is helpful. No prior deep-learning or programming
+  experience is required. Module 1 establishes the foundations and each module is self-contained while
+  building on the last. Modules 1 and 3 include hands-on components, so participants should bring a laptop.
+
+hands_on:
+  bring:
+    - "A laptop (required for hands-on sessions in Modules 1 and 3)."
+    - "Ability to connect to the workshop Wi-Fi."
+  provided:
+    - "Hands-on datasets: formulations and industrial process data."
+    - "Jupyter notebooks and starter code."
+
+schedule:
+  - session: "Module 1"
+    date: "Sunday, July 26"
+    time: "1:00 PM – 4:00 PM"
+    title: "Design of Experiments, Data Exploration, Classical Regression, and Active Learning"
+    description: "A hands-on lecture on applying design of experiments to optimize unit operations and processes, with data exploration, regression approaches, and decision making."
+    speaker: "Jose E. Tabora"
+    affiliation: "Bristol Myers Squibb"
+    topics:
+      - "DOE workflow (60 min): hypothesis (Taylor series expansion), DOE types (Fisher information matrix), data collection, randomization"
+      - "Data exploration (30 min): color maps, scatter plots, beeswarm plots; dimensionality reduction with PCA and t-SNE"
+      - "Regression approaches (60 min): generalized linear models (GLM), Bayesian optimization (BO)"
+      - "Model visualization & decision making (30 min)"
+
+  - session: "Module 2"
+    date: "Monday, July 27"
+    time: "9:00 AM – 12:00 PM"
+    title: "Modern ML/AI: Deep Learning, LLMs, and Agents"
+    description: "A grounded path from classical models to the methods defining the current frontier, framed for process applications."
+    speaker: "R. Bhushan Gopaluni"
+    affiliation: "University of British Columbia"
+    topics:
+      - "From regression to representation: neural networks and deep learning, and why representation learning matters for process and product data"
+      - "Sequence models, transformers, and LLMs: how modern language models work and what they can (and cannot) do"
+      - "LLMs as agents: reasoning, tool use, retrieval-augmented generation, and a candid look at hallucination, numerical reasoning, and safety limitations"
+
+  - session: "Module 3"
+    date: "Monday, July 27"
+    time: "1:30 PM – 4:30 PM"
+    title: "AI/ML in Industry: A Journey Through Industrial Examples"
+    description: "A journey through industrial examples and an opportunity to get your hands dirty on real formulations and process datasets."
+    speaker: "Bea Braun"
+    affiliation: "Dow"
+    topics:
+      - "What makes 'math to money' hard? (20 min)"
+      - "Classical ML still does the heavy lifting (80 min): hands-on formulations dataset and industrial dataset with PLS modeling"
+      - "Modern ML in action (40 min): machine vision opportunities, generative AI and agentic frameworks in industrial settings"
+      - "Ingredients for success (30 min): how to really make it work, plus discussion"
+
+organizers:
+  - name: "Jose E. Tabora"
+    affiliation: "Bristol Myers Squibb"
+    title: "Senior Scientific Director, Chemical Process Development"
+    location: "New Brunswick, NJ"
+    photo: "/assets/img/fopam2026/tabora.png"
+    bio: |
+      AIChE Fellow and recipient of the 2022 AIChE Industrial Research & Development Award, with 25 years
+      in drug-substance development across Merck, Eli Lilly, and BMS. Expertise in design of experiments,
+      statistical and mechanistic modeling, data analysis, and visualization. Has taught graduate courses
+      in reactor design, reaction kinetics, and data science at Manhattan College and Stevens Institute of
+      Technology. PhD, Chemical Engineering, University of Virginia.
+    sessions: "Module 1"
+
+  - name: "R. Bhushan Gopaluni"
+    affiliation: "University of British Columbia"
+    title: "Professor, Chemical & Biological Engineering; Vice-Provost & AVP, Faculty Planning"
+    location: "Vancouver, BC"
+    photo: "/assets/img/fopam2026/gopaluni.webp"
+    url: "/people/Bhushan%20Gopaluni/"
+    bio: |
+      Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focused on machine learning,
+      reinforcement learning, and data analytics for the process industries. Author of 150+ refereed
+      publications; recipient of the Killam Teaching Prize and the D.G. Fisher Award (Canadian Society
+      for Chemical Engineering). Extensive experience organizing workshops at process-systems venues,
+      including FOPAM 2023, ADCHEM, and DYCOPS.
+    sessions: "Module 2"
+
+  - name: "Bea (Birgit) Braun"
+    affiliation: "Dow"
+    title: "R&D Fellow, Digital Innovation; Principal Research Scientist, Data Science & Hybrid Modeling"
+    location: "Freeport, TX"
+    photo: "/assets/img/fopam2026/braun.jpg"
+    bio: |
+      Nearly 15 years at Dow leading the development and deployment of data-science solutions across
+      R&D and manufacturing, with more than a decade applying AI/ML to chemical manufacturing and
+      materials research. Six Sigma Black Belt with 15 journal papers and 70+ internal publications.
+      Serves on the FOPAM 2026 organizing committee. PhD, Chemical Engineering, Colorado School of Mines.
+    sessions: "Module 3"

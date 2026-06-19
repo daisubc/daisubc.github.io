@@ -1,0 +1,310 @@
+---
+layout: workshop
+title: "FOPAM 2026 Workshop — ML & AI for the Process Industries"
+description: "A 1.5-day pre-conference workshop at FOPAM 2026 in Atlanta: from classical machine learning to LLMs and agents, to what works on the plant floor. July 26–27, 2026, Decatur, GA."
+permalink: /fopam2026/
+---
+
+{% assign ws = site.data.fopam2026 %}
+
+<!-- ============ HERO ============ -->
+<section class="ws-hero">
+  <div class="ws-hero-bg"></div>
+  <div class="ws-hero-overlay"></div>
+  <div class="container ws-hero-inner">
+    <div class="ws-hero-chip">
+      <i class="fas fa-flask"></i>&nbsp; Pre-Conference Workshop · FOPAM 2026
+    </div>
+    <h1 class="ws-hero-title">{{ ws.title }}</h1>
+    <p class="ws-hero-subtitle">{{ ws.subtitle }}</p>
+
+    <div class="ws-hero-meta">
+      <div class="ws-meta-item">
+        <i class="far fa-calendar-alt"></i>
+        <div>
+          <div class="ws-meta-label">Dates</div>
+          <div class="ws-meta-value">{{ ws.date_display }}</div>
+        </div>
+      </div>
+      <div class="ws-meta-item">
+        <i class="far fa-clock"></i>
+        <div>
+          <div class="ws-meta-label">Time</div>
+          <div class="ws-meta-value">{{ ws.time_display }}</div>
+        </div>
+      </div>
+      <div class="ws-meta-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <div class="ws-meta-label">Location</div>
+          <div class="ws-meta-value">{{ ws.city }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ws-hero-cta">
+      <a href="{{ ws.register_url }}" target="_blank" rel="noopener" class="button is-link ws-btn-primary no-deco">
+        <i class="fas fa-ticket-alt"></i>&nbsp; Register via FOPAM 2026
+      </a>
+      <a href="#ws-schedule" class="button ws-btn-ghost ws-anchor no-deco">
+        <i class="far fa-calendar"></i>&nbsp; See full schedule
+      </a>
+    </div>
+
+    <div class="ws-hero-tags">
+      {% for kw in ws.keywords %}<span class="ws-tag">{{ kw }}</span>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ STICKY SUB-NAV ============ -->
+<nav class="ws-subnav" aria-label="Workshop sections">
+  <div class="container ws-subnav-inner">
+    <a class="ws-anchor" href="#ws-overview">Overview</a>
+    <a class="ws-anchor" href="#ws-outcomes">Outcomes</a>
+    <a class="ws-anchor" href="#ws-schedule">Schedule</a>
+    <a class="ws-anchor" href="#ws-modules">Modules</a>
+    <a class="ws-anchor" href="#ws-speakers">Speakers</a>
+    <a class="ws-anchor" href="#ws-register">Register</a>
+  </div>
+</nav>
+
+<!-- ============ OVERVIEW ============ -->
+<section id="ws-overview" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">01 · Overview</span>
+      <h2 class="ws-h2">Why this workshop, why now</h2>
+    </div>
+    <div class="columns is-variable is-6">
+      <div class="column is-7">
+        <div class="content ws-prose">
+          {{ ws.abstract | markdownify }}
+        </div>
+      </div>
+      <div class="column is-5">
+        <div class="ws-callout">
+          <h3 class="ws-callout-title"><i class="fas fa-bolt"></i>&nbsp; Why now?</h3>
+          <div class="content ws-prose">
+            {{ ws.why_now | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEARNING OUTCOMES ============ -->
+<section id="ws-outcomes" class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">02 · Learning outcomes</span>
+      <h2 class="ws-h2">What you'll take away</h2>
+      <p class="ws-lede">After attending, participants will be able to:</p>
+    </div>
+    <div class="ws-outcomes">
+      {% for outcome in ws.learning_outcomes %}
+        <div class="ws-outcome-card">
+          <div class="ws-outcome-num">{{ forloop.index }}</div>
+          <div class="ws-outcome-text">{{ outcome }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SCHEDULE ============ -->
+<section id="ws-schedule" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">03 · Schedule</span>
+      <h2 class="ws-h2">Three sessions over a day and a half</h2>
+      <p class="ws-lede">The workshop runs in the optional pre-conference slot, beginning Sunday afternoon and concluding Monday afternoon, ahead of the FOPAM Welcome Reception.</p>
+    </div>
+
+    <div class="ws-schedule-table">
+      {% for s in ws.schedule %}
+        <div class="ws-schedule-row">
+          <div class="ws-schedule-time">
+            <span class="ws-schedule-lead">{{ s.session }}</span><br>
+            {{ s.date }}<br>
+            <strong>{{ s.time }}</strong>
+          </div>
+          <div class="ws-schedule-body">
+            <div class="ws-schedule-title">{{ s.title }}</div>
+            <div class="ws-schedule-lead">{{ s.speaker }} · {{ s.affiliation }}</div>
+            <div class="ws-schedule-details">{{ s.description }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <p class="ws-note" style="margin-top: 1.5rem;">Each 3-hour session includes a break. Schedule is provisional and subject to confirmation with the FOPAM organizers.</p>
+  </div>
+</section>
+
+<!-- ============ MODULES ============ -->
+<section id="ws-modules" class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">04 · Modules</span>
+      <h2 class="ws-h2">What you'll cover</h2>
+      <p class="ws-lede">Three linked modules that build on each other — from classical foundations to modern AI to industrial reality.</p>
+    </div>
+
+    <div class="columns is-variable is-4 is-multiline">
+      {% for mod in ws.schedule %}
+        <div class="column is-4">
+          <div class="ws-card ws-card-accent" style="height: 100%;">
+            <div class="ws-eyebrow" style="margin-bottom: 0.5rem;">{{ mod.session }}</div>
+            <h3 class="ws-card-title">{{ mod.title }}</h3>
+            <ul class="ws-check-list no-deco" style="font-size: 0.92rem;">
+              {% for topic in mod.topics %}
+                <li><i class="fas fa-chevron-right"></i>&nbsp; {{ topic }}</li>
+              {% endfor %}
+            </ul>
+            <p style="margin-top: 1rem; font-size: 0.88rem; color: #5a6474;"><strong>{{ mod.speaker }}</strong> · {{ mod.affiliation }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="columns is-variable is-6" style="margin-top: 2rem;">
+      <div class="column is-6">
+        <div class="ws-card">
+          <h3 class="ws-card-title"><i class="fas fa-laptop"></i>&nbsp; What to bring</h3>
+          <ul class="ws-check-list no-deco">
+            {% for item in ws.hands_on.bring %}
+              <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="column is-6">
+        <div class="ws-card ws-card-accent">
+          <h3 class="ws-card-title"><i class="fas fa-toolbox"></i>&nbsp; What we provide</h3>
+          <ul class="ws-check-list no-deco">
+            {% for item in ws.hands_on.provided %}
+              <li><i class="fas fa-check"></i>&nbsp; {{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="ws-callout ws-mt">
+      <h3 class="ws-callout-title"><i class="fas fa-graduation-cap"></i>&nbsp; Prerequisites</h3>
+      <div class="content ws-prose">{{ ws.prerequisites | markdownify }}</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPEAKERS ============ -->
+<section id="ws-speakers" class="ws-section">
+  <div class="container">
+    <div class="ws-section-head">
+      <span class="ws-eyebrow">05 · Speakers & Organizers</span>
+      <h2 class="ws-h2">Across academia, pharma, and chemicals</h2>
+      <p class="ws-lede">Leaders who span pharmaceutical R&D, chemicals manufacturing, and academic research.</p>
+    </div>
+
+    <div class="ws-organizers">
+      {% for org in ws.organizers %}
+        <div class="ws-organizer-card">
+          <div class="ws-organizer-photo">
+            {% if org.photo and org.photo != "" %}
+              <img src="{{ org.photo }}" alt="{{ org.name }}" />
+            {% else %}
+              <div class="ws-organizer-initials">
+                {% assign parts = org.name | split: " " %}
+                {% for part in parts %}{{ part | slice: 0 }}{% endfor %}
+              </div>
+            {% endif %}
+          </div>
+          <div class="ws-organizer-body">
+            <div class="ws-organizer-role">Speaker</div>
+            <h3 class="ws-organizer-name">
+              {% if org.url and org.url != "" %}
+                <a href="{{ org.url }}">{{ org.name }}</a>
+              {% else %}
+                {{ org.name }}
+              {% endif %}
+            </h3>
+            <div class="ws-organizer-affil"><strong>{{ org.affiliation }}</strong></div>
+            <div class="ws-organizer-title">{{ org.title }}</div>
+            <div class="ws-organizer-location"><i class="fas fa-map-marker-alt"></i>&nbsp; {{ org.location }}</div>
+            {% if org.sessions and org.sessions != "" %}
+              <div class="ws-organizer-sessions"><i class="far fa-calendar-alt"></i>&nbsp; <strong>Sessions:</strong> {{ org.sessions }}</div>
+            {% endif %}
+            <div class="ws-organizer-bio">{{ org.bio | markdownify }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ AUDIENCE ============ -->
+<section class="ws-section ws-section-alt">
+  <div class="container">
+    <div class="columns is-variable is-6">
+      <div class="column is-6">
+        <div class="ws-section-head">
+          <span class="ws-eyebrow">06 · Target audience</span>
+          <h2 class="ws-h2">Who this is for</h2>
+        </div>
+        <ul class="ws-bullet-list no-deco">
+          {% for aud in ws.target_audience %}
+            <li><i class="fas fa-users"></i>&nbsp; {{ aud }}</li>
+          {% endfor %}
+        </ul>
+        <p class="ws-note">Expected attendance: <strong>25–50 participants</strong> spanning academia and industry.</p>
+      </div>
+
+      <div class="column is-6">
+        <div class="ws-section-head">
+          <span class="ws-eyebrow">07 · About FOPAM</span>
+          <h2 class="ws-h2">Foundations of Process/Product Analytics</h2>
+        </div>
+        <div class="content ws-prose">
+          <p>FOPAM 2026 is the premier conference bridging process systems engineering and machine learning, organized by CACHE. The conference runs July 26–30, 2026 at the Courtyard by Marriott Atlanta Decatur Downtown/Emory in Decatur, GA.</p>
+          <p><a href="{{ ws.fopam_url }}" target="_blank" rel="noopener">Learn more about FOPAM 2026 →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGISTER ============ -->
+<section id="ws-register" class="ws-section ws-section-register">
+  <div class="container">
+    <div class="ws-register-card">
+      <div>
+        <span class="ws-eyebrow ws-eyebrow-light">08 · Registration</span>
+        <h2 class="ws-h2 ws-h2-light">Join us in Atlanta</h2>
+        <p class="ws-lede-light">Workshop registration is handled as an optional add-on through the FOPAM 2026 conference site.</p>
+        <div class="ws-register-meta">
+          <div><i class="far fa-calendar-alt"></i>&nbsp; {{ ws.date_display }}</div>
+          <div><i class="far fa-clock"></i>&nbsp; {{ ws.time_display }}</div>
+          <div><i class="fas fa-map-marker-alt"></i>&nbsp; {{ ws.room }}</div>
+        </div>
+      </div>
+      <div class="ws-register-right">
+        <a href="{{ ws.register_url }}" target="_blank" rel="noopener" class="button ws-btn-primary ws-btn-lg no-deco">
+          <i class="fas fa-external-link-alt"></i>&nbsp; FOPAM 2026 Registration
+        </a>
+        <a href="#ws-schedule" class="button ws-btn-ghost-light ws-anchor no-deco">
+          <i class="far fa-calendar"></i>&nbsp; View schedule
+        </a>
+        <p class="ws-register-contact">Questions? Contact <a href="mailto:{{ ws.contact_email }}">{{ ws.contact_email }}</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACKNOWLEDGEMENT ============ -->
+<div class="ws-ack">
+  <p class="ws-ack-text">
+    This workshop is part of <a href="{{ ws.fopam_url }}" target="_blank" rel="noopener">FOPAM 2026</a>, organized by <a href="https://cache.org/" target="_blank" rel="noopener">CACHE</a>.
+    Schedule and details are provisional, pending final confirmation with the FOPAM organizing committee.
+  </p>
+</div>
