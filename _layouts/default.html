@@ -25,27 +25,11 @@
 
   <section class="hero is-medium home-hero">
     <div class="hero-body">
-      <div class="container">
-        <div class="columns is-vcentered">
-          <div class="column is-half is-full-tablet">
-            <p class="title is-1 is-spaced very-bold"><span class="has-text-white"><i class="fas fa-cubes"></i> {{ site.labname}} </span></p>
-            <p class="subtitle is-5 has-text-white-ter"><i>Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></i></p>
-            <hr class="home-hero-hr">
-            <p class="subtitle is-4 has-text-white-bis">Our research brings modern <b>machine learning</b> and <b>AI</b> to industrial process control. We develop theory and methods that bridge fundamental research and real-world deployment.</p>
-            <p class="title no-deco">
-              <div class="buttons">
-                <a href="{{ site.baseurl }}/research/" class="button is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; Research Overview</a>
-                <a href="{{ site.baseurl }}/news/" class="button is-sans-serif is-info"><i class="fas fa-newspaper"></i>&nbsp; Latest News</a>                
-              </div>
-            </p>
-          </div>
-          <div class="column">
-            <div class="container">
-              {% include homepage_recent_pubs.html %}
-            </div>
-          </div>
-        </div>
-      </div>   
+      <div class="container has-text-centered">
+        <p class="title is-1 is-spaced very-bold has-text-white"><i class="fas fa-cubes"></i> {{ site.labname}}</p>
+        <p class="subtitle is-4 has-text-white-ter">Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></p>
+        <a href="{{ site.baseurl }}/research/" class="button is-medium is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; Explore Our Research</a>
+      </div>
     </div>
   </section>
 
