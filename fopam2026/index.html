@@ -3,6 +3,7 @@ layout: workshop
 title: "FOPAM 2026 Workshop — ML & AI for the Process Industries"
 description: "A 1.5-day pre-conference workshop at FOPAM 2026 in Atlanta: from classical machine learning to LLMs and agents, to what works on the plant floor. July 26–27, 2026, Decatur, GA."
 permalink: /fopam2026/
+body_class: fopam-workshop
 ---
 
 {% assign ws = site.data.fopam2026 %}
@@ -146,27 +147,37 @@ permalink: /fopam2026/
 <section id="ws-modules" class="ws-section ws-section-alt">
   <div class="container">
     <div class="ws-section-head">
-      <span class="ws-eyebrow">04 · Modules</span>
+      <span class="ws-eyebrow">04 · Modules in detail</span>
       <h2 class="ws-h2">What you'll cover</h2>
       <p class="ws-lede">Three linked modules that build on each other — from classical foundations to modern AI to industrial reality.</p>
     </div>
 
-    <div class="columns is-variable is-4 is-multiline">
-      {% for mod in ws.schedule %}
-        <div class="column is-4">
-          <div class="ws-card ws-card-accent" style="height: 100%;">
-            <div class="ws-eyebrow" style="margin-bottom: 0.5rem;">{{ mod.session }}</div>
-            <h3 class="ws-card-title">{{ mod.title }}</h3>
-            <ul class="ws-check-list no-deco" style="font-size: 0.92rem;">
-              {% for topic in mod.topics %}
-                <li><i class="fas fa-chevron-right"></i>&nbsp; {{ topic }}</li>
-              {% endfor %}
-            </ul>
-            <p style="margin-top: 1rem; font-size: 0.88rem; color: #5a6474;"><strong>{{ mod.speaker }}</strong> · {{ mod.affiliation }}</p>
+    {% for mod in ws.schedule %}
+    <div style="margin-bottom: 3rem;">
+      <div style="display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1rem;">
+        <span class="ws-eyebrow" style="margin: 0;">{{ mod.session }}</span>
+        <span style="font-family: 'Raleway', sans-serif; font-size: 0.85rem; color: #5a6474;">{{ mod.date }} · {{ mod.time }}</span>
+      </div>
+      <h3 class="ws-h3" style="margin-bottom: 0.5rem;">{{ mod.title }}</h3>
+      <p style="font-family: 'Raleway', sans-serif; font-size: 0.95rem; color: #5a6474; margin-bottom: 1.5rem;"><strong>{{ mod.speaker }}</strong> · {{ mod.affiliation }}</p>
+
+      {% for section in mod.sections %}
+        <div class="fopam-module-section{% if section.title == 'Break' %} fopam-module-break{% endif %}">
+          <div class="fopam-module-section-header">
+            <h4 class="fopam-module-section-title">{{ section.title }}</h4>
+            <span class="fopam-module-section-duration">{{ section.duration }}</span>
           </div>
+          {% if section.topics.size > 0 %}
+          <ul class="fopam-module-section-topics">
+            {% for topic in section.topics %}
+              <li>{{ topic }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
+    {% endfor %}
 
     <div class="columns is-variable is-6" style="margin-top: 2rem;">
       <div class="column is-6">

@@ -1683,3 +1683,148 @@ html:has(body.workshop-body) { scroll-behavior: smooth; }
   }
   .ws-card-feature { flex-direction: column; align-items: flex-start; }
 }
+
+/* ======================================================================
+   FOPAM 2026 Workshop — Color scheme overrides
+   A warm teal/coral palette distinct from IFAC's blue theme
+====================================================================== */
+
+$fopam-primary: #0d7377;       // Teal
+$fopam-primary-deep: #14505c;  // Deep teal
+$fopam-accent: #e07c3a;        // Warm coral/orange
+$fopam-accent-light: #f4a261;  // Light coral
+
+.fopam-workshop {
+  .ws-hero-bg {
+    background:
+      radial-gradient(1100px 520px at 85% -10%, rgba(224, 124, 58, 0.30), transparent 60%),
+      radial-gradient(800px 420px at 0% 110%, rgba(13, 115, 119, 0.25), transparent 60%),
+      linear-gradient(135deg, #0a3d40 0%, #14505c 45%, #0d7377 100%);
+  }
+
+  .ws-hero-chip {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+  }
+
+  .ws-meta-item i { color: #7dd3d6; }
+
+  .ws-btn-primary {
+    background-color: $fopam-accent !important;
+    &:hover {
+      background-color: darken($fopam-accent, 8%) !important;
+      box-shadow: 0 8px 20px rgba(224, 124, 58, 0.35);
+    }
+  }
+
+  .ws-subnav a {
+    &:hover { color: $fopam-primary; }
+    &.is-active {
+      color: $fopam-primary;
+      border-bottom-color: $fopam-accent;
+    }
+  }
+
+  .ws-eyebrow { color: $fopam-accent; }
+
+  .ws-h2 { color: $fopam-primary-deep; }
+
+  .ws-outcome-num { background: $fopam-primary; }
+
+  .ws-schedule-time { color: $fopam-primary; }
+  .ws-schedule-lead { color: $fopam-accent; }
+
+  .ws-card-accent { border-top-color: $fopam-accent; }
+  .ws-card-title i { color: $fopam-accent; }
+
+  .ws-callout { border-left-color: $fopam-accent; }
+  .ws-callout-title i { color: $fopam-accent; }
+
+  .ws-check-list li i { color: $fopam-accent; }
+  .ws-bullet-list li i { color: $fopam-primary; }
+
+  .ws-organizer-role { color: $fopam-accent; }
+  .ws-organizer-affil strong { color: $fopam-primary; }
+  .ws-organizer-sessions {
+    background: rgba(13, 115, 119, 0.08);
+    i { color: $fopam-primary; }
+    strong { color: $fopam-primary; }
+  }
+
+  .ws-note { border-left-color: $fopam-primary; background: rgba(13, 115, 119, 0.06); }
+
+  .ws-section-register {
+    background: linear-gradient(135deg, $fopam-primary-deep 0%, #0d7377 100%);
+  }
+
+  .ws-register-meta i { color: $fopam-accent-light; }
+
+  .ws-eyebrow-light { color: $fopam-accent-light; }
+}
+
+/* FOPAM Module detail cards */
+.fopam-module-section {
+  margin-bottom: 1rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid rgba(13, 115, 119, 0.12);
+  border-radius: 8px;
+  border-left: 3px solid $fopam-accent;
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.fopam-module-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.fopam-module-section-title {
+  font-family: $sans-serif-font;
+  font-size: 1rem;
+  font-weight: 700;
+  color: $fopam-primary-deep;
+  margin: 0;
+}
+
+.fopam-module-section-duration {
+  font-family: $sans-serif-font;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $fopam-accent;
+  background: rgba(224, 124, 58, 0.1);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+}
+
+.fopam-module-section-topics {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+
+  li {
+    font-family: $sans-serif-font;
+    font-size: 0.92rem;
+    color: #5a6474;
+    padding: 0.3rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+
+    &::before {
+      content: "›";
+      position: absolute;
+      left: 0;
+      color: $fopam-primary;
+      font-weight: 700;
+    }
+  }
+}
+
+.fopam-module-break {
+  background: #f8f9fa;
+  border-left-color: #ccc;
+
+  .fopam-module-section-title { color: #888; }
+}

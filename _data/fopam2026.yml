@@ -47,7 +47,7 @@ keywords:
   - Large Language Models
   - Process Industries
   - Data Analytics
-  - Bayesian Optimization
+  - Hands-On
 
 learning_outcomes:
   - "Design sound experiments and apply classical statistical, regression, and dimensionality-reduction methods to process/product data."
@@ -77,15 +77,33 @@ schedule:
   - session: "Module 1"
     date: "Sunday, July 26"
     time: "1:00 PM – 4:00 PM"
-    title: "Design of Experiments, Data Exploration, Classical Regression, and Active Learning"
-    description: "A hands-on lecture on applying design of experiments to optimize unit operations and processes, with data exploration, regression approaches, and decision making."
+    title: "Design of Experiments, Data Exploration Analysis, Classical Regression, and Active Learning"
+    description: "A hands-on lecture on applications of DOE to optimize unit operations or processes."
     speaker: "Jose E. Tabora"
     affiliation: "Bristol Myers Squibb"
-    topics:
-      - "DOE workflow (60 min): hypothesis (Taylor series expansion), DOE types (Fisher information matrix), data collection, randomization"
-      - "Data exploration (30 min): color maps, scatter plots, beeswarm plots; dimensionality reduction with PCA and t-SNE"
-      - "Regression approaches (60 min): generalized linear models (GLM), Bayesian optimization (BO)"
-      - "Model visualization & decision making (30 min)"
+    sections:
+      - title: "DOE Workflow"
+        duration: "60 min"
+        topics:
+          - "Hypothesis — Taylor Series Expansion"
+          - "DOE Types — Fisher Information Matrix"
+          - "Data Collection"
+          - "Randomization"
+      - title: "Data Exploration Analysis"
+        duration: "30 min"
+        topics:
+          - "Color maps, scatter plots, beeswarm plots"
+          - "Dimensionality reduction: PCA, t-SNE"
+      - title: "Regression Approaches"
+        duration: "60 min"
+        topics:
+          - "Generalized Linear Models (GLM)"
+          - "Bayesian Optimization (BO)"
+      - title: "Model Visualization and Decision Making"
+        duration: "30 min"
+        topics:
+          - "Interpreting model outputs"
+          - "Translating models into actionable decisions"
 
   - session: "Module 2"
     date: "Monday, July 27"
@@ -94,23 +112,68 @@ schedule:
     description: "A grounded path from classical models to the methods defining the current frontier, framed for process applications."
     speaker: "R. Bhushan Gopaluni"
     affiliation: "University of British Columbia"
-    topics:
-      - "From regression to representation: neural networks and deep learning, and why representation learning matters for process and product data"
-      - "Sequence models, transformers, and LLMs: how modern language models work and what they can (and cannot) do"
-      - "LLMs as agents: reasoning, tool use, retrieval-augmented generation, and a candid look at hallucination, numerical reasoning, and safety limitations"
+    sections:
+      - title: "From Regression to Representation"
+        duration: "50 min"
+        topics:
+          - "Why representation learning matters for process data"
+          - "Neural networks: architecture and training"
+          - "Deep learning for time-series and process signals"
+      - title: "Sequence Models, Transformers, and LLMs"
+        duration: "50 min"
+        topics:
+          - "From RNNs to attention mechanisms"
+          - "How transformers and LLMs work"
+          - "What LLMs can and cannot do for engineering tasks"
+      - title: "Break"
+        duration: "10 min"
+        topics: []
+      - title: "LLMs as Agents"
+        duration: "50 min"
+        topics:
+          - "Reasoning, planning, and tool use"
+          - "Retrieval-augmented generation (RAG)"
+          - "Building agents for process engineering tasks"
+      - title: "Limitations and Responsible Deployment"
+        duration: "20 min"
+        topics:
+          - "Hallucination and numerical reasoning failures"
+          - "Safety considerations for industrial settings"
+          - "When to use (and not use) LLM-based solutions"
 
   - session: "Module 3"
     date: "Monday, July 27"
     time: "1:30 PM – 4:30 PM"
     title: "AI/ML in Industry: A Journey Through Industrial Examples"
-    description: "A journey through industrial examples and an opportunity to get your hands dirty on real formulations and process datasets."
+    description: "A journey through industrial examples and an opportunity to get your hands dirty."
     speaker: "Bea Braun"
     affiliation: "Dow"
-    topics:
-      - "What makes 'math to money' hard? (20 min)"
-      - "Classical ML still does the heavy lifting (80 min): hands-on formulations dataset and industrial dataset with PLS modeling"
-      - "Modern ML in action (40 min): machine vision opportunities, generative AI and agentic frameworks in industrial settings"
-      - "Ingredients for success (30 min): how to really make it work, plus discussion"
+    sections:
+      - title: "What Makes 'Math to Money' Hard?"
+        duration: "20 min"
+        topics:
+          - "The gap between models and deployment"
+          - "Common failure modes in industrial ML"
+      - title: "Classical ML Still Does the Heavy Lifting"
+        duration: "80 min"
+        topics:
+          - "Hands-on: Formulations dataset"
+          - "Hands-on: Industrial dataset with PLS modeling"
+          - "Why classical methods remain essential"
+      - title: "Break"
+        duration: "10 min"
+        topics: []
+      - title: "Modern Machine Learning in Action"
+        duration: "40 min"
+        topics:
+          - "Seeing opportunities for machine vision"
+          - "Generative AI and agentic frameworks in industrial settings"
+      - title: "Ingredients for Success"
+        duration: "30 min"
+        topics:
+          - "How to really make it work"
+          - "Organizational and cultural factors"
+          - "Discussion and Q&A"
 
 organizers:
   - name: "Jose E. Tabora"

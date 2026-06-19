@@ -19,7 +19,7 @@
   {% seo %}
   {% include analytics.html %}
 </head>
-<body class="workshop-body">
+<body class="workshop-body{% if page.body_class %} {{ page.body_class }}{% endif %}">
 
   {% include navbar.html %}
 
