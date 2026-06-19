@@ -152,32 +152,45 @@ body_class: fopam-workshop
       <p class="ws-lede">Three linked modules that build on each other — from classical foundations to modern AI to industrial reality.</p>
     </div>
 
-    {% for mod in ws.schedule %}
-    <div style="margin-bottom: 3rem;">
-      <div style="display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1rem;">
-        <span class="ws-eyebrow" style="margin: 0;">{{ mod.session }}</span>
-        <span style="font-family: 'Raleway', sans-serif; font-size: 0.85rem; color: #5a6474;">{{ mod.date }} · {{ mod.time }}</span>
-      </div>
-      <h3 class="ws-h3" style="margin-bottom: 0.5rem;">{{ mod.title }}</h3>
-      <p style="font-family: 'Raleway', sans-serif; font-size: 0.95rem; color: #5a6474; margin-bottom: 1.5rem;"><strong>{{ mod.speaker }}</strong> · {{ mod.affiliation }}</p>
-
-      {% for section in mod.sections %}
-        <div class="fopam-module-section{% if section.title == 'Break' %} fopam-module-break{% endif %}">
-          <div class="fopam-module-section-header">
-            <h4 class="fopam-module-section-title">{{ section.title }}</h4>
-            <span class="fopam-module-section-duration">{{ section.duration }}</span>
+    <div class="fopam-modules-grid">
+      {% for mod in ws.schedule %}
+      <div class="fopam-module-card">
+        <div class="fopam-module-header">
+          <div class="fopam-module-number">{{ forloop.index }}</div>
+          <div class="fopam-module-meta">
+            <span class="fopam-module-label">{{ mod.session }}</span>
+            <span class="fopam-module-datetime">{{ mod.date }} · {{ mod.time }}</span>
           </div>
-          {% if section.topics.size > 0 %}
-          <ul class="fopam-module-section-topics">
-            {% for topic in section.topics %}
-              <li>{{ topic }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
         </div>
+
+        <h3 class="fopam-module-title">{{ mod.title }}</h3>
+        <p class="fopam-module-speaker"><i class="fas fa-user-tie"></i> {{ mod.speaker }}, {{ mod.affiliation }}</p>
+
+        <div class="fopam-module-timeline">
+          {% for section in mod.sections %}
+          {% unless section.title == 'Break' %}
+          <div class="fopam-timeline-item">
+            <div class="fopam-timeline-dot"></div>
+            <div class="fopam-timeline-content">
+              <div class="fopam-timeline-header">
+                <span class="fopam-timeline-title">{{ section.title }}</span>
+                <span class="fopam-timeline-time">{{ section.duration }}</span>
+              </div>
+              {% if section.topics.size > 0 %}
+              <ul class="fopam-timeline-topics">
+                {% for topic in section.topics %}
+                <li>{{ topic }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
+          {% endunless %}
+          {% endfor %}
+        </div>
+      </div>
       {% endfor %}
     </div>
-    {% endfor %}
 
     <div class="columns is-variable is-6" style="margin-top: 2rem;">
       <div class="column is-6">
