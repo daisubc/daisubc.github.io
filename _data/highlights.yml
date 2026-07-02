@@ -1,3 +1,13 @@
+- message: "Liang Cao wins Best Paper Award at The Web Conference 2026 for work on robust multimodal learning!"
+  date: "2026-06-29"
+  url: "/news/2026-06-29-tml-best-paper/"
+  display: "True"
+
+- message: "We are organizing a workshop on ML & AI for the Process Industries at FOPAM 2026 in Atlanta!"
+  date: "2026-07-01"
+  url: "/fopam2026/"
+  display: "True"
+
 - message: "We are organizing a full-day workshop on LLMs and Agents for Process Industries at IFAC 2026 in Busan, Korea!"
   date: "2026-04-16"
   url: "/ifac2026/"
