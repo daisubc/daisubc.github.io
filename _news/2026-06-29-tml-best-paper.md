@@ -12,5 +12,3 @@ Congratulations to DAIS Lab PhD student **Liang Cao** and co-authors for winning
 **Authors:** Liang Cao, Weide Liu, Yan Qin, Zhenghua Chen, Zhuo Chen, Bhushan Gopaluni
 
 This work addresses the challenging problem of maintaining robust performance in multimodal learning systems when facing distribution shifts — a critical issue for deploying AI systems in real-world applications.
-
-<img src="/assets/img/news/2026-tml-best-paper.png" style="width: 80% !important;" />
