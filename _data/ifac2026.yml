@@ -12,7 +12,7 @@ room: "Venue room TBA"
 ifac_url: "https://www.ifac2026.org/"
 register_url: "https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG"
 contact_email: "bhushan.gopaluni@ubc.ca"
-code_repo_url: "https://github.com/daisubc/ifac2026-workshop"
+code_repo_url: "https://www.dropbox.com/scl/fo/9ya0xtw2nlfz2p98h7tkn/AHaIcIo0RTJvysTI42w2CIo?rlkey=94bxn9uk7a42u3xttwupueoz5&dl=0"
 
 abstract: |
   Large Language Models have evolved from text generators to agents that reason, use tools, and take actions.
@@ -20,12 +20,14 @@ abstract: |
   structures, diagnosing faults, even acting as autonomous operators. The results so far are intriguing but
   preliminary, and the gap between laboratory demonstrations and plant deployment remains substantial.
 
-  This full-day workshop brings together researchers from three continents to examine what LLM agents can
-  actually do today, where they fail, and what problems deserve our attention. The morning covers the
-  fundamentals of LLMs and agents and surveys applications in process design and process simulation. The
-  afternoon turns to autonomous control and fault diagnosis, followed by a hands-on session in which
-  participants build simple agents and probe their limitations. We close with an open discussion aimed at
-  identifying research priorities.
+  This full-day workshop brings together researchers from four institutions across three continents to examine
+  what LLM agents can actually do today, where they fail, and what problems deserve our attention. The morning
+  covers the fundamentals of LLMs and agents and moves into AI-assisted process and control design, followed
+  by autonomous control and industrial applications. The afternoon opens with time-series understanding and
+  explainable fault diagnosis, continues with LLM-empowered battery diagnosis and self-improving reasoning,
+  and invites participants into a hands-on session in which they build, break, and debug simple LLM agents
+  on realistic process-engineering tasks. The day closes with a roundtable, From Demonstrations to Dependable
+  Engineering Systems, aimed at identifying research priorities for the community.
 
   Participants will leave with practical experience, a grounded assessment of the technology, and ideas
   for their own work.
@@ -92,54 +94,54 @@ schedule:
   - block: "Morning — Foundations & Applications"
     sessions:
       - time: "9:00 – 9:15"
-        title: "Welcome and Framing"
-        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
-        details: "Overview of the day, learning outcomes, and an introduction to where LLM agent technology stands in the process industries."
+        title: "Welcome, objectives and logistics"
+        lead: "Prof. Bhushan Gopaluni"
+        details: ""
       - time: "9:15 – 10:15"
         title: "LLM and Agent Fundamentals"
         lead: "Prof. Bhushan Gopaluni"
-        details: "Attention mechanism and transformer architecture; introduction to simple agent architectures via process control examples (alarm lists, operator procedures, simplified P&ID encodings)."
+        details: ""
       - time: "10:15 – 10:30"
         title: "☕ Coffee Break"
         lead: ""
         details: ""
         break: true
       - time: "10:30 – 11:30"
-        title: "Application I — Process Design"
-        lead: "Prof. Bhushan Gopaluni"
-        details: "P&ID interpretation, control structure prediction, and automated design review. Discussion of Hirtreiter et al. (2024), Balhorn et al. (2024), and graph-based approaches for capturing process topology."
+        title: "Application I — AI-Assisted Process and Control Design"
+        lead: "Prof. Bhushan Gopaluni & Dr. Mehmet Mercangöz"
+        details: ""
       - time: "11:30 – 12:30"
-        title: "Application II — Process Simulation and Optimization"
-        lead: "Prof. Bhushan Gopaluni & Prof. Chunhui Zhao"
-        details: "Automated simulation configuration, multimodal approaches combining process measurements with text and images, and natural language interfaces for querying process historians and generating analysis reports."
+        title: "Application II — Autonomous Control and Industrial Applications"
+        lead: "Dr. Mehmet Mercangöz"
+        details: ""
       - time: "12:30 – 13:30"
         title: "🥢 Lunch"
         lead: ""
         details: ""
         break: true
-  - block: "Afternoon — Applications, Hands-On & Open Discussion"
+  - block: "Afternoon — Applications, Hands-On & Roundtable"
     sessions:
       - time: "13:30 – 14:30"
-        title: "Application III — Autonomous Control and Fault Diagnosis"
-        lead: "Dr. Mehmet Mercangöz & Prof. Chunhui Zhao"
-        details: "Agentic frameworks for industrial automation: LLM-based fault diagnosis integrating sensor data with maintenance history, autonomous agents that reason about process upsets, integration of LLM agents with digital twins, and industrial control system integration — delivered jointly by Dr. Mehmet Mercangöz and Prof. Chunhui Zhao."
+        title: "Application III — Time-Series Understanding and Explainable Fault Diagnosis"
+        lead: "Prof. Chunhui Zhao"
+        details: ""
       - time: "14:30 – 14:45"
         title: "☕ Coffee Break"
         lead: ""
         details: ""
         break: true
-      - time: "14:45 – 15:45"
-        title: "Hands-On Session — Build, Break & Debug Simple LLM Agents"
-        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
-        details: "Participants work directly with LLM APIs on process control tasks using provided Python notebooks. Three exercises progressing from prompt engineering through agent construction to failure analysis."
-      - time: "15:45 – 16:45"
-        title: "Open Problems, Research Directions, and Q&A"
-        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao — with all participants"
-        details: "Structured discussion: What works now? What's tractable? What's hard? Followed by an open floor for questions about content, research directions, industrial deployment, and collaboration."
-      - time: "16:45 – 17:00"
-        title: "Wrap-up and Resources"
-        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Chunhui Zhao"
-        details: "Synthesis of the day's themes plus pointers to resources for continued learning — key papers, open-source tools, benchmark datasets, and community forums."
+      - time: "14:45 – 15:15"
+        title: "Application IV — LLM-Empowered Battery Diagnosis and Self-Improving Reasoning"
+        lead: "Prof. Benben Jiang"
+        details: ""
+      - time: "15:15 – 16:15"
+        title: "Hands-On Session"
+        lead: "Prof. Bhushan Gopaluni, Dr. Mehmet Mercangöz, Prof. Benben Jiang, Javal Vyas"
+        details: ""
+      - time: "16:15 – 17:00"
+        title: "Roundtable — From Demonstrations to Dependable Engineering Systems"
+        lead: "Dr. Mehmet Mercangöz & Prof. Benben Jiang — moderated by Prof. Bhushan Gopaluni"
+        details: ""
 
 speakers:
   - name: "Prof. Bhushan Gopaluni"
@@ -150,7 +152,7 @@ speakers:
     location: "Vancouver, Canada"
     photo: "/assets/img/ifac2026/bhushan.jpg"
     profile_url: "https://dais.chbe.ubc.ca/"
-    sessions: "Welcome · LLM and Agent Fundamentals · Application I (Process Design) · Application II (Process Simulation, jointly with Prof. Zhao) · Hands-On · Wrap-up"
+    sessions: "Welcome · LLM and Agent Fundamentals · Application I (with Dr. Mercangöz) · Hands-On · Roundtable moderator"
     bio: |
       Directs the Data Analytics and Intelligent Systems (DAIS) Lab, focusing on machine learning,
       reinforcement learning, and data analytics for process industries. Author of over 200 refereed
@@ -165,7 +167,7 @@ speakers:
     location: "London, United Kingdom"
     photo: "/assets/img/ifac2026/mehmet.jpg"
     profile_url: "https://profiles.imperial.ac.uk/m.mercangoz"
-    sessions: "Application III (Autonomous Control & Fault Diagnosis, jointly with Prof. Zhao) · Hands-On · Open Problems"
+    sessions: "Application I (with Prof. Gopaluni) · Application II (Autonomous Control and Industrial Applications) · Hands-On · Roundtable panellist"
     bio: |
       Spent 14 years at ABB Corporate Research, most recently as coordinator for industrial
       artificial intelligence, before joining Imperial College. His combination of academic
@@ -181,13 +183,40 @@ speakers:
     location: "Hangzhou, China"
     photo: "/assets/img/ifac2026/chunhui.jpg"
     profile_url: "https://person.zju.edu.cn/en/chhzhao"
-    sessions: "Application II (Process Simulation, jointly with Prof. Gopaluni) · Application III (Autonomous Control, jointly with Dr. Mercangöz) · Hands-On · Open Problems"
+    sessions: "Application III — Time-Series Understanding and Explainable Fault Diagnosis"
     bio: |
       Leading researcher in AI for process systems engineering. Work on process monitoring,
-      fault diagnosis, and multimodal data fusion — combining process measurements, text, and
-      images — is directly relevant to LLM applications in process industries. Brings
+      fault diagnosis, and multimodal data fusion, combining process measurements, text, and
+      images, is directly relevant to LLM applications in process industries. Brings
       perspective on developments in the rapidly growing AI and process systems research
       community in Asia.
+  - name: "Prof. Benben Jiang"
+    role: "Speaker & Organizer"
+    affiliation: "Tsinghua University"
+    title: "Associate Professor, Department of Automation"
+    secondary: ""
+    location: "Beijing, China"
+    photo: ""
+    profile_url: "https://scholar.google.com/citations?user=RcgxlK4AAAAJ"
+    sessions: "Application IV — LLM-Empowered Battery Diagnosis and Self-Improving Reasoning · Hands-On · Roundtable panellist"
+    bio: |
+      Research focuses on AI for energy, Bayesian machine learning and Bayesian optimization,
+      fault diagnosis, and lithium-ion batteries. Recent work combines physics-informed
+      interpretation with LLM reasoning for intelligent battery fault diagnosis, including the
+      BatteryAgent and BatteryBERT frameworks.
+  - name: "Javal Vyas"
+    role: "Hands-On Facilitator"
+    affiliation: "Imperial College London"
+    title: "PhD Candidate, Department of Chemical Engineering"
+    secondary: "Supervised by Dr. Mehmet Mercangöz"
+    location: "London, United Kingdom"
+    photo: ""
+    profile_url: "https://scholar.google.com/citations?user=5_G5HMQAAAAJ"
+    sessions: "Hands-On support"
+    bio: |
+      PhD candidate working on agentic frameworks that use large language models for
+      autonomous industrial control. Co-author on Vyas and Mercangöz (2024) and Gill et al.
+      (2025). Will help participants during the afternoon hands-on session.
 
 ifac_relevance:
   description: "This workshop aligns directly with IFAC's mission to promote automatic control and its applications. The topics span multiple IFAC technical areas:"

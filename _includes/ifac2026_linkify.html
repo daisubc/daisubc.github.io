@@ -10,13 +10,19 @@ Usage: {% include ifac2026_linkify.html text=some.text %}
 {%- assign _link_bg = '<a href="https://dais.chbe.ubc.ca/" target="_blank" rel="noopener" class="ws-name-link">Prof. Bhushan Gopaluni</a>' -%}
 {%- assign _link_mm = '<a href="https://profiles.imperial.ac.uk/m.mercangoz" target="_blank" rel="noopener" class="ws-name-link">Dr. Mehmet Mercangöz</a>' -%}
 {%- assign _link_cz = '<a href="https://person.zju.edu.cn/en/chhzhao" target="_blank" rel="noopener" class="ws-name-link">Prof. Chunhui Zhao</a>' -%}
+{%- assign _link_bj = '<a href="https://scholar.google.com/citations?user=RcgxlK4AAAAJ" target="_blank" rel="noopener" class="ws-name-link">Prof. Benben Jiang</a>' -%}
+{%- assign _link_jv = '<a href="https://scholar.google.com/citations?user=5_G5HMQAAAAJ" target="_blank" rel="noopener" class="ws-name-link">Javal Vyas</a>' -%}
 {%- assign _link_g = '<a href="https://dais.chbe.ubc.ca/" target="_blank" rel="noopener" class="ws-name-link">Prof. Gopaluni</a>' -%}
 {%- assign _link_m = '<a href="https://profiles.imperial.ac.uk/m.mercangoz" target="_blank" rel="noopener" class="ws-name-link">Dr. Mercangöz</a>' -%}
 {%- assign _link_z = '<a href="https://person.zju.edu.cn/en/chhzhao" target="_blank" rel="noopener" class="ws-name-link">Prof. Zhao</a>' -%}
+{%- assign _link_j = '<a href="https://scholar.google.com/citations?user=RcgxlK4AAAAJ" target="_blank" rel="noopener" class="ws-name-link">Prof. Jiang</a>' -%}
 {%- assign _out = _out | replace: 'Prof. Bhushan Gopaluni', _link_bg -%}
 {%- assign _out = _out | replace: 'Dr. Mehmet Mercangöz', _link_mm -%}
 {%- assign _out = _out | replace: 'Prof. Chunhui Zhao', _link_cz -%}
+{%- assign _out = _out | replace: 'Prof. Benben Jiang', _link_bj -%}
+{%- assign _out = _out | replace: 'Javal Vyas', _link_jv -%}
 {%- assign _out = _out | replace: 'Prof. Gopaluni', _link_g -%}
 {%- assign _out = _out | replace: 'Dr. Mercangöz', _link_m -%}
 {%- assign _out = _out | replace: 'Prof. Zhao', _link_z -%}
+{%- assign _out = _out | replace: 'Prof. Jiang', _link_j -%}
 {{ _out }}

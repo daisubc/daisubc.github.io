@@ -77,9 +77,8 @@ permalink: /ifac2026/materials/
         </p>
 
         <p>
-          The code and datasets will also live on a dedicated GitHub repository once it's published
-          (tentatively <code>github.com/daisubc/ifac2026-workshop</code>) — the link here will update
-          automatically when the repo goes live.
+          All workshop materials, including notebooks, slides, and datasets, are hosted on the
+          workshop Dropbox folder linked below.
         </p>
       </div>
     </div>
@@ -121,59 +120,21 @@ permalink: /ifac2026/materials/
     <div class="container">
       <div class="ws-section-head">
         <span class="ws-eyebrow">Resources</span>
-        <h2 class="ws-h2">Notebooks, slides, and data</h2>
+        <h2 class="ws-h2">Workshop materials</h2>
         <p class="ws-lede">
-          Placeholder entries below — they'll turn into live download / Colab links when the repository
-          is published. Bookmark this page and re-visit on the morning of the workshop.
+          All notebooks, slide decks, and datasets for the day live in a single shared Dropbox folder.
+          Open it below in a new tab; you can browse and download individual files, or download the
+          whole folder as a zip.
         </p>
-      </div>
-
-      <div class="ws-materials-grid">
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
-          <h3 class="ws-material-title">Exercise 01 — Prompt engineering on a simplified P&amp;ID</h3>
-          <p class="ws-material-desc">Prompt a model to interpret a simplified P&amp;ID and critique its control structure suggestions.</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
-          <h3 class="ws-material-title">Exercise 02 — Build a minimal fault-diagnosis agent</h3>
-          <p class="ws-material-desc">Combine an LLM with tool calls to query sensor data and search maintenance logs.</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="fab fa-python"></i>&nbsp; Notebook</div>
-          <h3 class="ws-material-title">Exercise 03 — Probe where agents fail</h3>
-          <p class="ws-material-desc">Numerical reasoning errors, hallucinated equipment names, overconfident recommendations.</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="far fa-file-pdf"></i>&nbsp; Slides</div>
-          <h3 class="ws-material-title">Morning deck — Foundations + Applications I &amp; II</h3>
-          <p class="ws-material-desc">Covers LLM and agent fundamentals, Application I (Process Design), Application II (Simulation).</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="far fa-file-pdf"></i>&nbsp; Slides</div>
-          <h3 class="ws-material-title">Afternoon deck — Application III + Wrap-up</h3>
-          <p class="ws-material-desc">Autonomous Control &amp; Fault Diagnosis, research-priorities synthesis.</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
-        <div class="ws-material-item">
-          <div class="ws-material-kind"><i class="fas fa-database"></i>&nbsp; Dataset</div>
-          <h3 class="ws-material-title">Sample data — simplified P&amp;IDs, alarm lists, maintenance logs</h3>
-          <p class="ws-material-desc">Small curated datasets used across the three hands-on exercises.</p>
-          <span class="ws-material-status">Coming soon</span>
-        </div>
       </div>
 
       <div class="ws-card ws-card-feature ws-mt">
         <div>
-          <h3 class="ws-card-title"><i class="fab fa-github"></i>&nbsp; GitHub repository</h3>
-          <p class="ws-prose">Full source for notebooks, data, and environment setup will live here. The repository is being prepared; the link will go live ahead of the workshop.</p>
+          <h3 class="ws-card-title"><i class="fab fa-dropbox"></i>&nbsp; Workshop Dropbox folder</h3>
+          <p class="ws-prose">Everything for the workshop, including morning and afternoon slide decks, hands-on notebooks, sample datasets, and reading pointers.</p>
         </div>
         <a href="{{ ws.code_repo_url }}" target="_blank" rel="noopener" class="button ws-btn-primary no-deco">
-          <i class="fab fa-github"></i>&nbsp; github.com/daisubc/ifac2026-workshop
+          <i class="fab fa-dropbox"></i>&nbsp; Open workshop materials on Dropbox
         </a>
       </div>
     </div>
@@ -216,10 +177,10 @@ permalink: /ifac2026/materials/
 <!-- ============ GATE SCRIPT ============ -->
 <script type="text/javascript">
 (function () {
-  // SHA-256 of the workshop passcode. Default is "busan2026".
+  // SHA-256 of the workshop passcode. Current: "IFAC2026_LLMs_Agents" (matches slide deck).
   // To change the passcode: compute SHA-256 of the new one and replace the hash below.
   //   $ python3 -c "import hashlib; print(hashlib.sha256(b'NEWPASS').hexdigest())"
-  var EXPECTED_HASH = "d70a7155597886dd9d57f5374fd151f7df9ef8bf110a8a1f903074c1519e9757";
+  var EXPECTED_HASH = "b75f42ef8155f2cdb7d26212e31001e3870b7915fefe6e96699a3e0d27a155e3";
   var STORAGE_KEY = "ifac2026_materials_unlocked_v1";
 
   var gate     = document.getElementById("ws-gate");
