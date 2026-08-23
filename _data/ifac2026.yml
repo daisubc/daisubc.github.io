@@ -196,8 +196,8 @@ speakers:
     title: "Associate Professor, Department of Automation"
     secondary: ""
     location: "Beijing, China"
-    photo: ""
-    profile_url: "https://scholar.google.com/citations?user=RcgxlK4AAAAJ"
+    photo: "/assets/img/ifac2026/benben.jpg"
+    profile_url: "https://www.au.tsinghua.edu.cn/en/info/1076/3244.htm"
     sessions: "Application IV — LLM-Empowered Battery Diagnosis and Self-Improving Reasoning · Hands-On · Roundtable panellist"
     bio: |
       Research focuses on AI for energy, Bayesian machine learning and Bayesian optimization,
