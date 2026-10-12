@@ -21,12 +21,15 @@
   {% include navbar.html %}
 
   <!-- ============ HERO (full-width with cover image) ============ -->
-  <section class="hero is-medium home-hero">
+  <section class="hero home-hero hp-hero-compact">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <p class="title is-1 is-spaced very-bold has-text-white"><i class="fas fa-cubes"></i> {{ site.labname }}</p>
-        <p class="subtitle is-4 has-text-white-ter">Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></p>
-        <a href="{{ site.baseurl }}/research/" class="button is-medium is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; Explore Our Research</a>
+        <p class="title is-2 is-spaced very-bold has-text-white"><i class="fas fa-cubes"></i> {{ site.labname }}</p>
+        <p class="subtitle is-5 has-text-white-ter">Transforming industrial processes through <b>AI</b>, <b>machine learning</b>, and <b>advanced control.</b></p>
+        <div class="buttons is-centered">
+          <a href="{{ site.baseurl }}/research/" class="button is-sans-serif is-link"><i class="fas fa-microscope"></i>&nbsp; Explore Research</a>
+          <a href="{{ site.baseurl }}/opportunities/" class="button is-sans-serif is-link is-outlined hp-hero-outline-btn"><i class="fas fa-users"></i>&nbsp; Join DAIS</a>
+        </div>
       </div>
     </div>
   </section>
