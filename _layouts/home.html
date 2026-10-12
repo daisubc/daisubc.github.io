@@ -1,67 +1,259 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.base_url }}/assets/img/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/dais.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 
-<main class="columns">
-  <article class="column">
+  <meta name="google-site-verification" content="{{ site.googleverification }}" />
 
-    <section>
-      {% include research.html %}
-    </section>
+  {% seo %}
+  {% include structured_data.html %}
+  {% include analytics.html %}
+</head>
+<body class="hp-body">
 
-    <hr>
+  {% include navbar.html %}
 
-    <section>
-      <div class="content">
-        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Recruitment</p>
-
-        <div class="box has-background-white-ter">
-          {{ content }}
-          {% include recruitment.html %}
+  <!-- ============ HERO ============ -->
+  <section class="hp-hero">
+    <div class="hp-container">
+      <div class="hp-hero-inner">
+        <div class="hp-hero-text">
+          <p class="hp-hero-ubc">University of British Columbia</p>
+          <h1 class="hp-hero-title"><i class="fas fa-cubes"></i> {{ site.labshortname }}</h1>
+          <p class="hp-hero-full">{{ site.labname }}</p>
+          <p class="hp-hero-sub">Advancing AI, machine learning, and control for intelligent engineered systems.</p>
+          <div class="hp-hero-actions">
+            <a href="{{ site.baseurl }}/research/" class="button hp-btn-primary no-deco">
+              <i class="fas fa-microscope"></i>&nbsp; Explore Research
+            </a>
+            <a href="{{ site.baseurl }}/opportunities/" class="button hp-btn-outline no-deco">
+              Join DAIS
+            </a>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <hr>
-  
-    <section>
-      <div class="content">
-        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Highlights</p>
-      </div>
-      {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
-      {% for highlight in highlights %}
-      <div class="box has-background-warning">
-        <i class="fas fa-bullhorn"></i> 
-        <span class="tag is-dark">{{ highlight.date | date_to_long_string}}</span>
-        <p class="news-title"><b>{{ highlight.message }}</b></p>
-        <strong><a href="{{ highlight.url }}">Link</a></strong>
-      </div>
-      {% endfor %}
-      <br>
-    </section> 
+  <!-- ============ RESEARCH PILLARS ============ -->
+  <section class="hp-section">
+    <div class="hp-container">
+      <p class="hp-eyebrow">Our Research</p>
+      <h2 class="hp-heading">Towards intelligent processes</h2>
+      <p class="hp-lede">We develop AI and machine learning methods for industrial process control — from theory and algorithms to deployment with industry partners.</p>
 
-    <section>
-      <div class="content">
-        <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} News</p>
-        <div class="home-news-container">
-          {% assign articles = site.news | sort: 'date' | reverse %}
-          {% for news in articles limit: 7 %}
-          <article class="box">
-            <span class="tag is-info">{{ news.date | date_to_long_string}}</span>
-            <header class="news-title">
-              {% if news.url %}
-                >> <a class="news-desc" href="{{news.url}}"><b>{{ news.title }}</b></a>
-              {% else %}
-                <b class="news-desc">{{ news.title }}</b>
-              {% endif %}
-            </header>
-            <p>{{ news.description}}</p>
-          </article>
-          {% endfor %}
+      <div class="hp-pillars">
+        <a href="{{ site.baseurl }}/research/maintenancefreecontrollers" class="hp-pillar no-deco">
+          <div class="hp-pillar-icon"><i class="fas fa-brain"></i></div>
+          <h3 class="hp-pillar-title">Intelligent Control</h3>
+          <p class="hp-pillar-desc">Deep reinforcement learning, meta-RL, and model predictive control that adapt to changing process conditions without manual retuning.</p>
+        </a>
+
+        <div class="hp-pillar">
+          <div class="hp-pillar-icon"><i class="fas fa-project-diagram"></i></div>
+          <h3 class="hp-pillar-title">Digital Twins & Modeling</h3>
+          <p class="hp-pillar-desc">Large-scale dynamic models and hybrid physics-ML models for simulation, optimization, and control of complex industrial processes.</p>
         </div>
-        <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
+
+        <div class="hp-pillar">
+          <div class="hp-pillar-icon"><i class="fas fa-search"></i></div>
+          <h3 class="hp-pillar-title">Fault Detection & Diagnostics</h3>
+          <p class="hp-pillar-desc">Anomaly detection, root cause analysis, and interpretable ML for diagnosing faults in complex industrial systems.</p>
+        </div>
+
+        <div class="hp-pillar">
+          <div class="hp-pillar-icon"><i class="fas fa-chart-line"></i></div>
+          <h3 class="hp-pillar-title">Predictive Analytics</h3>
+          <p class="hp-pillar-desc">Soft sensors, forecasting models, and visualization tools for reliable predictions from large-scale industrial data.</p>
+        </div>
       </div>
-    </section>
-      
-  </article>
-</main>
+
+      <p class="hp-section-link no-deco">
+        <a href="{{ site.baseurl }}/research/">View all research areas <i class="fas fa-arrow-right"></i></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FEATURED PUBLICATIONS ============ -->
+  <section class="hp-section hp-section-alt">
+    <div class="hp-container">
+      <p class="hp-eyebrow">Selected Publications</p>
+      <h2 class="hp-heading">Featured research</h2>
+
+      <div class="hp-pubs">
+        {% assign pubs = site.data.publications %}
+        {% assign papers = site.papers %}
+        {% assign count = 0 %}
+        {% assign rendered_titles = "" %}
+
+        {% for pub in pubs %}
+          {% if page.papers contains pub.title %}
+            {% if count < 3 %}
+            <div class="hp-pub">
+              <div class="hp-pub-meta">
+                {% if pub.thumbnail %}
+                  <img class="hp-pub-thumb" src="{{ site.baseurl }}/assets/img/{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                {% endif %}
+              </div>
+              <div class="hp-pub-body">
+                <span class="hp-pub-venue">{{ pub.journal | truncate: 80 }} · {{ pub.year }}</span>
+                <h3 class="hp-pub-title">
+                  <a href="{{ pub.url }}">{{ pub.title }}</a>
+                </h3>
+                {% if pub.notes %}<span class="hp-pub-badge">{{ pub.notes }}</span>{% endif %}
+                <div class="hp-pub-links no-deco">
+                  {% if pub.pdf %}<a href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+                  {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>{% endif %}
+                  {% if pub.code %}<a href="{{ pub.code }}" target="_blank"><i class="fas fa-code"></i> Code</a>{% endif %}
+                  {% if pub.video %}<a href="{{ pub.video }}" target="_blank"><i class="fas fa-video"></i> Video</a>{% endif %}
+                </div>
+              </div>
+            </div>
+            {% assign count = count | plus: 1 %}
+            {% assign rendered_titles = rendered_titles | append: "|||" | append: pub.title %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% for pub in papers %}
+          {% unless rendered_titles contains pub.title %}
+          {% if page.papers contains pub.title %}
+            {% if count < 3 %}
+            <div class="hp-pub">
+              <div class="hp-pub-meta">
+                {% if pub.thumbnail %}
+                  <img class="hp-pub-thumb" src="{{ site.baseurl }}/assets/img/{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                {% elsif pub.image %}
+                  <img class="hp-pub-thumb" src="{{ pub.image }}" alt="{{ pub.title }}">
+                {% endif %}
+              </div>
+              <div class="hp-pub-body">
+                <span class="hp-pub-venue">{{ pub.journal | truncate: 80 }} · {{ pub.year }}</span>
+                <h3 class="hp-pub-title">
+                  <a href="{{ pub.external_url | default: pub.url }}">{{ pub.title }}</a>
+                </h3>
+                {% if pub.notes %}<span class="hp-pub-badge">{{ pub.notes }}</span>{% endif %}
+                <div class="hp-pub-links no-deco">
+                  {% if pub.pdf %}<a href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
+                  {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank"><i class="fas fa-external-link-alt"></i> arXiv</a>{% endif %}
+                  {% if pub.code %}<a href="{{ pub.code }}" target="_blank"><i class="fas fa-code"></i> Code</a>{% endif %}
+                  {% if pub.video %}<a href="{{ pub.video }}" target="_blank"><i class="fas fa-video"></i> Video</a>{% endif %}
+                </div>
+              </div>
+            </div>
+            {% assign count = count | plus: 1 %}
+            {% endif %}
+          {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </div>
+
+      <p class="hp-section-link no-deco">
+        <a href="{{ site.baseurl }}/publications/">View all publications <i class="fas fa-arrow-right"></i></a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ PEOPLE ============ -->
+  <section class="hp-section">
+    <div class="hp-container">
+      <div class="hp-people-grid">
+        <div class="hp-people-text">
+          <p class="hp-eyebrow">Our People</p>
+          <h2 class="hp-heading">A collaborative research community</h2>
+          <p class="hp-lede">DAIS brings together PhD students, postdocs, and visiting researchers working at the intersection of machine learning and process engineering. Our alumni have gone on to positions at UC Berkeley, Oxford, and leading companies.</p>
+          <div class="hp-people-actions no-deco">
+            <a href="{{ site.baseurl }}/people/" class="button hp-btn-outline">Meet the Team</a>
+            <a href="{{ site.baseurl }}/opportunities/" class="button hp-btn-outline">Join the Lab</a>
+          </div>
+        </div>
+        <div class="hp-people-visual">
+          <div class="hp-pi-card">
+            <img src="{{ site.baseurl }}/assets/profile/bhushan.jpg" alt="Prof. {{ site.name }}" class="hp-pi-photo">
+            <div class="hp-pi-info">
+              <strong>Prof. {{ site.name }}</strong>
+              <span>{{ site.jobtitle }}, {{ site.department }}</span>
+              <span>{{ site.secondjobtitle }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COLLABORATIONS ============ -->
+  <section class="hp-section hp-section-alt">
+    <div class="hp-container">
+      <p class="hp-eyebrow">Collaborations</p>
+      <h2 class="hp-heading">Academic and industry partnerships</h2>
+      <p class="hp-lede">Our research is informed by real-world problems across the process industries. We collaborate with academic groups and industry partners spanning refining, pharmaceuticals, mining, pulp and paper, energy, and health.</p>
+      <div class="hp-partners">
+        <span class="hp-partner">Parkland</span>
+        <span class="hp-partner">Honeywell</span>
+        <span class="hp-partner">Amgen</span>
+        <span class="hp-partner">Teck</span>
+        <span class="hp-partner">BC Hydro</span>
+        <span class="hp-partner">Canfor</span>
+        <span class="hp-partner">Spartan Controls</span>
+        <span class="hp-partner">BBA</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section class="hp-section">
+    <div class="hp-container">
+      <p class="hp-eyebrow">Latest</p>
+      <h2 class="hp-heading">News & highlights</h2>
+
+      <div class="hp-news-grid">
+        {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
+        {% assign articles = site.news | sort: 'date' | reverse %}
+        {% assign news_count = 0 %}
+
+        {% for highlight in highlights %}
+          {% if news_count < 3 %}
+          <a href="{{ highlight.url }}" class="hp-news-item no-deco">
+            <span class="hp-news-date">{{ highlight.date | date: "%b %d, %Y" }}</span>
+            <span class="hp-news-title">{{ highlight.message }}</span>
+          </a>
+          {% assign news_count = news_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% for news in articles %}
+          {% if news_count < 3 %}
+          <a href="{{ news.url }}" class="hp-news-item no-deco">
+            <span class="hp-news-date">{{ news.date | date: "%b %d, %Y" }}</span>
+            <span class="hp-news-title">{{ news.title }}</span>
+          </a>
+          {% assign news_count = news_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <p class="hp-section-link no-deco">
+        <a href="{{ site.baseurl }}/news/">View all news <i class="fas fa-arrow-right"></i></a>
+      </p>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".navbar-burger").click(function() {
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+  </script>
+</body>
+</html>
