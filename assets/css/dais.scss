@@ -1762,6 +1762,476 @@ $fopam-accent-light: #f4a261;  // Light coral
   .ws-eyebrow-light { color: $fopam-accent-light; }
 }
 
+/* ======================================================================
+   Homepage redesign — minimalist, whitespace-heavy, progressive disclosure
+   Prefixed with .hp- to avoid collisions with existing styles.
+====================================================================== */
+
+.hp-body {
+  background-color: #ffffff;
+  color: #1a2233;
+}
+
+.hp-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ---------- Hero ---------- */
+.hp-hero {
+  padding: 6rem 0 5rem;
+  background: #fff;
+  border-bottom: 1px solid #eef1f5;
+}
+
+.hp-hero-inner {
+  max-width: 680px;
+}
+
+.hp-hero-ubc {
+  font-family: $sans-serif-font;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $darkblue;
+  margin-bottom: 0.75rem;
+}
+
+.hp-hero-title {
+  font-family: $sans-serif-font;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 800;
+  color: $darkerblue;
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
+
+  i { color: $darkblue; }
+}
+
+.hp-hero-full {
+  font-family: $sans-serif-font;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: $verylightblue;
+  margin-bottom: 1.5rem;
+}
+
+.hp-hero-sub {
+  font-family: $serif-font;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #3a4555;
+  max-width: 48ch;
+  margin-bottom: 2rem;
+}
+
+.hp-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hp-btn-primary {
+  background-color: $darkblue !important;
+  color: #fff !important;
+  border: none !important;
+  font-family: $sans-serif-font !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  letter-spacing: 0.5px;
+  padding: 0.85rem 1.4rem !important;
+  border-radius: 5px !important;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+
+  &:hover {
+    background-color: darken($darkblue, 8%) !important;
+    transform: translateY(-1px);
+    color: #fff !important;
+  }
+}
+
+.hp-btn-outline {
+  background: transparent !important;
+  color: $darkblue !important;
+  border: 1.5px solid $darkblue !important;
+  font-family: $sans-serif-font !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  letter-spacing: 0.5px;
+  padding: 0.85rem 1.4rem !important;
+  border-radius: 5px !important;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(0, 85, 183, 0.06) !important;
+    color: $darkblue !important;
+  }
+}
+
+/* ---------- Sections ---------- */
+.hp-section {
+  padding: 5rem 0;
+}
+
+.hp-section-alt {
+  background-color: #f8f9fc;
+}
+
+.hp-eyebrow {
+  font-family: $sans-serif-font;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: $darkblue;
+  margin-bottom: 0.5rem;
+}
+
+.hp-heading {
+  font-family: $sans-serif-font;
+  font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+  font-weight: 800;
+  color: $darkerblue;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+.hp-lede {
+  font-family: $sans-serif-font;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #5a6474;
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+.hp-section-link {
+  margin-top: 2rem;
+  font-family: $sans-serif-font;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  a {
+    color: $darkblue !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-style: normal !important;
+    transition: color 0.15s ease;
+
+    i { margin-left: 0.3rem; font-size: 0.8em; }
+    &:hover { color: darken($darkblue, 12%) !important; }
+  }
+}
+
+/* ---------- Research Pillars ---------- */
+.hp-pillars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hp-pillar {
+  padding: 2rem 1.75rem;
+  background: #fff;
+  border: 1px solid #e8ecf2;
+  border-radius: 8px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  text-decoration: none !important;
+  display: block;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 33, 69, 0.08);
+    border-color: rgba(0, 85, 183, 0.2);
+  }
+}
+
+a.hp-pillar {
+  color: inherit;
+  font-style: normal !important;
+  border-bottom: none !important;
+}
+
+.hp-pillar-icon {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 85, 183, 0.08);
+  border-radius: 10px;
+  margin-bottom: 1.1rem;
+
+  i {
+    font-size: 1.15rem;
+    color: $darkblue;
+  }
+}
+
+.hp-pillar-title {
+  font-family: $sans-serif-font;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: $darkerblue;
+  margin: 0 0 0.5rem;
+}
+
+.hp-pillar-desc {
+  font-family: $sans-serif-font;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #5a6474;
+  margin: 0;
+}
+
+/* ---------- Featured Publications ---------- */
+.hp-pubs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.hp-pub {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e8ecf2;
+  border-radius: 8px;
+  transition: border-color 0.15s ease;
+
+  &:hover {
+    border-color: rgba(0, 85, 183, 0.2);
+  }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.hp-pub-meta {
+  flex-shrink: 0;
+  width: 120px;
+
+  @media (max-width: 640px) {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+.hp-pub-thumb {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.hp-pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.hp-pub-venue {
+  display: block;
+  font-family: $sans-serif-font;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #5a6474;
+  margin-bottom: 0.3rem;
+}
+
+.hp-pub-title {
+  font-family: $sans-serif-font;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.5rem;
+
+  a {
+    color: $darkerblue !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-style: normal !important;
+
+    &:hover { color: $darkblue !important; }
+  }
+}
+
+.hp-pub-badge {
+  display: inline-block;
+  font-family: $sans-serif-font;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+  background: $darkblue;
+  padding: 0.2rem 0.55rem;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.hp-pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+
+  a {
+    font-family: $sans-serif-font;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: $darkblue !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-style: normal !important;
+
+    i { margin-right: 0.2rem; }
+    &:hover { color: darken($darkblue, 12%) !important; }
+  }
+}
+
+/* ---------- People ---------- */
+.hp-people-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 3rem;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.hp-people-text {
+  .hp-lede { margin-bottom: 1.5rem; }
+}
+
+.hp-people-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hp-pi-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  background: #f8f9fc;
+  border: 1px solid #e8ecf2;
+  border-radius: 10px;
+}
+
+.hp-pi-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid $darkblue;
+  flex-shrink: 0;
+}
+
+.hp-pi-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  strong {
+    font-family: $sans-serif-font;
+    font-size: 1.05rem;
+    color: $darkerblue;
+  }
+
+  span {
+    font-family: $sans-serif-font;
+    font-size: 0.88rem;
+    color: #5a6474;
+    line-height: 1.4;
+  }
+}
+
+/* ---------- Collaborations ---------- */
+.hp-partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.hp-partner {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  background: #fff;
+  border: 1px solid #dce1e8;
+  border-radius: 6px;
+  font-family: $sans-serif-font;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: $darkerblue;
+  letter-spacing: 0.3px;
+}
+
+/* ---------- News ---------- */
+.hp-news-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hp-news-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #eef1f5;
+  text-decoration: none !important;
+  transition: background-color 0.1s ease;
+
+  &:first-child { border-top: 1px solid #eef1f5; }
+
+  &:hover {
+    background-color: rgba(0, 85, 183, 0.02);
+  }
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+.hp-news-date {
+  flex-shrink: 0;
+  width: 110px;
+  font-family: $sans-serif-font;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #5a6474;
+}
+
+.hp-news-title {
+  font-family: $sans-serif-font;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: $darkerblue;
+  line-height: 1.4;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .hp-hero { padding: 4rem 0 3rem; }
+  .hp-section { padding: 3.5rem 0; }
+}
+
 /* FOPAM Module Cards - New Design */
 .fopam-modules-grid {
   display: grid;
