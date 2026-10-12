@@ -20,7 +20,7 @@
 
   {% include navbar.html %}
 
-  <!-- ============ HERO (full-width with cover image) ============ -->
+  <!-- ============ HERO ============ -->
   <section class="hero home-hero hp-hero-compact">
     <div class="hero-body">
       <div class="container has-text-centered">
@@ -62,7 +62,7 @@
 
           <!-- ============ RESEARCH PILLARS ============ -->
           <p class="title is-3 is-spaced very-bold">Research Themes</p>
-          <p class="subtitle is-5">We develop AI and machine learning methods for industrial process control — from theory and algorithms to deployment with industry partners.</p>
+          <p class="subtitle is-6">We develop AI and machine learning methods for industrial process control — from theory and algorithms to deployment with industry partners.</p>
 
           <div class="hp-pillars">
             <a href="{{ site.baseurl }}/research/maintenancefreecontrollers" class="hp-pillar hp-pillar--blue no-deco">
@@ -71,26 +71,26 @@
               <p class="hp-pillar-desc">Deep reinforcement learning, meta-RL, and model predictive control that adapt to changing process conditions without manual retuning.</p>
             </a>
 
-            <div class="hp-pillar hp-pillar--teal">
+            <a href="{{ site.baseurl }}/research/" class="hp-pillar hp-pillar--teal no-deco">
               <div class="hp-pillar-icon"><i class="fas fa-project-diagram fa-lg"></i></div>
               <h3 class="hp-pillar-title">Digital Twins & Modeling</h3>
               <p class="hp-pillar-desc">Large-scale dynamic models and hybrid physics-ML models for simulation, optimization, and control of complex industrial processes.</p>
-            </div>
+            </a>
 
-            <div class="hp-pillar hp-pillar--orange">
+            <a href="{{ site.baseurl }}/research/" class="hp-pillar hp-pillar--orange no-deco">
               <div class="hp-pillar-icon"><i class="fas fa-search-plus fa-lg"></i></div>
               <h3 class="hp-pillar-title">Fault Detection & Diagnostics</h3>
               <p class="hp-pillar-desc">Anomaly detection, root cause analysis, and interpretable ML for diagnosing faults in complex industrial systems.</p>
-            </div>
+            </a>
 
-            <div class="hp-pillar hp-pillar--green">
+            <a href="{{ site.baseurl }}/research/" class="hp-pillar hp-pillar--green no-deco">
               <div class="hp-pillar-icon"><i class="fas fa-chart-line fa-lg"></i></div>
               <h3 class="hp-pillar-title">Predictive Analytics</h3>
               <p class="hp-pillar-desc">Soft sensors, forecasting models, and visualization tools for reliable predictions from large-scale industrial data.</p>
-            </div>
+            </a>
           </div>
 
-          <p class="hp-section-link no-deco" style="margin-bottom: 2rem;">
+          <p class="hp-section-link no-deco" style="margin-bottom: 1.5rem;">
             <a href="{{ site.baseurl }}/research/">View all research areas <i class="fas fa-arrow-right"></i></a>
           </p>
 
@@ -167,16 +167,33 @@
             {% endfor %}
           </div>
 
-          <p class="hp-section-link no-deco" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+          <p class="hp-section-link no-deco" style="margin-top: 1rem; margin-bottom: 1.5rem;">
             <a href="{{ site.baseurl }}/publications/">View all publications <i class="fas fa-arrow-right"></i></a>
           </p>
 
           <hr>
 
+          <!-- ============ PEOPLE ============ -->
+          <p class="title is-3 is-spaced very-bold">Our Team</p>
+          <div class="content">
+            <p>DAIS brings together PhD students, postdocs, and visiting researchers working at the intersection of machine learning and process engineering. Our alumni hold positions at UC Berkeley, Oxford, and leading companies worldwide.</p>
+          </div>
+          <div class="hp-team-section">
+            <div class="hp-team-photo-wrap">
+              <img src="{{ site.baseurl }}/assets/img/cover.webp" alt="DAIS Lab team" class="hp-team-photo">
+            </div>
+            <div class="buttons no-deco" style="margin-top: 1rem;">
+              <a href="{{ site.baseurl }}/people/" class="button is-sans-serif is-link"><i class="fas fa-users"></i>&nbsp; Meet the Team</a>
+              <a href="{{ site.baseurl }}/opportunities/" class="button is-sans-serif is-link is-outlined"><i class="fas fa-hand-paper"></i>&nbsp; Join the Lab</a>
+            </div>
+          </div>
+
+          <hr>
+
           <!-- ============ COLLABORATIONS ============ -->
           <p class="title is-3 is-spaced very-bold">Collaborations</p>
-          <p class="subtitle is-5">Our research is informed by real-world problems across the process industries.</p>
-          <div class="hp-partners" style="margin-bottom: 2rem;">
+          <p class="subtitle is-6">Our research is informed by real-world problems across the process industries.</p>
+          <div class="hp-partners" style="margin-bottom: 1.5rem;">
             <span class="hp-partner">Parkland</span>
             <span class="hp-partner">Honeywell</span>
             <span class="hp-partner">Amgen</span>
@@ -186,6 +203,45 @@
             <span class="hp-partner">Spartan Controls</span>
             <span class="hp-partner">BBA</span>
           </div>
+
+          <hr>
+
+          <!-- ============ LATEST NEWS (merged highlights + news) ============ -->
+          <section>
+            <p class="title is-3 is-spaced very-bold">Latest News</p>
+            <div class="hp-news-merged">
+              {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
+              {% assign articles = site.news | sort: 'date' | reverse %}
+              {% assign news_count = 0 %}
+
+              {% for highlight in highlights %}
+                {% if news_count < 4 %}
+                <a href="{{ highlight.url }}" class="hp-news-row no-deco">
+                  <span class="hp-news-date">{{ highlight.date | date: "%b %d, %Y" }}</span>
+                  <span class="hp-news-badge-highlight"><i class="fas fa-bullhorn"></i></span>
+                  <span class="hp-news-text">{{ highlight.message }}</span>
+                </a>
+                {% assign news_count = news_count | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+
+              {% for news in articles %}
+                {% if news_count < 4 %}
+                {% if news.title and news.title != "" %}
+                <a href="{{ news.url }}" class="hp-news-row no-deco">
+                  <span class="hp-news-date">{{ news.date | date: "%b %d, %Y" }}</span>
+                  <span class="hp-news-text">{{ news.title }}</span>
+                </a>
+                {% assign news_count = news_count | plus: 1 %}
+                {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
+
+            <p class="hp-section-link no-deco" style="margin-top: 1rem;">
+              <a href="{{ site.baseurl }}/news/">View all news <i class="fas fa-arrow-right"></i></a>
+            </p>
+          </section>
 
           <hr>
 
@@ -200,53 +256,33 @@
             </div>
           </section>
 
-          <hr>
-
-          <!-- ============ NEWS & HIGHLIGHTS ============ -->
-          <section>
-            <div class="content">
-              <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} Highlights</p>
-            </div>
-            {% assign highlights = site.data.highlights | where:"display", "True" | sort: 'date' | reverse %}
-            {% for highlight in highlights %}
-            <div class="box has-background-warning">
-              <i class="fas fa-bullhorn"></i>
-              <span class="tag is-dark">{{ highlight.date | date_to_long_string}}</span>
-              <p class="news-title"><b>{{ highlight.message }}</b></p>
-              <strong><a href="{{ highlight.url }}">Link</a></strong>
-            </div>
-            {% endfor %}
-            <br>
-          </section>
-
-          <section>
-            <div class="content">
-              <p class="title is-3 is-spaced very-bold">{{ site.labshortname }} News</p>
-              <div class="home-news-container">
-                {% assign articles = site.news | sort: 'date' | reverse %}
-                {% for news in articles limit: 7 %}
-                <article class="box">
-                  <span class="tag is-info">{{ news.date | date_to_long_string}}</span>
-                  <header class="news-title">
-                    {% if news.url %}
-                      >> <a class="news-desc" href="{{news.url}}"><b>{{ news.title }}</b></a>
-                    {% else %}
-                      <b class="news-desc">{{ news.title }}</b>
-                    {% endif %}
-                  </header>
-                  <p>{{ news.description}}</p>
-                </article>
-                {% endfor %}
-              </div>
-              <p class="small is-7"><a href="{{ site.baseurl }}/news/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>See more</a></p>
-            </div>
-          </section>
-
         </div>
 
-        <!-- ============ SIDEBAR ============ -->
+        <!-- ============ SIDEBAR (simplified) ============ -->
         <div class="column is-one-fifth is-hidden-mobile sidebar">
-          {% include sidebar.html %}
+          <header class="sidebar-header">
+            <p class="title is-6">
+              <span><i class="fas fa-cubes"></i> {{ site.unishortname }} {{ site.labshortname }}</span>
+            </p>
+          </header>
+
+          <article class="message is-small is-light">
+            <div class="message-header">
+              <p><i class="fas fa-envelope"></i> Contact</p>
+            </div>
+            <div class="message-body">
+              {% include contact.html %}
+            </div>
+          </article>
+
+          <article class="message is-small is-light">
+            <div class="message-header">
+              <p><i class="fas fa-users"></i> Recruitment</p>
+            </div>
+            <div class="message-body">
+              {% include recruitment.html %}
+            </div>
+          </article>
         </div>
 
       </div>

@@ -2288,6 +2288,71 @@ a.hp-pillar {
   line-height: 1.4;
 }
 
+/* ---------- Team photo ---------- */
+.hp-team-section {
+  margin-top: 0.5rem;
+}
+
+.hp-team-photo-wrap {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #e8ecf2;
+}
+
+.hp-team-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- Merged news ---------- */
+.hp-news-merged {
+  display: flex;
+  flex-direction: column;
+}
+
+.hp-news-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 0.5rem;
+  border-bottom: 1px solid #eef1f5;
+  text-decoration: none !important;
+  transition: background-color 0.1s ease;
+
+  &:first-child { border-top: 1px solid #eef1f5; }
+  &:hover { background-color: rgba(0, 85, 183, 0.03); }
+
+  @media (max-width: 640px) {
+    flex-wrap: wrap;
+  }
+}
+
+.hp-news-badge-highlight {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: #FFC107;
+  border-radius: 50%;
+  flex-shrink: 0;
+
+  i {
+    font-size: 0.65rem;
+    color: #333;
+  }
+}
+
+.hp-news-text {
+  font-family: $sans-serif-font;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: $darkerblue;
+  line-height: 1.4;
+  flex: 1;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .hp-hero { padding: 4rem 0 3rem; }

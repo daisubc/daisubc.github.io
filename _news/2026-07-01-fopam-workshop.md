@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pre-conference workshop at FOPAM 2026"
-description: We are organizing a 1.5-day workshop on "Foundations to Frontier: Machine Learning & AI for the Process Industries" at FOPAM 2026 in Atlanta.
+description: "We are organizing a 1.5-day workshop on Foundations to Frontier — Machine Learning & AI for the Process Industries at FOPAM 2026 in Atlanta."
 date: "2026-07-01"
 link: "/fopam2026/"
 ---
